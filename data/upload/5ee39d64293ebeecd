@@ -1,0 +1,10 @@
+Reporting-MTA: dns; DB7PR08MB3754.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; info@dottor-computer.eu
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain
+ dottor-computer.eu does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=dottor-computer.eu]
+ [HE1EUR02FT052.eop-EUR02.prod.protection.outlook.com]>
+

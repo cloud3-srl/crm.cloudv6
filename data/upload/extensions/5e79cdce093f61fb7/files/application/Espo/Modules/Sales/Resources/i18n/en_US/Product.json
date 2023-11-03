@@ -1,0 +1,44 @@
+{
+    "labels": {
+        "Create Product": "Create Product",
+        "Price": "Price",
+        "Brands": "Brands",
+        "Categories": "Categories"
+    },
+    "fields": {
+        "status": "Status",
+        "brand": "Brand",
+        "partNumber": "Part Number",
+        "category": "Category",
+        "pricingType": "Pricing Type",
+        "pricingFactor": "Pricing Factor",
+        "costPrice": "Cost Price",
+        "listPrice": "List Price",
+        "unitPrice": "Unit Price",
+        "costPriceCurrency": "Cost Price Currency",
+        "listPriceCurrency": "List Price Currency",
+        "unitPriceCurrency": "Unit Price Currency",
+        "costPriceConverted": "Cost Price (Converted)",
+        "listPriceConverted": "List Price (Converted)",
+        "unitPriceConverted": "Unit Price (Converted)",
+        "url": "URL",
+        "isTaxFree": "Tax-free",
+        "weight": "Weight"
+    },
+    "links": {
+        "brand": "Brand",
+        "category": "Category"
+    },
+    "options": {
+        "pricingType": {
+            "Same as List": "Same as List",
+            "Fixed": "Fixed",
+            "Discount from List": "Discount from List",
+            "Markup over Cost": "Markup over Cost",
+            "Profit Margin": "Profit Margin"
+        }
+    },
+    "presetFilters": {
+        "available": "Available"
+    }
+}

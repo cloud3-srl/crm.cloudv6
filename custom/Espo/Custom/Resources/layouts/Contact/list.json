@@ -1,0 +1,25 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "review"
+    }
+]

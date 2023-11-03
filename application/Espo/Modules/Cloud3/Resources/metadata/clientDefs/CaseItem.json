@@ -1,0 +1,24 @@
+{
+    "controller":"controllers/record",
+    "acl": "cloud3:acl/case-item",
+    "createDisabled": true,
+    "convertCurrencyDisabled": true,
+    "menu":{
+        "list":{
+            "buttons":[
+                {
+                    "label":"Cases",
+                    "link":"#Case",
+                    "acl":"read",
+                    "aclScope":"Case"
+                }
+            ]
+        }
+    },
+    "additionalLayouts": {
+        "listItem": {
+            "type": "listSmall",
+            "dataAttributeList": ["name", "align", "width", "link", "view", "customLabel"]
+        }
+    }
+}

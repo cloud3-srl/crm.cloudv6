@@ -1,0 +1,10 @@
+Reporting-MTA: dns; DB7PR08MB2972.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; Helpdesk@bancokini.com
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain bancokini.com
+ does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=bancokini.com]
+ [HE1EUR04FT010.eop-eur04.prod.protection.outlook.com]>
+

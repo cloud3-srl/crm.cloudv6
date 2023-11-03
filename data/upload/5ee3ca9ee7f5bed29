@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200225T130000Z
+DTEND:20200225T133000Z
+DTSTAMP:20200207T113311Z
+ORGANIZER;CN=eva.licitra@icona.it:mailto:eva.licitra@icona.it
+UID:14jkbu1a3rjktls70gl6ll8g6t@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=help@cloud3.srl;X-NUM-GUESTS=0:mailto:help@cloud3.srl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=eva.licitra@icona.it;X-NUM-GUESTS=0:mailto:eva.licitra@icona.it
+X-MICROSOFT-CDO-OWNERAPPTID:-1739765408
+CREATED:20200207T113310Z
+DESCRIPTION:\nGent. Le Simone\,\na seguito della nostra conversazione mando
+  il calendar da condividere con i colleghi:\nSergio Cola\,\nDiego e Gabriel
+ e\n\nOGGETTO valtazione versione e features per Livecare Support versione P
+ Lus: management e consuntivo\n\nResto disponibile per ogni informazione e s
+ upporto e consulenza. Auguro buon lavoro a tutti ed una splendida giornata\
+ ,\nEva L.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~::~:~::-\nNon modificare questa sezione della descrizione.
+ \n\nVisualizza il tuo evento in https://www.google.com/calendar/event?actio
+ n=VIEW&eid=MTRqa2J1MWEzcmprdGxzNzBnbDZsbDhnNnQgaGVscEBjbG91ZDMuc3Js&tok=MjA
+ jZXZhLmxpY2l0cmFAaWNvbmEuaXRkY2M1YmRjYzVlYzA5MDIyZjhiZGQxMzhmMjczNjQyOTIzMT
+ Y3ZDUw&ctz=Europe%2FRome&hl=it&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200207T113310Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Appuntamento CALL: demo/trial Livecare Support
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

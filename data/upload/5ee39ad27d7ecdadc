@@ -1,0 +1,83 @@
+Received: from AM6PR08CA0018.eurprd08.prod.outlook.com (2603:10a6:20b:b2::30)
+ by AM0PR08MB4610.eurprd08.prod.outlook.com (2603:10a6:208:104::28) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2284.20; Tue, 24 Sep
+ 2019 10:31:35 +0000
+Received: from DB5EUR01FT021.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:f400:7e02::202) by AM6PR08CA0018.outlook.office365.com
+ (2603:10a6:20b:b2::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2284.21 via Frontend
+ Transport; Tue, 24 Sep 2019 10:31:35 +0000
+Authentication-Results: spf=pass (sender IP is 89.40.173.99)
+ smtp.mailfrom=cloud3.srl; cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=bestguesspass action=none
+ header.from=cloud3.srl;
+Received-SPF: Pass (protection.outlook.com: domain of cloud3.srl designates
+ 89.40.173.99 as permitted sender) receiver=protection.outlook.com;
+ client-ip=89.40.173.99; helo=hostingweb15-99.netsons.net;
+Received: from hostingweb15-99.netsons.net (89.40.173.99) by
+ DB5EUR01FT021.mail.protection.outlook.com (10.152.4.245) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2284.20 via Frontend Transport; Tue, 24 Sep 2019 10:31:35 +0000
+Received: from [89.40.173.98] (port=36400 helo=www.cloud3.srl)
+	by hostingweb15.netsons.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <help@cloud3.srl>)
+	id 1iCi6Y-0036H8-Ol
+	for Gabrieleb@cloud3.srl; Tue, 24 Sep 2019 12:31:34 +0200
+Date: Tue, 24 Sep 2019 12:31:34 +0200
+To: Gabriele <Gabrieleb@cloud3.srl>
+From: Simone Cola <simone.cola@cloud3.srl>
+Subject: File Updated: Shipment 791088.pdf MA.PRI.COM. S.P.A.
+Message-ID: <54daffc644f710320bba559cb4ccb21b@www.cloud3.srl>
+X-Mailer: PHPMailer 5.2.21 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: multipart/alternative;
+	boundary="b1_54daffc644f710320bba559cb4ccb21b"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostingweb15.netsons.net
+X-AntiAbuse: Original Domain - cloud3.srl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cloud3.srl
+X-Get-Message-Sender-Via: hostingweb15.netsons.net: authenticated_id: ticket@cloud3.srl
+X-Authenticated-Sender: hostingweb15.netsons.net: ticket@cloud3.srl
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-Forefront-Antispam-Report: CIP:89.40.173.99;IPV:NLI;CTRY:IT;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: a1ac0a58-04ff-4730-d394-08d740da5fff
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600167)(711020)(4605104)(4709080)(1414054)(71702078);SRVR:AM0PR08MB4610;
+X-MS-TrafficTypeDiagnostic: AM0PR08MB4610:
+X-MS-Exchange-PUrlCount: 1
+MIME-Version: 1.0
+
+--b1_54daffc644f710320bba559cb4ccb21b
+Content-Type: text/plain; charset=us-ascii
+
+Dear Gabriele,
+ 
+ A file has been uploaded/updated by Simone Cola called Shipment 791088.pdf.
+
+ View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&p[0]=customer_admin_open&m[1]=file&p[1]=file_admin&customer_id=538&customer_type_id=0&file_id=28
+
+ Customer: MA.PRI.COM. S.P.A.
+ Description: Licenza aggiutiva 5 camere Milestone 
+
+
+--b1_54daffc644f710320bba559cb4ccb21b
+Content-Type: text/html; charset=us-ascii
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">Dear Gabriele,<br>
+<br>
+A file has been uploaded/updated by Simone Cola called Shipment 791088.pdf.<br><br>
+View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&amp;p[0]=customer_admin_open&amp;m[1]=file&amp;p[1]=file_admin&amp;customer_id=538&amp;customer_type_id=0&amp;file_id=28<br><br>
+Customer: MA.PRI.COM. S.P.A.<br>
+Description: <p>Licenza aggiutiva 5 camere Milestone</p>
+
+
+
+--b1_54daffc644f710320bba559cb4ccb21b--

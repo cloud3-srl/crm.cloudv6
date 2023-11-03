@@ -1,0 +1,34 @@
+{
+    "fields": {
+        "name": "Oggetto",
+        "address": "Indirizzo",
+        "children": "Figli",
+        "middleName": "Secondo Nome",
+        "names": "Oggetti",
+        "salutationName": "Soprannome",
+        "types": "Tipi"
+    },
+    "boolFilters": {
+        "followed": "Seguito"
+    },
+    "links": {
+        "account": "Cliente",
+        "accounts": "Clienti",
+        "children": "Figlio",
+        "contact": "Contatto"
+    },
+    "scopeNames": {
+        "Account": "Cliente",
+        "Invoice": "Rapportino",
+        "InvoiceItem": "Intervento",
+        "CaseItem": "Intervento"
+    },
+    "scopeNamesPlural": {
+        "Account": "Clienti",
+        "Invoice": "Rapportini",
+        "InvoiceItem": "Interventi",
+        "CaseItem": "Interventi",
+        "Case": "Ticket",
+        "Prepagato": "Prepagati"
+    }
+}

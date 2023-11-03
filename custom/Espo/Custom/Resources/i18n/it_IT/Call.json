@@ -1,0 +1,34 @@
+{
+    "fields": {
+        "parent": "Motivo Chiamata",
+        "name": "Oggetto",
+        "phoneNumbersMap": "Geo-localizzazione Telefono",
+        "contatti": "Contatti",
+        "contact": "Contatto",
+        "cases": "Ticket",
+        "account": "Cliente",
+        "dateStart": "Data",
+        "hasAccount": "Cliente",
+        "phoneNumber": "Telefono"
+    },
+    "links": {
+        "parent": "Motivo Chiamata",
+        "contatti": "Contatti",
+        "contact": "Contatto",
+        "cases": "Ticket"
+    },
+    "tooltips": {
+        "hasAccount": "È un cliente?"
+    },
+    "options": {
+        "status": {
+            "Held": "Aperto",
+            "Planned": "Ticket",
+            "Not Held": "Risolto"
+        }
+    },
+    "presetFilters": {
+        "planned": "Ticket",
+        "held": "Aperto"
+    }
+}

@@ -1,0 +1,12 @@
+Reporting-MTA: dns; AM6PR08MB3653.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; info@duediservice.it
+Action: failed
+Status: 5.4.0
+Remote-MTA: dns; prohosting5.netsons.net
+X-Supplementary-Info: <prohosting5.netsons.net #5.4.355 smtp;550 5.4.355
+ Remote server returned recipient domain does not exist -> 550 The mail server
+ could not deliver mail to info@duediservice.it.  The;account or domain may
+ not exist, they may be blacklisted, or missing the;proper dns entries.>
+X-Display-Name: Due di Service SRL
+

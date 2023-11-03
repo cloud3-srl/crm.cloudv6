@@ -1,0 +1,32 @@
+Received: from SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f]) by
+ SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f%14]) with mapi; Wed, 27 Nov
+ 2019 10:22:22 +0100
+From: Monica Reghitto --- Cavanna Olii Snc <monicar@cavannaolii.com>
+To: Maurice Cambria <m.cambria@acmexport.com>
+Date: Wed, 27 Nov 2019 10:22:20 +0100
+Subject: R: FACTURE CAVANNA
+Thread-Topic: FACTURE CAVANNA
+Thread-Index: AdWkbFxndMUUOH5ES6ekoyKN9tRvYwAAVhcwACWYWjA=
+Message-ID:
+ <543966367C0FB3438B2BB9572E0BD1CE0293A1E5ADFB@SBS2008.cavanna.local>
+References: <0385863e38454ae0ac026aef9b09a3aa@acmexport.com>
+ <ce7a7a5fd4914b05885827fd736dad09@acmexport.com>
+In-Reply-To: <ce7a7a5fd4914b05885827fd736dad09@acmexport.com>
+Accept-Language: it-IT
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: it-IT
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1574846544; bh=QRmmucDlIbZ1xIOmau6kuspMYujDuIqGhhi/dDQY71Y=;
+	h=From:To:Date:Subject:Content-Type:MIME-Version;
+	b=W0i4HSyYS3m4Z0+EDZfdoy2sDpph4qxIOd77D/dm2iBKYqS9EagyGCj9MdbB6V4X2
+	 3dM8V2sckBUEIChj6ZVN6RU7wYTNvfTK+79A26y+/vXBuCC7/D/aCOK6lMl1WuHWsG
+	 hQMCiXoO18lDelgPKaSK1m67jH2JDK7jcp3IsFQOTPGKDj9ewcXTHGuBEa6dhoo+01
+	 1Uz/jYx5b4AWcpFlEAo4uSAaLPri7kl3zNTRFz2JUM1G73FoxW1snNiY4fupjXeBPA
+	 OcPDl2pj2DN7Bjq4N9y/3uhUoFaRJcL+Rak6tOM40g/HM99Jt6H6fhOs+0DW7kQzvB
+	 AY3561OtpKI5A==
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+

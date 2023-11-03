@@ -1,0 +1,33 @@
+{
+    "options": {
+        "calendarDirection": {
+            "EspoToOutlook": "One-way: EspoCRM to Outlook Calendar",
+            "OutlookToEspo": "One-way: Outlook Calendar to EspoCRM",
+            "Both": "Two-way"
+        }
+    },
+    "messages": {
+        "disconnectConfirmation": "Do you really want to disconnect?",
+        "noOutlookPanels": "No Outlook services available."
+    },
+    "fields": {
+        "calendarStartDate": "Sync since",
+        "calendarEntityTypes": "Sync Entities and Identification Labels",
+        "calendarDirection": "Direction",
+        "calendarMonitoredCalendars": "Other Calendars",
+        "calendarMainCalendar": "Main Calendar",
+        "calendarDefaultEntity": "Default Entity",
+        "contactsGroups": "Add Contacts to Groups",
+        "dontSyncEventAttendees": "Don't sync event attendees",
+        "removeOutlookCalendarEventIfRemovedInEspo": "Remove Outlook event upon removal in EspoCRM",
+        "contactFolder": "Contacts Folder",
+        "calendarCreateContacts": "Create contacts for attendees in EspoCRM",
+        "calendarSkipPrivate": "Don't sync private events",
+        "calendarDontPushPastEvents": "Don't push old events to Outlook"
+    },
+    "tooltips": {
+        "calendarEntityTypes": "For type recognizing event name has to start from identification label. Label for default entity can be empty. Recommendation: Do not change identification labels after you saved sync setting",
+        "calendarDefaultEntity": "Unrecognized Event will be loaded as selected entity.",
+        "calendarDontPushPastEvents": "If checked, only recently created events will be pushed to Outlook."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "relationshipPanels": {
+        "cases": {
+            "createAction":"createRelatedCase",
+            "view":"cloud3:views/call/record/panels/cases",
+            "layout": "list",
+            "selectDisabled": true
+        }
+    },
+    "recordViews": {
+        "edit": "cloud3:views/call/record/edit"
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "createdAt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "contact",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "link": true,
+        "align": "left"
+    }
+]

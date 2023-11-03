@@ -1,0 +1,74 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "anCodice"
+                },
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ]
+        ],
+        "style": "primary",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Cliente"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "billingAddressStreet"
+                },
+                {
+                    "name": "billingAddressCity"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddressState"
+                },
+                {
+                    "name": "billingAddressCountry"
+                }
+            ]
+        ],
+        "style": "primary",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Indirizzo"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "utdc"
+                },
+                {
+                    "name": "utdv"
+                }
+            ],
+            [
+                {
+                    "name": "idJob"
+                },
+                {
+                    "name": "cpccchk"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Ad Hoc API"
+    }
+]

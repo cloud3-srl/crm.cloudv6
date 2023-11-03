@@ -1,0 +1,11 @@
+Reporting-MTA: dns; VI1PR08MB5326.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; no-reply@sharepointonline.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; SN1NAM02FT021.mail.protection.outlook.com
+X-Supplementary-Info: <SN1NAM02FT021.mail.protection.outlook.com #5.7.64
+ smtp;550 5.7.64 TenantAttribution; Relay Access Denied
+ [SN1NAM02FT021.eop-nam02.prod.protection.outlook.com]>
+X-Display-Name: Simone Cola / CLOUD3
+

@@ -1,0 +1,50 @@
+Authentication-Results: cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=none action=none header.from=cloud3.srl;
+Received: from AM6PR08MB4440.eurprd08.prod.outlook.com (2603:10a6:20b:bc::19)
+ by AS8PR08MB5976.eurprd08.prod.outlook.com (2603:10a6:20b:299::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3784.12; Thu, 28 Jan
+ 2021 15:31:42 +0000
+Received: from AM6PR08MB4440.eurprd08.prod.outlook.com
+ ([fe80::e836:23cb:c155:26d2]) by AM6PR08MB4440.eurprd08.prod.outlook.com
+ ([fe80::e836:23cb:c155:26d2%3]) with mapi id 15.20.3784.016; Thu, 28 Jan 2021
+ 15:31:42 +0000
+Date: Thu, 28 Jan 2021 15:31:40 +0000
+From: =?UTF-8?Q?Ticket=20|=20CLOUD3?= <ticket@cloud3.srl>
+To: serena@cloud3.srl
+Subject: =?UTF-8?Q?Informazioni=20di=20accesso=20ali=20utente=20di=20EspoCRM?=
+Content-Type: multipart/alternative;
+ boundary="=_5fc65a5268f77d11e460c5131aaabddc"
+Message-ID: <232b84b24898771ab28c0d660fe3168f/1611847900/9283@espo>
+X-Originating-IP: [109.168.23.46]
+X-ClientProxiedBy: ZR0P278CA0078.CHEP278.PROD.OUTLOOK.COM
+ (2603:10a6:910:22::11) To AM6PR08MB4440.eurprd08.prod.outlook.com
+ (2603:10a6:20b:bc::19)
+Return-Path: ticket@cloud3.srl
+X-MS-Exchange-MessageSentRepresentingType: 1
+Received: from crm.cloud3srl.com (109.168.23.46) by ZR0P278CA0078.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:22::11) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3805.16 via Frontend Transport; Thu, 28 Jan 2021 15:31:41 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: cae355cc-5781-4905-fca0-08d8c3a1cff0
+X-MS-TrafficTypeDiagnostic: AS8PR08MB5976:
+MIME-Version: 1.0
+
+--=_5fc65a5268f77d11e460c5131aaabddc
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+I tuoi dati di accesso=0A=0AUsername: serena=0APassword: 3494332418Cl3=
+=0A=0Ahttps://crm.cloud3srl.com/
+--=_5fc65a5268f77d11e460c5131aaabddc
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><h=
+3>I tuoi dati di accesso</h3>=0A=
+=0A=
+<p>Username: serena</p>=0A=
+<p>Password: 3494332418Cl3</p>=0A=
+=0A=
+<p><a href=3D"https://crm.cloud3srl.com/">https://crm.cloud3srl.com/</a></p=
+>=
+
+--=_5fc65a5268f77d11e460c5131aaabddc--

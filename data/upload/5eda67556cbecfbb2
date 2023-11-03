@@ -1,0 +1,10 @@
+Reporting-MTA: dns; PR2PR08MB4876.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; vendite@pasquliniilcaffe.it
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain
+ pasquliniilcaffe.it does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=pasquliniilcaffe.it]
+ [PR2FRA01FT014.eop-fra01.prod.protection.outlook.com]>
+

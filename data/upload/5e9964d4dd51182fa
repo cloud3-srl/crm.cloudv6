@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID:-//3CX/Web Meeting v.15//EN
+METHOD:REQUEST
+VERSION:2.0
+BEGIN:VEVENT
+ORGANIZER:MAILTO:noreply@3cx.cloud
+DTSTAMP:20200417T081134Z
+DTSTART:20200417T124500Z
+DTEND:20200417T134500Z
+CLASS:PUBLIC
+SUMMARY:3CX Web Meeting: Presentazione nuova CRM / Webmeeting CLOUD3
+LOCATION:Online meeting
+DESCRIPTION:Click this link to join the meeting: https://cloud3-myit.3cx.net/join/GXUeC5zBERPln3V19RoL-4eR\nIn questa riunione verrà presentato il nuovo CRM\nDiego e Filippo apriranno la riunione mostrandoci un flusso cpompleto dalla chiamata alla fatturazione, terminala la presentazione sarà possibile intervenire per esaminare insieme tutte le fasi e collaborare, al fine di soddifrare tutte le criticità e perdite di tempo che incontriamo ogni giorno sulla ridondanza del dato e la perdita di informazioni.\nSimone Cola\nDiego Zunino\nFilippo Domenicali\nGabriele Baccino\nGiada Ferro\nSergio Cola\nEttore Vernazza\nSala Riunioni
+UID:{506a6301-75e9-4c9a-baf9-fffaf41191ad}
+SEQUENCE:0
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT900S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM7PR08MB5431.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; mpecoraro@tin.it
+Action: failed
+Status: 5.1.0
+Remote-MTA: dns; vsmtp8.tin.it
+X-Supplementary-Info: <vsmtp8.tin.it #5.1.351 smtp;550 5.1.351 Remote server
+ returned unknown recipient or mailbox unavailable -> 550 RCPT
+ TO:<mpecoraro@tin.it> User unknown>
+

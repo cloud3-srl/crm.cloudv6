@@ -1,0 +1,11 @@
+Reporting-MTA: dns; AM6PR08MB4625.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; MagazzinoFiltri@cavanna.local
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain cavanna.local
+ does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=cavanna.local]
+ [AM5EUR03FT039.eop-EUR03.prod.protection.outlook.com]>
+X-Display-Name: MagazzinoFiltri Cavanna Olii snc
+

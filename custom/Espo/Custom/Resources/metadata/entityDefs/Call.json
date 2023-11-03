@@ -1,0 +1,104 @@
+{
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "account.name",
+            "contact.firstName",
+            "contact.lastName",
+            "description"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false,
+        "filters": []
+    },
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Case",
+                "Lead",
+                "Opportunity"
+            ]
+        },
+        "direction": {
+            "default": "Inbound",
+            "style": {
+                "Outbound": null,
+                "Inbound": null
+            }
+        },
+        "status": {
+            "default": "Held",
+            "style": {
+                "Held": "danger",
+                "Planned": "warning",
+                "Not Held": "success"
+            },
+            "options": [
+                "Held",
+                "Planned",
+                "Not Held"
+            ],
+            "audited": false,
+            "displayAsLabel": true
+        },
+        "account": {
+            "readOnly": false,
+            "audited": false,
+            "required": false,
+            "view": "cloud3:views/call/fields/account"
+        },
+        "contact": {
+            "type": "link",
+            "required": false,
+            "view": "cloud3:views/call/fields/contact"
+        },
+        "cases": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "hasAccount": {
+            "notNull": true,
+            "type": "bool",
+            "default": true,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "assignedUser": {
+            "defaultAttributes": {
+                "assignedUserId": "admin",
+                "assignedUserName": "HelpDesk CLOUD3"
+            }
+        },
+        "phoneNumber": {
+            "type": "varchar",
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "links": {
+        "contacts": {
+            "audited": false
+        },
+        "contact": {
+            "type": "belongsTo",
+            "foreign": "callPrimary",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "cases": {
+            "type": "hasMany",
+            "foreign": "call",
+            "entity": "Case",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

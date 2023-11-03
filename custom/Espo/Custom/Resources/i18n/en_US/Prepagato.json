@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "mvSerial": "Seriale",
+        "mvNumReg": "Numero registrazione",
+        "mvNumDoc": "Numero documento",
+        "mvAlfDoc": "Alfa documento",
+        "mvDatDoc": "Data documento",
+        "mvTipCon": "Tipo conto",
+        "mvCodCon": "Codice cliente",
+        "mvQtaRes": "Ore rimanenti",
+        "account": "Account"
+    },
+    "links": {
+        "account": "Account"
+    },
+    "labels": {
+        "Create Prepagato": "Create Prepagato"
+    }
+}

@@ -1,0 +1,44 @@
+Received: from SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f]) by
+ SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f%14]) with mapi; Fri, 27 Mar
+ 2020 10:12:35 +0100
+From: =?iso-8859-1?Q?Qualit=E0_Laboratorio?= <Qualita@cavannaolii.com>
+To: "Giulia Albertazzi (giulia.albertazzi@bioagricert.org)"
+	<giulia.albertazzi@bioagricert.org>
+CC: Chiara Ginanneschi <cginanneschi@cavannaolii.com>
+Date: Fri, 27 Mar 2020 10:12:34 +0100
+Subject: I: modifica notifica SIAN
+Thread-Topic: modifica notifica SIAN
+Thread-Index:
+ AdXy8v0NEjWkTnIFS7OAko0cu/7NZwFV1jNQAAN+7AAAAH7SAAACTy/wACwlPcAAA0DBMAFrjt4gAIsUHlAAAh8yMAAINvMQACYJdWAAlo4WQA==
+Message-ID:
+ <DBEFA95F29B64A488560E0B81D5B437E02EC4ADDA180@SBS2008.cavanna.local>
+References:
+ <DBEFA95F29B64A488560E0B81D5B437E02DEE92FACEE@SBS2008.cavanna.local>
+ <01c1b294abeb4724a3a85a5f9232b573@MI-EXCH2013-04.domus.dom>
+ <DBEFA95F29B64A488560E0B81D5B437E02DEE92FAD11@SBS2008.cavanna.local>
+ <49dcf876bdfd4f7b8f130a5e9125a962@MI-EXCH2013-04.domus.dom>
+ <DBEFA95F29B64A488560E0B81D5B437E02EC41B48CF6@SBS2008.cavanna.local>
+ <ea258b699e9c4e3c91fe691a312273a8@MI-EXCH2013-04.domus.dom>
+ <DBEFA95F29B64A488560E0B81D5B437E02EC48DEF999@SBS2008.cavanna.local>
+ <9937f87291674dcbb052a47034582eb3@MI-EXCH2013-04.domus.dom>
+ <DBEFA95F29B64A488560E0B81D5B437E02EC4ADD9E3B@SBS2008.cavanna.local>  
+Accept-Language: it-IT
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: it-IT
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1585300356; bh=hOX3Wqk8O1GNNiKn84TeDvElmrBVxetvRV+dlajXlAU=;
+	h=From:To:Date:Subject:Content-Type:MIME-Version;
+	b=IzCpfen4gLDg+Cm/rKIp5QkLj2QHAX711QeAFSPPIWm9vYzLvUgK6Egok/fvCQx3n
+	 IEzX0ava6gJ5pC/Y3CngyI6aqSUn9kQw0VgESEGuJMEnholMvBZFmZmpjctRfQz8Sn
+	 NNfJwsnodb5DXer152r4GZcYKfRhxj+3pjBDwnq/TvusyNRvWyBj2Wv8yZeZufuKp9
+	 zc8rDmQZIhEWv1WyCzRv502uoxFS68U7Gc3l+K+OoItpRfRPL5oqrpKs3Xp3Driil8
+	 kBwASEfh3vGQv+GBKhkDikr8zXRTpcWQATRbv774XO+VjDRvQS/1BA6/U9PjHkb36R
+	 M3v7qkCafUwqw==
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Importance: high
+X-Priority: 1
+MIME-Version: 1.0
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:FatturaElettronica xmlns:b="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>00959230095</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>00053</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>A4707H7</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Email>pasqualiniilcaffe@pec.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00959230095</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>F.LLI PASQUALINI S.R.L.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA ROMA 167</Indirizzo>
+        <CAP>17038</CAP>
+        <Comune>VILLANOVA D'ALBENGA</Comune>
+        <Provincia>SV</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>09160710969</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>09160710969</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>ORSERO S.P.A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA FANTOLI 6/15</Indirizzo>
+        <CAP>20138</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2019-06-13</Data>
+        <Numero>00053</Numero>
+        <ImportoTotaleDocumento>10.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Vendita 10%</Descrizione>
+        <Quantita>1.000</Quantita>
+        <PrezzoUnitario>9.09</PrezzoUnitario>
+        <PrezzoTotale>9.09</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <ImponibileImporto>9.09</ImponibileImporto>
+        <Imposta>0.91</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+  </FatturaElettronicaBody>
+</b:FatturaElettronica>

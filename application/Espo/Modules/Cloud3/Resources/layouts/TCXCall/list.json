@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "agent"
+    },
+    {
+        "name": "callType"
+    },
+    {
+        "name": "dateStart"
+    },
+    {
+        "name": "dateEnd"
+    },
+    {
+        "name": "number"
+    }
+]

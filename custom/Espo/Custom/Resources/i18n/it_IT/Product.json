@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "isCaseItem": "Intervento (Ticket)",
+        "name": "Descrizione",
+        "arCodArt": "Codice articolo",
+        "description": "Descr. Suppl."
+    }
+}

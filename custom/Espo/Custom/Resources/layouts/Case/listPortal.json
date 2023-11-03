@@ -1,0 +1,26 @@
+[
+    {
+        "name": "contact",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 50,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "number",
+        "width": 5,
+        "align": "left",
+        "widthPx": 100
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "assignedUser",
+        "align": "left"
+    }
+]

@@ -1,0 +1,8 @@
+Reporting-MTA: dns; ztexmbx02.zg.local
+
+Final-recipient: RFC822; zz_supportocodepainter@zucchetti.it
+Action: failed
+Status: 5.1.0
+X-Supplementary-Info: < #5.1.10 smtp;550 5.1.10
+ RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup>
+

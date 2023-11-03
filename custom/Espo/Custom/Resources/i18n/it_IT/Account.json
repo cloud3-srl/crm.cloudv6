@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "cpccchk": "cpccchk",
+        "idJob": "idjob",
+        "originalLead": "Iniziativa originale (Lead)",
+        "utdc": "utdc",
+        "utdv": "utdv",
+        "anCodice": "Codice cliente",
+        "name": "Ragione sociale",
+        "billingAddressCity": "Città",
+        "billingAddressStreet": "Indirizzo",
+        "prepagati": "Prepagati"
+    },
+    "labels": {
+        "Create Account": "Crea Cliente"
+    },
+    "options": {
+        "type": {
+            "Customer": "Tipo Cliente",
+            "Investor": "Tipo Investitore",
+            "Partner": "Tipo Partner",
+            "Reseller": "Tipo Rivenditore"
+        }
+    },
+    "links": {
+        "contacts": "Contatti (Clienti)",
+        "invoices": "Rapportini",
+        "prepagati": "Prepagati"
+    }
+}

@@ -1,0 +1,324 @@
+Received: from SBS2008 (127.0.0.1) by SBS2008.cavanna.local (127.0.0.1) with
+ Microsoft SMTP Server id 8.3.389.2; Wed, 27 Nov 2019 15:52:16 +0100
+Received: by [SBS2008.cavanna.local (Microsoft Connector for POP3 Mailboxes)]
+ id <"{BAC5FDE6-955C-4746-973B-E3F12FD62DB2}"@cavanna.local>; Wed, 27 Nov 2019
+ 15:52:06 +0100
+Received: (qmail 2382 invoked by uid 89); 27 Nov 2019 14:50:28 -0000
+Received: from unknown (HELO mxdhfe05.ad.aruba.it) (10.10.10.215)  by
+ mxdhbe12.ad.aruba.it with SMTP; 27 Nov 2019 14:50:28 -0000
+Received: from pccmail2.atgpedi.net ([5.39.31.9])	by bizsmtp with ESMTP	id
+ ZyeCiJzdWipZeZyeCicb7Y; Wed, 27 Nov 2019 15:50:28 +0100
+Received: from atgp.net (trac1.atgpedi.net [46.105.105.63])	by
+ pccmail2.atgpedi.net (Postfix) with SMTP id E5C0A40202	for
+ <ufficiocommerciale@cavannaolii.com>; Wed, 27 Nov 2019 15:50:27 +0100 (CET)
+From: "no_reply@atgp.net" <no_reply@atgp.net>
+To: "Sales  Cavanna Olii Snc --" <sales@cavannaolii.com>
+Date: Wed, 27 Nov 2019 15:49:45 +0100
+Subject:
+ =?iso-8859-1?Q?[tracabilite][Cavanna_Olii_-_8002802102410]_Liste_des_DESA?=
+ =?iso-8859-1?Q?DV_int=E9gr=E9s_mais_non_export=E9s?=
+Thread-Topic:
+ =?iso-8859-1?Q?[tracabilite][Cavanna_Olii_-_8002802102410]_Liste_des_DESA?=
+ =?iso-8859-1?Q?DV_int=E9gr=E9s_mais_non_export=E9s?=
+Thread-Index: AdWlMkMdaU8F3PE0TZ+k2HBE+bY9Ag==
+Message-ID: <RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQ==@localhost>
+Reply-To: "no_reply@atgp.net" <no_reply@atgp.net>
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: SBS2008.cavanna.local
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+delivered-to: ufficiocommerciale@cavannaolii.com
+x-spam-rating: mxdhbe12.ad.aruba.it 1.6.2 0/1000/N
+x-spam-report: v=2.3 cv=TKnxtGta c=1 sm=1 tr=0
+ a=GxoJNYomf2UN1Qh2QAnU5w==:117 a=GxoJNYomf2UN1Qh2QAnU5w==:17
+ a=MeAgGD-zjQ4A:10 a=Mrz3sjv-sVQA:10 a=r77TgQKjGQsHNAKrUKIA:9
+ a=zbpYmRFG04OUNsfCTdQA:9 a=C2ixmJ8BAAAA:8 a=SivG_BkMsP0stXivXzkA:9
+ a=dRIA2tnBgZ6x1dus:21 a=dcl8tPjHwhJrLTV1:21 a=wPNLvfGTeEIA:10
+ a=SSmOFEACAAAA:8 a=4Of1HhcOGYLn3zk6yrgA:9 a=mBjTFl8Jwj6PY0MF:21
+ a=NRUHgCoXYGPfBDq5:21 a=478DhXquORr3QsRU:21 a=iArNVvhu2_IA:10
+ a=GqbBXHO9kbEuT89HCgcA:9 a=eCh1RKTUeIDI1ya4:18 a=HXjIzolwW10A:10
+ a=T6a71-JsGAwA:10 a=eZRtAFdJNGjULwmZg_2x:22
+Content-Type: multipart/related;
+	boundary="_004_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_
+Content-Type: multipart/alternative;
+	boundary="_000_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_"
+
+--_000_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+
+Les DESADV suivants n'ont pas =E9t=E9 envoy=E9s vers les clients concern=E9=
+s, car le param=E9trage de traitement automatique n'est pas activ=E9 :
+
+FOURNISSEUR     CLIENT  NUM=C9RO  DATE    POUR LE COMMANDE
+Cavanna Olii    (MONOPRIX SA) Casino Extended Logistics - 42000 - SAINT-ETI=
+ENNE 3604    27/11/2019      04/12/2019      5421794
+
+NB: Cet email est g=E9n=E9r=E9 dans le but de s=E9curiser vos envois DESADV=
+.
+Si ces DESADV doivent =EAtre transmis en automatique =E0 la centrale, merci=
+ de faire le point avec le technicien en charge de votre dossier.
+
+Cordialement,
+
+[cid:img/logos/atgpneo.png]
+www.atgp.net<https://www.atgp.net/>
+                        Equipe support
+support@atgp.net<mailto:support@atgp.net>
+
+T=E9l=E9phone :      00 33 (0)4 75 82 85 20
+
+
+
+
+--_000_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<?xml version=3D"1.0" encoding=3D"ISO-8859-15"?><!DOCTYPE html><html xmlns=
+=3D"http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><title></title>
+        <style>
+            body {padding-left:10px;padding-top:5px;background-color: #ffff=
+ff;}
+            a {color: #000052;text-decoration: none; }
+            .tableau {font-family: "Lucida Sans Unicode", "Lucida Grande", =
+Sans-Serif;
+                font-size: 12px;
+                margin: 10px 0;
+                text-align: left;
+                border-collapse: collapse;}
+            .cell, .tableau tr td, .tableau tr th {padding: 8px;}
+            .lignes, .tableau tr  {
+                border-bottom: 1px solid #fff;
+                border-top: 1px solid #fff;}
+            .lignes_erreurs td {
+                background-color: #FFB4B6;
+            }
+            .tableau tr:nth-child(even) {background: #f3f1f1;}
+            .tableau tr:nth-child(odd) {background: #ffffff;}
+            .entete  {  font-size: 13px;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 8px;
+                background: #2b4049;border-top: 2px solid #d3ddff;
+                border-bottom: 1px solid #fff;
+                color: #FFFFFF;
+                text-align: center;}
+            .tableau tbody tr:hover td {
+                background: #d9f5fd;
+                color: #339;}
+            a:hover{color:red; font-style:italic;text-decoration:none;}
+        </style>
+    </head>
+<body>
+    <p>
+                            Bonjour,<p>Les DESADV suivants n'ont pas =E9t=
+=E9 envoy=E9s vers les clients concern=E9s, car le param=E9trage de traitem=
+ent automatique n'est pas activ=E9 :
+                    </p><p></p><table cellspacing=3D"0" cellpadding=3D"0" c=
+lass=3D"tableau"><tr><th class=3D"entete">FOURNISSEUR</th><th class=3D"ente=
+te">CLIENT</th><th class=3D"entete">NUM=C9RO</th><th class=3D"entete">DATE<=
+/th><th class=3D"entete">POUR LE</th><th class=3D"entete">COMMANDE</th></tr=
+><tr class=3D"lignes"><td class=3D"cell">Cavanna Olii</td><td class=3D"cell=
+">(MONOPRIX SA) Casino Extended Logistics - 42000 - SAINT-ETIENNE</td><td c=
+lass=3D"cell">3604</td><td class=3D"cell">27/11/2019</td><td class=3D"cell"=
+>04/12/2019</td><td class=3D"cell">5421794</td></tr></table><p>
+                            NB: Cet email est g=E9n=E9r=E9 dans le but de s=
+=E9curiser vos envois DESADV.<br> Si ces DESADV doivent =EAtre transmis en =
+automatique =E0 la centrale, merci de faire le point avec le technicien en =
+charge de votre dossier.
+                        <br></p><br>            <style>
+    body{ background-color:#FFFFFF}
+    .sign {font-family: verdana;font-size:10px;width:500px; border:0px; }
+    .nom {font-size: 18px; color:#284a8d; font-weight:900; text-transform: =
+uppercase;Letter-Spacing: 0pt;}
+    .mail {font-size: 11px; color:#000000; font-style:italic;text-decoratio=
+n:none;}
+    .mail a{font-size: 11px; color:#000000; font-style:italic;text-decorati=
+on:none;}
+    .mail a:hover{font-size: 11px; color:red; font-style:italic;text-decora=
+tion:none;}
+    .interligne{line-height:12px}
+    .telephones {font-size: 11px; font-weight:bold; }
+    .telephone2 {font-size: 11px;  }
+    .logo a{ font-size:12px; text-decoration:none; font-weight:bold; line-h=
+eight:30px;color:#284a8d;}
+    .logo a:hover{ font-size:12px; color:red}
+    p.signature { color : #888888; font-size:12px; }
+</style>
+
+<table width=3D"500" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"sign">
+    <tr>
+        <td colspan=3D"4" style=3D"font-size:15px">Cordialement,</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td width=3D"10" height=3D"5"></td>
+        <td width=3D"10"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td width=3D"150" height=3D"130" align=3D"center" valign=3D"center"=
+ class=3D"logo">
+            <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0">
+                <tr>
+                                            <td align=3D"center">
+                                                            <img src=3D"cid=
+:img/logos/atgpneo.png" width=3D"100" style=3D"margin-top:3px;border:0px;ma=
+x-width:130px" alt=3D"logo">
+                                                    </td>
+                   =20
+                </tr>
+                <tr>
+                                            <td align=3D"center" valign=3D"=
+top"><a href=3D"https://www.atgp.net/">www.atgp.net</a></td>
+                                    </tr>
+            </table>
+        </td>
+        <td style=3D"border-right:1px solid #999999"></td>
+        <td width=3D"15" height=3D"13"></td>
+
+        <td valign=3D"middle">
+            <span class=3D"nom">
+                                    Equipe support
+                            </span>
+            <br>
+                            <span class=3D"mail"><a href=3D"mailto:support@=
+atgp.net" style=3D"color:#000;text-decoration:none;">support@atgp.net</a></=
+span>
+                        <br><br>
+            <table class=3D"interligne" cellpadding=3D"0" cellspacing=3D"0"=
+>
+                <tr>
+                                                                        <td=
+ valign=3D"middle"><span class=3D"telephones">T=E9l=E9phone : </span></td>
+                            <td valign=3D"bottom" class=3D"telephone2">&nbs=
+p;00 33 (0)4 75 82 85 20</td>
+                                                            </tr>
+                <tr>
+                                            <td valign=3D"middle"></td>
+                        <td valign=3D"bottom"></td>
+                                    </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+    <div style=3D"clear:both"></div>
+</body>
+</html>
+
+
+
+--_000_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_--
+
+--_004_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_
+Content-Type: image/png; name="imglogosatgpneo.png"
+Content-Description: imglogosatgpneo.png
+Content-Disposition: inline; filename="imglogosatgpneo.png"; size=4769;
+	creation-date="Wed, 27 Nov 2019 14:52:17 GMT";
+	modification-date="Wed, 27 Nov 2019 14:52:17 GMT"
+Content-ID: <img/logos/atgpneo.png>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_RDoyMDE5MTEyNzE1NDk0NTQ4MTE3NzQ1NCxOOjAwMDAwMQlocalhost_--

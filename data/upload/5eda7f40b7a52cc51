@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postacert tipo="posta-certificata" errore="nessuno">
+    <intestazione>
+        <mittente>g.taramasso@pec.studioconsult.net</mittente>
+        <destinatari tipo="certificato">gt@pec.duetstudio.it</destinatari>
+        <risposte>g.taramasso@pec.studioconsult.net</risposte>
+        <oggetto>I: Dismissione protocolli deprecati il 30/09/2019</oggetto>
+    </intestazione>
+    <dati>
+        <gestore-emittente>ARUBA PEC S.p.A.</gestore-emittente>
+        <data zona="+0200">
+            <giorno>30/07/2019</giorno>
+            <ora>12:06:39</ora>
+        </data>
+        <identificativo>opec292.20190730120639.26989.428.1.69@pec.aruba.it</identificativo>
+        <msgid>&lt;PVG9F3$364A07CAE3F9CB5FD0FA053DF1642089@pec.studioconsult.net&gt;</msgid>
+        <ricevuta tipo="completa" />
+    </dati>
+</postacert>

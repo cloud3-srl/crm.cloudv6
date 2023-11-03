@@ -1,0 +1,51 @@
+Received: (qmail 17711 invoked by uid 89); 29 May 2020 14:00:09 -0000
+Delivered-To: daniele@mapricom.com
+Received: (qmail 17681 invoked by uid 89); 29 May 2020 14:00:09 -0000
+Received: from unknown (HELO mxdhfe03.ad.aruba.it) (10.10.10.213)
+  by mxdhbe08.ad.aruba.it with SMTP; 29 May 2020 14:00:09 -0000
+Received: from smtpcmd0756.aruba.it ([62.149.156.56])
+	by bizsmtp with ESMTP
+	id efWbj56cdU3vBefYPjkr4q; Fri, 29 May 2020 16:00:09 +0200
+X-Spam-Report: v=2.3 cv=Jd0IUnCV c=1 sm=1 tr=0 a=9ZpfKC2eV9tB559oMmjX1g==:117
+ a=3eIpvmQ5a+rLrXsZwfLnkQ==:17 a=sTwFKg_x9MkA:10 a=r77TgQKjGQsHNAKrUKIA:9
+ a=dZ-rRHVeAAAA:8 a=S-JsRFZrAAAA:8 a=m06uNm-azwNrHcbGx6gA:9 a=pILNOxqGKmIA:10
+ a=GFBUbJLojP1VbvKL1hcA:9 a=n3BslyFRqc0A:10 a=rls1ZAiwvL0A:10
+ a=Rhda-3QEicBOb0e9ZJXf:22 a=-pcBXR_vKAxSF80PGHGd:22
+Received: from map-dk006.local ([93.33.223.155])
+	by smtpcmd07.ad.aruba.it with bizsmtp
+	id ke082200C3MmuK901e084p; Fri, 29 May 2020 16:00:09 +0200
+Message-ID: <b5f1b10a0e9c313e7541d86b001aca14@mapricom.com>
+From: "Daniele" <daniele@mapricom.com>
+To: "=?windows-1252?B?VEhFIEZSRVNIIE9MSVZFIENPTVBBTlkgTFREIFQvQSBCRUxBWlUgSQ==?=\
+	=?windows-1252?B?TkdSRURJRU5UIENPTVBBTlk=?=" <invoices@belazu.com>,
+  "=?windows-1252?B?VEhFIEZSRVNIIE9MSVZFIENPTVBBTlkgTFREIFQvQSBCRUxBWlUgSQ==?=\
+	=?windows-1252?B?TkdSRURJRU5UIENPTVBBTlk=?=" <invoice@belazu.com>
+Cc: <daniele@mapricom.com>
+Subject: FATTURA RIEPILOGATIVA - 2276
+Date: Fri, 29 May 2020 16:02:15 +0200
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=NextMime00A_001_113190796D"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1590760809; bh=s59jFUZEvKM8QuW9hI7UUu6xxMhcHbzuw+2L1aoEzXg=;
+	h=From:To:Subject:Date:MIME-Version:Content-Type;
+	b=BHozZ0BBGMEkshrbCwHPTGNTBzZeLteP3foVjRvSMa9M/3ofIuQfal/wShLMTyvxf
+	 HeVfid+2XbeaSKTpf71N5s334JRUB6AlICdOFkeOU5ehr0o8JEPWORHMvL7tYXsGJL
+	 Oj6dau+P2aEX/bT18sP5oDNd7PhHJV65I0iqgVWdIKr0wrUu/ElRgD+JN7wO/rMjGo
+	 CdeAVmSXvc2+y16AaXiEtunal9XlBAaHi4aDB6Vagapecygadhcz2QQAIvSiGVvPze
+	 XJAKmOEP9iUMfau8zd4WThaXQRIqoMaBXT70KwIlKeVSCosudXiG9Dz4Xzo1hTVfXB
+	 +yCaGkh20M9SA==
+X-CMAE-Envelope: MS4wfAmov2jZnypqyhcicMke91wOrScIYOSCW+QuRi9U1NfEr+hmk8nKjU5UeapJMPif/L6Ulku0yN+Iow31ipV0Qzk1mYuC0f5BFf0AEd2MxaJ60Do97UNj
+ yCMhutdPSeIAEhqr21eYeTuloSRiNC2Pq3GnvyAs8JH4PZDBrkwD9ZFjqUog7pvZ2cX+ymG3ROW7pQ==
+X-Spam-Rating: mxdhbe08.ad.aruba.it 1.6.2 0/1000/N
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1590760811; bh=s59jFUZEvKM8QuW9hI7UUu6xxMhcHbzuw+2L1aoEzXg=;
+	h=From:To:Subject:Date:MIME-Version:Content-Type;
+	b=hiTzBb3esVkHQWpwIGJpNsWRYH7ZGCC2mbtkAenmGsZXHIZXeKT/Zkna9Rz6ZS8e+
+	 jIVdwJpkWI0RXvcAWWILxwcqReuDA+8xlHPc6FsyvQVvUXBeFE8GlFOgUeOsZRAAXN
+	 uJknQpYiCl6Cy6hJSAM9S92s19pQ7D4T7i8F3ug24ymi92r+B1gVji+n7aItceX0fA
+	 GZ4myZaZyh3Wi6y6G1gNQPMZTcdPvSmlp7xrHJGMe/P/9mq1M4R/4tD9qD3WsmeL3U
+	 7loMCD38LS3zQKQ79uZZsWtVPpO8tvtPqpYfzXrOOdYzM4Y5HK2uyDCZ/+RVvI+ROn
+	 6syjiGNpSJz2Q==
+
+

@@ -1,0 +1,112 @@
+{
+    "bottomPanels": {
+        "detail": [
+            {
+                "name": "items",
+                "label": "Items",
+                "view": "cloud3:views/case/record/panels/items",
+                "notRefreshable": true,
+                "sticked": true,
+                "isForm": true
+            }
+        ],
+        "edit": [
+            {
+                "name": "items",
+                "label": "Items",
+                "view": "cloud3:views/case/record/panels/items",
+                "notRefreshable": true,
+                "sticked": true,
+                "isForm": true
+            }
+        ]
+    },
+    "kanbanViewMode": true,
+    "color": "#0091fa",
+    "iconClass": "fas fa-receipt",
+    "dynamicLogic": {
+        "fields": {
+            "status": {
+                "visible": null
+            },
+            "account": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "opportunityId",
+                                    "data": {
+                                        "field": "opportunity"
+                                    }
+                                },
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "quoteId",
+                                    "data": {
+                                        "field": "quote"
+                                    }
+                                },
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "salesOrderId",
+                                    "data": {
+                                        "field": "salesOrder"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "number": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "number"
+                        }
+                    ]
+                }
+            },
+            "case": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "caseId",
+                            "data": {
+                                "field": "case"
+                            }
+                        }
+                    ]
+                }
+            },
+            "adHoc": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "status",
+                            "value": "Verified"
+                        }
+                    ]
+                }
+            }
+        },
+        "options": {
+            "status": [
+                {
+                    "optionList": [
+                        "In Review",
+                        "Confirmed",
+                        "Verified"
+                    ],
+                    "conditionGroup": null
+                }
+            ]
+        }
+    }
+}

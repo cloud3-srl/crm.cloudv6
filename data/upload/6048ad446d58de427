@@ -1,0 +1,6 @@
+Reporting-MTA: dns; hostingssd76.netsons.net
+
+Action: failed
+Final-Recipient: rfc822;morasso@alimentariasnc.it
+Status: 5.0.0
+

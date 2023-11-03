@@ -1,0 +1,36 @@
+{
+    "fields": {
+        "clientId": {
+            "type": "varchar",
+            "maxLength": 255,
+            "required": true
+        },
+        "clientSecret": {
+            "type": "varchar",
+            "maxLength": 255,
+            "required": true
+        },
+        "tenant": {
+            "type": "enum",
+            "options": ["common", "organizations", "consumers"],
+            "tooltip": "outlookTenant"
+        }
+    },
+    "params": {
+        "endpoint": "https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize",
+        "tokenEndpoint": "https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token",
+        "scope": "https://graph.microsoft.com/User.Read+offline_access https://graph.microsoft.com/Calendars.ReadWrite+offline_access https://graph.microsoft.com/Contacts.ReadWrite+offline_access",
+        "scopeMail": "https://outlook.office365.com/IMAP.AccessAsUser.All https://outlook.office365.com/SMTP.Send offline_access",
+        "redirectUriPath": "oauth-callback.php"
+    },
+    "products": {
+        "outlookCalendar": true,
+        "outlookContacts": true
+    },
+    "allowUserAccounts": true,
+    "authMethod": "OAuth2",
+    "userView": "outlook:views/outlook/outlook",
+    "clientClassName": "Espo\\Modules\\Outlook\\Core\\Outlook\\Clients\\Outlook",
+    "view": "outlook:views/outlook/integration",
+    "externalAccountSecretAttributeList": ["refreshToken"]
+}

@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "name": {
+            "options": []
+        },
+        "quantity": {
+            "default": 0,
+            "tooltip": true,
+            "min": 0
+        },
+        "dateStart": {
+            "default": "javascript: return this.dateTime.getNow(1);"
+        }
+    },
+    "collection": {
+        "filters": {},
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

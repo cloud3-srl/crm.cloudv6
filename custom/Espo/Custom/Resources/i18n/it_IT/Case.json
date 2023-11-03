@@ -1,0 +1,32 @@
+{
+    "fields": {
+        "account": "Cliente",
+        "contact": "Contatto",
+        "itemList": "Lista Interventi",
+        "name": "Oggetto",
+        "call": "Chiamata"
+    },
+    "labels": {
+        "Close": "Chiudi",
+        "Create Case": "Crea Ticket",
+        "Reject": "Rigetta"
+    },
+    "links": {
+        "account": "Cliente",
+        "contacts": "contatti",
+        "invoices": "Rapportini",
+        "items": "Interventi",
+        "quotes": "quotazioni",
+        "salesOrders": "Ordine di vendita",
+        "call": "Call"
+    },
+    "options": {
+        "status": {
+            "New": "Aperto",
+            "Assigned": "Assegnato",
+            "Pending": "In attesa",
+            "Closed": "Risolto",
+            "OnGoing": "In corso"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "dynamicLogic": {
+        "fields": {
+            "phoneNumber": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "review"
+                        }
+                    ]
+                }
+            },
+            "emailAddress": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "review"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

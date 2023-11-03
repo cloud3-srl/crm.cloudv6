@@ -1,0 +1,26 @@
+{
+    "fields": {
+        "qty": "Ore",
+        "dateStart": "Data apertura/chiusura",
+        "name": "Intervento",
+        "quantity": "Quantità",
+        "status": "Stato",
+        "case": "Ticket",
+        "dateEnd": "."
+    },
+    "options": {
+        "status": {
+            "Open": "In corso",
+            "Closed": "Chiuso"
+        }
+    },
+    "labels": {
+        "Create CaseItem": "Creare Intervento"
+    },
+    "links": {
+        "case": "Ticket"
+    },
+    "tooltips": {
+        "quantity": "es: 0,25 = 1/4 d'ora\n      0,50 = mezz'ora\n      1      = un'ora"
+    }
+}

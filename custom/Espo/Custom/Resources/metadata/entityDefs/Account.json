@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "emailAddress": {
+            "isPersonalData": false
+        },
+        "name": {
+            "options": [],
+            "trim": false
+        },
+        "prepagati": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "anCodice",
+        "order": "asc",
+        "textFilterFields": [
+            "name",
+            "anCodice",
+            "emailAddress",
+            "phoneNumber"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "links": {
+        "prepagati": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "Prepagato",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

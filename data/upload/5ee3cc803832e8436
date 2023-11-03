@@ -1,0 +1,239 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=hbo0cMaKfwIVET25PRJiP9EL07wCe0JadiQ5uQVfYhGe9SK6n1E22oEWZM/dXNsww4KeNkF0bWshHmh9sTnTBNqqB3WJevWbA6LGvGLw1NwLggSGISYGWYY2eANJ6Q3GdF5MZUE3us6JD+KP4gXyxHAd5XIPjv7SeZooanvJxZFCHe7pJdH5kPsSwr4DO3aFF8IIdnVvpKYqW1UHzgWOMDIjdyDNUuFjbG1HfgD+c8Iyv0iJ5CEM4hmNmsMhpt17/KED44Vhq5Bli3/qPwHCfxiOErp5YykafsdmRUPOC15+HQb04BUqDZ5c8nwbfnApcR60eHy8JQVI9VJBZ8ZiIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jRSO6gc4tOiHxGSiGWo7wUpd269Ie/j1d9WLW1eIg1Q=;
+ b=MV4FI9X1LDdDeP2wVEZv4cjYBDCDWHnGXb/UUvc2XY6Ra5PzxO0pNuA59Pey0GCPyUiM9SmyAMA0deLvG6+4mwYAVY6gzoJGRlcjyBe5J8/CYmiab6+1g1V9Z1NU48IugfSqZOAWIBTxtETtY/9JjxjvtW8BK1AX3RQ1Q2/e2CFb8Hdv9t5d54LkvqHsrtL6HiDwIYQInMG9drymDqI1z0VU6g4yROsHMBrX8oAj5Ct6qjXmmW+4kfKxWONY2jJD9sj8A27U6q1mSSnx/q1cUWqBBvAnurwUy0eMI9npRtLK+0S88NJNXZJqXtb8tMDgIkIZcupnxskNPsHak63vOg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jRSO6gc4tOiHxGSiGWo7wUpd269Ie/j1d9WLW1eIg1Q=;
+ b=ZecUDRU6mGLnCXr+sbaROdptElj70ICSa5DbXqPNc8NHB8PKPDxEMI2xz8A7MGaGbTwBZYwVEf0ADW1a/v2Q5/uDVASR/El4sRaJF35bqGO4OAzqqvLjoyMYJjRmzNUzwxbebsZJNJCFH1aNYEIHXSTqKVKH0XPdLWq4rA75C0o=
+Received: from AM6PR08MB3525.eurprd08.prod.outlook.com (20.177.115.92) by
+ AM6PR08MB4881.eurprd08.prod.outlook.com (10.255.97.215) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2729.25; Thu, 13 Feb 2020 10:35:23 +0000
+Received: from AM6PR08MB3525.eurprd08.prod.outlook.com
+ ([fe80::24f1:acd3:647:9a6d]) by AM6PR08MB3525.eurprd08.prod.outlook.com
+ ([fe80::24f1:acd3:647:9a6d%7]) with mapi id 15.20.2729.024; Thu, 13 Feb 2020
+ 10:35:23 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: Battistelli Daniela <d.battistelli@italmatch.com>, Gemma Francesco
+	<f.gemma@italmatch.com>, "m.dellagnol@italmatch.com"
+	<m.dellagnol@italmatch.com>
+Subject: Situazione PC Etichette Arese
+Thread-Topic: Situazione PC Etichette Arese
+Thread-Index: AQHV4lFpmx5VUhC0E0ad8jRHXR0IFw==
+Date: Thu, 13 Feb 2020 10:35:23 +0000
+Message-ID: <AM6PR08MB35257E1362ECA289745C1A7EEA1A0@AM6PR08MB3525.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-originating-ip: [95.255.142.92]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 94bb0ffc-afdb-4f42-488c-08d7b0706ea8
+x-ms-traffictypediagnostic: AM6PR08MB4881:|AM6PR08MB4881:
+x-ld-processed: caa71f94-1adc-4131-86ad-8ea6c85b86dc,ExtAddr
+x-microsoft-antispam-prvs: <AM6PR08MB488182CA24E493F6DB4E4424EA1A0@AM6PR08MB4881.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1051;
+x-forefront-prvs: 031257FE13
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(346002)(136003)(396003)(376002)(39830400003)(366004)(189003)(199004)(76116006)(66476007)(26005)(66946007)(8936002)(3480700007)(66556008)(6506007)(66446008)(7696005)(64756008)(86362001)(186003)(2906002)(91956017)(71200400001)(508600001)(8676002)(316002)(52536014)(110136005)(861006)(55016002)(9686003)(33656002)(5660300002)(81166006)(81156014)(15398625002)(16866085005);DIR:OUT;SFP:1101;SCL:1;SRVR:AM6PR08MB4881;H:AM6PR08MB3525.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 0Kxeour6oVvwYTaK5IC/96ds6PPLRM0os5oQ4WjgIc7n/UDcAA2cGluRl5VfF1+4EMUx4a4ibOyy1PrDmS0jVsuKIhPqWCdLtf6n5Z5NzkNQal0MRtAb4exka3Tq6d4IqEc8/LLyb7ZFPIccxuqumiCG2DRfSw067WvEr2kINTNdTeEviJo+EqAJPFmF1KMXZxai/D0GMzNDXt58fBcmw+fWobFjXzAANslFNFyg+urVbkNTE+EQeN0mnRV9O0HBPEyu4qoq/v5RLI7Ztql37SuXiub70y64f3gTDYXGK+6rUjaZb7krwXnvyvqGb6kI1SAzVBSwK4vNKCu6rgKBQx3fBqPDc0jvJHsWMNRaQKli27nygyjRMzD9MsCSyYHDCll1EIWCiefGvrsmn6t4BiG45kW3npMLdV0hUSRptUeWyWILBOIEtnG7FtDcTHr2cpdl8ZtYs0G3vF00hHXEcNQS5wQ35LOjk5Q5i0D6SK16mIeJlMCGxQCQv2vOyK8rjsxYprpizJfyi8yM/VfDpw==
+x-ms-exchange-antispam-messagedata: Mz9LlXaYaaDE7UUGoveJl86vry+R2y3X2Xh0Cw5aK9ZHmNl/SimPfIM0CQcqaLB6nxVzbk+vsR6oVvEsenhx5V4znk1gbj0kOC48i2pnQPNopW0lqtFn6WwqQZuPK5/UTt2hUgiJz5nK+KW4/TI7lg==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_AM6PR08MB35257E1362ECA289745C1A7EEA1A0AM6PR08MB3525eurp_"
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: 94bb0ffc-afdb-4f42-488c-08d7b0706ea8
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Feb 2020 10:35:23.4363
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 3TvnFRcQyRsZzUKz7zkCJG6ep3eqlSEi5hTykw6uuyhpzywkf4EYpakeA/Zb8NBO
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR08MB4881
+MIME-Version: 1.0
+
+--_000_AM6PR08MB35257E1362ECA289745C1A7EEA1A0AM6PR08MB3525eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Buongiorno
+
+Vi aggiornavo sulla situazione della postazione di Arese dedicate alle etic=
+hette , utilizzata da Giaffreda.
+
+Il pc =E8 ancora a Windows Xp , perch=E8 la stampante e il software utilizz=
+ato non =E8 possibile spostarlo e utilizzarlo su windows 10
+
+La stampante ha ancora il collegamento parallelo, c=92e=92 la possibilit=E0=
+ di collegarla al pc di Giaffreda con Windows 10 utilizzando un convertitor=
+e USB Parallelo, ma il driver non =E8 stato aggiornato per windows 10. ( bi=
+sognerebbe provare con un driver compatibile )
+
+Il software utilizzato per le etichette, ha pi=F9 di una decina di anni e l=
+a versione =E8 stata licenziata ancora alla AkzoNobel e contattando la soc.=
+ produttrice dice che =E8 necessario acquistare la nuova versione e sostitu=
+ire la stampante.
+
+Vi proporreno la sostituzione della stampante che comprende il software del=
+le etichette.
+
+Disponibile per ulteriori informazioni
+
+
+
+
+Ettore Vernazza
++39 393 3329376
+
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<https://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 =96 GDPR=
+- e quindi ne =E8 proibita l=92utilizzazione ulteriore non autorizzata. Se =
+avete ricevuto per errore questo messaggio, Vi preghiamo cortesemente di co=
+ntattare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice =96 This e-mail message including any attachments is=
+ for the sole use of the intended recipient and may contain confidential an=
+d privileged information pursuant to Legislative Decree 196/2003 and the Eu=
+ropean General Data Protection Regulation 679/2016 =96 GDPR-. Any unauthori=
+zed review, use, disclosure or distribution is prohibited. If you are not t=
+he intended recipient, please contact the sender by reply e-mail and destro=
+y all copies of the original message.
+
+--_000_AM6PR08MB35257E1362ECA289745C1A7EEA1A0AM6PR08MB3525eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"IT" link=3D"blue" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Buongiorno<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Vi aggiornavo sulla situazione =
+della postazione di Arese dedicate alle etichette , utilizzata da Giaffreda=
+.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Il pc =E8 ancora a Windows Xp ,=
+ perch=E8 la stampante e il software utilizzato non =E8 possibile spostarlo=
+ e utilizzarlo su windows 10<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">La stampante ha ancora il colle=
+gamento parallelo, c=92e=92 la possibilit=E0 di collegarla al pc di Giaffre=
+da con Windows 10 utilizzando un convertitore USB Parallelo, ma il driver n=
+on =E8 stato aggiornato per windows 10. ( bisognerebbe
+ provare con un driver compatibile )<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Il software utilizzato per le e=
+tichette, ha pi=F9 di una decina di anni e la versione =E8 stata licenziata=
+ ancora alla AkzoNobel e contattando la soc. produttrice dice che =E8 neces=
+sario acquistare la nuova versione e sostituire
+ la stampante.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Vi proporreno la sostituzione d=
+ella stampante che comprende il software delle etichette.<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Disponibile per ulteriori infor=
+mazioni<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Ettore Vernazza<o:p></o:p></p>
+<p class=3D"MsoNormal">&#43;39 393 3329376<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"https://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 =96 GDPR- e quindi ne =E8 proibita l=92utilizzazione ulteriore non a=
+utorizzata. Se avete ricevuto per errore questo messaggio, Vi preghiamo cor=
+tesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice =
+=96 This e-mail message including any attachments is for the sole use of th=
+e intended recipient and may contain confidential and privileged informatio=
+n pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 =96 GDPR-. An=
+y unauthorized review, use, disclosure or distribution is prohibited. If yo=
+u are not the intended recipient, please contact the sender by reply e-mail=
+ and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_AM6PR08MB35257E1362ECA289745C1A7EEA1A0AM6PR08MB3525eurp_--

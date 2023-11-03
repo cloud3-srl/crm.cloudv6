@@ -1,0 +1,32 @@
+{
+    "scopeNames": {
+        "Product": "Product",
+        "ProductCategory": "Product Category",
+        "ProductBrand": "Product Brand",
+        "ReportCategory": "Report Category",
+        "Quote": "Quote",
+        "QuoteItem": "Quote Item",
+        "SalesOrder": "Sales Order",
+        "SalesOrderItem": "Sales Order Item",
+        "Invoice": "Invoice",
+        "InvoiceItem": "Invoice Item",
+        "Tax": "Tax",
+        "ShippingProvider": "Shipping Provider",
+        "OpportunityItem": "Opportunity Item"
+    },
+    "scopeNamesPlural": {
+        "Product": "Products",
+        "ProductCategory": "Product Categories",
+        "ReportCategory": "Report Categories",
+        "Quote": "Quotes",
+        "QuoteItem": "Quote Items",
+        "SalesOrder": "Sales Orders",
+        "SalesOrderItem": "Sales Order Items",
+        "Invoice": "Invoices",
+        "InvoiceItem": "Invoice Items",
+        "Tax": "Taxes",
+        "ShippingProvider": "Shipping Providers",
+        "OpportunityItem": "Opportunity Items",
+        "ProductBrand": "Product Brands"
+    }
+}

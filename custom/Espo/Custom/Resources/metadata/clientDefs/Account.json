@@ -1,0 +1,52 @@
+{
+    "kanbanViewMode": false,
+    "color": "#edc755",
+    "iconClass": "fas fa-building",
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel5ee330b4ab4fe7f5a",
+                "label": "Chiamate",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "5ee330b4ab4fe7f5a",
+                "reportType": "List",
+                "reportEntityType": "Call",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "Call"
+                    }
+                ],
+                "order": 1,
+                "sticked": true
+            }
+        ]
+    },
+    "sidePanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel60096a595ad12f3a1",
+                "label": "Ore prepagate",
+                "view": "advanced:views/report-panel/record/panels/report-panel-side",
+                "reportPanelId": "60096a595ad12f3a1",
+                "reportType": "Grid",
+                "reportEntityType": "Prepagato",
+                "displayTotal": false,
+                "displayOnlyTotal": true,
+                "useSiMultiplier": false,
+                "accessDataList": [
+                    {
+                        "scope": "Prepagato"
+                    }
+                ],
+                "column": "SUM:mvQtaRes"
+            }
+        ]
+    }
+}

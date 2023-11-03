@@ -1,0 +1,23 @@
+{
+  "scopeNames": {
+    "Product": "Produkt",
+    "ProductCategory": "Produktkategorie",
+    "ProductBrand": "Produkt Marke",
+    "Quote": "Angebot",
+    "QuoteItem": "Angebotsposition",
+    "Tax": "Steuer",
+    "ShippingProvider": "Versender",
+    "OpportunityItem": "Verkaufschancenposition"
+  },
+  "scopeNamesPlural": {
+    "Product": "Produkte",
+    "ProductCategory": "Produktkategorien",
+    "ReportCategory": "Berichtkategorien",
+    "Quote": "Angebote",
+    "QuoteItem": "Angebotsartikel",
+    "Tax": "Steuern",
+    "ShippingProvider": "Versender",
+    "OpportunityItem": "Verkaufschancenpositionen",
+    "ProductBrand": "Produkt Marken"
+  }
+}

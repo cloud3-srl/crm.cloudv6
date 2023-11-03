@@ -1,0 +1,230 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "number": {
+            "type": "varchar",
+            "maxLength": "100",
+            "fieldManagerAdditionalParamList": [
+                {
+                    "name": "useAutoincrement",
+                    "type": "bool"
+                }
+            ],
+            "useAutoincrement": true
+        },
+        "numberA": {
+            "type": "number",
+            "prefix": "Q-",
+            "padLength": 5,
+            "disabled": true
+        },
+        "invoiceNumber": {
+            "type": "varchar",
+            "maxLength": "100"
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Draft", "In Review", "Presented", "Approved", "Rejected", "Canceled"],
+            "view": "views/fields/enum-styled",
+            "style": {
+                "Closed Won": "success",
+                "Rejected": "danger"
+            },
+            "default": "Draft",
+            "fieldManagerAdditionalParamList": [
+                {
+                    "name": "notActualOptions",
+                    "view": "sales:views/admin/field-manager/fields/not-actual-options"
+                }
+            ],
+            "notActualOptions": ["Approved", "Rejected", "Canceled"]
+        },
+        "dateQuoted": {
+            "type": "date",
+            "default": "javascript: return this.dateTime.getToday();"
+        },
+        "dateOrdered": {
+            "type": "date"
+        },
+        "dateInvoiced": {
+            "type": "date"
+        },
+        "account": {
+            "type": "link",
+            "view": "sales:views/quote/fields/account"
+        },
+        "opportunity": {
+            "type": "link",
+            "view": "sales:views/quote/fields/opportunity"
+        },
+        "description": {
+            "type": "text"
+        },
+        "billingAddress": {
+            "type": "address"
+        },
+        "shippingAddress": {
+            "type": "address"
+        },
+        "billingContact": {
+            "type": "link",
+            "view": "sales:views/quote/fields/contact"
+        },
+        "shippingContact": {
+            "type": "link",
+            "view": "sales:views/quote/fields/contact"
+        },
+        "tax": {
+            "type": "link",
+            "view": "sales:views/quote/fields/tax"
+        },
+        "taxRate": {
+            "type": "float",
+            "min": 0,
+            "max": 100
+        },
+        "shippingProvider": {
+            "type": "link"
+        },
+        "shippingCost": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "taxAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true,
+            "readOnly": true
+        },
+        "discountAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true,
+            "readOnly": true
+        },
+        "amount": {
+            "type": "currency"
+        },
+        "preDiscountedAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true,
+            "readOnly": true
+        },
+        "grandTotalAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true,
+            "readOnly": true
+        },
+        "weight": {
+            "type": "float",
+            "min": 0,
+            "readOnly": true
+        },
+        "itemList": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "layoutDetailDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true,
+            "view": "sales:views/quote/fields/item-list",
+            "templatePlaceholderDisabled": true,
+            "reportDisabled": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "tax": {
+            "type": "belongsTo",
+            "entity": "Tax"
+        },
+        "shippingProvider": {
+            "type": "belongsTo",
+            "entity": "ShippingProvider"
+        },
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account",
+            "foreign": "quotes"
+        },
+        "opportunity": {
+            "type": "belongsTo",
+            "entity": "Opportunity",
+            "foreign": "quotes"
+        },
+        "salesOrders": {
+            "type": "hasMany",
+            "entity": "SalesOrder",
+            "foreign": "quote",
+            "audited": true
+        },
+        "invoices": {
+            "type": "hasMany",
+            "entity": "Invoice",
+            "foreign": "quote",
+            "audited": true
+        },
+        "billingContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "quotesBilling"
+        },
+        "shippingContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "quotesShipping"
+        },
+        "items": {
+            "type": "hasMany",
+            "entity": "QuoteItem",
+            "foreign": "quote",
+            "layoutRelationshipsDisabled": true
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false,
+        "textFilterFields": ["name", "number"]
+    }
+}

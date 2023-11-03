@@ -1,0 +1,231 @@
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=FpRq8wBNP6poDlapohwVjXz2cmbYlKXm6cpqVwOi2NGIGDAumXhJDXUDCSUQK/y/ZZR+isidfa/LxJirugFBuf/RGKGaw211LCLlvMMNz4gIc5kQFqjeL0ly4N1oLOJbhgvtwSgXApFTh0ekCQvv91AhGvOsZGQcM/fkDGyxkuyrUrsKvnxsKZBZey+kM0XEZX14QlgyffkhmHY594KXdVJymp2M2PfJLtW4pQspQzIo+XiVwoi5ncxpBOZYq7T+JaYx+B2u6rCZTxiRYGZiWirXqAekP6KTkXsusGe2jA4mj/voZ0euJqY78oEijAxC3rR6nfmOguQ7MDjjcb3NPQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=9HXSX/7GjmKvISHDZXiwCPHG/k+rGpFj/tJEKCbLo50=;
+ b=jVL2JRl/7fcfB+GRdidsJvdH9ddhZeOXzD60Ujd2pIU5/oxakmY41WsWpoxvPZ5D5lwIXHSGGxCsCFpACPdGEnZApSafvKWBA7mXuhem8T2h16SyZU4g4/YjsAhGJmlvXCbrrmOGS9Mmn1amam9WXQvq6gcryB/nQdCwb+dnuELxtzOvte7q4LZPrZQ29peTwK+C8Cc2Kfthjmnb2jAuy1IUF2uIpmijhNfQ7hkfktvizkQjlnk7+zdrJaiFDNRij6y8TkUCKxI76kXjqRnbj5+KPPrSxDFwGWyyb8YOft3sYHvlFXvZgxENz2RMTI3B+m3AaU8vFL1aL+n5yOyinQ==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1;spf=pass (sender ip is
+ 40.107.12.45) smtp.rcpttodomain=ldslogistic.it
+ smtp.mailfrom=cloud3.srl;dmarc=bestguesspass action=none
+ header.from=cloud3.srl;dkim=pass (signature was verified)
+ header.d=cloud3srl.onmicrosoft.com;arc=pass (0 oda=1 ltdi=1
+ spf=[1,1,smtp.mailfrom=cloud3.srl] dkim=[1,1,header.d=cloud3.srl]
+ dmarc=[1,1,header.from=cloud3.srl])
+Received: from HE1PR1001CA0006.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:3:f7::16)
+ by AM0PR10MB2130.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:208:da::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2115.15; Mon, 29 Jul
+ 2019 13:26:01 +0000
+Received: from DB5EUR03FT034.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e0a::201) by HE1PR1001CA0006.outlook.office365.com
+ (2603:10a6:3:f7::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2115.10 via Frontend
+ Transport; Mon, 29 Jul 2019 13:26:00 +0000
+Authentication-Results: spf=pass (sender IP is 40.107.12.45)
+ smtp.mailfrom=cloud3.srl; ldslogistic.it; dkim=pass (signature was verified)
+ header.d=cloud3srl.onmicrosoft.com;ldslogistic.it; dmarc=bestguesspass
+ action=none header.from=cloud3.srl;
+Received-SPF: Pass (protection.outlook.com: domain of cloud3.srl designates
+ 40.107.12.45 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.107.12.45; helo=FRA01-PR2-obe.outbound.protection.outlook.com;
+Received: from FRA01-PR2-obe.outbound.protection.outlook.com (40.107.12.45) by
+ DB5EUR03FT034.mail.protection.outlook.com (10.152.20.87) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2052.18 via Frontend Transport; Mon, 29 Jul 2019 13:26:00 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Sy6bBVUjWFqXpEdyN1rSYhuj2DZmeJTxMIXRGpwpaSZaduj1cWYDWxBo6qzSw6rpRIojfb60y5dPjHNCtHW/uC2W0xFMdAN5qJPPNOQOrTIh/N3Vt8PGNJF9deTmrU568evHQ4LtJx+ssXSHuo6RBIpzM9nbr9pCcdnTwuTjPFFOD4xAYW79t3GOpOqHw0Yi4y5bQu/KHjJda/I6lMitk4wByyuii9SqLEh+/Ku5096qpmoRLXp9c+Jv/5rNygPULIflDRaNGpNP5dUV8J4vGWdRahLuQS0hb8/hcCtiCUULz1B1CAEr6Q5BgCuLxkuWT5w5Rgg5AsBdr9JMgMBolw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=9HXSX/7GjmKvISHDZXiwCPHG/k+rGpFj/tJEKCbLo50=;
+ b=LxcP1GPlpWyFZnT9NEadoM0rOU+1ckCPvCgnX1CPWIStO2J60M2cMVkwmzHs2IBAlSDvz6x6cBnLMMNbcJEcRXIzAagKgeMACJEwZIr8LS/al+jvq004exBxjkVK1HLk6Kgssd3BlyJ8lfWBxG0Ww5Ko14jTusPsXyuu4T2Vn6Z3Hyc1yfyDr7DQdX2rOwgReMngFGQfXR8UKm/8uiNzFGMiNZUYs3434OcjWDDu9mb3SHq4oZamZnLAg6qWne9khlydpIAZpHzmy7mDuzZxvPSOuVhuA7v1C6daB4zd35giWyCQj/Z0fq5oMkizLcMfHIYQgyONR7HRIDnWYiI2lw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1;spf=pass
+ smtp.mailfrom=cloud3.srl;dmarc=pass action=none
+ header.from=cloud3.srl;dkim=pass header.d=cloud3.srl;arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=9HXSX/7GjmKvISHDZXiwCPHG/k+rGpFj/tJEKCbLo50=;
+ b=aODSZK2glq1aHQrGOVHSmEeTxRimNRw06TdQo1Sp41z/Nevy9q6UW7vozy2QCZnarrFzG+R6iZOFrCar9dWkiQrjfOs7IBCmRVqcGAG/nTDhJoYEH17jm1iXbT40bEiNqK+HBcnutlv9UiM9n520AKHWALC/BS67HYFY0Zw0A8s=
+Received: from PR2PR08MB4812.eurprd08.prod.outlook.com (52.133.110.142) by
+ PR2PR08MB4892.eurprd08.prod.outlook.com (52.133.110.79) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2115.14; Mon, 29 Jul 2019 13:25:59 +0000
+Received: from PR2PR08MB4812.eurprd08.prod.outlook.com
+ ([fe80::b547:223b:46df:1bef]) by PR2PR08MB4812.eurprd08.prod.outlook.com
+ ([fe80::b547:223b:46df:1bef%6]) with mapi id 15.20.2115.005; Mon, 29 Jul 2019
+ 13:25:59 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "magazzino@ldslogistic.it" <magazzino@ldslogistic.it>
+Subject: test
+Thread-Topic: test
+Thread-Index: AdVGESLYzgB8ihJ5ST2dD22HpkqUZg==
+Disposition-Notification-To: Help / CLOUD3 <help@cloud3.srl>
+Return-Receipt-To: <help@cloud3.srl>
+Date: Mon, 29 Jul 2019 13:25:59 +0000
+Message-ID: <PR2PR08MB48124B9EAF669A893D3D9218D9DD0@PR2PR08MB4812.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [95.255.142.92]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 4882e185-b735-40c9-432c-08d714284c1b
+X-Microsoft-Antispam-Untrusted: BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(7021145)(8989299)(4534185)(7022145)(4603075)(4627221)(201702281549075)(8990200)(7048125)(7024125)(7027125)(7023125)(5600148)(711020)(4605104)(1401327)(2017052603328)(7193020);SRVR:PR2PR08MB4892;
+X-MS-TrafficTypeDiagnostic: PR2PR08MB4892:|AM0PR10MB2130:
+x-microsoft-antispam-prvs: <PR2PR08MB489272718CB6DA22A8FF99E0EADD0@PR2PR08MB4892.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-prvs: 01136D2D90
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(136003)(396003)(39830400003)(346002)(376002)(366004)(199004)(189003)(33656002)(256004)(221733001)(606006)(316002)(14444005)(64756008)(52536014)(66476007)(76116006)(626008)(66946007)(68736007)(5024004)(5660300002)(14454004)(66066001)(25786009)(6916009)(486006)(476003)(66556008)(19627235002)(66446008)(508600001)(71190400001)(71200400001)(7736002)(2906002)(54896002)(74316002)(2501003)(55016002)(9686003)(8676002)(5640700003)(217283003)(2351001)(86362001)(6306002)(7116003)(81156014)(3846002)(6116002)(790700001)(186003)(26005)(99286004)(8936002)(236005)(6506007)(3480700005)(7696005)(102836004)(1730700003)(53936002)(6436002)(81166006)(733005)(861006)(220243001)(15398625002)(16866085005);DIR:OUT;SFP:1101;SCL:1;SRVR:PR2PR08MB4892;H:PR2PR08MB4812.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;A:1;MX:1;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Message-Info-Original: 0ZwKwUBuf+CV5yTBGnfq5HLynVhvEs+T/1HTmybKjzFaKmsPy67C4wpTt1EqBOYTHc1G7mUvIUqt1FUAvxRNIQCws8dK4i3d57zWdQtztT/F4i/FazqEz4qwmDpUfHE4zOLHsYR5mopeoYFdEbqXtAzzq9v9LFPS0vnSEyUPUgN9aQ6zzifQMU9KsPnrbllP+4dFmQISp/nir4M3BTt4a5tOnsSM94TR6FFnWOfaSvOxeF3n84aGbRckWQ4u2B8Gbe0J3EYJY22mcUnEMkfmGKvdw02pcHP9OBYLYPu34uU=
+Content-Type: multipart/alternative;
+	boundary="_000_PR2PR08MB48124B9EAF669A893D3D9218D9DD0PR2PR08MB4812eurp_"
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PR2PR08MB4892
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 113b75e3-2cc5-425c-bfa7-6286326558d9:0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: DB5EUR03FT034.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: DB5EUR03FT034.eop-EUR03.prod.protection.outlook.com
+X-Forefront-Antispam-Report: CIP:40.107.12.45;IPV:NLI;CTRY:FR;EFV:NLI;
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 4b1086d2-0482-4808-8542-08d714284b69
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600148)(710020)(711020)(4605104)(4709080)(1420029)(8001031)(1414054)(1124261)(71702078)(7193020);SRVR:AM0PR10MB2130;
+X-MS-Exchange-PUrlCount: 2
+MIME-Version: 1.0
+
+--_000_PR2PR08MB48124B9EAF669A893D3D9218D9DD0PR2PR08MB4812eurp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+gabriele
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<http://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento ? formato esclusivamente per il destinatario. Tutte le inf=
+ormazioni ivi contenute, compresi eventuali allegati, sono da ritenere escl=
+usivamente confidenziali e riservate secondo i termini del vigente D.Lgs. 1=
+96/2003 in materia di privacy e del Regolamento europeo 679/2016 - GDPR- e =
+quindi ne ? proibita l'utilizzazione ulteriore non autorizzata. Se avete ri=
+cevuto per errore questo messaggio, Vi preghiamo cortesemente di contattare=
+ immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice - This e-mail message including any attachments is f=
+or the sole use of the intended recipient and may contain confidential and =
+privileged information pursuant to Legislative Decree 196/2003 and the Euro=
+pean General Data Protection Regulation 679/2016 - GDPR-. Any unauthorized =
+review, use, disclosure or distribution is prohibited. If you are not the i=
+ntended recipient, please contact the sender by reply e-mail and destroy al=
+l copies of the original message.
+
+--_000_PR2PR08MB48124B9EAF669A893D3D9218D9DD0PR2PR08MB4812eurp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">gabriele<o:p></o:p></p>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"http://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento &egrave=
+; formato esclusivamente per il destinatario. Tutte le informazioni ivi con=
+tenute, compresi eventuali allegati, sono da ritenere esclusivamente confid=
+enziali e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 &#8211; GDPR- e quindi ne &egrave; proibita l&#8217;utilizzazione ul=
+teriore non autorizzata. Se avete ricevuto per errore questo messaggio, Vi =
+preghiamo cortesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice &=
+#8211; This e-mail message including any attachments is for the sole use of=
+ the intended recipient and may contain confidential and privileged informa=
+tion pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 &#8211; GDPR-=
+. Any unauthorized review, use, disclosure or distribution is prohibited. I=
+f you are not the intended recipient, please contact the sender by reply e-=
+mail and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_PR2PR08MB48124B9EAF669A893D3D9218D9DD0PR2PR08MB4812eurp_--

@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM7PR08MB5414.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; v.bracci@unvexsrl.com
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain unvexsrl.com does
+ not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=unvexsrl.com]
+ [VE1EUR01FT054.eop-EUR01.prod.protection.outlook.com]>
+

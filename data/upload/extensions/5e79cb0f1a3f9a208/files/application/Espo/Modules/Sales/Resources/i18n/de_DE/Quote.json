@@ -1,0 +1,64 @@
+{
+  "labels": {
+    "Create Quote": "Neues Angebot",
+    "Taxes": "Steuern",
+    "Shipping Providers": "Versender",
+    "Add Item": "Position hinzufügen",
+    "Templates": "Vorlagen",
+    "Items": "Positionen",
+    "Email PDF": "E-Mail PDF",
+    "Quote Items": "Angebotsartikel"
+  },
+  "fields": {
+    "number": "Angebotsnummer:",
+    "invoiceNumber": "Rechnungsnummer",
+    "account": "Firma",
+    "opportunity": "Verkaufschance",
+    "billingAddress": "Rechnungsadresse",
+    "shippingAddress": "Lieferadresse",
+    "billingContact": "Kontakt f. Rechnungsadresse",
+    "shippingContact": "Kontakt f. Lieferadresse",
+    "tax": "Steuer",
+    "taxRate": "Steuersatz:",
+    "shippingCost": "Lieferkosten",
+    "shippingProvider": "Versender",
+    "taxAmount": "Steuerbetrag",
+    "discountAmount": "Rabattbetrag",
+    "amount": "Betrag",
+    "preDiscountedAmount": "Betrag vor Rabatt",
+    "grandTotalAmount": "Gesamtbetrag",
+    "itemList": "Positionliste",
+    "dateQuoted": "Angebotsdatum",
+    "dateInvoiced": "Rechnungsdatum",
+    "weight": "Gewicht",
+    "amountConverted": "Betrag (konvertiert)",
+    "taxAmountConverted": "Steuerbetrag (konvertiert)",
+    "shippingCostConverted": "Lieferkosten (konvertiert)",
+    "preDiscountedAmountConverted": "Betrag vor Rabatt (konvertiert)",
+    "discountAmountConverted": "Rabattbetrag (konvertiert)",
+    "grandTotalAmountConverted": "Gesamtbetrag (konvertiert)",
+    "currency": "Währung"
+  },
+  "links": {
+    "items": "Positionen",
+    "billingContact": "Kontakt f. Rechnungsadresse",
+    "shippingContact": "Kontakt f. Lieferadresse",
+    "opportunity": "Verkaufschance",
+    "account": "Firma",
+    "tax": "Steuer"
+  },
+  "options": {
+    "status": {
+      "Draft": "Entwurf",
+      "In Review": "In Durchsicht",
+      "Presented": "Präsentiert",
+      "Approved": "Genehmigt",
+      "Rejected": "Abgelehnt",
+      "Canceled": "Storniert"
+    }
+  },
+  "presetFilters": {
+    "actual": "Aktuell",
+    "approved": "Genehmigt"
+  }
+}

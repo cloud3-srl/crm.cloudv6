@@ -1,0 +1,3309 @@
+Received: from ibox4.zucchetti.com (62.108.227.190) by srvmail01.intranet.dns
+ (10.1.1.10) with Microsoft SMTP Server id 14.3.146.0; Fri, 11 Oct 2019
+ 11:57:24 +0200
+Received: (qmail 20776 invoked from network); 11 Oct 2019 09:57:24 -0000
+Received: from unknown (HELO EUR03-DB5-obe.outbound.protection.outlook.com)
+ (40.107.4.70)  by ibox4.it.zucchetti.com with SMTP; 11 Oct 2019 09:56:57
+ -0000
+Received: from DB7PR08MB3241.eurprd08.prod.outlook.com (52.134.111.15) by
+ DB7PR08MB3257.eurprd08.prod.outlook.com (52.134.108.30) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2347.19; Fri, 11 Oct 2019 09:56:55 +0000
+Received: from DB7PR08MB3241.eurprd08.prod.outlook.com
+ ([fe80::997d:ca5e:c3dd:3ceb]) by DB7PR08MB3241.eurprd08.prod.outlook.com
+ ([fe80::997d:ca5e:c3dd:3ceb%3]) with mapi id 15.20.2347.021; Fri, 11 Oct 2019
+ 09:56:55 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: Cristian Consigli <C.Consigli@zucchettisystema.it>, Vincenzo Carella
+	<V.Carella@zucchettisystema.it>
+CC: Gianluca Cavari <G.Cavari@zucchettisystema.it>, Luca Polvani
+	<L.Polvani@zucchettisystema.it>
+Subject: R: Punto della situazione dell'installazione Gonnelli
+Thread-Topic: Punto della situazione dell'installazione Gonnelli
+Thread-Index: AdUA8Wk+Hlw/RmFZRCKqTlj1fAaM+wAAFpWgAAIqwiAfxTQMLQAACX0Q
+Date: Fri, 11 Oct 2019 09:56:55 +0000
+Message-ID: <DB7PR08MB3241573631DAA0F0273BD8D7FA970@DB7PR08MB3241.eurprd08.prod.outlook.com>
+References: <AM0PR08MB3809C8CABD99EEAA66428319A3340@AM0PR08MB3809.eurprd08.prod.outlook.com>
+ <VI1PR08MB2845025C8120071A4CBFB25FB3340@VI1PR08MB2845.eurprd08.prod.outlook.com>,<VI1PR08MB28450771F65628B556D5BBCBB3340@VI1PR08MB2845.eurprd08.prod.outlook.com>
+ <VI1PR08MB28458C79B235137251F65112B3970@VI1PR08MB2845.eurprd08.prod.outlook.com>
+In-Reply-To: <VI1PR08MB28458C79B235137251F65112B3970@VI1PR08MB2845.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Exchange-Organization-AuthSource: srvmail01.intranet.dns
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-spam-status: No, score=-0.4 required=6.0 tests=BAYES_00,DKIM_SIGNED,
+	DKIM_VALID,HTML_MESSAGE,PDS_HP_HELO_NORDNS,RCVD_IN_AMI_WHITE,
+	RCVD_IN_DNSWL_NONE,RDNS_NONE autolearn=no version=3.3.1
+x-spam-level:
+x-originating-ip: [95.255.142.92]
+x-spam-checker-version: SpamAssassin 3.3.1 (2010-03-16) on
+	ibox4.it.zucchetti.com
+x-tm-as-product-ver: SMEX-11.1.0.1239-8.000.1202-22742.005
+x-tm-as-result: No--17.880400-5.000000-31
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jasGe6GFvN/H4uW9gpf/0haGn4ByFgS+r2KDY03S+oc=;
+ b=s+Fs7klxvzYpOj5xknpqDPAdAIfRNzFUy3yR8p3T6Vu4zKbbJHfOCXx259Xc2UZEAZhjhdqWpNSqLPzQ+E0KPQyo5is6LRMTiW3r3UGy0kFpZbs8wl27ZBDyL+JFcKatF0hz9QwUkHxZYks0iH5g56hOYm1cHvVvJGigfFStdcc=
+x-tm-as-user-approved-sender: No
+x-tm-as-user-blocked-sender: No
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(366004)(136003)(39830400003)(376002)(346002)(396003)(189003)(199004)(2501003)(76176011)(66066001)(446003)(4326008)(476003)(486006)(236005)(9686003)(86362001)(5660300002)(102836004)(7696005)(606006)(11346002)(6306002)(8936002)(54896002)(6506007)(52536014)(5024004)(55016002)(99286004)(19627235002)(14454004)(81166006)(81156014)(99936001)(6436002)(14444005)(256004)(8676002)(54906003)(6116002)(790700001)(3846002)(74316002)(508600001)(71200400001)(71190400001)(7736002)(25786009)(33656002)(76116006)(66946007)(186003)(733005)(66576008)(66556008)(66476007)(30864003)(26005)(66446008)(64756008)(450100002)(2906002)(316002)(110136005)(151773002)(15398625002)(559001)(569006);DIR:OUT;SFP:1101;SCL:1;SRVR:DB7PR08MB3257;H:DB7PR08MB3241.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;MX:1;A:1;
+Content-Type: multipart/related;
+	boundary="_005_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_";
+	type="multipart/alternative"
+X-Message-Flag: Completare
+MIME-Version: 1.0
+
+--_005_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_"
+
+--_000_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Buongiorno,
+
+a seguito della vostra richiesta vi elenchiamo gli argomenti trattati in te=
+leassistenza e approfonditi con il sig. Matteo sull=92uso corretto delle pr=
+ocedure, il tempo conteggiato tiene conto della configurazione e predisposi=
+zioni archivi sulle necessit=E0 del cliente,  durante le spiegazioni sono e=
+merse alcune necessit=E0 le  quali sono state recepite e eseguite  le modif=
+iche necessarie, il tempo impiegato per le modifiche non rientra nel comput=
+o orario
+
+
+
+*       Maggio 2019  3 ore: Utile  lordo e inventario valorizzato dello sfu=
+so compresa la parametrizzazione necessaria
+
+
+
+*       1 Agosto 1 ora: Valorizzazione costi dei confezionamenti
+
+
+
+*       settembre  1 ora: Costificazione olio di lotti di articoli confezio=
+nati e sfusi ( documenti di vendita o in giacenza)
+
+
+
+*       settembre 1 ora: Configurazione dei campi obbligatori e non richies=
+ti in base alla denominazione DOP/IGP ai fini SIAN
+
+
+
+*       7 agosto 3 ore : Simulazione delle registrazioni relative al franto=
+io
+
+
+
+*       25 settembre 2 ore:    Verifica e visualizzazione / stampe conferim=
+enti registrati e stato lavorazione con le varie possibilit=E0 di filtro
+
+Verifica e visualizzazione / stampe moliture effettuate con le varie possib=
+ilit=E0 di filtro
+
+Stampa delle temperature di molitura
+
+Simulazione delle registrazioni relative al frantoio  il 25 settembre
+
+
+
+
+
+Sono stati effettuati 3 avanzamenti patch, di seguito il dettaglio delle or=
+e dedicate all=92installazione:
+
+18 dicembre 2 ore avanzamento alla fast patch 413
+
+29 maggio 2 ore avanzamento alla fast patch 460
+
+12 giugno 2  ore  avanzamento alla fast patch 478
+
+
+
+
+
+Totale ore formazione in teleassistenza: 11 ore
+
+Totale ore avanzamento patch in teleassistenza: 6 ore
+
+Totale ore formazione precedenti a maggio 2019 in teleassistenza: 12 ore
+
+Totale ore parametrizzazioni in teleassistenza: 12 ore
+
+Totale ore formazione presso il cliente (11/10/2018 e 3/12/2018): 16 ore
+
+
+
+Totale: 57 ore
+
+
+
+Rimango a disposizione per ulteriori chiarimenti
+
+Cordiali saluti
+
+Sergio Cola
+
+
+
+
+
+
+
+
+
+
+
+  _____
+
+Da: Help | CompuNet
+Inviato: gioved=EC 2 maggio 2019 17:25
+A: C.Consigli@zucchettisystema.it<mailto:C.Consigli@zucchettisystema.it> <C=
+.Consigli@zucchettisystema.it<mailto:C.Consigli@zucchettisystema.it>>; V.Ca=
+rella@zucchettisystema.it<mailto:V.Carella@zucchettisystema.it> <V.Carella@=
+zucchettisystema.it<mailto:V.Carella@zucchettisystema.it>>
+Cc: G.Cavari@zucchettisystema.it<mailto:G.Cavari@zucchettisystema.it> <G.Ca=
+vari@zucchettisystema.it<mailto:G.Cavari@zucchettisystema.it>>; L.Polvani@z=
+ucchettisystema.it<mailto:L.Polvani@zucchettisystema.it> <L.Polvani@zucchet=
+tisystema.it<mailto:L.Polvani@zucchettisystema.it>>
+Oggetto: I: Punto della situazione dell'installazione Gonnelli
+
+
+
+Buongiorno Cristian
+
+Come da vostra richiesta Vi elenchiamo di seguito lo stato dell=92installaz=
+ione
+
+Vogliamo sottolineare  che in questo momento storico, di continui aggiornam=
+enti  della normativa  sulla  fatturazione elettronica, dobbiamo interrompe=
+re le implementazioni per eseguire gli allineamenti patch per  garantire l=
+=92operativit=E0 costante, purtroppo,  inevitabilmente e in modo non preved=
+ibile i tempi di rilascio di alcune procedure riassuntive hanno subito e su=
+biranno ritardi.
+
+
+
+Riportiamo di seguito i punti della nostra offerta. In rosso  le nostre oss=
+ervazioni
+
+
+
+
+
+1.      Carico delle olive per conto proprio =96 installato e funzionante
+2.      Molitura per conto proprio=96 installato e funzionante
+
+
+
+3.      Acquisto olive da terzi con generazione automatica dell'autofattura=
+  non =E8 ancora stato richiesto: =E8  installato e funzionante.
+4.      ( fatta eccezione per l=92autofattura, che al momento  non =E8 stat=
+o richiesto.)
+
+
+
+5.      Molitura per conto terzi con creazione del documento associato: =E8=
+ installato e funzionante
+6.      Registrazione di tutte le altre movimentazioni degli oli, sfusi e c=
+onfezionati, che non siano acquisti o vendite; =E8 installato e funzionante=
+.
+7.      Tutte le registrazioni sono fattibili da Adhoc Standard, ( sono sta=
+te installate le maschere di Ad Hoc Oil per velocizzare le operazioni di re=
+gistrazione
+8.      Sar=E0 rilasciata a luglio la versione con alcuni automatismi per r=
+endere pi=F9 semplice e veloce  la procedura degli svuotamenti.)
+9.      Compilazione dei Registri di Carico e Scarico degli oli vergini ed =
+extravergini con origine, sfusi e confezionati (Reg. Cee 1019/02 e DM 10/10=
+/2007); =E8 installato e funzionante
+10.     Gestione del magazzino di tutti gli oli con o senza origine, DOP, I=
+GP, Bio; =E8 installato e funzionante.
+11.     Registrazione conferimento olive di terzi, proprie, acquistate; =E8=
+ installato e funzionante.
+12.     Registrazione lavorazione olive con gestione olio DOP, IGP, Biologi=
+co; =E8 installato e funzionante.
+13.     Emissione del DDT restituzione olio, fattura/ricevuta della molitur=
+a, autofattura; =E8  installato e funzionante,
+14.     l=92autofattura =E8 esclusa, ma non  richiesta.
+15.     Compilazione e stampa del registro lavorazioni c/terzi; =E8 previst=
+a per luglio
+16.     Compilazione e stampa  registro di attivit=E0 del frantoio; =E8 pre=
+vista per luglio
+17.     Registro di carico/scarico della sansa e delle acque reflue; =E8 pr=
+evista per luglio
+18.     Elenco giornaliero lavorazioni DOP, IGP, BIO da inviare ai consorzi=
+ di tutela; =E8 prevista per luglio
+19.     Gestione vasche e tracciabilit=E0 di ogni olio; =E8  installato e f=
+unzionante
+20.     Gestione schede dell=92olio di ogni cliente, in giacenza a qualsias=
+i titolo; =E8 installato e funzionante.
+21.     Sar=E0 rilasciata a luglio la versione con alcuni automatismi per r=
+endere pi=F9 semplice la procedura.
+
+
+
+
+
+Le altre vostre richieste migliorative  per ottimizzare il vostro modo di l=
+avorare,
+
+
+
+
+
+1.      -Tracciabilit=E0 completa dalla bottiglia alla partita di olive e v=
+iceversa;
+
+   a.   E=92 previsto nelle funzionalit=E0 standard di Ad Hoc Oil =E8  inst=
+allato e funzionante
+
+
+
+2.      -Elenco fornitori di olive/olio all=92interno di una vasca a una de=
+terminata data;
+
+   a.   Verr=E0 incluso nello standard, prevedendo la possibilit=E0 di effe=
+ttuare la tracciabilit=E0 a partire da una vasca.  =E8  installato e funzio=
+nante
+
+
+
+3.      -Analisi di confezionamento con giacenza del prodotto finito delle =
+due aziende e venduto totale al netto dell=92intercompany come da stampa vi=
+sta insieme;  =E8  installato e funzionante,.
+
+   a.   realizzato da Compunet anche se inizialmente era prevista l=92imple=
+mentazione  con infobusiness
+
+
+
+4.      Triplo passaggio per carico di confezionamento (il primo provvisori=
+o da parte del responsabile dell=92imbottigliamento + seconda conferma da p=
+arte del magazziniere che controlla il fisico + terzo definitivo da parte d=
+ell=92ufficio);
+
+   a.   Lo standard di Ad Hoc Oil prevede 3 modalit=E0 di confezionamento:
+   b.   scelta dell'articolo da confezionare e scarico dei componenti della=
+ distinta base
+
+5.      scelta della lista di prelievo dei componenti utilizzati ( necessar=
+io utilizzare il terminale skorpio e il modulo mobile)
+6.      scelta delle etichette SSCC stampate sui pallet durante il confezio=
+namento in linea
+
+
+
+   a.   Verr=E0 implementata la possibilit=E0 di salvare in stato provvisor=
+io (i saldi di magazzino non vengono aggiornati) solo per la modalit=E0 a (=
+scelta dell=92articolo). Il confezionamento salvato in provvisorio sar=E0 m=
+odificabile per la parte relativa agli imballaggi. Il salvataggio avverr=E0=
+ in stato provvisorio o confermato (i saldi di magazzino vengono aggiornati=
+) in base all=92utente.
+   b.   In questo modo la conferma dell'avvenuto confezionamento potr=E0 es=
+sere effettuata solo dal responsabile dell'ufficio competente, responsabile=
+ dell=92imbottigliamento e magazziniere potranno invece creare e modificare=
+ il confezionamento in stato provvisorio.
+   c.   La  prima versione della procedura  =E8 prevista per luglio
+
+
+
+7.      Possibilit=E0  di avere un=92unica pagina dove poter effettuare le =
+varie stampe relative alle moliture potendo combinare vari filtri (per clie=
+nte, per data, conto terzi o conto acquisto, per tipologia olio, etc);
+
+   a.   Verr=E0 implementa come da vostra richiesta.
+
+
+
+8.      Fatturazione delle moliture c/terzi in base al peso delle olive con=
+ferite (con possibilit=E0 di agganciare vari listini) e non alla quantit=E0=
+ di olio restituito (indicato nel ddt di uscita).
+
+   a.   E=92 previsto nelle funzionalit=E0 standard di Ad Hoc Oil  =E8 inst=
+allato e funzionante
+
+
+
+9.      Percorsi separati per conferimento e molitura di olive c/acquisto e=
+ c/proprio;
+
+   a.   Verranno implementi come da vostra richiesta. =E8 installato e funz=
+ionante
+
+
+
+10.     Possibilit=E0 di aggiungere descrizioni aggiuntive nelle fatture di=
+ molitura con particolari tipologie di olio (le fatturazioni di moliture Ol=
+io Dop hanno bisogno di una dicitura, quelle Igp un=92altra e cos=EC via) e=
+ possibilit=E0 di aggiungere in fatture sevizi aggiuntivi (per esempio filt=
+raggio).
+
+   a.   Verr=E0 implementa come da vostra richiesta. Saranno previste descr=
+izioni automatiche personalizzate per tipologia di olio (che verrano riport=
+ate in fattura). =E8 installato e funzionante
+
+11.     Prenotazione moliture in grado di sostituire il programma esistente=
+ (suddiviso per linee, possibilit=E0 di spostare gli appuntamenti, possibil=
+it=E0 di compattare gli appuntamenti).
+
+   a.   Questa personalizzazione,  che migliora lo standard di Ad Hoc Oil, =
+ avverr=E0 in una seconda fase alla fine dei test. E=92 inclusa nell=92acco=
+rdo commerciale e verr=E0 eseguita senza ulteriori costi  ma non far=E0 par=
+te del collaudo procedurale in quanto, i  tempi di realizzazione,  non sono=
+ ad oggi preventivabili.
+   b.   Personalizzazione richiesta  e promessa come realizzabile anche se =
+con qualche riserva considerando il vostro attuale programma funzionante.
+   c.   La data di consegna non =E8 valutabile nel  progetto in quanto come=
+ anticipato la difficolt=E0 =E8 notevole.
+
+
+
+   Di seguito le ulteriori richieste:
+
+12.     Procedura di costificazione del confezionato per potere stampare gl=
+i inventari corretti e per poter visualizzare il margine di vendita su Info=
+vision ( Consegna stimabile  dopo il 15 maggio )
+
+
+
+La valorizzazione dei movimenti di carico da produzione non era stata previ=
+sta in fase di analisi/vendita, ma riteniamo corretto implementarla a costo=
+ zero per il cliente e per voi, ma vi chiediamo la vostra collaborazione ne=
+ll=92implementazione della business intelligence sulla nostra installazione=
+ in quanto siamo inesperti.
+
+
+
+
+
+
+
+Giornate di formazione presso il cliente
+
+c
+
+
+
+Tempo in teleassistenza per la corretta parametrizzazione dell=92Azienda Ve=
+rtine e dell=92Azienda Gonnelli
+
+12 ore circa
+
+
+
+Tempo in teleassistenza per formazione
+
+12 ore circa ( Utilizzo procedura per generazione Sian, movimentazione olio=
+, confezionamenti, conferimenti , molitura etc.. )
+
+
+
+
+
+Rimango a disposizione per ulteriori chiarimenti
+
+Cordiali saluti
+
+Gabriele Baccino
+
+ <http://www.compunetweb.it/>
+
+Assistenza Tecnica
+help@compunetweb.it<mailto:help@compunetweb.it>  / +39 0106121456
+
+CompuNet Srl
+Ufficio: +39 010690080 / Fax: +39 0106120476
+Via Chiaramone 9-11R 16158 Genova
+www.compunetweb.it<http://www.compunetweb.it/>
+
+<http://facebook.com/compunetweb> <https://twitter.com/compunetsrl>  <https=
+://plus.google.com/+CompuNetSrlGenova/about>
+
+
+
+Le informazioni, i dati e le notizie contenute nella presente comunicazione=
+ e i relativi allegati sono di natura privata e come tali possono essere ri=
+servate e sono, comunque, destinate esclusivamente ai destinatari indicati =
+in epigrafe. La diffusione, distribuzione e/o la copiatura del documento tr=
+asmesso da parte di qualsiasi soggetto diverso dal destinatario =E8 proibit=
+a, sia ai sensi dell=92art. 616 c.p., sia ai sensi del D.Lgs. n.196/2003. S=
+e avete ricevuto questo messaggio per errore, vi preghiamo di distruggerlo =
+e di darcene immediata comunicazione anche inviando un messaggio di ritorno=
+ all=92indirizzo e-mail del mittente.
+
+
+
+
+
+
+
+
+
+Da: Cristian Consigli <C.Consigli@zucchettisystema.it<mailto:C.Consigli@zuc=
+chettisystema.it>>
+Inviato: gioved=EC 18 aprile 2019 16:35
+A: Vincenzo Carella <V.Carella@zucchettisystema.it<mailto:V.Carella@zucchet=
+tisystema.it>>; Help | CompuNet <help@compunetweb.it<mailto:help@compunetwe=
+b.it>>; Sergio Cola <cola@compunetweb.it<mailto:cola@compunetweb.it>>
+Cc: Gianluca Cavari <G.Cavari@zucchettisystema.it<mailto:G.Cavari@zucchetti=
+systema.it>>; Luca Polvani <L.Polvani@zucchettisystema.it<mailto:L.Polvani@=
+zucchettisystema.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buonasera,
+
+come da accordi telefonici intercorsi oggi con Sergio =E8 necessario fare i=
+l punto della situazione delle richieste e relative soluzioni proposte in f=
+ase di offerta. Questo allo scopo di arrivare finalmente alla definizione d=
+i un verbale di collaudo in cui si certifica l=92avvenuta consegna del soft=
+ware secondo gli accordi iniziali. Una volta definito questo fisseremo un a=
+ppuntamento presso Gonnelli per accordarci  con loro. Chiedo la vostra coll=
+aborazione in quanto la maggior parte delle richieste riguardavano chiarame=
+nte la parte relativa alla verticalizzazione. Settimana prossima siamo a vo=
+stra disposizione per un confronto telefonico in merito. Rimango a disposiz=
+ione per ulteriori chiarimenti. Grazie.
+
+
+
+Cordiali saluti
+
+
+
+ <http://www.zucchettisystema.com/marketing/FirmaZsysRidotta.png>
+
+Cristian Consigli
+Coordinatore Sviluppo e Supporto Clienti
+Area soluzioni ERP
+
+Via dei Ceramisti, 38
+50055 Lastra a Signa (FI)
+c.consigli@zucchettisystema.it <mailto:c.consigli@zucchettisystema.it>
+
+T
+T
+F
+
++39 055 78.70.821 Supporto Funzionale Ad Hoc
++39 055 78.70.801
++39 055 73.31.760
+
+<https://www.facebook.com/zucchettisystemafirenze/><https://it.linkedin.com=
+/company/zucchetti-systema-srl><https://www.youtube.com/channel/UCZXfkRSKVM=
+i_dlbz6pLEjGg/featured?disable_polymer=3D1>
+
+Il software che crea successo
+www.zucchettisystema.it<https://www.zucchettisystemasrl.it/>
+
+
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di cancellarla. E' fatto divieto di copia=
+re e divulgare il contenuto di questa email. Ogni utilizzo abusivo delle in=
+formazioni qui contenute da parte di persone terze o comunque non indicate =
+nella presente email, potr=E0 essere perseguito ai sensi di legge. Si infor=
+ma che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del Regola=
+mento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indirizzo: p=
+rivacy@zucchettisystema.it<mailto:privacy@zucchettisystema.it>
+
+
+
+
+
+
+
+Da: Vincenzo Carella
+Inviato: marted=EC 16 aprile 2019 14:26
+A: Help | CompuNet <help@compunetweb.it<mailto:help@compunetweb.it>>; Zucch=
+etti Systema Supporto Adhoc <supportoadhoc@zucchettisystema.it<mailto:suppo=
+rtoadhoc@zucchettisystema.it>>; Cristian Consigli <C.Consigli@zucchettisyst=
+ema.it<mailto:C.Consigli@zucchettisystema.it>>
+Cc: Sergio Cola <cola@compunetweb.it<mailto:cola@compunetweb.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buongiorno a tutti
+
+
+
+Quando abbiamo un doc definitivo per fissare con Giorgio Gonnelli e fare il=
+ punto della situazione ?
+
+
+
+Mi fate sapere? Grazie
+
+
+
+ <http://www.zucchettisystema.com/marketing/FirmaZsysRidotta.png>
+
+Vincenzo Carella
+Account Manager
+
+Via dei Ceramisti, 38
+50055 Lastra a Signa (FI)
+v.carella@zucchettisystema.it <mailto:v.carella@zucchettisystema.it>
+
+M
+T
+F
+
++39 366 62.20.940
++39 055 78.70.801
++39 055 73.31.760
+
+<https://www.facebook.com/zucchettisystemafirenze/><https://it.linkedin.com=
+/company/zucchetti-systema-srl><https://www.youtube.com/channel/UCZXfkRSKVM=
+i_dlbz6pLEjGg/featured?disable_polymer=3D1>
+
+Il software che crea successo
+www.zucchettisystema.it<https://www.zucchettisystemasrl.it/>
+
+
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di cancellarla. E' fatto divieto di copia=
+re e divulgare il contenuto di questa email. Ogni utilizzo abusivo delle in=
+formazioni qui contenute da parte di persone terze o comunque non indicate =
+nella presente email, potr=E0 essere perseguito ai sensi di legge. Si infor=
+ma che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del Regola=
+mento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indirizzo: p=
+rivacy@zucchettisystema.it<mailto:privacy@zucchettisystema.it>
+
+
+
+Da: Help | CompuNet <help@compunetweb.it<mailto:help@compunetweb.it>>
+Inviato: marted=EC 16 aprile 2019 13:14
+A: Vincenzo Carella <V.Carella@zucchettisystema.it<mailto:V.Carella@zucchet=
+tisystema.it>>; Zucchetti Systema Supporto Adhoc <supportoadhoc@zucchettisy=
+stema.it<mailto:supportoadhoc@zucchettisystema.it>>; Cristian Consigli <C.C=
+onsigli@zucchettisystema.it<mailto:C.Consigli@zucchettisystema.it>>
+Cc: Sergio Cola <cola@compunetweb.it<mailto:cola@compunetweb.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buongiorno,
+
+riassumiamo
+
+-stampa giacenze confezionato: da apportare modifiche come indicato in mail=
+ del 05.04.19: questa parte  =E8 finita;
+
+-possibilit=E0 di effettuare i carichi di confezionamento in 2 fasi (con po=
+ssibilit=E0 di eventuali modifiche) come indicato in nostra mail del 13.07.=
+18 Compunet Srl (Consegna approssimativa per il 30/06);
+
+-procedura di costificazione del confezionato per potere stampare gli inven=
+tari corretti e per poter visualizzare il margine di vendita su Infovision =
+Compunet  Srl  (Consegna dopo il 15 /5)
+
+-Come gi=E0 anticipato Le maschere di Ad Hoc Oil non valorizzano i document=
+i. Esistono apposite maschere per il calcolo del costo dei lotti di olio sf=
+uso e confezionato (olio e packaging).
+
+-Prevediamo di modificare la procedura di calcolo del costo dell' olio dei =
+prodotti confezionati.
+
+-La modifica prevede che, al termine dell' elaborazione (per ogni lotto con=
+fezionato), vengano implementati:
+
+-Calcolo del costo del packaging, acquisendolo direttamente dai documenti d=
+i acquisto dei singoli componenti
+
+-Aggiornamento del documento di carico del lotto (confezionamento) con il v=
+alore ottenuto dalla somma dei costi di olio e packaging
+
+-inserimento automatico nei ddt/fatture delle note inserite nelle anagrafic=
+he dei clienti; il sistema dei messaggi =E8 attualmente molto macchinoso pe=
+r le nostre esigenze Zucchetti Systema
+
+-inserimento si Infovision di stampe per il controllo degli acquisti (quant=
+it=E0, prezzo medio, check con listino) e inserimento relativo budget Zucch=
+etti Systema ;
+
+-inserimento su Infovision consuntivo di tesoreria e relativo budget Zucche=
+tti Systema;
+
+-avvio modulo Pos da collegare alla nostra stampante fiscale Zucchetti Syst=
+ema.
+
+
+
+La valorizzazione dei movimenti di carico da produzione non era stata previ=
+sta in fase di analisi/vendita, ma riteniamo corretto implementarla a costo=
+ zero per il cliente e per voi, ma vi chiediamo la vostra collaborazione ne=
+ll=92implementazione della business intelligence sulla nostra installazione=
+ in quanto siamo inesperti
+
+
+
+Gabriele, Diego
+
+
+
+
+
+ <http://www.compunetweb.it/>
+
+Assistenza Tecnica
+help@compunetweb.it<mailto:help@compunetweb.it>  / +39 0106121456
+
+CompuNet Srl
+Ufficio: +39 010690080 / Fax: +39 0106120476
+Via Chiaramone 9-11R 16158 Genova
+www.compunetweb.it<http://www.compunetweb.it/>
+
+<http://facebook.com/compunetweb> <https://twitter.com/compunetsrl>  <https=
+://plus.google.com/+CompuNetSrlGenova/about>
+
+
+
+Il trattamento dei dati =E8 improntato a principi di correttezza, liceit=E0=
+, trasparenza, limitazione delle finalit=E0 e della conservazione, minimizz=
+azione dei dati, esattezza, integrit=E0 e riservatezza e responsabilizzazio=
+ne ai sensi del regolamento (UE) 2016/679 relativo alla protezione delle pe=
+rsone fisiche con riguardo al trattamento dei dati personali (in seguito, =
+=93GDPR=94) .I Tuoi dati saranno trattati nel rispetto della predetta norma=
+tiva e con le modalit=E0 e per le finalit=E0 indicate nell=92informativa co=
+mpleta consultabile sul sito www.compunetweb.it<http://www.compunetweb.it> =
+o presso la sede del titolare o facendone richiesta via mail all=92indirizz=
+o: privacy@compunetweb.it<mailto:privacy@compunetweb.it>.
+
+Da: Vincenzo Carella <V.Carella@zucchettisystema.it<mailto:V.Carella@zucche=
+ttisystema.it>>
+Inviato: venerd=EC 12 aprile 2019 15:13
+A: Giorgio Gonnelli <giorgio.gonnelli@gonnelli1585.it<mailto:giorgio.gonnel=
+li@gonnelli1585.it>>; Matteo Torricelli <matteo.torricelli@gonnelli1585.it<=
+mailto:matteo.torricelli@gonnelli1585.it>>; Zucchetti Systema Supporto Adho=
+c <supportoadhoc@zucchettisystema.it<mailto:supportoadhoc@zucchettisystema.=
+it>>; Help | CompuNet <help@compunetweb.it<mailto:help@compunetweb.it>>; Cr=
+istian Consigli <C.Consigli@zucchettisystema.it<mailto:C.Consigli@zucchetti=
+systema.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buona sera Giorgio
+
+
+
+Come anticipato a Matteo, siamo proprio in questi giorni a fissare un lavor=
+o certosino per approcciarci al collaudo in modo che sia tutto funzionale
+
+
+
+Nei prossimi giorni avrai notizie pi=F9 chiare e dettagli...ate
+
+
+
+Grazie dell=92attenzione,
+
+
+
+Buon fine settimana a tutti
+
+
+
+
+
+ <http://www.zucchettisystema.com/marketing/FirmaZsysRidotta.png>
+
+Vincenzo Carella
+Account Manager
+
+Via dei Ceramisti, 38
+50055 Lastra a Signa (FI)
+v.carella@zucchettisystema.it <mailto:v.carella@zucchettisystema.it>
+
+M
+T
+F
+
++39 366 62.20.940
++39 055 78.70.801
++39 055 73.31.760
+
+<https://www.facebook.com/zucchettisystemafirenze/><https://it.linkedin.com=
+/company/zucchetti-systema-srl><https://www.youtube.com/channel/UCZXfkRSKVM=
+i_dlbz6pLEjGg/featured?disable_polymer=3D1>
+
+Il software che crea successo
+www.zucchettisystema.it<https://www.zucchettisystemasrl.it/>
+
+
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di cancellarla. E' fatto divieto di copia=
+re e divulgare il contenuto di questa email. Ogni utilizzo abusivo delle in=
+formazioni qui contenute da parte di persone terze o comunque non indicate =
+nella presente email, potr=E0 essere perseguito ai sensi di legge. Si infor=
+ma che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del Regola=
+mento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indirizzo: p=
+rivacy@zucchettisystema.it<mailto:privacy@zucchettisystema.it>
+
+
+
+Da: Giorgio Gonnelli <giorgio.gonnelli@gonnelli1585.it<mailto:giorgio.gonne=
+lli@gonnelli1585.it>>
+Inviato: venerd=EC 12 aprile 2019 14:43
+A: Vincenzo Carella <V.Carella@zucchettisystema.it<mailto:V.Carella@zucchet=
+tisystema.it>>; Matteo Torricelli <matteo.torricelli@gonnelli1585.it<mailto=
+:matteo.torricelli@gonnelli1585.it>>; Zucchetti Systema Supporto Adhoc <sup=
+portoadhoc@zucchettisystema.it<mailto:supportoadhoc@zucchettisystema.it>>; =
+Help | CompuNet <help@compunetweb.it<mailto:help@compunetweb.it>>; Cristian=
+ Consigli <C.Consigli@zucchettisystema.it<mailto:C.Consigli@zucchettisystem=
+a.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buongiorno Vincenzo,
+
+
+
+aspettiamo da parte vostra le tempistiche per ultimare le questioni in sosp=
+eso.
+
+Nella speranza che il tutto si concluda per la fine del mese.
+
+
+
+Grazie e buon fine settimana.
+
+
+
+Giorgio Gonnelli
+
+
+
+Gonnelli 1585 S.r.l.
+Via E. De Nicola, 41 Loc. Santa Tea -  Reggello 50066 (Italy)
+Ph. +39 055 86 81 17 - Fax. +39 055 86 91 42
+
+Email. giorgio.gonnelli@gonnelli1585.it<mailto:giorgio.gonnelli@gonnelli158=
+5.it>
+
+Web: www. gonnelli1585.it<http://www.gonnelli1585.it/>
+
+Facebook: facebook.com/FrantoioSantaTea
+
+
+
+
+
+Nel rispetto del D.Lgs. 196/2003 si informa che la presente comunicazione -=
+ contenente informazioni strettamente confidenziali e riservate - e la cui =
+comunicazione o diffusione a terzi =E8 proibita - salvo espressa autorizzaz=
+ione -, =E8 destinata esclusivamente al soggetto indicato come destinatario=
+ (o ad altri soggetti autorizzati a riceverla). Nel caso fosse stata da Voi=
+ ricevuta per errore, Vi preghiamo di darne immediata comunicazione al mitt=
+ente e di cancellarne ogni evidenza dai vostri supporti.
+
+
+
+CONFIDENTIALITY NOTICE - This e-mail transmission, and any documents, files=
+ or previous e-mail messages attached to it may contain information that is=
+ confidential or legally privileged. If you are not the intended recipient,=
+ or a person responsible for delivering it to the intended recipient, you a=
+re hereby notified that you must not read this transmission and that any di=
+sclosure, copying, printing, distribution or use of any of the information =
+contained in or attached to this transmission is STRICTLY PROHIBITED. If yo=
+u have received this transmission in error, please immediately notify the s=
+ender by telephone or return e-mail and delete the original transmission an=
+d its attachments without reading or saving in any manner. Thank you.
+
+
+
+
+
+Da: Vincenzo Carella [mailto:V.Carella@zucchettisystema.it]
+Inviato: gioved=EC 11 aprile 2019 10:21
+A: Matteo Torricelli <matteo.torricelli@gonnelli1585.it<mailto:matteo.torri=
+celli@gonnelli1585.it>>; Zucchetti Systema Supporto Adhoc <supportoadhoc@zu=
+cchettisystema.it<mailto:supportoadhoc@zucchettisystema.it>>; Help | CompuN=
+et <help@compunetweb.it<mailto:help@compunetweb.it>>; Cristian Consigli <C.=
+Consigli@zucchettisystema.it<mailto:C.Consigli@zucchettisystema.it>>
+Cc: Giorgio Gonnelli <giorgio.gonnelli@gonnelli1585.it<mailto:giorgio.gonne=
+lli@gonnelli1585.it>>
+Oggetto: R: Punto della situazione
+
+
+
+Buongiorno a tutti,
+
+
+
+Matteo, grazie del riepilogo, ci aiuta a capire lo stato dell=92arte del pr=
+ogetto concordato.
+
+
+
+Invito tutto il gruppo di lavoro a fissare un incontro nei prossimi giorni,=
+ per analizzare la fase finale del collaudo.
+
+
+
+Grazie dell=92attenzione.
+
+
+
+Buon lavoro
+
+
+
+
+
+ <http://www.zucchettisystema.com/marketing/FirmaZsysRidotta.png>
+
+Vincenzo Carella
+Account Manager
+
+Via dei Ceramisti, 38
+50055 Lastra a Signa (FI)
+v.carella@zucchettisystema.it <mailto:v.carella@zucchettisystema.it>
+
+M
+T
+F
+
++39 366 62.20.940
++39 055 78.70.801
++39 055 73.31.760
+
+<https://www.facebook.com/zucchettisystemafirenze/><https://it.linkedin.com=
+/company/zucchetti-systema-srl><https://www.youtube.com/channel/UCZXfkRSKVM=
+i_dlbz6pLEjGg/featured?disable_polymer=3D1>
+
+Il software che crea successo
+www.zucchettisystema.it<https://www.zucchettisystemasrl.it/>
+
+
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di cancellarla. E' fatto divieto di copia=
+re e divulgare il contenuto di questa email. Ogni utilizzo abusivo delle in=
+formazioni qui contenute da parte di persone terze o comunque non indicate =
+nella presente email, potr=E0 essere perseguito ai sensi di legge. Si infor=
+ma che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del Regola=
+mento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indirizzo: p=
+rivacy@zucchettisystema.it<mailto:privacy@zucchettisystema.it>
+
+
+
+Da: Matteo Torricelli <matteo.torricelli@gonnelli1585.it<mailto:matteo.torr=
+icelli@gonnelli1585.it>>
+Inviato: luned=EC 8 aprile 2019 10:00
+A: Zucchetti Systema Supporto Adhoc <supportoadhoc@zucchettisystema.it<mail=
+to:supportoadhoc@zucchettisystema.it>>; Help | CompuNet <help@compunetweb.i=
+t<mailto:help@compunetweb.it>>; Cristian Consigli <C.Consigli@zucchettisyst=
+ema.it<mailto:C.Consigli@zucchettisystema.it>>
+Cc: Vincenzo Carella <V.Carella@zucchettisystema.it<mailto:V.Carella@zucche=
+ttisystema.it>>; Giorgio Gonnelli <giorgio.gonnelli@gonnelli1585.it<mailto:=
+giorgio.gonnelli@gonnelli1585.it>>
+Oggetto: Punto della situazione
+
+
+
+Buongiorno,
+
+
+
+cerco di riepilogare i punti ancora aperti:
+
+
+
+-stampa giacenze confezionato: da apportare modifiche come indicato in mail=
+ del 05.04.19;
+
+-possibilit=E0 di effettuare i carichi di confezionamento in 2 fasi (con po=
+ssibilit=E0 di eventuali modifiche) come indicato in nostra mail del 13.07.=
+18;
+
+-procedura di costificazione del confezionato per potere stampare gli inven=
+tari corretti e per poter visualizzare il margine di vendita su Infovision;
+
+-inserimento automatico nei ddt/fatture delle note inserite nelle anagrafic=
+he dei clienti; il sistema dei messaggi =E8 attualmente molto macchinoso pe=
+r le nostre esigenze
+
+-inserimento si Infovision di stampe per il controllo degli acquisti (quant=
+it=E0, prezzo medio, check con listino) e inserimento relativo budget;
+
+-inserimento su Infovision consuntivo di tesoreria e relativo budget;
+
+-avvio modulo Pos da collegare alla nostra stampante fiscale.
+
+
+
+
+
+Grazie,
+
+Matteo Torricelli.
+
+
+
+
+
+
+
+
+
+Matteo Torricelli
+
+
+
+Gonnelli 1585 S.r.l.
+Via E. De Nicola, 41 Loc. Santa Tea -  Reggello 50066 (Italy)
+Ph. +39 055 86 81 17 - Fax. +39 055 86 91 42
+
+Email. matteo.torricelli@gonnelli1585.it<mailto:matteo.torricelli@gonnelli1=
+585.it>
+
+Web: www. gonnelli1585.it<http://www.gonnelli1585.it/>
+
+Facebook: facebook.com/FrantoioSantaTea
+
+
+
+Nel rispetto del D.Lgs. 196/2003 si informa che la presente comunicazione -=
+ contenente informazioni strettamente confidenziali e riservate - e la cui =
+comunicazione o diffusione a terzi =E8 proibita - salvo espressa autorizzaz=
+ione -, =E8 destinata esclusivamente al soggetto indicato come destinatario=
+ (o ad altri soggetti autorizzati a riceverla). Nel caso fosse stata da Voi=
+ ricevuta per errore, Vi preghiamo di darne immediata comunicazione al mitt=
+ente e di cancellarne ogni evidenza dai vostri supporti.
+
+
+
+CONFIDENTIALITY NOTICE - This e-mail transmission, and any documents, files=
+ or previous e-mail messages attached to it may contain information that is=
+ confidential or legally privileged. If you are not the intended recipient,=
+ or a person responsible for delivering it to the intended recipient, you a=
+re hereby notified that you must not read this transmission and that any di=
+sclosure, copying, printing, distribution or use of any of the information =
+contained in or attached to this transmission is STRICTLY PROHIBITED. If yo=
+u have received this transmission in error, please immediately notify the s=
+ender by telephone or return e-mail and delete the original transmission an=
+d its attachments without reading or saving in any manner. Thank you.
+
+
+
+
+
+ https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<http://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 =96 GDPR=
+- e quindi ne =E8 proibita l=92utilizzazione ulteriore non autorizzata. Se =
+avete ricevuto per errore questo messaggio, Vi preghiamo cortesemente di co=
+ntattare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice =96 This e-mail message including any attachments is=
+ for the sole use of the intended recipient and may contain confidential an=
+d privileged information pursuant to Legislative Decree 196/2003 and the Eu=
+ropean General Data Protection Regulation 679/2016 =96 GDPR-. Any unauthori=
+zed review, use, disclosure or distribution is prohibited. If you are not t=
+he intended recipient, please contact the sender by reply e-mail and destro=
+y all copies of the original message.
+
+
+--_000_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <EA35E4644D38334FBE49B60B8D72E623@zucchettisystema.it>
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.tofax, li.tofax, div.tofax
+	{mso-style-name:tofax;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.txt
+	{mso-style-name:txt;}
+span.signatureemail-sep
+	{mso-style-name:signatureemail-sep;}
+p.banner-container, li.banner-container, div.banner-container
+	{mso-style-name:banner-container;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.txt1, li.txt1, div.txt1
+	{mso-style-name:txt1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.StileMessaggioDiPostaElettronica26
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.StileMessaggioDiPostaElettronica27
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:252276268;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1489230348 68157441 68157443 68157445 68157441 6815=
+7443 68157445 68157441 68157443 68157445;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:571547841;
+	mso-list-template-ids:1988524872;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:697127614;
+	mso-list-template-ids:652657932;}
+@list l2:level1
+	{mso-level-start-at:3;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:719087737;
+	mso-list-template-ids:-1866957868;}
+@list l3:level1
+	{mso-level-start-at:7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:846595306;
+	mso-list-template-ids:-2027140866;}
+@list l4:level1
+	{mso-level-start-at:10;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:943414442;
+	mso-list-template-ids:-2087676968;}
+@list l5:level1
+	{mso-level-start-at:9;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6
+	{mso-list-id:1212570321;
+	mso-list-template-ids:2056276376;}
+@list l7
+	{mso-list-id:1243876418;
+	mso-list-template-ids:-173789142;}
+@list l7:level1
+	{mso-level-start-at:5;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8
+	{mso-list-id:1597060448;
+	mso-list-template-ids:-1589207490;}
+@list l8:level1
+	{mso-level-start-at:12;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:1704402559;
+	mso-list-template-ids:1755477946;}
+@list l9:level1
+	{mso-level-start-at:3;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10
+	{mso-list-id:1799057896;
+	mso-list-template-ids:1733441780;}
+@list l10:level1
+	{mso-level-start-at:2;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11
+	{mso-list-id:1921714728;
+	mso-list-template-ids:-1568004628;}
+@list l11:level1
+	{mso-level-start-at:6;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12
+	{mso-list-id:1927180046;
+	mso-list-template-ids:-1980969752;}
+@list l12:level1
+	{mso-level-start-at:8;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l13
+	{mso-list-id:2097246127;
+	mso-list-template-ids:-1412149186;}
+@list l13:level1
+	{mso-level-start-at:4;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l13:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Buongiorno,<o:p></o:p></p>
+<p class=3D"MsoNormal">a seguito della vostra richiesta vi elenchiamo gli a=
+rgomenti trattati in teleassistenza e approfonditi con il sig. Matteo sull=
+=92uso corretto delle procedure, il tempo conteggiato tiene conto della con=
+figurazione e predisposizioni archivi
+ sulle necessit=E0 del cliente, &nbsp;durante le spiegazioni sono emerse al=
+cune necessit=E0 le &nbsp;quali sono state recepite e eseguite &nbsp;le mod=
+ifiche necessarie, il tempo impiegato per le modifiche non rientra nel comp=
+uto orario
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"mso-list:l0 level1 lfo15">Maggio 20=
+19&nbsp; 3 ore: Utile &nbsp;lordo e inventario valorizzato dello sfuso comp=
+resa la parametrizzazione necessaria<o:p></o:p></li></ul>
+<p class=3D"MsoNormal" style=3D"margin-left:36.0pt;mso-add-space:auto"><o:p=
+>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"mso-list:l0 level1 lfo15">=
+1 Agosto 1 ora: Valorizzazione costi dei confezionamenti&nbsp;
+<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpMiddle"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-list:l0 level1 lfo15"=
+>settembre&nbsp; 1 ora: Costificazione olio di lotti di articoli confeziona=
+ti e sfusi ( documenti di vendita o in giacenza)<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpMiddle"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-list:l0 level1 lfo15"=
+>settembre 1 ora: Configurazione dei campi obbligatori e non richiesti in b=
+ase alla denominazione DOP/IGP ai fini SIAN<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpMiddle"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-list:l0 level1 lfo15"=
+>7 agosto 3 ore : Simulazione delle registrazioni relative al frantoio<o:p>=
+</o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpMiddle"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"mso-list:l0 level1 lfo15"=
+>25 settembre 2 ore: &nbsp;&nbsp;&nbsp;Verifica e visualizzazione / stampe =
+conferimenti registrati e stato lavorazione con le varie possibilit=E0 di f=
+iltro<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:144.0pt;mso-ad=
+d-space:auto">
+Verifica e visualizzazione / stampe moliture effettuate con le varie possib=
+ilit=E0 di filtro<o:p></o:p></p>
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:106.8pt;mso-ad=
+d-space:auto;text-indent:34.8pt">
+Stampa delle temperature di molitura<o:p></o:p></p>
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:106.8pt;mso-ad=
+d-space:auto;text-indent:34.8pt">
+Simulazione delle registrazioni relative al frantoio &nbsp;il 25 settembre<=
+o:p></o:p></p>
+<p class=3D"MsoListParagraph"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sono stati effettuati 3 avanzamenti patch, di seguit=
+o il dettaglio delle ore dedicate all=92installazione:<o:p></o:p></p>
+<p class=3D"MsoNormal">18 dicembre 2 ore avanzamento alla fast patch 413<o:=
+p></o:p></p>
+<p class=3D"MsoNormal">29 maggio 2 ore avanzamento alla fast patch 460<o:p>=
+</o:p></p>
+<p class=3D"MsoNormal">12 giugno 2 &nbsp;ore&nbsp; avanzamento alla fast pa=
+tch 478<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Totale ore formazione in teleassistenza: 11 ore<o:p>=
+</o:p></p>
+<p class=3D"MsoNormal">Totale ore avanzamento patch in teleassistenza: 6 or=
+e <o:p></o:p></p>
+<p class=3D"MsoNormal">Totale ore formazione precedenti a maggio 2019 in te=
+leassistenza: 12 ore<o:p></o:p></p>
+<p class=3D"MsoNormal">Totale ore parametrizzazioni in teleassistenza: 12 o=
+re<o:p></o:p></p>
+<p class=3D"MsoNormal">Totale ore formazione presso il cliente (11/10/2018 =
+e 3/12/2018): 16 ore<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Totale: 57 ore<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Rimango a disposizione per ulteriori chiarimenti<o:p=
+></o:p></p>
+<p class=3D"MsoNormal">Cordiali saluti<o:p></o:p></p>
+<p class=3D"MsoNormal">Sergio Cola<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</div>
+<div id=3D"divRplyFwdMsg">
+<p class=3D"MsoNormal"><b><span style=3D"color:black">Da:</span></b><span s=
+tyle=3D"color:black"> Help | CompuNet<br>
+<b>Inviato:</b> gioved=EC 2 maggio 2019 17:25<br>
+<b>A:</b> <a href=3D"mailto:C.Consigli@zucchettisystema.it">C.Consigli@zucc=
+hettisystema.it</a> &lt;<a href=3D"mailto:C.Consigli@zucchettisystema.it">C=
+.Consigli@zucchettisystema.it</a>&gt;;
+<a href=3D"mailto:V.Carella@zucchettisystema.it">V.Carella@zucchettisystema=
+.it</a> &lt;<a href=3D"mailto:V.Carella@zucchettisystema.it">V.Carella@zucc=
+hettisystema.it</a>&gt;<br>
+<b>Cc:</b> <a href=3D"mailto:G.Cavari@zucchettisystema.it">G.Cavari@zucchet=
+tisystema.it</a> &lt;<a href=3D"mailto:G.Cavari@zucchettisystema.it">G.Cava=
+ri@zucchettisystema.it</a>&gt;;
+<a href=3D"mailto:L.Polvani@zucchettisystema.it">L.Polvani@zucchettisystema=
+.it</a> &lt;<a href=3D"mailto:L.Polvani@zucchettisystema.it">L.Polvani@zucc=
+hettisystema.it</a>&gt;<br>
+<b>Oggetto:</b> I: Punto della situazione dell'installazione Gonnelli</span=
+> <o:p>
+</o:p></p>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Buongiorno Cristian</span><span style=3D"font-size:12=
+.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Come da vostra richiesta Vi elenchiamo di seguito lo =
+stato dell=92installazione</span><span style=3D"font-size:12.0pt;font-famil=
+y:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Vogliamo sottolineare &nbsp;che in questo momento sto=
+rico, di continui aggiornamenti &nbsp;della normativa&nbsp; sulla &nbsp;fat=
+turazione elettronica, dobbiamo interrompere le implementazioni per
+ eseguire gli allineamenti patch per &nbsp;garantire l=92operativit=E0 cost=
+ante, purtroppo, &nbsp;inevitabilmente e in modo non prevedibile i tempi di=
+ rilascio di alcune procedure riassuntive hanno subito e subiranno ritardi.=
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Riportiamo di seguito i punti della nostra offerta.
+<b><span style=3D"color:red">In rosso &nbsp;le nostre osservazioni</span></=
+b></span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:red">&nbsp;</span><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"1">
+<li class=3D"MsoNormal" style=3D"mso-list:l6 level1 lfo1;vertical-align:mid=
+dle"><span style=3D"font-family:&quot;Arial&quot;,sans-serif">Carico delle =
+olive per conto proprio
+<b><span style=3D"color:red">=96 installato e funzionante</span></b></span>=
+<o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-list:l6 level1 lfo1;ve=
+rtical-align:middle"><span style=3D"font-family:&quot;Arial&quot;,sans-seri=
+f">Molitura per conto proprio<b><span style=3D"color:red">=96 installato e =
+funzionante</span></b></span><o:p></o:p></li></ol>
+<p class=3D"tofax"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;=
+color:black;background:yellow">&nbsp;</span><span style=3D"font-size:14.0pt=
+;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"3" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l9 level1 lfo2;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Acquisto olive da =
+terzi con generazione automatica dell'autofattura&nbsp; non =E8 ancora stat=
+o richiesto:</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;=
+color:red">
+<b>=E8 &nbsp;installato e funzionante</b>.</span><o:p></o:p></li><li class=
+=3D"MsoNormal" style=3D"color:#262626;mso-list:l9 level1 lfo2;vertical-alig=
+n:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">( fatta =
+eccezione per l=92autofattura, che al momento &nbsp;non =E8 stato richiesto=
+.)</span><o:p></o:p></li></ol>
+<p class=3D"tofax"><span style=3D"font-family:&quot;Arial&quot;,sans-serif"=
+>&nbsp;</span><span style=3D"font-size:14.0pt;font-family:&quot;Arial&quot;=
+,sans-serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"5" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Molitura per conto=
+ terzi con creazione del documento associato<b>:
+</b></span><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color=
+:red">=E8 installato e funzionante
+</span></b><o:p></o:p></li><li class=3D"MsoNormal" style=3D"color:#262626;m=
+so-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Registrazione di t=
+utte le altre movimentazioni degli oli, sfusi e confezionati, che non siano=
+ acquisti o vendite;</span><b><span style=3D"font-family:&quot;Arial&quot;,=
+sans-serif;color:red"> =E8 installato e funzionante</span></b><span style=
+=3D"font-family:&quot;Arial&quot;,sans-serif">.</span><o:p></o:p></li><li c=
+lass=3D"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-=
+align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">Tutte le=
+ registrazioni sono fattibili da Adhoc Standard, ( sono state installate le=
+ maschere di Ad Hoc Oil per velocizzare le operazioni di registrazione</spa=
+n><o:p></o:p></li><li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l=
+7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">Sar=E0 r=
+ilasciata a luglio la versione con alcuni automatismi per rendere pi=F9 sem=
+plice e veloce &nbsp;la procedura degli svuotamenti.)</span><o:p></o:p></li=
+><li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Compilazione dei R=
+egistri di Carico e Scarico degli oli vergini ed extravergini con origine, =
+sfusi e confezionati (Reg. Cee 1019/02 e DM 10/10/2007);
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 installato e funzionante</span><o:p></o:p></li><li class=3D"MsoNormal" =
+style=3D"color:red;mso-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626">Gest=
+ione del magazzino di tutti gli oli con o senza origine, DOP, IGP, Bio</spa=
+n><span style=3D"font-family:&quot;Arial&quot;,sans-serif">; =E8 installato=
+ e funzionante.</span><o:p></o:p></li><li class=3D"MsoNormal" style=3D"colo=
+r:#262626;mso-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Registrazione conf=
+erimento olive di terzi, proprie, acquistate</span><span style=3D"font-fami=
+ly:&quot;Arial&quot;,sans-serif;color:red">; =E8 installato e funzionante.<=
+/span><o:p></o:p></li><li class=3D"MsoNormal" style=3D"color:#262626;mso-li=
+st:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Registrazione lavo=
+razione olive con gestione olio DOP, IGP, Biologico;
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 installato e funzionante.</span><o:p></o:p></li><li class=3D"MsoNormal"=
+ style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Emissione del DDT =
+restituzione olio, fattura/ricevuta della molitura, autofattura</span><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">; =E8 &nbsp;i=
+nstallato e funzionante,</span><o:p></o:p></li><li class=3D"MsoNormal" styl=
+e=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">l=92auto=
+fattura =E8 esclusa, ma non &nbsp;richiesta.</span><o:p></o:p></li><li clas=
+s=3D"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-ali=
+gn:middle">
+<u><span style=3D"font-family:&quot;Arial&quot;,sans-serif">Compilazione e =
+stampa del registro lavorazioni c/terzi;
+</span></u><b><u><span style=3D"font-family:&quot;Arial&quot;,sans-serif;co=
+lor:red">=E8 prevista per luglio</span></u></b><u><span style=3D"font-famil=
+y:&quot;Arial&quot;,sans-serif;color:red">
+</span></u><o:p></o:p></li><li class=3D"MsoNormal" style=3D"color:#262626;m=
+so-list:l7 level1 lfo3;vertical-align:middle">
+<u><span style=3D"font-family:&quot;Arial&quot;,sans-serif">Compilazione e =
+stampa &nbsp;registro di attivit=E0 del frantoio;
+</span></u><b><u><span style=3D"font-family:&quot;Arial&quot;,sans-serif;co=
+lor:red">=E8 prevista per luglio</span></u></b><o:p></o:p></li><li class=3D=
+"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-align:m=
+iddle">
+<u><span style=3D"font-family:&quot;Arial&quot;,sans-serif">Registro di car=
+ico/scarico della sansa e delle acque reflue;
+</span></u><b><u><span style=3D"font-family:&quot;Arial&quot;,sans-serif;co=
+lor:red">=E8 prevista per luglio</span></u></b><o:p></o:p></li><li class=3D=
+"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-align:m=
+iddle">
+<u><span style=3D"font-family:&quot;Arial&quot;,sans-serif">Elenco giornali=
+ero lavorazioni DOP, IGP, BIO da inviare ai consorzi di tutela<b>;
+</b></span></u><b><u><span style=3D"font-family:&quot;Arial&quot;,sans-seri=
+f;color:red">=E8 prevista per luglio</span></u></b><o:p></o:p></li><li clas=
+s=3D"MsoNormal" style=3D"color:#262626;mso-list:l7 level1 lfo3;vertical-ali=
+gn:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Gestione vasche e =
+tracciabilit=E0 di ogni olio;
+</span><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red=
+">=E8 &nbsp;installato e funzionante</span></b><o:p></o:p></li><li class=3D=
+"MsoNormal" style=3D"color:red;mso-list:l7 level1 lfo3;vertical-align:middl=
+e">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626">Gest=
+ione schede dell=92olio di ogni cliente, in giacenza a qualsiasi titolo;
+</span><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif">=E8 inst=
+allato e funzionante.</span></b><o:p></o:p></li><li class=3D"MsoNormal" sty=
+le=3D"color:red;mso-list:l7 level1 lfo3;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Sar=E0 rilasciata =
+a luglio la versione con alcuni automatismi per rendere pi=F9 semplice la p=
+rocedura.</span><o:p></o:p></li></ol>
+<p class=3D"MsoNormal" style=3D"margin-left:21.3pt;vertical-align:middle"><=
+span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#262626">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"tofax"><span style=3D"font-family:&quot;Arial&quot;,sans-serif"=
+>&nbsp;</span><span style=3D"font-size:14.0pt;font-family:&quot;Arial&quot;=
+,sans-serif"><o:p></o:p></span></p>
+<p class=3D"tofax"><span style=3D"font-family:&quot;Arial&quot;,sans-serif"=
+>Le altre vostre richieste migliorative &nbsp;per ottimizzare il vostro mod=
+o di lavorare,</span><span style=3D"font-size:14.0pt;font-family:&quot;Aria=
+l&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-indent:35.4pt"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></=
+o:p></span></p>
+<p class=3D"tofax"><span style=3D"font-family:&quot;Arial&quot;,sans-serif"=
+>&nbsp;</span><span style=3D"font-size:14.0pt;font-family:&quot;Arial&quot;=
+,sans-serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l1 level1 lfo4;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">-Tracciabilit=E0 c=
+ompleta dalla bottiglia alla partita di olive e viceversa;
+</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l1 level2 lfo4;vert=
+ical-align:middle">
+<a name=3D"OLE_LINK6"></a><a name=3D"OLE_LINK4"></a><a name=3D"OLE_LINK5"><=
+/a><span style=3D"font-family:&quot;Arial&quot;,sans-serif">E=92 previsto n=
+elle funzionalit=E0 standard di Ad Hoc Oil
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 &nbsp;installato e funzionante</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoNormal" style=3D"margin-left:27.0pt;vertical-align:middle"><=
+span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#262626">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"2" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l10 level1 lfo5;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">-Elenco fornitori =
+di olive/olio all=92interno di una vasca a una determinata data;</span><o:p=
+></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"2" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l10 level2 lfo5;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Verr=E0 incluso ne=
+llo standard, prevedendo la possibilit=E0 di effettuare la tracciabilit=E0 =
+a partire da una vasca.&nbsp;
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 &nbsp;installato e funzionante</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:27.0pt;vertical-align:mi=
+ddle"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626=
+">&nbsp;</span><o:p></o:p></p>
+<ol style=3D"margin-top:0cm" start=3D"3" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l2 level1 lfo6;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">-Analisi di confez=
+ionamento con giacenza del prodotto finito delle due aziende e venduto tota=
+le al netto dell=92intercompany come da stampa vista insieme;<a name=3D"OLE=
+_LINK1"></a>&nbsp;
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 &nbsp;installato e funzionante,.</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"3" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l2 level2 lfo6;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">realizza=
+to da Compunet anche se inizialmente era prevista l=92implementazione &nbsp=
+;con infobusiness</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoNormal" style=3D"vertical-align:middle"><a name=3D"OLE_LINK1=
+2"></a><a name=3D"OLE_LINK2"></a><a name=3D"OLE_LINK3"></a><a name=3D"OLE_L=
+INK10"></a><a name=3D"OLE_LINK11"></a><span style=3D"font-size:12.0pt;font-=
+family:&quot;Arial&quot;,sans-serif;color:#262626">&nbsp;</span><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></=
+o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"4" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l13 level1 lfo7;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Triplo passaggio p=
+er carico di confezionamento (il primo provvisorio da parte del responsabil=
+e dell=92imbottigliamento &#43; seconda conferma da parte del magazziniere =
+che controlla il fisico &#43; terzo definitivo da parte
+ dell=92ufficio); </span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"4" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l13 level2 lfo7;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Lo standard di Ad =
+Hoc Oil prevede 3 modalit=E0 di confezionamento:</span><o:p></o:p></li><li =
+class=3D"MsoNormal" style=3D"color:#262626;mso-list:l13 level2 lfo7;vertica=
+l-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">scelta dell'artico=
+lo da confezionare e scarico dei componenti della distinta base</span><o:p>=
+</o:p></li></ol>
+</ol>
+<ol style=3D"margin-top:0cm" start=3D"5" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l13 level1 lfo7;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">scelta della lista=
+ di prelievo dei componenti utilizzati ( necessario utilizzare il terminale=
+ skorpio e il modulo mobile)</span><o:p></o:p></li><li class=3D"MsoNormal" =
+style=3D"color:#262626;mso-list:l13 level1 lfo7;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">scelta delle etich=
+ette SSCC stampate sui pallet durante il confezionamento in linea</span><o:=
+p></o:p></li></ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:36.0pt;vertical-align:mi=
+ddle"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626=
+">&nbsp;</span><o:p></o:p></p>
+<ol style=3D"margin-top:0cm" start=3D"6" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l11 level2 lfo8;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Verr=E0 implementa=
+ta la possibilit=E0 di salvare in stato provvisorio (i saldi di magazzino n=
+on vengono aggiornati) solo per la modalit=E0 a (scelta dell=92articolo). I=
+l confezionamento salvato in provvisorio sar=E0 modificabile
+ per la parte relativa agli imballaggi. Il salvataggio avverr=E0 in stato p=
+rovvisorio o confermato (i saldi di magazzino vengono aggiornati) in base a=
+ll=92utente.</span><o:p></o:p></li><li class=3D"MsoNormal" style=3D"color:#=
+262626;mso-list:l11 level2 lfo8;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">In questo modo la =
+conferma dell'avvenuto confezionamento potr=E0 essere effettuata solo dal r=
+esponsabile dell'ufficio competente, responsabile dell=92imbottigliamento e=
+ magazziniere potranno invece creare e modificare
+ il confezionamento in stato provvisorio.</span><o:p></o:p></li><li class=
+=3D"MsoNormal" style=3D"color:#262626;mso-list:l11 level2 lfo8;vertical-ali=
+gn:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">La &nbsp=
+;prima versione della procedura &nbsp;=E8 prevista per luglio
+</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoNormal" style=3D"margin-left:27.0pt;vertical-align:middle"><=
+span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#262626">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"7" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l3 level1 lfo9;vert=
+ical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Possibilit=E0&nbsp=
+; di avere un=92unica pagina dove poter effettuare le varie stampe relative=
+ alle moliture potendo combinare vari filtri (per cliente, per data, conto =
+terzi o conto acquisto, per tipologia olio, etc);</span><o:p></o:p></li></o=
+l>
+<ol style=3D"margin-top:0cm" start=3D"7" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l3 level2 lfo9;vert=
+ical-align:middle">
+<a name=3D"OLE_LINK17"></a><a name=3D"OLE_LINK13"></a><a name=3D"OLE_LINK14=
+"></a><a name=3D"OLE_LINK15"></a><a name=3D"OLE_LINK16"></a><span style=3D"=
+font-family:&quot;Arial&quot;,sans-serif">Verr=E0 implementa come da vostra=
+ richiesta.</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:36.0pt;vertical-align:mi=
+ddle"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626=
+">&nbsp;</span><o:p></o:p></p>
+<ol style=3D"margin-top:0cm" start=3D"8" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l12 level1 lfo10;ve=
+rtical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Fatturazione delle=
+ moliture c/terzi in base al peso delle olive conferite (con possibilit=E0 =
+di agganciare vari listini) e non alla quantit=E0 di olio restituito (indic=
+ato nel ddt di uscita).</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"8" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l12 level2 lfo10;ve=
+rtical-align:middle">
+<a name=3D"OLE_LINK9"></a><a name=3D"OLE_LINK7"></a><a name=3D"OLE_LINK8"><=
+/a><span style=3D"font-family:&quot;Arial&quot;,sans-serif">E=92 previsto n=
+elle funzionalit=E0 standard di Ad Hoc Oil
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">&=
+nbsp;=E8 installato e funzionante</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoNormal" style=3D"margin-left:18.0pt;vertical-align:middle"><=
+span style=3D"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#262626">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"9" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l5 level1 lfo11;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Percorsi separati =
+per conferimento e molitura di olive c/acquisto e c/proprio;&nbsp;
+</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"9" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l5 level2 lfo11;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Verranno implement=
+i come da vostra richiesta.
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 installato e funzionante
+</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoListParagraph" style=3D"margin-left:36.0pt;vertical-align:mi=
+ddle"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:#262626=
+">&nbsp;</span><o:p></o:p></p>
+<ol style=3D"margin-top:0cm" start=3D"10" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;line-height:115%;mso-list:l4=
+ level1 lfo12;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Possibilit=E0 di a=
+ggiungere descrizioni aggiuntive nelle fatture di molitura con particolari =
+tipologie di olio (le fatturazioni di moliture Olio Dop hanno bisogno di un=
+a dicitura, quelle Igp un=92altra e cos=EC via) e
+ possibilit=E0 di aggiungere in fatture sevizi aggiuntivi (per esempio filt=
+raggio).</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"10" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;line-height:115%;mso-list:l4=
+ level2 lfo12;vertical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Verr=E0 implementa=
+ come da vostra richiesta. Saranno previste descrizioni automatiche persona=
+lizzate per tipologia di olio (che verrano riportate in fattura).
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:red">=
+=E8 installato e funzionante</span><span style=3D"font-family:&quot;Arial&q=
+uot;,sans-serif">
+</span><o:p></o:p></li></ol>
+</ol>
+<ol style=3D"margin-top:0cm" start=3D"11" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l4 level1 lfo12;ver=
+tical-align:middle">
+<span style=3D"font-family:&quot;Arial&quot;,sans-serif">Prenotazione molit=
+ure in grado di sostituire il programma esistente (suddiviso per linee, pos=
+sibilit=E0 di spostare gli appuntamenti, possibilit=E0 di compattare gli ap=
+puntamenti).
+</span><o:p></o:p></li></ol>
+<ol style=3D"margin-top:0cm" start=3D"11" type=3D"1">
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"a">
+<li class=3D"MsoNormal" style=3D"color:#262626;mso-list:l4 level2 lfo13"><s=
+pan style=3D"font-family:&quot;Arial&quot;,sans-serif">Questa personalizzaz=
+ione,&nbsp; che migliora lo standard di Ad Hoc Oil,&nbsp; avverr=E0 in una =
+seconda fase alla fine dei test. E=92 inclusa nell=92accordo commerciale
+ e verr=E0 eseguita senza ulteriori costi&nbsp; ma non far=E0 parte del col=
+laudo procedurale in quanto, i&nbsp; tempi di realizzazione,&nbsp; non sono=
+ ad oggi preventivabili.</span><o:p></o:p></li><li class=3D"MsoNormal" styl=
+e=3D"color:red;mso-list:l4 level2 lfo13"><span style=3D"font-family:&quot;A=
+rial&quot;,sans-serif">Personalizzazione richiesta&nbsp; e promessa come re=
+alizzabile anche se con qualche riserva considerando il vostro attuale prog=
+ramma funzionante.</span><o:p></o:p></li><li class=3D"MsoNormal" style=3D"c=
+olor:red;mso-list:l4 level2 lfo13"><span style=3D"font-family:&quot;Arial&q=
+uot;,sans-serif">La data di consegna non =E8 valutabile nel &nbsp;progetto =
+in quanto come anticipato la difficolt=E0 =E8 notevole.
+</span><o:p></o:p></li></ol>
+</ol>
+<p class=3D"MsoNormal" style=3D"text-indent:35.4pt"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><span style=
+=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></=
+o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:36.0pt"><span style=3D"f=
+ont-family:&quot;Arial&quot;,sans-serif">Di seguito le ulteriori richieste:=
+</span><o:p></o:p></p>
+<ol style=3D"margin-top:0cm" start=3D"12" type=3D"1">
+<li class=3D"MsoNormal" style=3D"color:red;mso-list:l8 level1 lfo14"><span =
+style=3D"font-family:&quot;Arial&quot;,sans-serif;color:windowtext">Procedu=
+ra di costificazione del confezionato per potere stampare gli inventari cor=
+retti e per poter visualizzare il margine di vendita
+ su Infovision </span><span style=3D"font-family:&quot;Arial&quot;,sans-ser=
+if">( Consegna stimabile &nbsp;dopo il 15 maggio )</span><o:p></o:p></li></=
+ol>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:red">&nbsp;</span><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">La valorizzazione dei movimenti di carico da produzio=
+ne non era stata prevista in fase di analisi/vendita, ma riteniamo corretto=
+ implementarla a costo zero per il cliente e per
+ voi, ma vi chiediamo la vostra collaborazione nell=92implementazione della=
+ business intelligence sulla nostra installazione in quanto siamo inesperti=
+.</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Giornate di formazione presso il cliente</span><span =
+style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">c</span><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Tempo in teleassistenza per la corretta parametrizzaz=
+ione dell=92Azienda Vertine e dell=92Azienda Gonnelli</span><span style=3D"=
+font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">12 ore circa</span><span style=3D"font-size:12.0pt;fo=
+nt-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">Tempo in teleassistenza per formazione</span><span st=
+yle=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif">12 ore circa ( Utilizzo procedura per generazione Sia=
+n, movimentazione olio, confezionamenti, conferimenti , molitura etc.. )</s=
+pan><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;=
+,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Century&quot;,serif">Rimango a disposizione per=
+ ulteriori chiarimenti</span><span style=3D"font-size:12.0pt;font-family:&q=
+uot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Century&quot;,serif">Cordiali saluti</span><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt"><b><span style=3D"font=
+-size:12.0pt;font-family:&quot;Century&quot;,serif;color:#212121">Gabriele =
+Baccino</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Century=
+&quot;,serif;color:#212121">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt;line-height:10.5pt"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif"><=
+a href=3D"http://www.compunetweb.it/"><span style=3D"text-decoration:none">=
+&nbsp;</span></a><img border=3D"0" width=3D"66" height=3D"66" style=3D"widt=
+h:.6875in;height:.6875in" id=3D"_x0000_i1050" src=3D"cid:image004.png@01D58=
+02A.F80756F0"></span><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt;line-height:10.5pt"><b>=
+<span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif=
+;color:#212121">Assistenza Tecnica</span></b><span style=3D"font-size:9.0pt=
+;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">&nbsp;&nbsp;<b=
+r>
+<a href=3D"mailto:help@compunetweb.it">help@compunetweb.it</a>&nbsp;&nbsp;/=
+ &#43;39 0106121456</span><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt;line-height:10.5pt"><b>=
+<span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif=
+;color:#212121">CompuNet Srl</span></b><span style=3D"font-size:9.0pt;font-=
+family:&quot;Helvetica&quot;,sans-serif">
+<br>
+<span style=3D"color:#212121">Ufficio: &#43;39 010690080 / Fax: &#43;39 010=
+6120476</span> <br>
+<span style=3D"color:#212121">Via Chiaramone 9-11R</span> <span style=3D"co=
+lor:#212121">
+16158 Genova</span> <br>
+<a href=3D"http://www.compunetweb.it/"><span style=3D"color:#477CCC;text-de=
+coration:none">www.compunetweb.it</span></a>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt"><a href=3D"http://face=
+book.com/compunetweb"><span style=3D"font-size:9.0pt;font-family:&quot;Helv=
+etica&quot;,sans-serif;text-decoration:none"><img border=3D"0" width=3D"64"=
+ height=3D"64" style=3D"width:.6666in;height:.6666in" id=3D"Immagine_x0020_=
+2" src=3D"cid:image005.png@01D5802A.F80756F0"></span></a><span style=3D"fon=
+t-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">&nbsp;</span><a =
+href=3D"https://twitter.com/compunetsrl"><span style=3D"font-size:9.0pt;fon=
+t-family:&quot;Helvetica&quot;,sans-serif;text-decoration:none"><img border=
+=3D"0" width=3D"64" height=3D"64" style=3D"width:.6666in;height:.6666in" id=
+=3D"Immagine_x0020_3" src=3D"cid:image005.png@01D5802A.F80756F0"></span></a=
+><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-seri=
+f">&nbsp;</span><a href=3D"https://plus.google.com/&#43;CompuNetSrlGenova/a=
+bout"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans=
+-serif;text-decoration:none"><img border=3D"0" width=3D"64" height=3D"64" s=
+tyle=3D"width:.6666in;height:.6666in" id=3D"Immagine_x0020_4" src=3D"cid:im=
+age005.png@01D5802A.F80756F0"></span></a><span style=3D"font-size:12.0pt;fo=
+nt-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:7.5pt;line-height:10.5pt"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"font-size:12.0pt;f=
+ont-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:9.0pt"><span style=3D"font-size=
+:7.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">Le infor=
+mazioni, i dati e le notizie contenute nella presente comunicazione e i rel=
+ativi allegati sono di natura privata e come tali
+ possono essere riservate e sono, comunque, destinate esclusivamente ai des=
+tinatari indicati in epigrafe. La diffusione, distribuzione e/o la copiatur=
+a del documento trasmesso da parte di qualsiasi soggetto diverso dal destin=
+atario =E8 proibita, sia ai sensi
+ dell=92art. 616 c.p., sia ai sensi del D.Lgs. n.196/2003. Se avete ricevut=
+o questo messaggio per errore, vi preghiamo di distruggerlo e di darcene im=
+mediata comunicazione anche inviando un messaggio di ritorno all=92indirizz=
+o e-mail del mittente.
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Century&quot;,serif;color:#212121">&nbsp;</spa=
+n><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,s=
+erif"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ce=
+ntury&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Cristian Consigli &lt;<a h=
+ref=3D"mailto:C.Consigli@zucchettisystema.it">C.Consigli@zucchettisystema.i=
+t</a>&gt;
+<br>
+<b>Inviato:</b> gioved=EC 18 aprile 2019 16:35<br>
+<b>A:</b> Vincenzo Carella &lt;<a href=3D"mailto:V.Carella@zucchettisystema=
+.it">V.Carella@zucchettisystema.it</a>&gt;; Help | CompuNet &lt;<a href=3D"=
+mailto:help@compunetweb.it">help@compunetweb.it</a>&gt;; Sergio Cola &lt;<a=
+ href=3D"mailto:cola@compunetweb.it">cola@compunetweb.it</a>&gt;<br>
+<b>Cc:</b> Gianluca Cavari &lt;<a href=3D"mailto:G.Cavari@zucchettisystema.=
+it">G.Cavari@zucchettisystema.it</a>&gt;; Luca Polvani &lt;<a href=3D"mailt=
+o:L.Polvani@zucchettisystema.it">L.Polvani@zucchettisystema.it</a>&gt;<br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">Buonasera,<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">come da accordi te=
+lefonici intercorsi oggi con Sergio =E8 necessario fare il punto della situ=
+azione delle richieste e relative soluzioni proposte
+ in fase di offerta. Questo allo scopo di arrivare finalmente alla definizi=
+one di un verbale di collaudo in cui si certifica l=92avvenuta consegna del=
+ software secondo gli accordi iniziali. Una volta definito questo fisseremo=
+ un appuntamento presso Gonnelli per
+ accordarci &nbsp;con loro. Chiedo la vostra collaborazione in quanto la ma=
+ggior parte delle richieste riguardavano chiaramente la parte relativa alla=
+ verticalizzazione. Settimana prossima siamo a vostra disposizione per un c=
+onfronto telefonico in merito. Rimango
+ a disposizione per ulteriori chiarimenti. Grazie.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">&nbsp;<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">Cordiali saluti<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D">&nbsp;</span><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span=
+></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:450.0pt">
+<tbody>
+<tr>
+<td width=3D"103" rowspan=3D"2" valign=3D"top" style=3D"width:77.25pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><img =
+border=3D"0" width=3D"77" height=3D"121" style=3D"width:.802in;height:1.260=
+4in" id=3D"_x0000_i1046" src=3D"http://www.zucchettisystema.com/marketing/F=
+irmaZsysRidotta.png"></span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><b=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif;color:#3B3838">Cristian Consigli</span></b><span style=3D"font-size:12.=
+0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+Coordinatore Sviluppo e Supporto Clienti<br>
+Area soluzioni ERP<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quo=
+t;,serif;color:#3B3838"><br>
+Via dei Ceramisti, 38<br>
+50055 Lastra a Signa (FI)<br>
+<a href=3D"mailto:c.consigli@zucchettisystema.it">c.consigli@zucchettisyste=
+ma.it </a>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"13" style=3D"width:9.75pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">T<br>
+T<br>
+F</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"484" style=3D"width:363.0pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">&#43;39 055 78.70.821 Supporto Funzionale Ad Hoc<br>
+&#43;39 055 78.70.801<br>
+&#43;39 055 73.31.760</span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"103" valign=3D"top" style=3D"width:77.25pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><a href=3D"https://www.=
+facebook.com/zucchettisystemafirenze/"><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0pt;padd=
+ing:0cm;text-decoration:none"><img border=3D"0" width=3D"20" height=3D"19" =
+style=3D"width:.2083in;height:.1979in" id=3D"_x0000_i1045" src=3D"http://ww=
+w.zucchettisystema.com/marketing/fb_z.gif"></span></a><a href=3D"https://it=
+.linkedin.com/company/zucchetti-systema-srl"><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0p=
+t;padding:0cm;text-decoration:none"><img border=3D"0" width=3D"19" height=
+=3D"19" style=3D"width:.1979in;height:.1979in" id=3D"_x0000_i1044" src=3D"h=
+ttp://www.zucchettisystema.com/marketing/in_z.gif"></span></a><a href=3D"ht=
+tps://www.youtube.com/channel/UCZXfkRSKVMi_dlbz6pLEjGg/featured?disable_pol=
+ymer=3D1"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none"=
+><img border=3D"0" width=3D"19" height=3D"19" style=3D"width:.1979in;height=
+:.1979in" id=3D"_x0000_i1043" src=3D"http://www.zucchettisystema.com/market=
+ing/yt_z.gif"></span></a><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838">Il=
+ software che crea successo</span></b><span style=3D"font-size:12.0pt;font-=
+family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif;color:#3B3838"><a href=3D"https://www.zucchettisystemasrl.it/"><b=
+>www.zucchettisystema.it</b></a></span><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"600" colspan=3D"3" style=3D"width:450.0pt;padding:0cm 0cm 0cm =
+0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71"><br>
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di
+ cancellarla. E' fatto divieto di copiare e divulgare il contenuto di quest=
+a email. Ogni utilizzo abusivo delle informazioni qui contenute da parte di=
+ persone terze o comunque non indicate nella presente email, potr=E0 essere=
+ perseguito ai sensi di legge. Si
+ informa che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del =
+Regolamento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indiri=
+zzo:
+<a href=3D"mailto:privacy@zucchettisystema.it">privacy@zucchettisystema.it<=
+/a> </span>
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D">&nbsp;</span><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,serif">&nbsp;<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;color:#1F497D">&nbsp;</span><span style=3D"font-s=
+ize:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span=
+></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Vincenzo Carella
+<br>
+<b>Inviato:</b> marted=EC 16 aprile 2019 14:26<br>
+<b>A:</b> Help | CompuNet &lt;<a href=3D"mailto:help@compunetweb.it">help@c=
+ompunetweb.it</a>&gt;; Zucchetti Systema Supporto Adhoc &lt;<a href=3D"mail=
+to:supportoadhoc@zucchettisystema.it">supportoadhoc@zucchettisystema.it</a>=
+&gt;; Cristian Consigli &lt;<a href=3D"mailto:C.Consigli@zucchettisystema.i=
+t">C.Consigli@zucchettisystema.it</a>&gt;<br>
+<b>Cc:</b> Sergio Cola &lt;<a href=3D"mailto:cola@compunetweb.it">cola@comp=
+unetweb.it</a>&gt;<br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buongiorno a tutti<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Quando abbiamo un doc definitivo per fissare con=
+ Giorgio Gonnelli e fare il punto della situazione ?<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Mi fate sapere? Grazie<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:450.0pt">
+<tbody>
+<tr>
+<td width=3D"103" rowspan=3D"2" valign=3D"top" style=3D"width:77.25pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><img =
+border=3D"0" width=3D"77" height=3D"121" style=3D"width:.802in;height:1.260=
+4in" id=3D"_x0000_i1042" src=3D"http://www.zucchettisystema.com/marketing/F=
+irmaZsysRidotta.png"></span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><b=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif;color:#3B3838">Vincenzo Carella</span></b><span style=3D"font-size:12.0=
+pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+Account Manager<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quo=
+t;,serif;color:#3B3838"><br>
+Via dei Ceramisti, 38<br>
+50055 Lastra a Signa (FI)<br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:v.carella@zucchettisystema.it"><span style=3D"=
+font-size:9.0pt">v.carella@zucchettisystema.it
+</span></a><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"13" style=3D"width:9.75pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">M<br>
+T<br>
+F</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"484" style=3D"width:363.0pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">&#43;39 366 62.20.940<br>
+&#43;39 055 78.70.801<br>
+&#43;39 055 73.31.760</span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"103" valign=3D"top" style=3D"width:77.25pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><a href=3D"https://www.=
+facebook.com/zucchettisystemafirenze/"><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0pt;padd=
+ing:0cm;text-decoration:none"><img border=3D"0" width=3D"20" height=3D"19" =
+style=3D"width:.2083in;height:.1979in" id=3D"_x0000_i1041" src=3D"http://ww=
+w.zucchettisystema.com/marketing/fb_z.gif"></span></a><a href=3D"https://it=
+.linkedin.com/company/zucchetti-systema-srl"><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0p=
+t;padding:0cm;text-decoration:none"><img border=3D"0" width=3D"19" height=
+=3D"19" style=3D"width:.1979in;height:.1979in" id=3D"_x0000_i1040" src=3D"h=
+ttp://www.zucchettisystema.com/marketing/in_z.gif"></span></a><a href=3D"ht=
+tps://www.youtube.com/channel/UCZXfkRSKVMi_dlbz6pLEjGg/featured?disable_pol=
+ymer=3D1"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none"=
+><img border=3D"0" width=3D"19" height=3D"19" style=3D"width:.1979in;height=
+:.1979in" id=3D"_x0000_i1039" src=3D"http://www.zucchettisystema.com/market=
+ing/yt_z.gif"></span></a><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838">Il=
+ software che crea successo</span></b><span style=3D"font-size:12.0pt;font-=
+family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"https://www.zucchettisystemasrl.it/"><b><span style=
+=3D"font-size:10.0pt">www.zucchettisystema.it</span></b></a><o:p></o:p></sp=
+an></p>
+</td>
+</tr>
+<tr>
+<td width=3D"600" colspan=3D"3" style=3D"width:450.0pt;padding:0cm 0cm 0cm =
+0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71"><br>
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di
+ cancellarla. E' fatto divieto di copiare e divulgare il contenuto di quest=
+a email. Ogni utilizzo abusivo delle informazioni qui contenute da parte di=
+ persone terze o comunque non indicate nella presente email, potr=E0 essere=
+ perseguito ai sensi di legge. Si
+ informa che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del =
+Regolamento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indiri=
+zzo:
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:privacy@zucchettisystema.it"><span style=3D"fo=
+nt-size:8.0pt">privacy@zucchettisystema.it</span></a></span><span style=3D"=
+font-size:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71=
+">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Help | CompuNet &lt;<a hre=
+f=3D"mailto:help@compunetweb.it">help@compunetweb.it</a>&gt;
+<br>
+<b>Inviato:</b> marted=EC 16 aprile 2019 13:14<br>
+<b>A:</b> Vincenzo Carella &lt;<a href=3D"mailto:V.Carella@zucchettisystema=
+.it">V.Carella@zucchettisystema.it</a>&gt;; Zucchetti Systema Supporto Adho=
+c &lt;<a href=3D"mailto:supportoadhoc@zucchettisystema.it">supportoadhoc@zu=
+cchettisystema.it</a>&gt;; Cristian Consigli &lt;<a href=3D"mailto:C.Consig=
+li@zucchettisystema.it">C.Consigli@zucchettisystema.it</a>&gt;<br>
+<b>Cc:</b> Sergio Cola &lt;<a href=3D"mailto:cola@compunetweb.it">cola@comp=
+unetweb.it</a>&gt;<br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buongiorno,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">riassumiamo<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-stampa giacenze confezionato: da apportare modi=
+fiche come indicato in mail del 05.04.19:
+<b>questa parte &nbsp;=E8 finita</b>;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-possibilit=E0 di effettuare i carichi di confez=
+ionamento in 2 fasi (con possibilit=E0 di eventuali modifiche) come indicat=
+o in nostra mail del 13.07.18
+<b>Compunet Srl (Consegna approssimativa per il 30/06)</b>;<o:p></o:p></spa=
+n></p>
+<p style=3D"text-indent:35.4pt;background:white"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:black">-procedura=
+ di costificazione del confezionato per potere stampare gli inventari corre=
+tti e per poter visualizzare il margine di vendita
+ su Infovision <b>Compunet&nbsp; Srl &nbsp;(Consegna dopo il 15 /5</b>)</sp=
+an><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,=
+serif"><o:p></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:36.0pt">-Come gi=E0 anti=
+cipato Le maschere di Ad Hoc Oil non valorizzano i documenti. Esistono appo=
+site maschere per il calcolo del costo dei lotti di olio sfuso e confeziona=
+to (olio e packaging).
+<o:p></o:p></p>
+<p style=3D"margin-left:.6pt;text-indent:35.4pt;background:white"><span sty=
+le=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:=
+black">-Prevediamo&nbsp;di&nbsp;modificare&nbsp;la&nbsp;procedura&nbsp;di&n=
+bsp;calcolo&nbsp;del&nbsp;costo&nbsp;dell' olio&nbsp;dei&nbsp;prodotti&nbsp=
+;confezionati.&nbsp;&nbsp;</span><span style=3D"font-size:12.0pt;font-famil=
+y:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p style=3D"text-indent:35.4pt;background:white"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:black">-La&nbsp;m=
+odifica&nbsp;prevede&nbsp;che, al&nbsp;termine&nbsp;dell'&nbsp;elaborazione=
+&nbsp;(per&nbsp;ogni&nbsp;lotto&nbsp;confezionato),&nbsp;vengano&nbsp;imple=
+mentati:&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;,serif"><o:p></o:p></span></p>
+<p style=3D"text-indent:35.4pt;background:white"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:black">-Calcolo&n=
+bsp;del&nbsp;costo&nbsp;del packaging,&nbsp;acquisendolo&nbsp;direttamente&=
+nbsp;dai&nbsp;documenti&nbsp;di&nbsp;acquisto&nbsp;dei&nbsp;singoli&nbsp;co=
+mponenti</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New =
+Roman&quot;,serif"><o:p></o:p></span></p>
+<p style=3D"text-indent:35.4pt;background:white"><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:black">-Aggiornam=
+ento del&nbsp;documento&nbsp;di&nbsp;carico&nbsp;del lotto (confezionamento=
+) con&nbsp;il&nbsp;valore&nbsp;ottenuto&nbsp;dalla&nbsp;somma&nbsp;dei&nbsp=
+;costi&nbsp;di olio e packaging</span><span style=3D"font-size:12.0pt;font-=
+family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento automatico nei ddt/fatture delle no=
+te inserite nelle anagrafiche dei clienti; il sistema dei messaggi =E8 attu=
+almente molto macchinoso per le nostre esigenze
+<b>Zucchetti Systema</b><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento si Infovision di stampe per il cont=
+rollo degli acquisti (quantit=E0, prezzo medio, check con listino) e inseri=
+mento relativo budget
+<b>Zucchetti Systema</b> ;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento su Infovision consuntivo di tesorer=
+ia e relativo budget
+<b>Zucchetti Systema</b>;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-avvio modulo Pos da collegare alla nostra stamp=
+ante fiscale
+<b>Zucchetti Systema</b>.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">La valorizzazione dei movimenti di carico da pro=
+duzione non era stata prevista in fase di analisi/vendita, ma riteniamo cor=
+retto implementarla a costo zero per il cliente
+ e per voi, ma vi chiediamo la vostra collaborazione nell=92implementazione=
+ della business intelligence sulla nostra installazione in quanto siamo ine=
+sperti<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Gabriele, Diego<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p style=3D"margin-bottom:7.5pt"><span style=3D"font-size:12.0pt;font-famil=
+y:&quot;Times New Roman&quot;,serif"><a href=3D"http://www.compunetweb.it/"=
+><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-seri=
+f;text-decoration:none">&nbsp;</span></a></span><span style=3D"font-size:9.=
+0pt;font-family:&quot;Helvetica&quot;,sans-serif"><img border=3D"0" width=
+=3D"66" height=3D"66" style=3D"width:.6875in;height:.6875in" id=3D"Immagine=
+_x0020_5" src=3D"cid:image004.png@01D5802A.F80756F0"></span><span style=3D"=
+font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p>=
+</span></p>
+<p style=3D"margin-bottom:7.5pt;line-height:10.5pt"><span class=3D"txt"><b>=
+<span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif=
+;color:#212121">Assistenza Tecnica</span></b></span><span style=3D"font-siz=
+e:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">&nbsp;&=
+nbsp;<br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:help@compunetweb.it"><span style=3D"font-size:=
+9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">help@compunetweb.it</sp=
+an></a></span><span class=3D"signatureemail-sep"><span style=3D"font-size:9=
+.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">&nbsp;&nbs=
+p;/
+ &#43;39 0106121456</span></span><span style=3D"font-size:12.0pt;font-famil=
+y:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p style=3D"margin-bottom:7.5pt;line-height:10.5pt"><span class=3D"txt"><b>=
+<span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif=
+;color:#212121">CompuNet Srl</span></b></span><span style=3D"font-size:9.0p=
+t;font-family:&quot;Helvetica&quot;,sans-serif">
+<br>
+<span class=3D"txt"><span style=3D"color:#212121">Ufficio: &#43;39 01069008=
+0 / Fax: &#43;39 0106120476</span></span>
+<br>
+<span class=3D"txt"><span style=3D"color:#212121">Via Chiaramone 9-11R</spa=
+n></span> <span class=3D"txt">
+<span style=3D"color:#212121">16158 Genova</span></span> <br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"http://www.compunetweb.it/"><span style=3D"font-size:=
+9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#477CCC;text-decor=
+ation:none">www.compunetweb.it</span></a></span><span style=3D"font-size:9.=
+0pt;font-family:&quot;Helvetica&quot;,sans-serif">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+<p style=3D"margin-bottom:7.5pt"><a href=3D"http://facebook.com/compunetweb=
+"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-ser=
+if;text-decoration:none"><img border=3D"0" width=3D"64" height=3D"64" style=
+=3D"width:.6666in;height:.6666in" id=3D"Immagine_x0020_6" src=3D"cid:image0=
+05.png@01D5802A.F80756F0"></span></a><span style=3D"font-size:9.0pt;font-fa=
+mily:&quot;Helvetica&quot;,sans-serif">&nbsp;</span><a href=3D"https://twit=
+ter.com/compunetsrl"><span style=3D"font-size:9.0pt;font-family:&quot;Helve=
+tica&quot;,sans-serif;text-decoration:none"><img border=3D"0" width=3D"64" =
+height=3D"64" style=3D"width:.6666in;height:.6666in" id=3D"Immagine_x0020_7=
+" src=3D"cid:image005.png@01D5802A.F80756F0"></span></a><span style=3D"font=
+-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif">&nbsp;</span><a h=
+ref=3D"https://plus.google.com/&#43;CompuNetSrlGenova/about"><span style=3D=
+"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;text-decorati=
+on:none"><img border=3D"0" width=3D"64" height=3D"64" style=3D"width:.6666i=
+n;height:.6666in" id=3D"Immagine_x0020_8" src=3D"cid:image005.png@01D5802A.=
+F80756F0"></span></a><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"banner-container" style=3D"margin-bottom:7.5pt;line-height:10.5=
+pt"><span style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-s=
+erif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></p>
+<p class=3D"txt1" style=3D"line-height:9.0pt"><span style=3D"font-size:7.0p=
+t;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">Il trattament=
+o dei dati =E8 improntato a principi di correttezza, liceit=E0, trasparenza=
+, limitazione delle finalit=E0 e della conservazione,
+ minimizzazione dei dati, esattezza, integrit=E0 e riservatezza e responsab=
+ilizzazione ai sensi del regolamento (UE) 2016/679 relativo alla protezione=
+ delle persone fisiche con riguardo al trattamento dei dati personali (in s=
+eguito, =93GDPR=94) .I Tuoi dati saranno
+ trattati nel rispetto della predetta normativa e con le modalit=E0 e per l=
+e finalit=E0 indicate nell=92informativa completa consultabile sul sito
+</span><a href=3D"http://www.compunetweb.it"><span style=3D"font-size:7.0pt=
+;font-family:&quot;Helvetica&quot;,sans-serif">www.compunetweb.it</span></a=
+><span style=3D"font-size:7.0pt;font-family:&quot;Helvetica&quot;,sans-seri=
+f;color:#212121"> o presso la sede del titolare o facendone
+ richiesta via mail all=92indirizzo: </span><a href=3D"mailto:privacy@compu=
+netweb.it"><span style=3D"font-size:7.0pt;font-family:&quot;Helvetica&quot;=
+,sans-serif">privacy@compunetweb.it</span></a><span style=3D"font-size:7.0p=
+t;font-family:&quot;Helvetica&quot;,sans-serif;color:#212121">.</span><o:p>=
+</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Vincenzo Carella &lt;<a hr=
+ef=3D"mailto:V.Carella@zucchettisystema.it">V.Carella@zucchettisystema.it</=
+a>&gt;
+<br>
+<b>Inviato:</b> venerd=EC 12 aprile 2019 15:13<br>
+<b>A:</b> Giorgio Gonnelli &lt;<a href=3D"mailto:giorgio.gonnelli@gonnelli1=
+585.it">giorgio.gonnelli@gonnelli1585.it</a>&gt;; Matteo Torricelli &lt;<a =
+href=3D"mailto:matteo.torricelli@gonnelli1585.it">matteo.torricelli@gonnell=
+i1585.it</a>&gt;; Zucchetti Systema Supporto Adhoc
+ &lt;<a href=3D"mailto:supportoadhoc@zucchettisystema.it">supportoadhoc@zuc=
+chettisystema.it</a>&gt;; Help | CompuNet &lt;<a href=3D"mailto:help@compun=
+etweb.it">help@compunetweb.it</a>&gt;; Cristian Consigli &lt;<a href=3D"mai=
+lto:C.Consigli@zucchettisystema.it">C.Consigli@zucchettisystema.it</a>&gt;<=
+br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buona sera Giorgio<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Come anticipato a Matteo, siamo proprio in quest=
+i giorni a fissare un lavoro certosino per approcciarci al collaudo in modo=
+ che sia tutto funzionale<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Nei prossimi giorni avrai notizie pi=F9 chiare e=
+ dettagli...ate
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Grazie dell=92attenzione,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buon fine settimana a tutti<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:450.0pt">
+<tbody>
+<tr>
+<td width=3D"103" rowspan=3D"2" valign=3D"top" style=3D"width:77.25pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><img =
+border=3D"0" width=3D"77" height=3D"121" style=3D"width:.802in;height:1.260=
+4in" id=3D"_x0000_i1034" src=3D"http://www.zucchettisystema.com/marketing/F=
+irmaZsysRidotta.png"></span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><b=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif;color:#3B3838">Vincenzo Carella</span></b><span style=3D"font-size:12.0=
+pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+Account Manager<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quo=
+t;,serif;color:#3B3838"><br>
+Via dei Ceramisti, 38<br>
+50055 Lastra a Signa (FI)<br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:v.carella@zucchettisystema.it"><span style=3D"=
+font-size:9.0pt">v.carella@zucchettisystema.it
+</span></a><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"13" style=3D"width:9.75pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">M<br>
+T<br>
+F</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"484" style=3D"width:363.0pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">&#43;39 366 62.20.940<br>
+&#43;39 055 78.70.801<br>
+&#43;39 055 73.31.760</span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"103" valign=3D"top" style=3D"width:77.25pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><a href=3D"https://www.=
+facebook.com/zucchettisystemafirenze/"><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0pt;padd=
+ing:0cm;text-decoration:none"><img border=3D"0" width=3D"20" height=3D"19" =
+style=3D"width:.2083in;height:.1979in" id=3D"_x0000_i1033" src=3D"http://ww=
+w.zucchettisystema.com/marketing/fb_z.gif"></span></a><a href=3D"https://it=
+.linkedin.com/company/zucchetti-systema-srl"><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0p=
+t;padding:0cm;text-decoration:none"><img border=3D"0" width=3D"19" height=
+=3D"19" style=3D"width:.1979in;height:.1979in" id=3D"_x0000_i1032" src=3D"h=
+ttp://www.zucchettisystema.com/marketing/in_z.gif"></span></a><a href=3D"ht=
+tps://www.youtube.com/channel/UCZXfkRSKVMi_dlbz6pLEjGg/featured?disable_pol=
+ymer=3D1"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none"=
+><img border=3D"0" width=3D"19" height=3D"19" style=3D"width:.1979in;height=
+:.1979in" id=3D"_x0000_i1031" src=3D"http://www.zucchettisystema.com/market=
+ing/yt_z.gif"></span></a><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838">Il=
+ software che crea successo</span></b><span style=3D"font-size:12.0pt;font-=
+family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"https://www.zucchettisystemasrl.it/"><b><span style=
+=3D"font-size:10.0pt">www.zucchettisystema.it</span></b></a><o:p></o:p></sp=
+an></p>
+</td>
+</tr>
+<tr>
+<td width=3D"600" colspan=3D"3" style=3D"width:450.0pt;padding:0cm 0cm 0cm =
+0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71"><br>
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di
+ cancellarla. E' fatto divieto di copiare e divulgare il contenuto di quest=
+a email. Ogni utilizzo abusivo delle informazioni qui contenute da parte di=
+ persone terze o comunque non indicate nella presente email, potr=E0 essere=
+ perseguito ai sensi di legge. Si
+ informa che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del =
+Regolamento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indiri=
+zzo:
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:privacy@zucchettisystema.it"><span style=3D"fo=
+nt-size:8.0pt">privacy@zucchettisystema.it</span></a></span><span style=3D"=
+font-size:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71=
+">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Giorgio Gonnelli &lt;<a hr=
+ef=3D"mailto:giorgio.gonnelli@gonnelli1585.it">giorgio.gonnelli@gonnelli158=
+5.it</a>&gt;
+<br>
+<b>Inviato:</b> venerd=EC 12 aprile 2019 14:43<br>
+<b>A:</b> Vincenzo Carella &lt;<a href=3D"mailto:V.Carella@zucchettisystema=
+.it">V.Carella@zucchettisystema.it</a>&gt;; Matteo Torricelli &lt;<a href=
+=3D"mailto:matteo.torricelli@gonnelli1585.it">matteo.torricelli@gonnelli158=
+5.it</a>&gt;; Zucchetti Systema Supporto Adhoc &lt;<a href=3D"mailto:suppor=
+toadhoc@zucchettisystema.it">supportoadhoc@zucchettisystema.it</a>&gt;;
+ Help | CompuNet &lt;<a href=3D"mailto:help@compunetweb.it">help@compunetwe=
+b.it</a>&gt;; Cristian Consigli &lt;<a href=3D"mailto:C.Consigli@zucchettis=
+ystema.it">C.Consigli@zucchettisystema.it</a>&gt;<br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buongiorno Vincenzo,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">aspettiamo da parte vostra le tempistiche per ul=
+timare le questioni in sospeso.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Nella speranza che il tutto si concluda per la f=
+ine del mese.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Grazie e buon fine settimana.<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" style=3D"border-collapse:collapse;margin-left:6.9pt;m=
+argin-right:6.9pt">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:8.0pt;font-family:&quot;Cambria&quot;,serif;col=
+or:#7F7F7F">Giorgio Gonnelli</span></b><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.15pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Cambria&q=
+uot;,serif;color:#7F7F7F">&nbsp;</span><span style=3D"font-size:12.0pt;line=
+-height:115%;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.15pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Cambria&q=
+uot;,serif;color:#7F7F7F">Gonnelli 1585 S.r.l.<br>
+Via E. De Nicola, 41 Loc. Santa Tea - &nbsp;Reggello 50066 (Italy)<br>
+Ph. </span><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;f=
+ont-family:&quot;Cambria&quot;,serif;color:#7F7F7F">&#43;39 055 86 81 17 - =
+Fax. &#43;39 055 86 91 42
+</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;T=
+imes New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.15pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Email.<b>
+</b></span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&qu=
+ot;Times New Roman&quot;,serif"><a href=3D"mailto:giorgio.gonnelli@gonnelli=
+1585.it"><b><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;=
+font-family:&quot;Cambria&quot;,serif">giorgio.gonnelli@gonnelli1585.it</sp=
+an></b></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.15pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Web:
+</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;T=
+imes New Roman&quot;,serif"><a href=3D"http://www.gonnelli1585.it/" target=
+=3D"_blank"><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;=
+font-family:&quot;Cambria&quot;,serif;color:#7F7F7F;text-decoration:none">w=
+ww.
+ gonnelli1585.it</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:9.15pt;mso-element-wrap:around;mso-element-anchor-vertical=
+:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Facebook: facebook.com/FrantoioSan=
+taTea</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&q=
+uot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"64" style=3D"width:48.0pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Times New =
+Roman&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"1241" colspan=3D"2" valign=3D"top" style=3D"width:930.4pt;padd=
+ing:0cm 10.0pt 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Times New R=
+oman&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:=
+&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:7.0pt;font-family:&quot;Cambria&quot;,serif;color:=
+#A6A6A6">Nel rispetto del D.Lgs. 196/2003 si informa che la presente comuni=
+cazione - contenente informazioni strettamente confidenziali e riservate - =
+e la cui comunicazione o diffusione a terzi
+ =E8 proibita - salvo espressa autorizzazione -, =E8 destinata esclusivamen=
+te al soggetto indicato come destinatario (o ad altri soggetti autorizzati =
+a riceverla). Nel caso fosse stata da Voi ricevuta per errore, Vi preghiamo=
+ di darne immediata comunicazione al
+ mittente e di cancellarne ogni evidenza dai vostri supporti.</span><span s=
+tyle=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:7.0pt;font-family:&quot;Times New Roman&quot;,seri=
+f;color:#A6A6A6">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+9.15pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-GB" style=3D"font-size:7.0pt;font-family:&quot;Cambria&quo=
+t;,serif;color:#A6A6A6">CONFIDENTIALITY NOTICE - This e-mail transmission, =
+and any documents, files or previous e-mail messages attached to it may con=
+tain information that is confidential or legally
+ privileged. If you are not the intended recipient, or a person responsible=
+ for delivering it to the intended recipient, you are hereby notified that =
+you must not read this transmission and that any disclosure, copying, print=
+ing, distribution or use of any
+ of the information contained in or attached to this transmission is STRICT=
+LY PROHIBITED. If you have received this transmission in error, please imme=
+diately notify the sender by telephone or return e-mail and delete the orig=
+inal transmission and its attachments
+ without reading or saving in any manner. Thank you.</span><span style=3D"f=
+ont-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#A6A6A6=
+">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New =
+Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Vincenzo Carella [<a href=
+=3D"mailto:V.Carella@zucchettisystema.it">mailto:V.Carella@zucchettisystema=
+.it</a>]
+<br>
+<b>Inviato:</b> gioved=EC 11 aprile 2019 10:21<br>
+<b>A:</b> Matteo Torricelli &lt;<a href=3D"mailto:matteo.torricelli@gonnell=
+i1585.it">matteo.torricelli@gonnelli1585.it</a>&gt;; Zucchetti Systema Supp=
+orto Adhoc &lt;<a href=3D"mailto:supportoadhoc@zucchettisystema.it">support=
+oadhoc@zucchettisystema.it</a>&gt;; Help | CompuNet
+ &lt;<a href=3D"mailto:help@compunetweb.it">help@compunetweb.it</a>&gt;; Cr=
+istian Consigli &lt;<a href=3D"mailto:C.Consigli@zucchettisystema.it">C.Con=
+sigli@zucchettisystema.it</a>&gt;<br>
+<b>Cc:</b> Giorgio Gonnelli &lt;<a href=3D"mailto:giorgio.gonnelli@gonnelli=
+1585.it">giorgio.gonnelli@gonnelli1585.it</a>&gt;<br>
+<b>Oggetto:</b> R: Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buongiorno a tutti,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Matteo, grazie del riepilogo, ci aiuta a capire =
+lo stato dell=92arte del progetto concordato.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Invito tutto il gruppo di lavoro a fissare un in=
+contro nei prossimi giorni, per analizzare la fase finale del collaudo.<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Grazie dell=92attenzione.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buon lavoro<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600" style=3D"width:450.0pt">
+<tbody>
+<tr>
+<td width=3D"103" rowspan=3D"2" valign=3D"top" style=3D"width:77.25pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><img =
+border=3D"0" width=3D"77" height=3D"121" style=3D"width:.802in;height:1.260=
+4in" id=3D"_x0000_i1030" src=3D"http://www.zucchettisystema.com/marketing/F=
+irmaZsysRidotta.png"></span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><b=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif;color:#3B3838">Vincenzo Carella</span></b><span style=3D"font-size:12.0=
+pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+Account Manager<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quo=
+t;,serif;color:#3B3838"><br>
+Via dei Ceramisti, 38<br>
+50055 Lastra a Signa (FI)<br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:v.carella@zucchettisystema.it"><span style=3D"=
+font-size:9.0pt">v.carella@zucchettisystema.it
+</span></a><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"13" style=3D"width:9.75pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">M<br>
+T<br>
+F</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"484" style=3D"width:363.0pt;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,serif;=
+color:#3B3838">&#43;39 366 62.20.940<br>
+&#43;39 055 78.70.801<br>
+&#43;39 055 73.31.760</span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"103" valign=3D"top" style=3D"width:77.25pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><a href=3D"https://www.=
+facebook.com/zucchettisystemafirenze/"><span style=3D"font-size:12.0pt;font=
+-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0pt;padd=
+ing:0cm;text-decoration:none"><img border=3D"0" width=3D"20" height=3D"19" =
+style=3D"width:.2083in;height:.1979in" id=3D"_x0000_i1029" src=3D"http://ww=
+w.zucchettisystema.com/marketing/fb_z.gif"></span></a><a href=3D"https://it=
+.linkedin.com/company/zucchetti-systema-srl"><span style=3D"font-size:12.0p=
+t;font-family:&quot;Times New Roman&quot;,serif;border:none windowtext 1.0p=
+t;padding:0cm;text-decoration:none"><img border=3D"0" width=3D"19" height=
+=3D"19" style=3D"width:.1979in;height:.1979in" id=3D"_x0000_i1028" src=3D"h=
+ttp://www.zucchettisystema.com/marketing/in_z.gif"></span></a><a href=3D"ht=
+tps://www.youtube.com/channel/UCZXfkRSKVMi_dlbz6pLEjGg/featured?disable_pol=
+ymer=3D1"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none"=
+><img border=3D"0" width=3D"19" height=3D"19" style=3D"width:.1979in;height=
+:.1979in" id=3D"_x0000_i1027" src=3D"http://www.zucchettisystema.com/market=
+ing/yt_z.gif"></span></a><span style=3D"font-size:12.0pt;font-family:&quot;=
+Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"497" colspan=3D"2" style=3D"width:372.75pt;padding:0cm 0cm 0cm=
+ 0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#3B3838">Il=
+ software che crea successo</span></b><span style=3D"font-size:12.0pt;font-=
+family:&quot;Times New Roman&quot;,serif;color:#3B3838"><br>
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"https://www.zucchettisystemasrl.it/"><b><span style=
+=3D"font-size:10.0pt">www.zucchettisystema.it</span></b></a><o:p></o:p></sp=
+an></p>
+</td>
+</tr>
+<tr>
+<td width=3D"600" colspan=3D"3" style=3D"width:450.0pt;padding:0cm 0cm 0cm =
+0cm">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71"><br>
+Il contenuto di questa e-mail e degli eventuali allegati, =E8 strettamente =
+confidenziale, non producibile in giudizio e destinato alla/e persona/e a c=
+ui =E8 indirizzato. Se avete ricevuto per errore questa email, Vi preghiamo=
+ di segnalarcelo immediatamente e di
+ cancellarla. E' fatto divieto di copiare e divulgare il contenuto di quest=
+a email. Ogni utilizzo abusivo delle informazioni qui contenute da parte di=
+ persone terze o comunque non indicate nella presente email, potr=E0 essere=
+ perseguito ai sensi di legge. Si
+ informa che per l'esercizio dei diritti previsti dagli artt. 15 e ss. del =
+Regolamento UE 2016/679 (GDPR), =E8 possibile rivolgersi al seguente indiri=
+zzo:
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><a href=3D"mailto:privacy@zucchettisystema.it"><span style=3D"fo=
+nt-size:8.0pt">privacy@zucchettisystema.it</span></a></span><span style=3D"=
+font-size:8.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#6D6E71=
+">
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&qu=
+ot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">Da:</span></b><span style=3D"font-size:12.0pt=
+;font-family:&quot;Times New Roman&quot;,serif"> Matteo Torricelli &lt;<a h=
+ref=3D"mailto:matteo.torricelli@gonnelli1585.it">matteo.torricelli@gonnelli=
+1585.it</a>&gt;
+<br>
+<b>Inviato:</b> luned=EC 8 aprile 2019 10:00<br>
+<b>A:</b> Zucchetti Systema Supporto Adhoc &lt;<a href=3D"mailto:supportoad=
+hoc@zucchettisystema.it">supportoadhoc@zucchettisystema.it</a>&gt;; Help | =
+CompuNet &lt;<a href=3D"mailto:help@compunetweb.it">help@compunetweb.it</a>=
+&gt;; Cristian Consigli &lt;<a href=3D"mailto:C.Consigli@zucchettisystema.i=
+t">C.Consigli@zucchettisystema.it</a>&gt;<br>
+<b>Cc:</b> Vincenzo Carella &lt;<a href=3D"mailto:V.Carella@zucchettisystem=
+a.it">V.Carella@zucchettisystema.it</a>&gt;; Giorgio Gonnelli &lt;<a href=
+=3D"mailto:giorgio.gonnelli@gonnelli1585.it">giorgio.gonnelli@gonnelli1585.=
+it</a>&gt;<br>
+<b>Oggetto:</b> Punto della situazione<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Buongiorno,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">cerco di riepilogare i punti ancora aperti:<o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-stampa giacenze confezionato: da apportare modi=
+fiche come indicato in mail del 05.04.19;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-possibilit=E0 di effettuare i carichi di confez=
+ionamento in 2 fasi (con possibilit=E0 di eventuali modifiche) come indicat=
+o in nostra mail del 13.07.18;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-procedura di costificazione del confezionato pe=
+r potere stampare gli inventari corretti e per poter visualizzare il margin=
+e di vendita su Infovision;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento automatico nei ddt/fatture delle no=
+te inserite nelle anagrafiche dei clienti; il sistema dei messaggi =E8 attu=
+almente molto macchinoso per le nostre esigenze<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento si Infovision di stampe per il cont=
+rollo degli acquisti (quantit=E0, prezzo medio, check con listino) e inseri=
+mento relativo budget;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-inserimento su Infovision consuntivo di tesorer=
+ia e relativo budget;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">-avvio modulo Pos da collegare alla nostra stamp=
+ante fiscale.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Grazie,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">Matteo Torricelli.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" style=3D"border-collapse:collapse;margin-left:6.15pt;=
+margin-right:6.15pt">
+<tbody>
+<tr>
+<td width=3D"203" valign=3D"top" style=3D"width:152.5pt;padding:0cm 10.0pt =
+0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;line-hei=
+ght:14.0pt;mso-element:frame;mso-element-frame-hspace:8.4pt;mso-element-wra=
+p:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizonta=
+l:column;mso-height-rule:exactly">
+<span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;=
+color:gray"><img border=3D"0" width=3D"66" height=3D"66" style=3D"width:.68=
+75in;height:.6875in" id=3D"Immagine_x0020_1" src=3D"cid:image004.png@01D580=
+2A.F80756F0"></span><span style=3D"font-size:12.0pt;font-family:&quot;Times=
+ New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"3" valign=3D"top" style=3D"width:2.25pt;background:#A6A6A6;pad=
+ding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,seri=
+f;color:black">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&qu=
+ot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"1034" valign=3D"top" style=3D"width:775.65pt;padding:0cm 0cm 0=
+cm 10.0pt">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:8.0pt;font-family:&quot;Cambria&quot;,serif;col=
+or:#7F7F7F">Matteo Torricelli</span></b><span style=3D"font-size:12.0pt;fon=
+t-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Cambria&q=
+uot;,serif;color:#7F7F7F">&nbsp;</span><span style=3D"font-size:12.0pt;line=
+-height:115%;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:8.0pt;line-height:115%;font-family:&quot;Cambria&q=
+uot;,serif;color:#7F7F7F">Gonnelli 1585 S.r.l.<br>
+Via E. De Nicola, 41 Loc. Santa Tea - &nbsp;Reggello 50066 (Italy)<br>
+Ph. </span><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;f=
+ont-family:&quot;Cambria&quot;,serif;color:#7F7F7F">&#43;39 055 86 81 17 - =
+Fax. &#43;39 055 86 91 42
+</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;T=
+imes New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Email.<b>
+</b></span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&qu=
+ot;Times New Roman&quot;,serif"><a href=3D"mailto:matteo.torricelli@gonnell=
+i1585.it"><b><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%=
+;font-family:&quot;Cambria&quot;,serif">matteo.torricelli@gonnelli1585.it</=
+span></b></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Web:
+</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;T=
+imes New Roman&quot;,serif"><a href=3D"http://www.gonnelli1585.it/" target=
+=3D"_blank"><span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;=
+font-family:&quot;Cambria&quot;,serif;color:#7F7F7F;text-decoration:none">w=
+ww.
+ gonnelli1585.it</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;mso-element:frame;mso-elem=
+ent-frame-hspace:8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:8.0pt;line-height:115%;font-family:=
+&quot;Cambria&quot;,serif;color:#7F7F7F">Facebook: facebook.com/FrantoioSan=
+taTea</span><span style=3D"font-size:12.0pt;line-height:115%;font-family:&q=
+uot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"1241" colspan=3D"3" valign=3D"top" style=3D"width:930.4pt;padd=
+ing:0cm 10.0pt 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Times New R=
+oman&quot;,serif">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:=
+&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:7.0pt;font-family:&quot;Cambria&quot;,serif;color:=
+#A6A6A6">Nel rispetto del D.Lgs. 196/2003 si informa che la presente comuni=
+cazione - contenente informazioni strettamente confidenziali e riservate - =
+e la cui comunicazione o diffusione a terzi
+ =E8 proibita - salvo espressa autorizzazione -, =E8 destinata esclusivamen=
+te al soggetto indicato come destinatario (o ad altri soggetti autorizzati =
+a riceverla). Nel caso fosse stata da Voi ricevuta per errore, Vi preghiamo=
+ di darne immediata comunicazione al
+ mittente e di cancellarne ogni evidenza dai vostri supporti.</span><span s=
+tyle=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:7.0pt;font-family:&quot;Times New Roman&quot;,seri=
+f;color:#A6A6A6">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+8.4pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-ele=
+ment-anchor-horizontal:column;mso-height-rule:exactly">
+<span lang=3D"EN-GB" style=3D"font-size:7.0pt;font-family:&quot;Cambria&quo=
+t;,serif;color:#A6A6A6">CONFIDENTIALITY NOTICE - This e-mail transmission, =
+and any documents, files or previous e-mail messages attached to it may con=
+tain information that is confidential or legally
+ privileged. If you are not the intended recipient, or a person responsible=
+ for delivering it to the intended recipient, you are hereby notified that =
+you must not read this transmission and that any disclosure, copying, print=
+ing, distribution or use of any
+ of the information contained in or attached to this transmission is STRICT=
+LY PROHIBITED. If you have received this transmission in error, please imme=
+diately notify the sender by telephone or return e-mail and delete the orig=
+inal transmission and its attachments
+ without reading or saving in any manner. Thank you.</span><span style=3D"f=
+ont-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#A6A6A6=
+">&nbsp;</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New =
+Roman&quot;,serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">&nbsp;<o:p></o:p></span></p>
+</div>
+</div>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"http://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 =96 GDPR- e quindi ne =E8 proibita l=92utilizzazione ulteriore non a=
+utorizzata. Se avete ricevuto per errore questo messaggio, Vi preghiamo cor=
+tesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice =
+=96 This e-mail message including any attachments is for the sole use of th=
+e intended recipient and may contain confidential and privileged informatio=
+n pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 =96 GDPR-. An=
+y unauthorized review, use, disclosure or distribution is prohibited. If yo=
+u are not the intended recipient, please contact the sender by reply e-mail=
+ and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_--
+
+--_005_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_
+Content-Type: image/png; name="image004.png"
+Content-Description: image004.png
+Content-Disposition: inline; filename="image004.png"; size=183;
+	creation-date="Fri, 11 Oct 2019 09:56:53 GMT";
+	modification-date="Fri, 11 Oct 2019 09:56:53 GMT"
+Content-ID: <image004.png@01D5802A.F80756F0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAMAAADUivDaAAAAAXNSR0ICQMB9xQAAAANQTFRFAAAA
+p3o92gAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAZdEVYdFNvZnR3YXJlAE1p
+Y3Jvc29mdCBPZmZpY2V/7TVxAAAAG0lEQVRYw+3BgQAAAADDoPlTH+ECVQEAAADwDRFGAAGDoSQV
+AAAAAElFTkSuQmCC
+
+--_005_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_
+Content-Type: image/png; name="image005.png"
+Content-Description: image005.png
+Content-Disposition: inline; filename="image005.png"; size=183;
+	creation-date="Fri, 11 Oct 2019 09:56:54 GMT";
+	modification-date="Fri, 11 Oct 2019 09:56:54 GMT"
+Content-ID: <image005.png@01D5802A.F80756F0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0ICQMB9xQAAAANQTFRFAAAA
+p3o92gAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAZdEVYdFNvZnR3YXJlAE1p
+Y3Jvc29mdCBPZmZpY2V/7TVxAAAAG0lEQVRYw+3BgQAAAADDoPlT3+AEVQEAAAB8AxBAAAEZszF2
+AAAAAElFTkSuQmCC
+
+--_005_DB7PR08MB3241573631DAA0F0273BD8D7FA970DB7PR08MB3241eurp_--

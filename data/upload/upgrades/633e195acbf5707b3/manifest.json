@@ -1,0 +1,17 @@
+{
+  "name": "EspoCRM Upgrade 5.9.1 to 5.9.2",
+  "type": "upgrade",
+  "version": "5.9.2",
+  "acceptableVersions": [
+    "5.9.1"
+  ],
+  "php": [
+    ">=7.2.0"
+  ],
+  "releaseDate": "2020-06-05",
+  "author": "EspoCRM",
+  "description": "",
+  "delete": [
+    "frontend/less/espo/elements/side-modal.less"
+  ]
+}

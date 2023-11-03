@@ -1,0 +1,32 @@
+{
+    "fields": {
+        "isCaseItem": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "name": {
+            "options": []
+        },
+        "arCodArt": {
+            "required": false
+        }
+    },
+    "collection": {
+        "filters": {
+            "reportFilter5ee1ed97eddd81ccc": {
+                "isReportFilter": true,
+                "className": "Espo\\Modules\\Advanced\\Core\\ReportFilter",
+                "id": "5ee1ed97eddd81ccc"
+            }
+        },
+        "orderBy": "arCodArt",
+        "order": "asc",
+        "textFilterFields": [
+            "arCodArt",
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

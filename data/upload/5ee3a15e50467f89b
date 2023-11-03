@@ -1,0 +1,11 @@
+Reporting-MTA: dns; AM7PR08MB5317.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; casasantobambino@pec.it
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx.pec.aruba.it
+X-Supplementary-Info: <mx.pec.aruba.it #5.0.350 smtp;550 5.0.350 Remote server
+ returned an error -> 554 <help@cloud3.srl>: Messaggio rifiutato dal sistema.
+ Indirizzo destinatario sconosciuto o non abilitato alla ricezione di posta
+ non certificata.>
+

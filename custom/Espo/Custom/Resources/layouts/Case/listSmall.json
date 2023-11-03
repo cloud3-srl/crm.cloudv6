@@ -1,0 +1,42 @@
+[
+    {
+        "name": "number",
+        "width": 10,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "description",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "modifiedAt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "align": "left"
+    }
+]

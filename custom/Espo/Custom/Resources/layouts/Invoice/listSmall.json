@@ -1,0 +1,37 @@
+[
+    {
+        "name": "number",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "adHoc",
+        "width": 5,
+        "align": "left"
+    }
+]

@@ -1,0 +1,32 @@
+Received: from SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f]) by
+ SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f%14]) with mapi; Thu, 23 Jan
+ 2020 15:32:41 +0100
+From: =?iso-8859-1?Q?Qualit=E0_Laboratorio?= <Qualita@cavannaolii.com>
+To: Giulia Albertazzi <giulia.albertazzi@bioagricert.org>
+CC: Chiara Ginanneschi <cginanneschi@cavannaolii.com>, Veronica Marullo
+	<vmarullo@cavannaolii.com>, "Sales  Cavanna Olii Snc --"
+	<sales@cavannaolii.com>
+Date: Thu, 23 Jan 2020 15:32:40 +0100
+Subject: Modulo M22 
+Thread-Topic: Modulo M22 
+Thread-Index: AdXR+b5VHsw9oxa3S/KdqWcUoVxGEw==
+Message-ID:
+ <DBEFA95F29B64A488560E0B81D5B437E02DEDBD55647@SBS2008.cavanna.local>
+Accept-Language: it-IT
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: it-IT
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1579789964; bh=oBhy9cxmxNlNQM6K6U94D55sfexSCuYDX8QtMxzQEpg=;
+	h=From:To:Date:Subject:Content-Type:MIME-Version;
+	b=F+x5ysLF2ydszSI/g0X/tksTX986gyZ/29VdtLVvmBEasC3WFKb+GzbURPha7eM/z
+	 FcrRZEpTynzMl99o5R/wMqkwik4XVrEkDkb6LoH6lL5fW+CjcrxDtoCssy+gESU6xS
+	 eD8azOubC9JZIJeFCR1YDv0sruuXVnEiv4FCVKd6sHkAX5ElKIjHXcPE0c/ThjeNfw
+	 mDC0sA1OJQyTg/wXScJvfhfduq0pYp/cOHnnLNF1YO6XfYOWjsWJeuIThtKy6lNnd2
+	 3JvBAniBTcRWx9S5ne0ydksiFuakwzGxuFclqNl7+nmScHkGkBXirRiAlz1eEoPiRv
+	 qmbiyP93PVVmA==
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+

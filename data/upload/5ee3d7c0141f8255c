@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM7PR08MB5510.eurprd08.prod.outlook.com
+Received-From-MTA: dns;AM7PR08MB5511.eurprd08.prod.outlook.com
+Arrival-Date: Thu, 12 Mar 2020 13:28:37 +0000
+
+Final-Recipient: rfc822;francesca.consolide@grmdistribuzioni.com
+Action: relayed
+Status: 5.0.350
+Diagnostic-Code: smtp;550 5.0.350 Remote server returned an error -> 250 Accepted
+Remote-MTA: dns;srv-hs10.netsons.net
+X-Display-Name: francesca.consolide@grmdistribuzioni.com
+

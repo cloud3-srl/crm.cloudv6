@@ -1,0 +1,18 @@
+{
+    "fields": {
+        "orCodAge": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "maxLength": 5,
+            "options": [],
+            "tooltip": true
+        },
+        "orCodUte": {
+            "type": "int",
+            "required": true,
+            "tooltip": true,
+            "default": 1
+        }
+    }
+}

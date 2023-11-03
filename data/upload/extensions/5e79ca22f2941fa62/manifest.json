@@ -1,0 +1,11 @@
+{
+  "name": "Sales Pack",
+  "version": "1.0.10",
+  "type": "extension",
+  "acceptableVersions": [],
+  "releaseDate": "2020-02-27",
+  "author": "EspoCRM",
+  "description": "Products, Quotes, Sales Orders, Invoices.",
+  "checkVersionUrl": "https://s.espocrm.com",
+  "skipBackup": true
+}

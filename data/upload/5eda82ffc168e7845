@@ -1,0 +1,10 @@
+Reporting-MTA: dns; DB7PR08MB3851.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; Gabrieleb@cloud3.srl
+Action: failed
+Status: 5.1.0
+X-Supplementary-Info: < #5.1.10 smtp;550 5.1.10
+ RESOLVER.ADR.RecipientNotFound; Recipient Gabrieleb@cloud3.srl not found by
+ SMTP address lookup>
+X-Display-Name: Gabriele
+

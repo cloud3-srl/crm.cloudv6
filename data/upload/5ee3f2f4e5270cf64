@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+PRODID:-//Splash Event Planning System
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20200529T083312Z
+UID:a5df6e01f07e395029d4ce2f0f77b5f079f02217@events.sophos.c
+ om/sophoscertifiearchitect0906
+URL:http://events.sophos.com/sophoscertifiearchitect0906
+DTSTART:20200609T070000Z
+DTEND:20200611T160000Z
+ORGANIZER;CN="Sophos Certified Architect - XG FIREWALL - ARR
+ OW - 9 10 11 GIUGNO 2020":mailto:no-reply@events.sophos.com
+SUMMARY:Sophos Certified Architect - XG FIREWALL - ARROW - 9
+ , 10, 11 GIUGNO 2020
+DESCRIPTION:For more information - http://events.sophos.com/
+ sophoscertifiearchitect0906
+LOCATION:AULA VIRTUALE AULA VIRTUALE
+END:VEVENT
+END:VCALENDAR
+

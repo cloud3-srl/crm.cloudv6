@@ -1,0 +1,62 @@
+{
+    "controller": "controllers/record",
+    "views": {
+        "list": "sales:views/product/list"
+    },
+    "modalViews": {
+        "select": "sales:views/product/modals/select-records"
+    },
+    "menu": {
+        "list": {
+            "dropdown": [
+                {
+                    "label": "Brands",
+                    "link": "#ProductBrand",
+                    "acl": "read",
+                    "aclScope": "ProductBrand"
+                },
+                {
+                    "label": "Categories",
+                    "link": "#ProductCategory",
+                    "acl": "edit",
+                    "aclScope": "ProductCategory"
+                }
+            ]
+        }
+    },
+    "filterList": [
+        "available"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "pricingFactor": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "pricingType",
+                            "value": [
+                                "Discount from List",
+                                "Markup over Cost",
+                                "Profit Margin"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "unitPrice": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "pricingType",
+                            "value": "Fixed"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dynamicHandler": "sales:product-dynamic-handler",
+    "iconClass": "fas fa-cube"
+}

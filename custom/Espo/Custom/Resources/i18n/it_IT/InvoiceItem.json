@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "account": "Cliente",
+        "amount": "Importa",
+        "invoice": "Rapportino",
+        "invoiceStatus": "Stato Rapportino",
+        "product": "Prodotto",
+        "qty": "Qta",
+        "quantity": "Quantità",
+        "dateEnd": ".",
+        "dateStart": "Data apertura/chiusura",
+        "name": "Intervento",
+        "description": "Note"
+    },
+    "labels": {
+        "Create InvoiceItem": "Creare Intervento"
+    },
+    "tooltips": {
+        "quantity": "es: 0,25 = 1/4 d'ora\n      0,50 = mezz'ora\n      1      = un'ora"
+    }
+}

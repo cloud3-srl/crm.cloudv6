@@ -1,0 +1,53 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "arCodArt"
+                },
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "category"
+                },
+                {
+                    "name": "isCaseItem"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Panoramica"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "utdv"
+                },
+                {
+                    "name": "utdc"
+                }
+            ],
+            [
+                {
+                    "name": "idJob"
+                },
+                {
+                    "name": "cpccchk"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Ad Hoc API"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "filterList": [
+        "__APPEND__",
+        {
+            "isReportFilter": true,
+            "name": "reportFilter5ee1ed97eddd81ccc",
+            "accessDataList": [
+                {
+                    "teamIdList": [
+                        "5ec26ffdccb86a0a1"
+                    ]
+                }
+            ]
+        }
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": "fas fa-cube"
+}

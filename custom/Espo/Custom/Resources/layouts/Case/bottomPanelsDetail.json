@@ -1,0 +1,30 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "invoices": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "isNotEmpty",
+                    "attribute": "accountId",
+                    "data": {
+                        "field": "account"
+                    }
+                }
+            ]
+        },
+        "index": 0
+    },
+    "stream": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 1
+    },
+    "reportPanel5ee3254e3338797b2": {
+        "index": 2
+    }
+}

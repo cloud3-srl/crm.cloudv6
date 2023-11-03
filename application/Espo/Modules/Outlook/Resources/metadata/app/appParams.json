@@ -1,0 +1,5 @@
+{
+    "outlookTenant": {
+        "className": "\\Espo\\Modules\\Outlook\\Core\\AppParams\\OutlookTenant"
+    }
+}

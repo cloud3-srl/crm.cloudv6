@@ -1,0 +1,67 @@
+{
+    "color": "#60bd40",
+    "iconClass": "fas fa-briefcase",
+    "dynamicLogic": {
+        "fields": {
+            "call": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "callId",
+                            "data": {
+                                "field": "call"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel5ee3254e3338797b2",
+                "label": "Email",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "5ee3254e3338797b2",
+                "reportType": "List",
+                "reportEntityType": "Email",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "Email"
+                    }
+                ],
+                "order": 7
+            }
+        ]
+    },
+    "sidePanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel60096a595ad12f3a1",
+                "label": "Ore prepagate",
+                "view": "cloud3:views/call/record/panels/prepagati",
+                "reportPanelId": "60096a595ad12f3a1",
+                "reportType": "Grid",
+                "reportEntityType": "Prepagato",
+                "displayTotal": false,
+                "displayOnlyTotal": true,
+                "useSiMultiplier": false,
+                "accessDataList": [
+                    {
+                        "scope": "Prepagato"
+                    }
+                ],
+                "column": "SUM:mvQtaRes"
+            }
+        ]
+    }
+}

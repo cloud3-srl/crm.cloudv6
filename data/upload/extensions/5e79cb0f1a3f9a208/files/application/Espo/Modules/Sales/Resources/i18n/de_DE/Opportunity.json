@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Items": "Positionen",
+    "Select Product": "Produkt auswählen",
+    "Add Item": "Position hinzufügen"
+  },
+  "links": {
+    "quotes": "Angebote",
+    "items": "Positionen"
+  },
+  "fields": {
+    "itemList": "Positionliste"
+  }
+}

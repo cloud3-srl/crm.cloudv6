@@ -1,0 +1,78 @@
+Received: from VI1PR08CA0204.eurprd08.prod.outlook.com (2603:10a6:800:d2::34)
+ by AM6PR08MB3350.eurprd08.prod.outlook.com (2603:10a6:209:45::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2495.17; Thu, 28 Nov
+ 2019 00:23:15 +0000
+Received: from VE1EUR01FT019.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:f400:7e01::207) by VI1PR08CA0204.outlook.office365.com
+ (2603:10a6:800:d2::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2474.19 via Frontend
+ Transport; Thu, 28 Nov 2019 00:23:15 +0000
+Authentication-Results: spf=softfail (sender IP is 46.252.147.53)
+ smtp.mailfrom=cloud3.srl; cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=none action=none header.from=cloud3.srl;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ cloud3.srl discourages use of 46.252.147.53 as permitted sender)
+Received: from hostingssd36-53.netsons.net (46.252.147.53) by
+ VE1EUR01FT019.mail.protection.outlook.com (10.152.2.231) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2495.18 via Frontend Transport; Thu, 28 Nov 2019 00:23:14 +0000
+Received: from [46.252.147.53] (port=60136 helo=www.cloud3.srl)
+	by hostingssd36.netsons.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <help@cloud3.srl>)
+	id 1ia7aU-008lQU-6j
+	for Gabrieleb@cloud3.srl; Thu, 28 Nov 2019 01:23:14 +0100
+Date: Thu, 28 Nov 2019 01:23:14 +0100
+To: Gabriele <Gabrieleb@cloud3.srl>
+From: Simone Cola <simone.cola@cloud3.srl>
+Subject: File Updated: unms-vault-key.txt CLOUD3
+Message-ID: <375fc7e2bc2536a74500121222ccc7c2@www.cloud3.srl>
+X-Mailer: PHPMailer 5.2.21 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: multipart/alternative;
+	boundary="b1_375fc7e2bc2536a74500121222ccc7c2"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostingssd36.netsons.net
+X-AntiAbuse: Original Domain - cloud3.srl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cloud3.srl
+X-Get-Message-Sender-Via: hostingssd36.netsons.net: authenticated_id: ticket@cloud3.help
+X-Authenticated-Sender: hostingssd36.netsons.net: ticket@cloud3.help
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-Forefront-Antispam-Report: CIP:46.252.147.53;IPV:NLI;CTRY:IT;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 6481eb7e-a966-4442-becf-08d7739928ec
+X-MS-TrafficTypeDiagnostic: AM6PR08MB3350:
+MIME-Version: 1.0
+
+--b1_375fc7e2bc2536a74500121222ccc7c2
+Content-Type: text/plain; charset=us-ascii
+
+Dear Gabriele,
+ 
+ A file has been uploaded/updated by Simone Cola called unms-vault-key.txt.
+
+ View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&p[0]=customer_admin_open&m[1]=file&p[1]=file_admin&customer_id=1016&customer_type_id=0&file_id=35
+
+ Customer: CLOUD3
+ Description: Ubiquiti UNMS Cloud VaultKey 
+
+
+--b1_375fc7e2bc2536a74500121222ccc7c2
+Content-Type: text/html; charset=us-ascii
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">Dear Gabriele,<br>
+<br>
+A file has been uploaded/updated by Simone Cola called unms-vault-key.txt.<br><br>
+View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&amp;p[0]=customer_admin_open&amp;m[1]=file&amp;p[1]=file_admin&amp;customer_id=1016&amp;customer_type_id=0&amp;file_id=35<br><br>
+Customer: CLOUD3<br>
+Description: <p>Ubiquiti UNMS Cloud VaultKey</p>
+
+
+
+--b1_375fc7e2bc2536a74500121222ccc7c2--

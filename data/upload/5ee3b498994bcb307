@@ -1,0 +1,155 @@
+Received: from SBS2008 (127.0.0.1) by SBS2008.cavanna.local (127.0.0.1) with
+ Microsoft SMTP Server id 8.3.389.2; Thu, 5 Dec 2019 19:03:15 +0100
+Received: by [SBS2008.cavanna.local (Microsoft Connector for POP3 Mailboxes)]
+ id <"{9E263647-8F3B-4F5A-9DD5-6E010FE88774}"@cavanna.local>; Thu, 5 Dec 2019
+ 19:03:15 +0100
+Received: (qmail 2201 invoked by uid 89); 5 Dec 2019 18:01:22 -0000
+Received: from unknown (HELO mxdhfe06.ad.aruba.it) (10.10.10.216)  by
+ mxdhbe03.ad.aruba.it with SMTP; 5 Dec 2019 18:01:22 -0000
+Received: from mail1.bemta23.messagelabs.com ([67.219.246.212])	by bizsmtp
+ with ESMTP	id cvRGiWzYJxV8TcvRHiS4Gi; Thu, 05 Dec 2019 19:01:21 +0100
+Received: from [67.219.246.108] (using TLSv1.2 with cipher
+ DHE-RSA-AES256-GCM-SHA384 (256 bits))	by
+ server-2.bemta.az-b.us-east-1.aws.symcld.net id 15/AD-12122-DE549ED5; Thu, 05
+ Dec 2019 18:01:17 +0000
+Received: (qmail 30503 invoked from network); 5 Dec 2019 18:01:17 -0000
+Received: from p01a.mail.dlp.protect.symantec.com (HELO
+ mail.ds.dlp.protect.symantec.com) (18.237.140.176)  by
+ server-8.tower-392.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted
+ SMTP; 5 Dec 2019 18:01:17 -0000
+Received: from MN2PR05CA0002.namprd05.prod.outlook.com (2603:10b6:208:c0::15)
+ by CY1PR05MB2684.namprd05.prod.outlook.com (2a01:111:e400:c636::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2516.8; Thu, 5 Dec
+ 2019 18:01:10 +0000
+Received: from CO1NAM11FT033.eop-nam11.prod.protection.outlook.com
+ (2a01:111:f400:7eab::207) by MN2PR05CA0002.outlook.office365.com
+ (2603:10b6:208:c0::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2538.4 via Frontend
+ Transport; Thu, 5 Dec 2019 18:01:09 +0000
+Received: from mail.safeway.com (167.146.208.73) by
+ CO1NAM11FT033.mail.protection.outlook.com (10.13.174.247) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2451.23 via Frontend Transport; Thu, 5 Dec 2019 18:01:08 +0000
+Received: from pnv0124fe.safeway01.ad.safeway.com (172.26.1.240) by
+ mail.safeway.com (167.146.208.73) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1847.3; Thu, 5 Dec
+ 2019 11:00:31 -0700
+Received: from pnv012502.safeway01.ad.safeway.com (172.26.1.241) by
+ pnv0124fe.safeway01.ad.safeway.com (172.26.1.240) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1847.3; Thu, 5 Dec 2019 11:00:30 -0700
+Received: from phvgpz0h.safeway.com (172.26.5.60) by
+ pnv012502.safeway01.ad.safeway.com (172.26.1.241) with Microsoft SMTP Server
+ id 15.1.1847.3 via Frontend Transport; Thu, 5 Dec 2019 11:00:30 -0700
+From: eb2b <eb2b@albertsons.com>
+To: Ufficio Ordini Cavanna Olii Snc <ordini@cavannaolii.com>, "Sales  Cavanna
+ Olii Snc --" <sales@cavannaolii.com>, Direzione Cavanna Olii Snc
+	<direzione@cavannaolii.com>, "kdepaulo@easylink.com" <kdepaulo@easylink.com>
+CC: Corporate ECREDI <ecredi@safeway.com>
+Date: Thu, 5 Dec 2019 19:00:30 +0100
+Subject:
+ =?utf-8?B?Q0FWQU5OQSBPTElJIERJIFNBTkRSTyBDQVZBTk5BIEFORCBDIC0gTWlzc2k=?=
+ =?utf-8?B?bmcgRkEgOTk3IMKgT3ZlciAyNCBociBub3RpY2U=?=
+Thread-Topic:
+ =?utf-8?B?Q0FWQU5OQSBPTElJIERJIFNBTkRSTyBDQVZBTk5BIEFORCBDIC0gTWlzc2k=?=
+ =?utf-8?B?bmcgRkEgOTk3IMKgT3ZlciAyNCBociBub3RpY2U=?=
+Thread-Index: AdWrlkQ+O736dNquS22O28iYD+w1pA==
+Message-ID:
+ <964340217.15305.1575568830799.JavaMail.ii00wl@phvgpz0h.safeway.com>
+Reply-To: "no.reply@yourdomain.com" <no.reply@yourdomain.com>
+X-MS-Exchange-Organization-AuthSource: SBS2008.cavanna.local
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+delivered-to: cavannaolii.com-ordini@cavannaolii.com
+received-spf: Pass (protection.outlook.com: domain of albertsons.com
+ designates 167.146.208.73 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.146.208.73;
+ helo=mail.safeway.com;
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=rxsafeway.onmicrosoft.com; s=selector2-rxsafeway-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=oB6NW3r0wvNVjW6SCZVnttyeVyNcJsGuWEo2EWdO7Yk=;
+ b=PiN+Y0JhkBQYBbf6X8egtPT1X98RBKR4NhgzhWWptLdeiOSveoj8FFJvxMp+Fh3/8Yyc1yCV+bc1ZFM+sbxQ1ZsC2wAYF8nvajBJMS0p9ZOzYUG3HiwE5EE+IP1sLiHOM9C1JdR1Ojt8yjVU3/Y8Vmd5tztEXS/yUbDMHD2g2A8=
+x-originating-ip: [18.237.140.176]
+x-env-sender: eb2b@albertsons.com
+x-msg-ref: server-8.tower-392.messagelabs.com!1575568875!51422!1
+x-starscan-version: 9.44.22; banners=-,-,-
+x-viruschecked: Checked
+x-brightmail-tracker: H4sIAAAAAAAAA+NgFjrKJsWRWlGSWpSXmKPExsUi9LZng+5b15e
+  xBjsXS1q0tlxitVi97SGrxY9ND5gsXpx+xerA4tF/4jirx6PfbxgDmKJYM/OS8isSWDPWTp3B
+  XLCYq2J261rGBsZrHF2MXByMAkuZJSasXMsC4RxjkTjXsIAJwpnAJPFy3jWwDIvAZmaJxplHG
+  EEcIYH5TBLfmyewQTj7mSR2zp3FBtFzj1Fi5/H3QGWcQJkTjBKLnklDVE1ikvh8pJ0FwvnGKH
+  HqYR/UsDYmidNLrkANO8kose7XXGaIfgWJN2+us4HYbAISEgeP3meDiCtLrOveAmaLCFRKzHm
+  /lgnEZgaq+fxyB5jNKxAgce3gCnYQW1igQOJ/33R2iLigxMmZT1gg6jUkFtzZxwhha0ssW/ga
+  bK+EAK/EjPanQDUcQLaDxMNNyiBhFgEVic97u1khSiQlrt28wA5RoixxqsUPInyBRWLdNSYIW
+  1bi6Nk5LBC2r8Ts/ltsELaWxJ5Nn6DiORKfjjayTWDUm4XkuFlIjpuF5LgFjMyrGM2SijLTM0
+  pyEzNzdA0NDHQNDY10DXSNTE31Eqt0k/RKi3VTE4tLdA31EsuL9Yorc5NzUvTyUks2MQJTTko
+  Bw/8djOe+vtU7xCjJwaQkyrtY42WsEF9SfkplRmJxRnxRaU5q8SFGGQ4OJQleAWegnGBRanpq
+  RVpmDjD9waQlOHiURHg5gClQiLe4IDG3ODMdInWK0ZVjwsu5i5g5Pq5aAiS/g8kfYLLpA5AUY
+  snLz0uVEudd7gLULADSnFGaBzcalrovMcpKCfMyMjAwCPEUpBblZpagyr9iFOdgVBLmnQkyhS
+  czrwTugldAxzEBHXeg8hnIcSWJCCmpBqbzExdP/8LZp/swfOcJE4aMo3urWU/ysvbKyGptsQx
+  dP9FvUnvaox0lG6Jm+Nl7Tm63E1xQ8bG8VV3FYQfb4pMqL3dlcBUemS97f1mr7fYHRoc/XAzU
+  f+UYWzzh6omyXcInSuudhFLzRN4s8f+mLGYyt/NC6VJjua6XPXInTN/ElxvP3Kx4runaIZ8TS
+  te9r/PYPew6lfdxxq+deTcZxG/8vuD++ry14dS7u312CO96UnW5yFJw0aevPsr2iQKvrr0scZ
+  0udCfzYk1w1lfLGP5YJkPTvLBXZnfsqjMOvDnzZuEs03ZlI9lA8YmrvjDE9doYPeviqes8Lvf
+  /nLabzFZXnjXBaZKKXkLhpm+8dJVYijMSDbWYi4oTAbdrrvxYBAAA
+x-ms-publictraffictype: Email
+Content-Type: multipart/alternative;
+	boundary="_000_964340217153051575568830799JavaMailii00wlphvgpz0hsafewa_"
+MIME-Version: 1.0
+
+--_000_964340217153051575568830799JavaMailii00wlphvgpz0hsafewa_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGVhciBQYXJ0bmVyIENBVkFOTkEgT0xJSSBESSBTQU5EUk8gQ0FWQU5OQSBBTkQgQw0KDQpBTEJF
+UlRTT05TIENPTVBBTklFUywgTExDIHdpdGggSVNBIDA4KjkyNTE3NTAwMDAgaGFzIG5vdCByZWNl
+aXZlZCBhIGZ1bmN0aW9uYWwgYWNrbm93bGVkZ2VtZW50LCA5OTcsIGZvciB0aGUgZm9sbG93aW5n
+IHRyYW5zYWN0aW9ucy4NClBsZWFzZSBzZW5kIEZBKHMpIG9yIGNvbnRhY3QgZWNyZWRpQHNhZmV3
+YXkuY29tIHdpdGggc3RhdHVzIG9mIHRoZSBkb2N1bWVudChzKS4NCg0KfHwgSU5UUkNITkcgfCBE
+T0MgfCBSRUYgVFlQRSDigJMgUkVGIE5VTSB8IERBVEUgVElNRSAoTVNUKSB8fA0KfHwgMTAwMDAw
+MDE4IHwgODUwIHwgUE8gTnVtYmVyLTYyMzY1NCB8IDIwMTkvMTIvMDMgMDM6MTI6NDMgfHwNCg0K
+DQpUaGFuayB5b3UgZm9yIHlvdXIgYXR0ZW50aW9uIHRvIHRoaXMgbWF0dGVyLg0KDQpBbGJlcnRz
+b25zIENvbXBhbmllcywgTExDDQplY3JlZGlAc2FmZXdheS5jb20NCg0KRE8gTk9UIFJFUExZIHRv
+IHRoaXMgZW1haWwuDQogIF9fX19fDQoNCldhcm5pbmc6IEFsbCBlLW1haWwgc2VudCB0byB0aGlz
+IGFkZHJlc3Mgd2lsbCBiZSByZWNlaXZlZCBieSB0aGUgY29ycG9yYXRlIGUtbWFpbCBzeXN0ZW0s
+IGFuZCBpcyBzdWJqZWN0IHRvIGFyY2hpdmFsIGFuZCByZXZpZXcgYnkgc29tZW9uZSBvdGhlciB0
+aGFuIHRoZSByZWNpcGllbnQuIFRoaXMgZS1tYWlsIG1heSBjb250YWluIHByb3ByaWV0YXJ5IGlu
+Zm9ybWF0aW9uIGFuZCBpcyBpbnRlbmRlZCBvbmx5IGZvciB0aGUgdXNlIG9mIHRoZSBpbnRlbmRl
+ZCByZWNpcGllbnQocykuIElmIHRoZSByZWFkZXIgb2YgdGhpcyBtZXNzYWdlIGlzIG5vdCB0aGUg
+aW50ZW5kZWQgcmVjaXBpZW50KHMpLCB5b3UgYXJlIG5vdGlmaWVkIHRoYXQgeW91IGhhdmUgcmVj
+ZWl2ZWQgdGhpcyBtZXNzYWdlIGluIGVycm9yIGFuZCB0aGF0IGFueSByZXZpZXcsIGRpc3NlbWlu
+YXRpb24sIGRpc3RyaWJ1dGlvbiBvciBjb3B5aW5nIG9mIHRoaXMgbWVzc2FnZSBpcyBzdHJpY3Rs
+eSBwcm9oaWJpdGVkLiBJZiB5b3UgaGF2ZSByZWNlaXZlZCB0aGlzIG1lc3NhZ2UgaW4gZXJyb3Is
+IHBsZWFzZSBub3RpZnkgdGhlIHNlbmRlciBpbW1lZGlhdGVseS4NCiAgX19fX18NCg0K
+
+--_000_964340217153051575568830799JavaMailii00wlphvgpz0hsafewa_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD11dGYtOCI+DQo8L2hlYWQ+DQo8Ym9keT4NCkRlYXIgUGFydG5lciBD
+QVZBTk5BIE9MSUkgREkgU0FORFJPIENBVkFOTkEgQU5EIEM8YnI+DQo8YnI+DQpBTEJFUlRTT05T
+IENPTVBBTklFUywgTExDIHdpdGggSVNBIDA4KjkyNTE3NTAwMDAgaGFzIG5vdCByZWNlaXZlZCBh
+IGZ1bmN0aW9uYWwgYWNrbm93bGVkZ2VtZW50LCA5OTcsIGZvciB0aGUgZm9sbG93aW5nIHRyYW5z
+YWN0aW9ucy48YnI+DQpQbGVhc2Ugc2VuZCBGQShzKSBvciBjb250YWN0IGVjcmVkaUBzYWZld2F5
+LmNvbSB3aXRoIHN0YXR1cyBvZiB0aGUgZG9jdW1lbnQocykuPGJyPg0KPGJyPg0KPGI+fHwgSU5U
+UkNITkcgfCBET0MgfCBSRUYgVFlQRSDigJMgUkVGIE5VTSB8IERBVEUgVElNRSAoTVNUKSB8fDwv
+Yj48YnI+DQp8fCAxMDAwMDAwMTggfCA4NTAgfCBQTyBOdW1iZXItNjIzNjU0IHwgMjAxOS8xMi8w
+MyAwMzoxMjo0MyB8fDxicj4NCjxicj4NCjxicj4NClRoYW5rIHlvdSBmb3IgeW91ciBhdHRlbnRp
+b24gdG8gdGhpcyBtYXR0ZXIuPGJyPg0KPGJyPg0KQWxiZXJ0c29ucyBDb21wYW5pZXMsIExMQzxi
+cj4NCmVjcmVkaUBzYWZld2F5LmNvbTxicj4NCjxicj4NCkRPIE5PVCBSRVBMWSB0byB0aGlzIGVt
+YWlsLg0KPGhyPg0KV2FybmluZzogQWxsIGUtbWFpbCBzZW50IHRvIHRoaXMgYWRkcmVzcyB3aWxs
+IGJlIHJlY2VpdmVkIGJ5IHRoZSBjb3Jwb3JhdGUgZS1tYWlsIHN5c3RlbSwgYW5kIGlzIHN1Ympl
+Y3QgdG8gYXJjaGl2YWwgYW5kIHJldmlldyBieSBzb21lb25lIG90aGVyIHRoYW4gdGhlIHJlY2lw
+aWVudC4gVGhpcyBlLW1haWwgbWF5IGNvbnRhaW4gcHJvcHJpZXRhcnkgaW5mb3JtYXRpb24gYW5k
+IGlzIGludGVuZGVkIG9ubHkgZm9yIHRoZSB1c2Ugb2YgdGhlIGludGVuZGVkDQogcmVjaXBpZW50
+KHMpLiBJZiB0aGUgcmVhZGVyIG9mIHRoaXMgbWVzc2FnZSBpcyBub3QgdGhlIGludGVuZGVkIHJl
+Y2lwaWVudChzKSwgeW91IGFyZSBub3RpZmllZCB0aGF0IHlvdSBoYXZlIHJlY2VpdmVkIHRoaXMg
+bWVzc2FnZSBpbiBlcnJvciBhbmQgdGhhdCBhbnkgcmV2aWV3LCBkaXNzZW1pbmF0aW9uLCBkaXN0
+cmlidXRpb24gb3IgY29weWluZyBvZiB0aGlzIG1lc3NhZ2UgaXMgc3RyaWN0bHkgcHJvaGliaXRl
+ZC4gSWYgeW91IGhhdmUgcmVjZWl2ZWQNCiB0aGlzIG1lc3NhZ2UgaW4gZXJyb3IsIHBsZWFzZSBu
+b3RpZnkgdGhlIHNlbmRlciBpbW1lZGlhdGVseS4NCjxocj4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+
+--_000_964340217153051575568830799JavaMailii00wlphvgpz0hsafewa_--

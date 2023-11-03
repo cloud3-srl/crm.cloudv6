@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "isCaseItem": "Intervento (Ticket)"
+    },
+    "presetFilters": {
+        "reportFilter5ee1ed97eddd81ccc": "Interventi"
+    }
+}

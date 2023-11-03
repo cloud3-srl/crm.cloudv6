@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "itemList": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "sales:views/opportunity/fields/item-list",
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true,
+            "templatePlaceholderDisabled": true,
+            "reportDisabled": true
+        }
+    },
+    "links": {
+        "items": {
+            "type": "hasMany",
+            "entity": "OpportunityItem",
+            "foreign": "opportunity",
+            "layoutRelationshipsDisabled": true
+        },
+        "quotes": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "opportunity",
+            "audited": true
+        },
+        "salesOrders": {
+            "type": "hasMany",
+            "entity": "SalesOrder",
+            "foreign": "opportunity",
+            "audited": true
+        },
+        "invoices": {
+            "type": "hasMany",
+            "entity": "Invoice",
+            "foreign": "opportunity",
+            "audited": true
+        }
+    }
+}

@@ -1,0 +1,12 @@
+Reporting-MTA: dns; smtpcmd08.ad.aruba.it [10.10.13.110]
+Received-From-MTA: dns; mxdhbe08.ad.aruba.it [10.10.10.58]
+Arrival-Date: Fri, 29 May 2020 16:00:11 +0200
+
+
+Final-recipient: rfc822; marmopointcarara@gmail.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp; 450 4.2.1  https://support.google.com/mail/?p=ReceivingRate h15si1409075pjz.51 - gsmtp
+Last-attempt-Date: Sat, 30 May 2020 16:15:48 +0200
+
+

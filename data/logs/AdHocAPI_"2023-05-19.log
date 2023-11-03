@@ -1,0 +1,949 @@
+[19/May/2023:00:00:05] UPDATING ACCOUNTS (JobID: cccc4ed1-da54-413e-87d7-f049e1b80fd8)
+ - New and modified: 0
+
+[19/May/2023:00:00:05] DELETING ACCOUNTS (JobID: cccc4ed1-da54-413e-87d7-f049e1b80fd8)
+ - Deleted: 0
+
+[19/May/2023:00:01:05] UPDATING PRODUCTS (JobID: c36716ee-dfaa-40bc-93fb-827cccaf8bc0)
+ - New and modified: 0
+
+[19/May/2023:00:01:07] UPDATING PREPAGATI (JobID: 650377f2-40f2-410c-837e-3dc2b0176f56)
+ - New and modified: 0
+
+[19/May/2023:00:01:07] DELETING PREPAGATI (JobID: 650377f2-40f2-410c-837e-3dc2b0176f56)
+ - Deleted: 0
+
+[19/May/2023:00:30:06] UPDATING ACCOUNTS (JobID: 7b67cae6-70a9-4ee9-8f05-cac38c883b59)
+ - New and modified: 0
+
+[19/May/2023:00:30:06] DELETING ACCOUNTS (JobID: 7b67cae6-70a9-4ee9-8f05-cac38c883b59)
+ - Deleted: 0
+
+[19/May/2023:00:30:45] UPDATING PRODUCTS (JobID: e81bff55-befa-4ab1-9501-5d1b89471728)
+ - New and modified: 0
+
+[19/May/2023:00:30:47] UPDATING PREPAGATI (JobID: ba3e6ede-4790-4bd0-aacc-c1178eb070b1)
+ - New and modified: 0
+
+[19/May/2023:00:30:47] DELETING PREPAGATI (JobID: ba3e6ede-4790-4bd0-aacc-c1178eb070b1)
+ - Deleted: 0
+
+[19/May/2023:00:50:04] UPDATING ACCOUNTS (JobID: 48e60342-55e0-4dc0-8bb3-0148d4b90845)
+ - New and modified: 0
+
+[19/May/2023:00:50:04] DELETING ACCOUNTS (JobID: 48e60342-55e0-4dc0-8bb3-0148d4b90845)
+ - Deleted: 0
+
+[19/May/2023:00:50:41] UPDATING PRODUCTS (JobID: 9653dff0-8383-47b4-b091-d5f2474533d7)
+ - New and modified: 0
+
+[19/May/2023:00:50:43] UPDATING PREPAGATI (JobID: 14bea8e0-d800-4cde-9dc7-6e04905ee6ca)
+ - New and modified: 0
+
+[19/May/2023:00:50:43] DELETING PREPAGATI (JobID: 14bea8e0-d800-4cde-9dc7-6e04905ee6ca)
+ - Deleted: 0
+
+[19/May/2023:01:30:04] UPDATING ACCOUNTS (JobID: 91ba9c5a-3998-4c96-a471-81feb0dead9a)
+ - New and modified: 0
+
+[19/May/2023:01:30:04] DELETING ACCOUNTS (JobID: 91ba9c5a-3998-4c96-a471-81feb0dead9a)
+ - Deleted: 0
+
+[19/May/2023:01:30:41] UPDATING PRODUCTS (JobID: 0b563f55-3c14-4ff0-8ea0-e6f486c9724f)
+ - New and modified: 0
+
+[19/May/2023:01:30:44] UPDATING PREPAGATI (JobID: 8d2a7ba9-0339-4de5-8aa3-109eec4db148)
+ - New and modified: 0
+
+[19/May/2023:01:30:44] DELETING PREPAGATI (JobID: 8d2a7ba9-0339-4de5-8aa3-109eec4db148)
+ - Deleted: 0
+
+[19/May/2023:01:40:12] UPDATING ACCOUNTS
+ - AdHocAPI connection failed.
+
+[19/May/2023:01:40:15] UPDATING PRODUCTS
+ - AdHocAPI connection failed.
+
+[19/May/2023:01:40:18] UPDATING PREPAGATI
+ - AdHocAPI connection failed.
+
+[19/May/2023:01:50:05] UPDATING ACCOUNTS
+ - AdHocAPI connection failed.
+
+[19/May/2023:01:50:08] UPDATING PRODUCTS
+ - AdHocAPI connection failed.
+
+[19/May/2023:01:50:11] UPDATING PREPAGATI
+ - AdHocAPI connection failed.
+
+[19/May/2023:02:30:04] UPDATING ACCOUNTS (JobID: 199eac8e-8523-4ad1-9dc2-f6f534d4fe89)
+ - New and modified: 0
+
+[19/May/2023:02:30:04] DELETING ACCOUNTS (JobID: 199eac8e-8523-4ad1-9dc2-f6f534d4fe89)
+ - Deleted: 0
+
+[19/May/2023:02:30:42] UPDATING PRODUCTS (JobID: 842e1767-6628-456e-8cb8-4efaf7704416)
+ - New and modified: 0
+
+[19/May/2023:02:30:51] UPDATING PREPAGATI (JobID: 69da180c-8103-441b-b069-8cc70acbfad7)
+ - New and modified: 0
+
+[19/May/2023:02:30:51] DELETING PREPAGATI (JobID: 69da180c-8103-441b-b069-8cc70acbfad7)
+ - Deleted: 0
+
+[19/May/2023:02:50:05] UPDATING ACCOUNTS (JobID: 31bc2860-2daa-43db-9185-c5dfeb7be198)
+ - New and modified: 0
+
+[19/May/2023:02:50:05] DELETING ACCOUNTS (JobID: 31bc2860-2daa-43db-9185-c5dfeb7be198)
+ - Deleted: 0
+
+[19/May/2023:02:50:38] UPDATING PRODUCTS (JobID: b994b9b6-e51b-4cbb-95ae-d9318805fc6f)
+ - New and modified: 0
+
+[19/May/2023:02:50:40] UPDATING PREPAGATI (JobID: 59164884-2056-41c7-ac4e-5f7a5eb5608b)
+ - New and modified: 0
+
+[19/May/2023:02:50:40] DELETING PREPAGATI (JobID: 59164884-2056-41c7-ac4e-5f7a5eb5608b)
+ - Deleted: 0
+
+[19/May/2023:03:00:04] UPDATING ACCOUNTS (JobID: d7896dd2-e49c-423d-bc5e-b8517133f517)
+ - New and modified: 0
+
+[19/May/2023:03:00:04] DELETING ACCOUNTS (JobID: d7896dd2-e49c-423d-bc5e-b8517133f517)
+ - Deleted: 0
+
+[19/May/2023:03:00:38] UPDATING PRODUCTS (JobID: c12e38f6-c7e8-4740-ad19-c545a2ba2659)
+ - New and modified: 0
+
+[19/May/2023:03:00:40] UPDATING PREPAGATI (JobID: 7bf7cb3c-763d-4b21-84e7-6b8aec2e0078)
+ - New and modified: 0
+
+[19/May/2023:03:00:40] DELETING PREPAGATI (JobID: 7bf7cb3c-763d-4b21-84e7-6b8aec2e0078)
+ - Deleted: 0
+
+[19/May/2023:03:30:04] UPDATING ACCOUNTS (JobID: 1ab9d8ef-b718-4280-a760-14f8d919f18b)
+ - New and modified: 0
+
+[19/May/2023:03:30:04] DELETING ACCOUNTS (JobID: 1ab9d8ef-b718-4280-a760-14f8d919f18b)
+ - Deleted: 0
+
+[19/May/2023:03:30:36] UPDATING PRODUCTS (JobID: 5699bf6f-f025-4ca3-b4bf-a6955458f3da)
+ - New and modified: 0
+
+[19/May/2023:03:30:38] UPDATING PREPAGATI (JobID: de79e3f7-2dfb-46d7-aef1-bc307f1dc739)
+ - New and modified: 0
+
+[19/May/2023:03:30:38] DELETING PREPAGATI (JobID: de79e3f7-2dfb-46d7-aef1-bc307f1dc739)
+ - Deleted: 0
+
+[19/May/2023:04:30:04] UPDATING ACCOUNTS (JobID: 9651862b-b9d3-476a-b474-045adb06e56e)
+ - New and modified: 0
+
+[19/May/2023:04:30:04] DELETING ACCOUNTS (JobID: 9651862b-b9d3-476a-b474-045adb06e56e)
+ - Deleted: 0
+
+[19/May/2023:04:30:37] UPDATING PRODUCTS (JobID: 3f117260-7c60-44bb-840a-5506e52dd283)
+ - New and modified: 0
+
+[19/May/2023:04:30:39] UPDATING PREPAGATI (JobID: c59e099b-abd3-45fa-8e5c-47881d86af16)
+ - New and modified: 0
+
+[19/May/2023:04:30:39] DELETING PREPAGATI (JobID: c59e099b-abd3-45fa-8e5c-47881d86af16)
+ - Deleted: 0
+
+[19/May/2023:05:30:04] UPDATING ACCOUNTS (JobID: 66bbd2ac-05a7-44de-a500-abe52b8764b0)
+ - New and modified: 0
+
+[19/May/2023:05:30:04] DELETING ACCOUNTS (JobID: 66bbd2ac-05a7-44de-a500-abe52b8764b0)
+ - Deleted: 0
+
+[19/May/2023:05:30:38] UPDATING PRODUCTS (JobID: 8e23c421-4a92-494f-950b-7d7d2380c189)
+ - New and modified: 0
+
+[19/May/2023:05:30:40] UPDATING PREPAGATI (JobID: f6d35058-770a-43a0-8d4b-a00e89cf4fdc)
+ - New and modified: 0
+
+[19/May/2023:05:30:40] DELETING PREPAGATI (JobID: f6d35058-770a-43a0-8d4b-a00e89cf4fdc)
+ - Deleted: 0
+
+[19/May/2023:05:40:05] UPDATING ACCOUNTS (JobID: 6af0577b-e3bf-4109-a339-3e1a98f8eb6b)
+ - New and modified: 0
+
+[19/May/2023:05:40:05] DELETING ACCOUNTS (JobID: 6af0577b-e3bf-4109-a339-3e1a98f8eb6b)
+ - Deleted: 0
+
+[19/May/2023:05:40:40] UPDATING PRODUCTS (JobID: 079d4df4-1576-4c10-9e4c-b942ef4b6c8c)
+ - New and modified: 0
+
+[19/May/2023:05:40:42] UPDATING PREPAGATI (JobID: a37bc01f-48df-4756-ba71-d8ae7b19a29f)
+ - New and modified: 0
+
+[19/May/2023:05:40:42] DELETING PREPAGATI (JobID: a37bc01f-48df-4756-ba71-d8ae7b19a29f)
+ - Deleted: 0
+
+[19/May/2023:05:50:04] UPDATING ACCOUNTS (JobID: 1134cb79-a998-4e65-83d1-d51381adacf9)
+ - New and modified: 0
+
+[19/May/2023:05:50:04] DELETING ACCOUNTS (JobID: 1134cb79-a998-4e65-83d1-d51381adacf9)
+ - Deleted: 0
+
+[19/May/2023:05:50:36] UPDATING PRODUCTS (JobID: 94349eb5-7ce3-425e-801a-8da504365e17)
+ - New and modified: 0
+
+[19/May/2023:05:50:38] UPDATING PREPAGATI (JobID: 0dc6a91a-20dc-4d9b-b291-497e080ee2bc)
+ - New and modified: 0
+
+[19/May/2023:05:50:38] DELETING PREPAGATI (JobID: 0dc6a91a-20dc-4d9b-b291-497e080ee2bc)
+ - Deleted: 0
+
+[19/May/2023:06:10:04] UPDATING ACCOUNTS (JobID: 85409dad-3289-4177-a451-5e4b22d75acc)
+ - New and modified: 0
+
+[19/May/2023:06:10:04] DELETING ACCOUNTS (JobID: 85409dad-3289-4177-a451-5e4b22d75acc)
+ - Deleted: 0
+
+[19/May/2023:06:10:39] UPDATING PRODUCTS (JobID: dfd67577-e2fc-4c0c-a42e-3be05e41d91b)
+ - New and modified: 0
+
+[19/May/2023:06:10:41] UPDATING PREPAGATI (JobID: 75009913-e2eb-455d-9898-ecd105f89538)
+ - New and modified: 0
+
+[19/May/2023:06:10:41] DELETING PREPAGATI (JobID: 75009913-e2eb-455d-9898-ecd105f89538)
+ - Deleted: 0
+
+[19/May/2023:07:30:04] UPDATING ACCOUNTS (JobID: 7fc289bf-eac4-498c-9e01-47baa6e51cfc)
+ - New and modified: 0
+
+[19/May/2023:07:30:04] DELETING ACCOUNTS (JobID: 7fc289bf-eac4-498c-9e01-47baa6e51cfc)
+ - Deleted: 0
+
+[19/May/2023:07:30:41] UPDATING PRODUCTS (JobID: ddeee85a-cd6e-410d-a55f-b3884838b457)
+ - New and modified: 0
+
+[19/May/2023:07:30:43] UPDATING PREPAGATI (JobID: dc83fb5b-0871-4f4b-87f9-49492d9b1d6e)
+ - New and modified: 0
+
+[19/May/2023:07:30:43] DELETING PREPAGATI (JobID: dc83fb5b-0871-4f4b-87f9-49492d9b1d6e)
+ - Deleted: 0
+
+[19/May/2023:07:40:04] UPDATING ACCOUNTS (JobID: e3e0c83b-8ee4-4d8c-92c8-e7251c5d989c)
+ - New and modified: 0
+
+[19/May/2023:07:40:04] DELETING ACCOUNTS (JobID: e3e0c83b-8ee4-4d8c-92c8-e7251c5d989c)
+ - Deleted: 0
+
+[19/May/2023:07:40:39] UPDATING PRODUCTS (JobID: ae46b971-74a2-444e-b2c6-19db4e8ad06d)
+ - New and modified: 0
+
+[19/May/2023:07:40:41] UPDATING PREPAGATI (JobID: afc4740b-428b-4f26-a746-6888b216907b)
+ - New and modified: 0
+
+[19/May/2023:07:40:41] DELETING PREPAGATI (JobID: afc4740b-428b-4f26-a746-6888b216907b)
+ - Deleted: 0
+
+[19/May/2023:07:50:04] UPDATING ACCOUNTS (JobID: 520533ee-0f73-4ad5-b347-3bbd641be008)
+ - New and modified: 0
+
+[19/May/2023:07:50:04] DELETING ACCOUNTS (JobID: 520533ee-0f73-4ad5-b347-3bbd641be008)
+ - Deleted: 0
+
+[19/May/2023:07:50:39] UPDATING PRODUCTS (JobID: 8059217c-c0a4-43b1-b8fd-e2b54c82c5bf)
+ - New and modified: 0
+
+[19/May/2023:07:50:42] UPDATING PREPAGATI (JobID: 8b6dd153-98b3-4a54-9afb-6a6218a3c12e)
+ - New and modified: 0
+
+[19/May/2023:07:50:42] DELETING PREPAGATI (JobID: 8b6dd153-98b3-4a54-9afb-6a6218a3c12e)
+ - Deleted: 0
+
+[19/May/2023:08:40:05] UPDATING ACCOUNTS (JobID: f67edfed-b3c4-4a3f-b655-39896f1b176d)
+ - New and modified: 0
+
+[19/May/2023:08:40:05] DELETING ACCOUNTS (JobID: f67edfed-b3c4-4a3f-b655-39896f1b176d)
+ - Deleted: 0
+
+[19/May/2023:08:40:47] UPDATING PRODUCTS (JobID: 5ed54328-8969-4e99-b064-50b8be1f3b0f)
+ - New and modified: 0
+
+[19/May/2023:08:40:50] UPDATING PREPAGATI (JobID: e522c5a8-95fc-4efd-9ba5-be3d79b0ffdd)
+ - New and modified: 0
+
+[19/May/2023:08:40:50] DELETING PREPAGATI (JobID: e522c5a8-95fc-4efd-9ba5-be3d79b0ffdd)
+ - Deleted: 0
+
+[19/May/2023:08:50:05] UPDATING ACCOUNTS (JobID: e714240f-441b-4149-88f9-dd185bf9bb9b)
+ - New and modified: 0
+
+[19/May/2023:08:50:05] DELETING ACCOUNTS (JobID: e714240f-441b-4149-88f9-dd185bf9bb9b)
+ - Deleted: 0
+
+[19/May/2023:08:50:51] UPDATING PRODUCTS (JobID: e59fe9aa-55cd-41eb-8293-21f18c717f51)
+ - New and modified: 0
+
+[19/May/2023:08:50:53] UPDATING PREPAGATI (JobID: 733c1f0b-38a8-46f8-bc74-e47ffe085b5a)
+ - New and modified: 0
+
+[19/May/2023:08:50:53] DELETING PREPAGATI (JobID: 733c1f0b-38a8-46f8-bc74-e47ffe085b5a)
+ - Deleted: 0
+
+[19/May/2023:09:20:04] UPDATING ACCOUNTS (JobID: c3815d9d-278b-4ad1-b490-b50bb27b8d65)
+ - New and modified: 0
+
+[19/May/2023:09:20:04] DELETING ACCOUNTS (JobID: c3815d9d-278b-4ad1-b490-b50bb27b8d65)
+ - Deleted: 0
+
+[19/May/2023:09:20:41] UPDATING PRODUCTS (JobID: e12ceda2-47e1-4079-8869-f79a4196d383)
+ - New and modified: 0
+
+[19/May/2023:09:20:42] UPDATING PREPAGATI (JobID: 6e7873b5-fede-4ddb-81ef-9e28e067dcf5)
+ - New and modified: 0
+
+[19/May/2023:09:20:42] DELETING PREPAGATI (JobID: 6e7873b5-fede-4ddb-81ef-9e28e067dcf5)
+ - Deleted: 0
+
+[19/May/2023:09:40:05] UPDATING ACCOUNTS (JobID: 9e0a054b-dde9-4ea3-af63-961a7aef745a)
+ - New and modified: 0
+
+[19/May/2023:09:40:05] DELETING ACCOUNTS (JobID: 9e0a054b-dde9-4ea3-af63-961a7aef745a)
+ - Deleted: 0
+
+[19/May/2023:09:40:42] UPDATING PRODUCTS (JobID: 3229bb0b-db66-40e1-b49b-882260edb5a4)
+ - New and modified: 0
+
+[19/May/2023:09:40:44] UPDATING PREPAGATI (JobID: 6a955425-7af9-43e7-ae9f-3c33dcb4b97c)
+ - New and modified: 0
+
+[19/May/2023:09:40:44] DELETING PREPAGATI (JobID: 6a955425-7af9-43e7-ae9f-3c33dcb4b97c)
+ - Deleted: 0
+
+[19/May/2023:09:50:04] UPDATING ACCOUNTS (JobID: 37a6a8af-4af8-444a-9c13-3666084cceb7)
+ - New and modified: 0
+
+[19/May/2023:09:50:04] DELETING ACCOUNTS (JobID: 37a6a8af-4af8-444a-9c13-3666084cceb7)
+ - Deleted: 0
+
+[19/May/2023:09:50:41] UPDATING PRODUCTS (JobID: 9ca793c2-d224-4e62-bf7e-f8883446ae73)
+ - New and modified: 0
+
+[19/May/2023:09:50:43] UPDATING PREPAGATI (JobID: 83bbf660-b2a2-465c-865f-34265102eb02)
+ - New and modified: 0
+
+[19/May/2023:09:50:43] DELETING PREPAGATI (JobID: 83bbf660-b2a2-465c-865f-34265102eb02)
+ - Deleted: 0
+
+[19/May/2023:10:50:04] UPDATING ACCOUNTS (JobID: 0642ccc9-b185-404e-9f83-5c78238c6689)
+ - New and modified: 0
+
+[19/May/2023:10:50:04] DELETING ACCOUNTS (JobID: 0642ccc9-b185-404e-9f83-5c78238c6689)
+ - Deleted: 0
+
+[19/May/2023:10:50:41] UPDATING PRODUCTS (JobID: aa3aa435-fb5b-466b-b1e3-3155e00edd83)
+ - New and modified: 1
+   ASR2201A-D
+
+[19/May/2023:10:50:43] UPDATING PREPAGATI (JobID: cebd072a-12ad-49e4-a814-f4c561e4e29e)
+ - New and modified: 0
+
+[19/May/2023:10:50:43] DELETING PREPAGATI (JobID: cebd072a-12ad-49e4-a814-f4c561e4e29e)
+ - Deleted: 0
+
+[19/May/2023:11:00:04] UPDATING ACCOUNTS (JobID: df411fd5-3224-4350-9b32-e46dca5791b1)
+ - New and modified: 0
+
+[19/May/2023:11:00:04] DELETING ACCOUNTS (JobID: df411fd5-3224-4350-9b32-e46dca5791b1)
+ - Deleted: 0
+
+[19/May/2023:11:00:44] UPDATING PRODUCTS (JobID: a472cff0-7b84-44d5-9ae0-3b192d40a8a3)
+ - New and modified: 0
+
+[19/May/2023:11:00:46] UPDATING PREPAGATI (JobID: ec7eedac-b311-4317-8f19-b04ff3a050c0)
+ - New and modified: 0
+
+[19/May/2023:11:00:46] DELETING PREPAGATI (JobID: ec7eedac-b311-4317-8f19-b04ff3a050c0)
+ - Deleted: 0
+
+[19/May/2023:11:10:04] UPDATING ACCOUNTS (JobID: 486f3191-cad0-4372-ba37-0285b1f3e0d6)
+ - New and modified: 0
+
+[19/May/2023:11:10:04] DELETING ACCOUNTS (JobID: 486f3191-cad0-4372-ba37-0285b1f3e0d6)
+ - Deleted: 0
+
+[19/May/2023:11:10:40] UPDATING PRODUCTS (JobID: cba81736-b157-4212-8ce9-2b7e2dbcf804)
+ - New and modified: 0
+
+[19/May/2023:11:10:42] UPDATING PREPAGATI (JobID: d7595d21-0954-411d-a9eb-74fd73cbfcb1)
+ - New and modified: 0
+
+[19/May/2023:11:10:42] DELETING PREPAGATI (JobID: d7595d21-0954-411d-a9eb-74fd73cbfcb1)
+ - Deleted: 0
+
+[19/May/2023:11:20:05] UPDATING ACCOUNTS (JobID: 1db50833-b8d8-48b9-bcb6-acc1f2d34a56)
+ - New and modified: 0
+
+[19/May/2023:11:20:05] DELETING ACCOUNTS (JobID: 1db50833-b8d8-48b9-bcb6-acc1f2d34a56)
+ - Deleted: 0
+
+[19/May/2023:11:20:40] UPDATING PRODUCTS (JobID: 2c1d3176-3c17-40fb-baf3-71a9788e48df)
+ - New and modified: 0
+
+[19/May/2023:11:20:42] UPDATING PREPAGATI (JobID: 5d049bff-3033-4022-af3e-27eef2e1f155)
+ - New and modified: 0
+
+[19/May/2023:11:20:42] DELETING PREPAGATI (JobID: 5d049bff-3033-4022-af3e-27eef2e1f155)
+ - Deleted: 0
+
+[19/May/2023:11:30:05] UPDATING ACCOUNTS (JobID: 38153e12-9252-46ba-b34a-df22727e8ba2)
+ - New and modified: 0
+
+[19/May/2023:11:30:05] DELETING ACCOUNTS (JobID: 38153e12-9252-46ba-b34a-df22727e8ba2)
+ - Deleted: 0
+
+[19/May/2023:11:30:41] UPDATING PRODUCTS (JobID: 14998f54-276f-4e25-98b2-d9a1d2b6e823)
+ - New and modified: 0
+
+[19/May/2023:11:30:43] UPDATING PREPAGATI (JobID: 60bdf3fd-9ca9-4d3a-b4a6-0f1b72e248b2)
+ - New and modified: 0
+
+[19/May/2023:11:30:43] DELETING PREPAGATI (JobID: 60bdf3fd-9ca9-4d3a-b4a6-0f1b72e248b2)
+ - Deleted: 0
+
+[19/May/2023:11:50:05] UPDATING ACCOUNTS (JobID: 9062db0e-9f34-4625-9ecf-9db4ee1720c0)
+ - New and modified: 0
+
+[19/May/2023:11:50:05] DELETING ACCOUNTS (JobID: 9062db0e-9f34-4625-9ecf-9db4ee1720c0)
+ - Deleted: 0
+
+[19/May/2023:11:50:38] UPDATING PRODUCTS (JobID: b7c371bd-1388-4011-9801-79690d8f55cc)
+ - New and modified: 0
+
+[19/May/2023:11:50:40] UPDATING PREPAGATI (JobID: 8ff6062e-44a6-4ac1-8835-6dcbdb4e0973)
+ - New and modified: 0
+
+[19/May/2023:11:50:40] DELETING PREPAGATI (JobID: 8ff6062e-44a6-4ac1-8835-6dcbdb4e0973)
+ - Deleted: 0
+
+[19/May/2023:12:10:04] UPDATING ACCOUNTS (JobID: 5be506f9-a7b9-44d8-a581-599b6cfc5dab)
+ - New and modified: 0
+
+[19/May/2023:12:10:04] DELETING ACCOUNTS (JobID: 5be506f9-a7b9-44d8-a581-599b6cfc5dab)
+ - Deleted: 0
+
+[19/May/2023:12:10:39] UPDATING PRODUCTS (JobID: 850ff769-794d-4cad-aa7f-c2dad9bdfa3a)
+ - New and modified: 0
+
+[19/May/2023:12:10:41] UPDATING PREPAGATI (JobID: 64259d69-a2d5-44a3-91c1-6fcfcaa87fd0)
+ - New and modified: 0
+
+[19/May/2023:12:10:41] DELETING PREPAGATI (JobID: 64259d69-a2d5-44a3-91c1-6fcfcaa87fd0)
+ - Deleted: 0
+
+[19/May/2023:12:20:04] UPDATING ACCOUNTS (JobID: c26655b4-cbb9-4921-bdfd-97572b73713d)
+ - New and modified: 0
+
+[19/May/2023:12:20:04] DELETING ACCOUNTS (JobID: c26655b4-cbb9-4921-bdfd-97572b73713d)
+ - Deleted: 0
+
+[19/May/2023:12:20:40] UPDATING PRODUCTS (JobID: 0bc638ac-d11e-42f4-939a-23aaf35d5898)
+ - New and modified: 0
+
+[19/May/2023:12:20:42] UPDATING PREPAGATI (JobID: 6cda9abe-e5ed-4e16-93cf-d280aac7a55c)
+ - New and modified: 0
+
+[19/May/2023:12:20:42] DELETING PREPAGATI (JobID: 6cda9abe-e5ed-4e16-93cf-d280aac7a55c)
+ - Deleted: 0
+
+[19/May/2023:12:30:05] UPDATING ACCOUNTS (JobID: 33aa255d-5beb-4ddf-b908-fd68893e2ea8)
+ - New and modified: 0
+
+[19/May/2023:12:30:05] DELETING ACCOUNTS (JobID: 33aa255d-5beb-4ddf-b908-fd68893e2ea8)
+ - Deleted: 0
+
+[19/May/2023:12:30:40] UPDATING PRODUCTS (JobID: d2c33d16-7c0a-4662-ad7e-ad450c513a7f)
+ - New and modified: 0
+
+[19/May/2023:12:30:42] UPDATING PREPAGATI (JobID: d24b4298-e55a-4097-9b68-9caf1bcafac2)
+ - New and modified: 0
+
+[19/May/2023:12:30:42] DELETING PREPAGATI (JobID: d24b4298-e55a-4097-9b68-9caf1bcafac2)
+ - Deleted: 0
+
+[19/May/2023:13:00:04] UPDATING ACCOUNTS (JobID: 53a78860-9794-4a28-877f-bafca40d6f82)
+ - New and modified: 0
+
+[19/May/2023:13:00:04] DELETING ACCOUNTS (JobID: 53a78860-9794-4a28-877f-bafca40d6f82)
+ - Deleted: 0
+
+[19/May/2023:13:00:41] UPDATING PRODUCTS (JobID: ce174887-01ab-435d-98e2-6728fed49418)
+ - New and modified: 0
+
+[19/May/2023:13:00:43] UPDATING PREPAGATI (JobID: 889d4af3-8f7d-4773-9672-f551f0bdb863)
+ - New and modified: 0
+
+[19/May/2023:13:00:43] DELETING PREPAGATI (JobID: 889d4af3-8f7d-4773-9672-f551f0bdb863)
+ - Deleted: 0
+
+[19/May/2023:13:10:04] UPDATING ACCOUNTS (JobID: 43e0fc07-6f05-45eb-b840-e7884f995e40)
+ - New and modified: 0
+
+[19/May/2023:13:10:04] DELETING ACCOUNTS (JobID: 43e0fc07-6f05-45eb-b840-e7884f995e40)
+ - Deleted: 0
+
+[19/May/2023:13:10:39] UPDATING PRODUCTS (JobID: 126eba8e-ae1e-418a-be8e-437dfe8f9df5)
+ - New and modified: 0
+
+[19/May/2023:13:10:41] UPDATING PREPAGATI (JobID: e3c0ce02-8a8f-458f-9f09-ecd58fc89898)
+ - New and modified: 0
+
+[19/May/2023:13:10:41] DELETING PREPAGATI (JobID: e3c0ce02-8a8f-458f-9f09-ecd58fc89898)
+ - Deleted: 0
+
+[19/May/2023:13:30:04] UPDATING ACCOUNTS (JobID: 20267bab-0136-4b57-817c-c221ffa2db08)
+ - New and modified: 0
+
+[19/May/2023:13:30:04] DELETING ACCOUNTS (JobID: 20267bab-0136-4b57-817c-c221ffa2db08)
+ - Deleted: 0
+
+[19/May/2023:13:30:40] UPDATING PRODUCTS (JobID: a7a91d35-eedc-47d4-94f9-82959619e993)
+ - New and modified: 0
+
+[19/May/2023:13:30:42] UPDATING PREPAGATI (JobID: 5070049d-3984-43ce-b99e-b1ec19c6af94)
+ - New and modified: 0
+
+[19/May/2023:13:30:42] DELETING PREPAGATI (JobID: 5070049d-3984-43ce-b99e-b1ec19c6af94)
+ - Deleted: 0
+
+[19/May/2023:13:50:04] UPDATING ACCOUNTS (JobID: 283ade94-a9c7-48e7-b0a3-0e2a1193a4e6)
+ - New and modified: 0
+
+[19/May/2023:13:50:04] DELETING ACCOUNTS (JobID: 283ade94-a9c7-48e7-b0a3-0e2a1193a4e6)
+ - Deleted: 0
+
+[19/May/2023:13:50:39] UPDATING PRODUCTS (JobID: d0c2beb4-9eda-46cb-ad9a-7bb386a882d0)
+ - New and modified: 0
+
+[19/May/2023:13:50:41] UPDATING PREPAGATI (JobID: 3223c8eb-5a5e-4530-a9b2-c72a709dcdbe)
+ - New and modified: 0
+
+[19/May/2023:13:50:41] DELETING PREPAGATI (JobID: 3223c8eb-5a5e-4530-a9b2-c72a709dcdbe)
+ - Deleted: 0
+
+[19/May/2023:14:00:05] UPDATING ACCOUNTS (JobID: b05e78df-159d-4a4c-bd02-eb521a2cfff3)
+ - New and modified: 0
+
+[19/May/2023:14:00:05] DELETING ACCOUNTS (JobID: b05e78df-159d-4a4c-bd02-eb521a2cfff3)
+ - Deleted: 0
+
+[19/May/2023:14:00:39] UPDATING PRODUCTS (JobID: ee52893b-e70b-417a-a9d6-f986b23b9e2b)
+ - New and modified: 0
+
+[19/May/2023:14:00:41] UPDATING PREPAGATI (JobID: de130c21-d3e0-46fb-9084-72bce6aa28a7)
+ - New and modified: 0
+
+[19/May/2023:14:00:41] DELETING PREPAGATI (JobID: de130c21-d3e0-46fb-9084-72bce6aa28a7)
+ - Deleted: 0
+
+[19/May/2023:14:10:05] UPDATING ACCOUNTS (JobID: ad6fa129-7b17-469a-a5e1-c08ef01a2987)
+ - New and modified: 0
+
+[19/May/2023:14:10:05] DELETING ACCOUNTS (JobID: ad6fa129-7b17-469a-a5e1-c08ef01a2987)
+ - Deleted: 0
+
+[19/May/2023:14:10:40] UPDATING PRODUCTS (JobID: eb631c4b-8710-4e85-b652-15586b4d7752)
+ - New and modified: 0
+
+[19/May/2023:14:10:42] UPDATING PREPAGATI (JobID: 11ed6459-1323-4465-866d-2d8042b6ccbd)
+ - New and modified: 0
+
+[19/May/2023:14:10:42] DELETING PREPAGATI (JobID: 11ed6459-1323-4465-866d-2d8042b6ccbd)
+ - Deleted: 0
+
+[19/May/2023:14:20:05] UPDATING ACCOUNTS (JobID: 85dfdc1e-68fc-47ff-b6c5-86b6e5310997)
+ - New and modified: 0
+
+[19/May/2023:14:20:05] DELETING ACCOUNTS (JobID: 85dfdc1e-68fc-47ff-b6c5-86b6e5310997)
+ - Deleted: 0
+
+[19/May/2023:14:20:40] UPDATING PRODUCTS (JobID: 62de564d-6e65-4335-81bb-3982995cdaf9)
+ - New and modified: 0
+
+[19/May/2023:14:20:42] UPDATING PREPAGATI (JobID: f5e871c0-613a-4809-92f3-4d3680a6f6a8)
+ - New and modified: 0
+
+[19/May/2023:14:20:42] DELETING PREPAGATI (JobID: f5e871c0-613a-4809-92f3-4d3680a6f6a8)
+ - Deleted: 0
+
+[19/May/2023:14:50:05] UPDATING ACCOUNTS (JobID: 87853deb-d91c-4c7c-a1e0-23d641657b84)
+ - New and modified: 0
+
+[19/May/2023:14:50:05] DELETING ACCOUNTS (JobID: 87853deb-d91c-4c7c-a1e0-23d641657b84)
+ - Deleted: 0
+
+[19/May/2023:14:50:39] UPDATING PRODUCTS (JobID: fa8dd74c-30bd-41a8-8956-a21b30666152)
+ - New and modified: 0
+
+[19/May/2023:14:50:41] UPDATING PREPAGATI (JobID: 1681a3a0-dac4-48f3-9cd7-51a8c534aeac)
+ - New and modified: 0
+
+[19/May/2023:14:50:41] DELETING PREPAGATI (JobID: 1681a3a0-dac4-48f3-9cd7-51a8c534aeac)
+ - Deleted: 0
+
+[19/May/2023:15:20:05] UPDATING ACCOUNTS (JobID: 9f18fbdc-9ec6-40b6-8046-47f531d2b6cd)
+ - New and modified: 0
+
+[19/May/2023:15:20:05] DELETING ACCOUNTS (JobID: 9f18fbdc-9ec6-40b6-8046-47f531d2b6cd)
+ - Deleted: 0
+
+[19/May/2023:15:20:38] UPDATING PRODUCTS (JobID: ba74a51d-ac95-48bf-9c30-c25f684eb27f)
+ - New and modified: 0
+
+[19/May/2023:15:20:41] UPDATING PREPAGATI (JobID: 489cd260-d282-4144-bdb3-0551bc1d9d17)
+ - New and modified: 0
+
+[19/May/2023:15:20:41] DELETING PREPAGATI (JobID: 489cd260-d282-4144-bdb3-0551bc1d9d17)
+ - Deleted: 0
+
+[19/May/2023:15:40:05] UPDATING ACCOUNTS (JobID: cc9e1a2b-adeb-4f35-8ce6-9d1bc4592775)
+ - New and modified: 0
+
+[19/May/2023:15:40:05] DELETING ACCOUNTS (JobID: cc9e1a2b-adeb-4f35-8ce6-9d1bc4592775)
+ - Deleted: 0
+
+[19/May/2023:15:40:40] UPDATING PRODUCTS (JobID: ea92415d-e4a9-4d94-8405-f9a6b739a2c3)
+ - New and modified: 0
+
+[19/May/2023:15:40:41] UPDATING PREPAGATI (JobID: f42278be-97fe-486a-aa51-9d5161f4674b)
+ - New and modified: 0
+
+[19/May/2023:15:40:41] DELETING PREPAGATI (JobID: f42278be-97fe-486a-aa51-9d5161f4674b)
+ - Deleted: 0
+
+[19/May/2023:16:20:04] UPDATING ACCOUNTS (JobID: 765b33fd-2c9f-4c22-8d22-b5732165c7f3)
+ - New and modified: 0
+
+[19/May/2023:16:20:04] DELETING ACCOUNTS (JobID: 765b33fd-2c9f-4c22-8d22-b5732165c7f3)
+ - Deleted: 0
+
+[19/May/2023:16:20:39] UPDATING PRODUCTS (JobID: 32499e93-c320-48c1-a71b-e5a9cf25d8b5)
+ - New and modified: 0
+
+[19/May/2023:16:20:41] UPDATING PREPAGATI (JobID: 8784203d-1b3d-4dd9-b08f-8120d46f1d12)
+ - New and modified: 0
+
+[19/May/2023:16:20:41] DELETING PREPAGATI (JobID: 8784203d-1b3d-4dd9-b08f-8120d46f1d12)
+ - Deleted: 0
+
+[19/May/2023:16:40:05] UPDATING ACCOUNTS (JobID: 3dc7f596-2bd3-4b1b-88e6-3e70c7809df0)
+ - New and modified: 0
+
+[19/May/2023:16:40:05] DELETING ACCOUNTS (JobID: 3dc7f596-2bd3-4b1b-88e6-3e70c7809df0)
+ - Deleted: 0
+
+[19/May/2023:16:40:39] UPDATING PRODUCTS (JobID: ea35a6b6-e705-4b62-a455-897f11e41651)
+ - New and modified: 0
+
+[19/May/2023:16:40:41] UPDATING PREPAGATI (JobID: 64e0fe83-60ad-45f2-aec2-8134e1e84a38)
+ - New and modified: 0
+
+[19/May/2023:16:40:41] DELETING PREPAGATI (JobID: 64e0fe83-60ad-45f2-aec2-8134e1e84a38)
+ - Deleted: 0
+
+[19/May/2023:16:50:04] UPDATING ACCOUNTS (JobID: b65a0b8c-6a1a-4988-b5cd-75d1f23c3629)
+ - New and modified: 0
+
+[19/May/2023:16:50:04] DELETING ACCOUNTS (JobID: b65a0b8c-6a1a-4988-b5cd-75d1f23c3629)
+ - Deleted: 0
+
+[19/May/2023:16:50:38] UPDATING PRODUCTS (JobID: bb840bdc-569f-4edf-a0a8-d7f3b7a782ac)
+ - New and modified: 0
+
+[19/May/2023:16:50:40] UPDATING PREPAGATI (JobID: f3774c03-7606-47d7-bf47-208188d360b5)
+ - New and modified: 0
+
+[19/May/2023:16:50:40] DELETING PREPAGATI (JobID: f3774c03-7606-47d7-bf47-208188d360b5)
+ - Deleted: 0
+
+[19/May/2023:17:50:05] UPDATING ACCOUNTS (JobID: 3ac0679e-6de5-4f4d-a66e-82590abca2a4)
+ - New and modified: 0
+
+[19/May/2023:17:50:05] DELETING ACCOUNTS (JobID: 3ac0679e-6de5-4f4d-a66e-82590abca2a4)
+ - Deleted: 0
+
+[19/May/2023:17:50:39] UPDATING PRODUCTS (JobID: 160051ea-f5d7-40c0-a7cc-a299642d05e1)
+ - New and modified: 0
+
+[19/May/2023:17:50:41] UPDATING PREPAGATI (JobID: 85cc45be-4326-4171-a2ab-cc7b7823c981)
+ - New and modified: 0
+
+[19/May/2023:17:50:41] DELETING PREPAGATI (JobID: 85cc45be-4326-4171-a2ab-cc7b7823c981)
+ - Deleted: 0
+
+[19/May/2023:18:00:08] UPDATING ACCOUNTS (JobID: 91200dca-b30a-4e94-9148-a435f14419e6)
+ - New and modified: 0
+
+[19/May/2023:18:00:08] DELETING ACCOUNTS (JobID: 91200dca-b30a-4e94-9148-a435f14419e6)
+ - Deleted: 0
+
+[19/May/2023:18:00:48] UPDATING PRODUCTS (JobID: 9af4bff1-a4f2-4141-b21b-59b0a0db56c4)
+ - New and modified: 0
+
+[19/May/2023:18:00:50] UPDATING PREPAGATI (JobID: 1c9213e6-c394-4519-826e-e8eceabe77d1)
+ - New and modified: 0
+
+[19/May/2023:18:00:50] DELETING PREPAGATI (JobID: 1c9213e6-c394-4519-826e-e8eceabe77d1)
+ - Deleted: 0
+
+[19/May/2023:18:10:05] UPDATING ACCOUNTS (JobID: cc7d3005-109d-4ec1-9c02-dad9f6107998)
+ - New and modified: 0
+
+[19/May/2023:18:10:05] DELETING ACCOUNTS (JobID: cc7d3005-109d-4ec1-9c02-dad9f6107998)
+ - Deleted: 0
+
+[19/May/2023:18:10:43] UPDATING PRODUCTS (JobID: ec5163fc-ca44-4e1a-afbd-20fecfaf86bd)
+ - New and modified: 0
+
+[19/May/2023:18:10:45] UPDATING PREPAGATI (JobID: 1ef0ce7d-08eb-4800-a754-0654e59e741f)
+ - New and modified: 0
+
+[19/May/2023:18:10:45] DELETING PREPAGATI (JobID: 1ef0ce7d-08eb-4800-a754-0654e59e741f)
+ - Deleted: 0
+
+[19/May/2023:18:50:05] UPDATING ACCOUNTS (JobID: 3bd51516-71f0-44b2-913e-65982504a0f7)
+ - New and modified: 0
+
+[19/May/2023:18:50:05] DELETING ACCOUNTS (JobID: 3bd51516-71f0-44b2-913e-65982504a0f7)
+ - Deleted: 0
+
+[19/May/2023:18:50:40] UPDATING PRODUCTS (JobID: 40975466-2ac6-4226-a4bb-93def83332e0)
+ - New and modified: 0
+
+[19/May/2023:18:50:42] UPDATING PREPAGATI (JobID: 53a64346-eb51-4b20-971a-1c51ca1e0c09)
+ - New and modified: 0
+
+[19/May/2023:18:50:42] DELETING PREPAGATI (JobID: 53a64346-eb51-4b20-971a-1c51ca1e0c09)
+ - Deleted: 0
+
+[19/May/2023:19:00:17] UPDATING ACCOUNTS (JobID: 8267ccfb-291f-41be-b51b-0c168146a343)
+ - New and modified: 0
+
+[19/May/2023:19:00:17] DELETING ACCOUNTS (JobID: 8267ccfb-291f-41be-b51b-0c168146a343)
+ - Deleted: 0
+
+[19/May/2023:19:00:50] UPDATING PRODUCTS (JobID: c92a6fea-07c1-40c8-80eb-1b91a4971ebf)
+ - New and modified: 0
+
+[19/May/2023:19:00:51] UPDATING PREPAGATI (JobID: bc278b18-18b9-40b2-9f56-f31db818d611)
+ - New and modified: 0
+
+[19/May/2023:19:00:51] DELETING PREPAGATI (JobID: bc278b18-18b9-40b2-9f56-f31db818d611)
+ - Deleted: 0
+
+[19/May/2023:19:10:04] UPDATING ACCOUNTS (JobID: 4cd5966f-50fc-49a2-a4c7-49440d440991)
+ - New and modified: 0
+
+[19/May/2023:19:10:04] DELETING ACCOUNTS (JobID: 4cd5966f-50fc-49a2-a4c7-49440d440991)
+ - Deleted: 0
+
+[19/May/2023:19:10:36] UPDATING PRODUCTS (JobID: 28795ae2-94e8-408e-8614-a2605646e74a)
+ - New and modified: 0
+
+[19/May/2023:19:10:38] UPDATING PREPAGATI (JobID: a97920b4-291d-48db-b9d8-c3f7db539f43)
+ - New and modified: 0
+
+[19/May/2023:19:10:38] DELETING PREPAGATI (JobID: a97920b4-291d-48db-b9d8-c3f7db539f43)
+ - Deleted: 0
+
+[19/May/2023:19:20:04] UPDATING ACCOUNTS (JobID: 440c51f7-55aa-46e7-9baa-3782ecaaf417)
+ - New and modified: 0
+
+[19/May/2023:19:20:04] DELETING ACCOUNTS (JobID: 440c51f7-55aa-46e7-9baa-3782ecaaf417)
+ - Deleted: 0
+
+[19/May/2023:19:20:36] UPDATING PRODUCTS (JobID: ce9fa938-1e20-4114-ba95-da12e525bd85)
+ - New and modified: 0
+
+[19/May/2023:19:20:38] UPDATING PREPAGATI (JobID: 8025efb9-29e8-4e81-af95-1827afe3e9db)
+ - New and modified: 0
+
+[19/May/2023:19:20:38] DELETING PREPAGATI (JobID: 8025efb9-29e8-4e81-af95-1827afe3e9db)
+ - Deleted: 0
+
+[19/May/2023:19:40:04] UPDATING ACCOUNTS (JobID: 97560243-b621-49ce-90ee-7d5399e9909f)
+ - New and modified: 0
+
+[19/May/2023:19:40:04] DELETING ACCOUNTS (JobID: 97560243-b621-49ce-90ee-7d5399e9909f)
+ - Deleted: 0
+
+[19/May/2023:19:40:40] UPDATING PRODUCTS (JobID: 35186b0a-b969-4970-818a-7c6389ec5395)
+ - New and modified: 0
+
+[19/May/2023:19:40:42] UPDATING PREPAGATI (JobID: 4f5ce490-f742-40b1-94d6-2529f703a0ec)
+ - New and modified: 0
+
+[19/May/2023:19:40:42] DELETING PREPAGATI (JobID: 4f5ce490-f742-40b1-94d6-2529f703a0ec)
+ - Deleted: 0
+
+[19/May/2023:19:50:04] UPDATING ACCOUNTS (JobID: 624e748a-d93b-456b-9054-2741ba6fc15d)
+ - New and modified: 0
+
+[19/May/2023:19:50:04] DELETING ACCOUNTS (JobID: 624e748a-d93b-456b-9054-2741ba6fc15d)
+ - Deleted: 0
+
+[19/May/2023:19:50:42] UPDATING PRODUCTS (JobID: 1309e789-f0c4-43c4-934d-ab9a75aefc5a)
+ - New and modified: 0
+
+[19/May/2023:19:50:44] UPDATING PREPAGATI (JobID: 5a0a96d7-fa25-4dcc-b7bd-2cdd13a17a6a)
+ - New and modified: 0
+
+[19/May/2023:19:50:44] DELETING PREPAGATI (JobID: 5a0a96d7-fa25-4dcc-b7bd-2cdd13a17a6a)
+ - Deleted: 0
+
+[19/May/2023:20:00:05] UPDATING ACCOUNTS (JobID: 42887328-b684-49f0-934b-13f58ae69409)
+ - New and modified: 0
+
+[19/May/2023:20:00:05] DELETING ACCOUNTS (JobID: 42887328-b684-49f0-934b-13f58ae69409)
+ - Deleted: 0
+
+[19/May/2023:20:00:41] UPDATING PRODUCTS (JobID: 0fd4e263-fb30-4c67-ad35-e627955d50c8)
+ - New and modified: 0
+
+[19/May/2023:20:00:43] UPDATING PREPAGATI (JobID: 5e06ce83-6e75-4850-9006-0481553019d2)
+ - New and modified: 0
+
+[19/May/2023:20:00:43] DELETING PREPAGATI (JobID: 5e06ce83-6e75-4850-9006-0481553019d2)
+ - Deleted: 0
+
+[19/May/2023:20:10:05] UPDATING ACCOUNTS (JobID: e425e2aa-a579-40b1-b53b-7dddbb3a3b76)
+ - New and modified: 0
+
+[19/May/2023:20:10:05] DELETING ACCOUNTS (JobID: e425e2aa-a579-40b1-b53b-7dddbb3a3b76)
+ - Deleted: 0
+
+[19/May/2023:20:10:42] UPDATING PRODUCTS (JobID: b4cf674d-a40b-41f3-ac75-ecbae74c1049)
+ - New and modified: 0
+
+[19/May/2023:20:10:44] UPDATING PREPAGATI (JobID: f4fca472-deaf-46a8-944d-74be60bfa2e3)
+ - New and modified: 0
+
+[19/May/2023:20:10:44] DELETING PREPAGATI (JobID: f4fca472-deaf-46a8-944d-74be60bfa2e3)
+ - Deleted: 0
+
+[19/May/2023:20:50:04] UPDATING ACCOUNTS (JobID: 1a4730fa-37cf-4af6-93ed-3e1310b17541)
+ - New and modified: 0
+
+[19/May/2023:20:50:04] DELETING ACCOUNTS (JobID: 1a4730fa-37cf-4af6-93ed-3e1310b17541)
+ - Deleted: 0
+
+[19/May/2023:20:50:45] UPDATING PRODUCTS (JobID: 197851d8-d0ab-46b3-9593-7db64684c7d3)
+ - New and modified: 0
+
+[19/May/2023:20:50:47] UPDATING PREPAGATI (JobID: 732a9f00-9924-4b8c-9d38-29728e357a01)
+ - New and modified: 0
+
+[19/May/2023:20:50:47] DELETING PREPAGATI (JobID: 732a9f00-9924-4b8c-9d38-29728e357a01)
+ - Deleted: 0
+
+[19/May/2023:21:00:03] UPDATING ACCOUNTS (JobID: dee31734-ea6e-4681-afd3-70ae9ed6a15d)
+ - New and modified: 0
+
+[19/May/2023:21:00:03] DELETING ACCOUNTS (JobID: dee31734-ea6e-4681-afd3-70ae9ed6a15d)
+ - Deleted: 0
+
+[19/May/2023:21:00:46] UPDATING PRODUCTS (JobID: 217a4884-8bd5-49c5-8521-044a22f622c3)
+ - New and modified: 0
+
+[19/May/2023:21:00:49] UPDATING PREPAGATI (JobID: cb8462bb-548e-4109-aa7c-2ed2431e5366)
+ - New and modified: 0
+
+[19/May/2023:21:00:49] DELETING PREPAGATI (JobID: cb8462bb-548e-4109-aa7c-2ed2431e5366)
+ - Deleted: 0
+
+[19/May/2023:21:30:04] UPDATING ACCOUNTS (JobID: 7d8eca2a-37d9-48a1-9094-daf3ee33ca4b)
+ - New and modified: 0
+
+[19/May/2023:21:30:04] DELETING ACCOUNTS (JobID: 7d8eca2a-37d9-48a1-9094-daf3ee33ca4b)
+ - Deleted: 0
+
+[19/May/2023:21:30:45] UPDATING PRODUCTS (JobID: a4ad4321-8448-43c3-b50f-dfc26c2378e8)
+ - New and modified: 0
+
+[19/May/2023:21:30:48] UPDATING PREPAGATI (JobID: 4ca608c1-f63c-43de-b5a9-6ee74a1652a7)
+ - New and modified: 0
+
+[19/May/2023:21:30:48] DELETING PREPAGATI (JobID: 4ca608c1-f63c-43de-b5a9-6ee74a1652a7)
+ - Deleted: 0
+
+[19/May/2023:21:40:05] UPDATING ACCOUNTS (JobID: 632408da-31c3-4aa4-8313-24c750b7c444)
+ - New and modified: 0
+
+[19/May/2023:21:40:05] DELETING ACCOUNTS (JobID: 632408da-31c3-4aa4-8313-24c750b7c444)
+ - Deleted: 0
+
+[19/May/2023:21:40:51] UPDATING PRODUCTS (JobID: 7f6b53cf-9fd0-4ec2-9986-2c277619189f)
+ - New and modified: 0
+
+[19/May/2023:21:40:53] UPDATING PREPAGATI (JobID: 97504f32-88dd-45a3-88c5-24e9085ebc0d)
+ - New and modified: 0
+
+[19/May/2023:21:40:53] DELETING PREPAGATI (JobID: 97504f32-88dd-45a3-88c5-24e9085ebc0d)
+ - Deleted: 0
+
+[19/May/2023:22:10:04] UPDATING ACCOUNTS (JobID: 664f36a3-a2f0-4098-98a9-edb92cd79663)
+ - New and modified: 0
+
+[19/May/2023:22:10:04] DELETING ACCOUNTS (JobID: 664f36a3-a2f0-4098-98a9-edb92cd79663)
+ - Deleted: 0
+
+[19/May/2023:22:10:39] UPDATING PRODUCTS (JobID: 5607a8ce-46b5-4ce1-9961-9677fd37c0d3)
+ - New and modified: 0
+
+[19/May/2023:22:10:40] UPDATING PREPAGATI (JobID: 7398421c-0efe-453f-b474-c0a0b543d2b9)
+ - New and modified: 0
+
+[19/May/2023:22:10:40] DELETING PREPAGATI (JobID: 7398421c-0efe-453f-b474-c0a0b543d2b9)
+ - Deleted: 0
+
+[19/May/2023:22:30:04] UPDATING ACCOUNTS (JobID: 8bfca120-8c34-448f-9115-2f7e8b150dbb)
+ - New and modified: 0
+
+[19/May/2023:22:30:04] DELETING ACCOUNTS (JobID: 8bfca120-8c34-448f-9115-2f7e8b150dbb)
+ - Deleted: 0
+
+[19/May/2023:22:30:38] UPDATING PRODUCTS (JobID: dfb5e274-8c1d-4471-b526-92839bcc0756)
+ - New and modified: 0
+
+[19/May/2023:22:30:40] UPDATING PREPAGATI (JobID: 3261dd14-e9f8-4d02-80d2-888196406c9b)
+ - New and modified: 0
+
+[19/May/2023:22:30:40] DELETING PREPAGATI (JobID: 3261dd14-e9f8-4d02-80d2-888196406c9b)
+ - Deleted: 0
+
+[19/May/2023:22:40:04] UPDATING ACCOUNTS (JobID: ecea5bcf-7682-4aaf-bd2a-9938628ca49c)
+ - New and modified: 0
+
+[19/May/2023:22:40:04] DELETING ACCOUNTS (JobID: ecea5bcf-7682-4aaf-bd2a-9938628ca49c)
+ - Deleted: 0
+
+[19/May/2023:22:40:39] UPDATING PRODUCTS (JobID: 223c00fc-8ca0-405c-b6eb-f4ddc6987e38)
+ - New and modified: 0
+
+[19/May/2023:22:40:41] UPDATING PREPAGATI (JobID: 37bbc62f-593c-4555-940a-597c65aebd5a)
+ - New and modified: 0
+
+[19/May/2023:22:40:41] DELETING PREPAGATI (JobID: 37bbc62f-593c-4555-940a-597c65aebd5a)
+ - Deleted: 0
+
+[19/May/2023:23:40:09] UPDATING ACCOUNTS (JobID: ecd08d8b-36ca-49d1-8bb4-0ea8ef7f24be)
+ - New and modified: 0
+
+[19/May/2023:23:40:09] DELETING ACCOUNTS (JobID: ecd08d8b-36ca-49d1-8bb4-0ea8ef7f24be)
+ - Deleted: 0
+
+[19/May/2023:23:40:30] UPDATING PRODUCTS (JobID: 12d069a0-9902-4d22-8c98-e4f38ceb645d)
+ - New and modified: 0
+
+[19/May/2023:23:40:31] UPDATING PREPAGATI (JobID: 4e602894-9d36-44df-9755-234658b2089d)
+ - New and modified: 0
+
+[19/May/2023:23:40:31] DELETING PREPAGATI (JobID: 4e602894-9d36-44df-9755-234658b2089d)
+ - Deleted: 0
+

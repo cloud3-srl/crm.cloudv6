@@ -1,0 +1,267 @@
+Received: from CWXP265MB1622.GBRP265.PROD.OUTLOOK.COM (2603:10a6:401:56::23)
+ by CWLP265MB1156.GBRP265.PROD.OUTLOOK.COM with HTTPS via
+ CWLP123CA0011.GBRP123.PROD.OUTLOOK.COM; Tue, 17 Dec 2019 11:47:50 +0000
+Received: from CWLP265CA0310.GBRP265.PROD.OUTLOOK.COM (2603:10a6:401:5d::34)
+ by CWXP265MB1622.GBRP265.PROD.OUTLOOK.COM (2603:10a6:401:3e::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2538.20; Tue, 17 Dec
+ 2019 11:47:50 +0000
+Received: from LO2GBR01FT016.eop-gbr01.prod.protection.outlook.com
+ (2a01:111:f400:7e15::202) by CWLP265CA0310.outlook.office365.com
+ (2603:10a6:401:5d::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2538.16 via Frontend
+ Transport; Tue, 17 Dec 2019 11:47:49 +0000
+Received: from migration2.sophos.net (52.214.93.228) by
+ LO2GBR01FT016.mail.protection.outlook.com (10.152.42.102) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.20.2538.14 via Frontend Transport; Tue, 17 Dec 2019 11:47:49 +0000
+Received: from abn-exch5a.green.sophos (10.224.64.44) by
+ EUW1-EXCH7A.green.sophos (10.240.64.23) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256) id
+ 15.1.1713.5; Tue, 17 Dec 2019 11:47:48 +0000
+Received: from abn-exch5b.green.sophos (10.224.64.46) by
+ abn-exch5a.green.sophos (10.224.64.45) with Microsoft SMTP Server (TLS) id
+ 15.0.1293.2; Tue, 17 Dec 2019 11:47:47 +0000
+Received: from mx1.sophos.com (10.48.229.1) by abn-exch5b.green.sophos
+ (10.224.64.46) with Microsoft SMTP Server id 15.0.1293.2 via Frontend
+ Transport; Tue, 17 Dec 2019 11:47:46 +0000
+Received: from mx1.sophos.com (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id AE347888EC6
+	for <valbona.gerbi@sophos.com>; Tue, 17 Dec 2019 11:47:46 +0000 (GMT)
+Received: from EUR03-VE1-obe.outbound.protection.outlook.com (mail-eopbgr50076.outbound.protection.outlook.com [40.107.5.76])
+	by mx1.sophos.com (Postfix) with ESMTPS id 09E0B88889F
+	for <Valbona.Gerbi@sophos.com>; Tue, 17 Dec 2019 11:47:45 +0000 (GMT)
+Received: from DB7PR08MB3241.eurprd08.prod.outlook.com (52.134.111.15) by
+ DB7PR08MB3898.eurprd08.prod.outlook.com (20.178.84.27) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2559.13; Tue, 17 Dec 2019 11:47:44 +0000
+Received: from DB7PR08MB3241.eurprd08.prod.outlook.com
+ ([fe80::a910:310b:10e4:9d44]) by DB7PR08MB3241.eurprd08.prod.outlook.com
+ ([fe80::a910:310b:10e4:9d44%6]) with mapi id 15.20.2538.019; Tue, 17 Dec 2019
+ 11:47:44 +0000
+From: Amministrazione / CLOUD3 <amministrazione@cloud3.srl>
+To: Valbona Gerbi <Valbona.Gerbi@sophos.com>
+CC: "michele.fanti@allnet-italia.it" <michele.fanti@allnet-italia.it>
+Subject: Connect Flex
+Thread-Topic: Connect Flex
+Thread-Index: AdW0z8aVw5o5L4EET4O75Rd+ukkXsw==
+Date: Tue, 17 Dec 2019 11:47:44 +0000
+Message-ID: <DB7PR08MB32411C435DDF9CC12EE9091FFA500@DB7PR08MB3241.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-MS-Exchange-Organization-AuthSource: abn-exch5b.green.sophos
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 4faae3c6-d43b-45ed-4c9a-08d782e6f13f
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [95.255.142.92]
+x-pmx-version: 6.4.4.2767743, Antispam-Engine: 2.7.2.2107409, Antispam-Data:
+ 2019.12.17.114217, AntiVirus-Engine: 5.68.0, AntiVirus-Data:
+ 2019.12.17.5680001
+x-perlmx-spam: Gauge=XII. Probability=12%, Report=' PRIORITY_NO_NAME 0.716,
+ HTML_50_70 0.1, RCVD_FROM_IP_DATE 0.1, SUPERLONG_LINE 0.05, ARCAUTH_PASSED 0,
+ BODYTEXTH_SIZE_10000_LESS 0, BODYTEXTH_SIZE_3000_MORE 0,
+ BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_6000_6999 0, BODY_SIZE_7000_LESS 0,
+ DKIM_SIGNATURE 0, HREF_LABEL_TEXT_ONLY 0, IMPORTANCE_HIGH 0, KNOWN_MTA_TFX 0,
+ LINK_TO_IMAGE 0, SINGLE_URI_IN_BODY 0, SPF_PASS 0, SXL_IP_TFX_WM 0,
+ WEBMAIL_SOURCE 0, WEBMAIL_XOIP 0, WEBMAIL_X_IP_HDR 0, X_PRIORITY_HIGH 0,
+ __ANY_URI 0, __ARCAUTH_DKIM_PASSED 0, __ARCAUTH_DMARC_PASSED 0,
+ __ARCAUTH_SPF_PASSED 0, __BODY_NO_MAILTO 0, __BODY_TEXT_X4 0, __CC_NAME 0,
+ __CP_URI_IN_BODY 0, __CT 0, __CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0,
+ __CTYPE_MULTIPART_ALT 0, __DQ_NEG_HEUR 0, __DQ_NEG_IP 0, __FUR_RDNS_OUTLOOK
+ 0, __HAS_CC_HDR 0, __HAS_FROM 0, __HAS_HTML 0, __HAS_MSGID 0, __HAS_XOIP 0,
+ __HAS_X_PRIORITY 0, __HREF_LABEL_TEXT 0, __HREF_LABEL_URI 0, __HTML_AHREF_TAG
+ 0, __HTML_TAG_DIV 0, __HTTPS_URI 0, __HTTP_IMAGE_TAG 0, __IMG_THEN_TEXT 0,
+ __MIME_HTML 0, __MIME_TEXT_H 0, __MIME_TEXT_H1 0, __MIME_TEXT_H2 0,
+ __MIME_TEXT_P 0, __MIME_TEXT_P1 0, __MIME_TEXT_P2 0, __MIME_VERSION 0,
+ __MULTIPLE_URI_TEXT 0, __PHISH_COMPR_DIR_NAME 0, __RCVD_NONE 0,
+ __RDNS_WEBMAIL 0, __SANE_MSGID 0, __SINGLE_URI_MPART_BOTH 0,
+ __STYLE_RATWARE_NEG 0, __STYLE_TAG 0, __SUBJ_ALPHA_END 0, __TAG_EXISTS_HTML
+ 0, __TO_MALFORMED_2 0, __TO_NAME 0, __TO_NAME_DIFF_FROM_ACC 0,
+ __TO_REAL_NAMES 0, __URI_IN_BODY 0, __URI_NOT_IMG 0, __URI_NO_MAILTO 0,
+ __URI_WITHOUT_PATH 0, __URI_WITH_PATH 0'
+x-pmx-queueid: de-wie-mx1.brown.sophos:5DF8C062_8179_5717_1
+x-ms-exchange-organization-originalserveripaddress: 10.152.42.102
+x-ms-exchange-organization-originalclientipaddress: 10.48.229.1
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=NSBa62yUONY8EskUQL1i3+axluKpUed7RtQRMqXckg4=;
+ b=RpbS5JVi8tNNbwh35g94i84YYU1i54mvmYmWt5BVgYPI8BTD48dizkFgSJbu7JcOsX5Lpy5qT3MNC6o2IrFASFtBQIxmY5e1RLYP+oSSjvQ3M58yxs3d9TYmv5Ahx4929e70Nj87ZzBODriOSNCKi3cyl22CMgxUUoM0ldeHJGc=
+x-originatororg: sophos.net
+x-forefront-antispam-report: CIP:52.214.93.228;IPV:;CTRY:IE;EFV:NLI;SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:CWXP265MB1622;H:migration2.sophos.net;FPR:;SPF:None;LANG:it;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+authentication-results: spf=softfail (sender IP is 52.214.93.228)
+ smtp.mailfrom=cloud3.srl; sophosapps.mail.onmicrosoft.com; dkim=pass
+ (signature was verified)
+ header.d=cloud3srl.onmicrosoft.com;sophosapps.mail.onmicrosoft.com;
+ dmarc=none action=none header.from=cloud3.srl;
+x-organizationheaderspreserved: EUW1-EXCH7A.green.sophos
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery: ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750127)(520011016)(706158)(944506383)(944626516);
+X-Microsoft-Antispam-Message-Info: sAtw/4QWW8BxHQKoukeSnp10RMYKhYkLpSdNJgXii6TKB1OleV1QBloS3aD4tJDuDXjwmRX0hPEH5v6fS7IY2CsJ7wKO1TgN22FLb0KjLAlRhSJYnzHsZGLQHgfq4Yc6ASYGbNS/fPRmwM/x4pWnC7Xmt+CO7jWMVPA1Aoqq+FMzihULcFrNcoNEm6UoDQsbHennmplisEyls1DOVMg1Jnk234uzibKSqNEDBcQu0ascL4bWiiJbcMQpn94TFbqnzN4RqbAxWOMiKzxF0ylWAAACoFsmqomu9/CiVna+Fqa15vBCFsQcqan4/MyCkbBrjBqmYON8MNYxax8IT1O307rG2LMeEnWYNswHc9DeQNRrf/pJ7q7tr+cKPJkJVQrNRKIJQsUPhksSS7eoJxVHlyc+Z4OuDdMiGXdaa+9oEOKaSE97UBY1BlD7x3TmirdA0I5g41E9ZrRUiQ4sqFvNDwmqhhzI3wtOJ0lijbV9s8tsZE3UbtLPPAThwWExJpZI
+Content-Type: multipart/alternative;
+	boundary="_000_DB7PR08MB32411C435DDF9CC12EE9091FFA500DB7PR08MB3241eurp_"
+Importance: high
+X-Priority: 1
+MIME-Version: 1.0
+
+--_000_DB7PR08MB32411C435DDF9CC12EE9091FFA500DB7PR08MB3241eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Buongiorno,
+
+come da accordi telefonici confermiamo di voler aderire al programma MSP HU=
+B CONNECT FLEX. Il distributore a cui fare riferimento =E8 Allnet Italia S.=
+p.a
+
+Vi informeremo appena effettueremo la certificazione.
+
+
+
+A disposizione per ogni ulteriore chiarimento.
+
+
+
+Cordialmente
+
+Giada Ferro
+
+ <https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png>
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<http://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 =96 GDPR=
+- e quindi ne =E8 proibita l=92utilizzazione ulteriore non autorizzata. Se =
+avete ricevuto per errore questo messaggio, Vi preghiamo cortesemente di co=
+ntattare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice =96 This e-mail message including any attachments is=
+ for the sole use of the intended recipient and may contain confidential an=
+d privileged information pursuant to Legislative Decree 196/2003 and the Eu=
+ropean General Data Protection Regulation 679/2016 =96 GDPR-. Any unauthori=
+zed review, use, disclosure or distribution is prohibited. If you are not t=
+he intended recipient, please contact the sender by reply e-mail and destro=
+y all copies of the original message.
+
+
+--_000_DB7PR08MB32411C435DDF9CC12EE9091FFA500DB7PR08MB3241eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <18138587A269B945A6C8A0A163DE95C3@GBRP265.PROD.OUTLOOK.COM>
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Buongiorno,<o:p></o:p></p>
+<p class=3D"MsoNormal">come da accordi telefonici confermiamo di voler ader=
+ire al programma MSP HUB CONNECT FLEX. Il distributore a cui fare riferimen=
+to =E8 Allnet Italia S.p.a<o:p></o:p></p>
+<p class=3D"MsoNormal">Vi informeremo appena effettueremo la certificazione=
+.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">A disposizione per ogni ulteriore chiarimento.<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Cordialmente &nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Giada Ferro<o:p></o:p></p>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"http://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 =96 GDPR- e quindi ne =E8 proibita l=92utilizzazione ulteriore non a=
+utorizzata. Se avete ricevuto per errore questo messaggio, Vi preghiamo cor=
+tesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice =
+=96 This e-mail message including any attachments is for the sole use of th=
+e intended recipient and may contain confidential and privileged informatio=
+n pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 =96 GDPR-. An=
+y unauthorized review, use, disclosure or distribution is prohibited. If yo=
+u are not the intended recipient, please contact the sender by reply e-mail=
+ and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_DB7PR08MB32411C435DDF9CC12EE9091FFA500DB7PR08MB3241eurp_--

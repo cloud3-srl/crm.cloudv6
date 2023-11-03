@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM6PR08MB2950.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; E.salvi@mapricom.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxdhfe16.ad.aruba.it
+X-Supplementary-Info: <mxdhfe16.ad.aruba.it #5.1.1 smtp;550 5.1.1
+ <E.salvi@mapricom.com>: VGz8iUcY35pUGVGz8iwVCV 511 sorry, no mailbox here by
+ that name (#5.1.1 - chkuser)>
+

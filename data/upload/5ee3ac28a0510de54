@@ -1,0 +1,935 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=VEZCLEXVLhVPJyTiVLlE+cXlTmS5xj1D7yndgm8bzB7PrXv3JybxEGfhjaOVn79vq0ThYkn6UZVO1dIi8QVwURxslfqwwqMkSi3IkRpLvztUMrynx634Q8nk+3T5VXPLTcCl88932S7kt36Fj3P4/KbiJ/9hVyETzS9APkL2BiLBL+Ye6dCz5whC4cnQfonWGOWHyMKZmzzLaQrYN023GjCadf9HClxY8KbpYnt3slWW1JtwgvFBSAfDiI8Vvi0bAvMyD4K2bzkDcyMSzaA9O84IK/wJyUJGU/sc+jU9vdoobVGN/D51G1Yy2jL2XZOcLGphVaiEdPS7zXYDplij1w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=A6dJHC27Jy1CIpmKH33n95ECDonItLNnHY+iKIVmQKc=;
+ b=YEAMOIN0ITQQFBqURFSv97Res4jHZlTx/v3PAj27pU5MPk0hSUU2C6IQqj6BWkzeerx/NBnGOzrm0u70lsQLRx1esNAbh/Psy+0u8gZX9C2KNnsGOEVyRL6XmGblrvBaL2NUtubpaCYO+zsohl9Daq5LBNrvl87dAsZGPwCoLW1AvXkV6lan/oWk62yc6lvIymoOf1NkcAe3jWm4cGP1lfcp4i4mDDM+xCo4AhoaZ3P9gjSR7pZOInvsmph9cz+MwPlST9nXecmD0FWn++ShwKEOPfvQg2W1nILfud/Y8ERR43Clzdbb7sxN5WLbbfNPWGVW1ION/XPeDwR/U2WQaA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=A6dJHC27Jy1CIpmKH33n95ECDonItLNnHY+iKIVmQKc=;
+ b=wKuOe4fFtkVRPmOXpRlwJlVeaFvgM/ll+9QbTrWJ99grzRtbB4OL735bOG6404cqGfRWTQJ8+4/Bny3w+bxM+5jyLcqG7Qay5z0zjgW4Rk4GTmtLBh0w1jlaz/uahQYYEwdfiIiEXtAnsChpa1tIYofcJd9yF/oFwqDTG8rmWkk=
+Received: from AM6PR08MB3525.eurprd08.prod.outlook.com (20.177.115.92) by
+ AM6PR08MB2950.eurprd08.prod.outlook.com (52.135.163.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2430.23; Thu, 14 Nov 2019 15:24:36 +0000
+Received: from AM6PR08MB3525.eurprd08.prod.outlook.com
+ ([fe80::446e:10e6:1432:7381]) by AM6PR08MB3525.eurprd08.prod.outlook.com
+ ([fe80::446e:10e6:1432:7381%4]) with mapi id 15.20.2451.027; Thu, 14 Nov 2019
+ 15:24:36 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "E.salvi@mapricom.com" <E.salvi@mapricom.com>
+Subject: Fwd: Prova VoipVoice: 0553988727 mapricom
+Thread-Topic: Prova VoipVoice: 0553988727 mapricom
+Thread-Index: AdWa2Ehs8+lqP+gjQka0dDS5qhWk8AAJzPgV
+Date: Thu, 14 Nov 2019 15:24:36 +0000
+Message-ID: <AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710@AM6PR08MB3525.eurprd08.prod.outlook.com>
+References: <AM0PR08MB50596BFE5BCE1E087C010B80A9710@AM0PR08MB5059.eurprd08.prod.outlook.com>
+In-Reply-To: <AM0PR08MB50596BFE5BCE1E087C010B80A9710@AM0PR08MB5059.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-originating-ip: [158.148.61.87]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 442b1a9e-1655-4d51-f57e-08d76916c270
+x-ms-traffictypediagnostic: AM6PR08MB2950:
+x-ms-exchange-purlcount: 2
+x-microsoft-antispam-prvs: <AM6PR08MB2950B8F76E72A45609393B57EA710@AM6PR08MB2950.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1051;
+x-forefront-prvs: 02213C82F8
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(39830400003)(346002)(396003)(136003)(376002)(366004)(189003)(199004)(14454004)(5024004)(81156014)(74316002)(66066001)(25786009)(7736002)(186003)(733005)(316002)(347745004)(11346002)(71190400001)(71200400001)(8936002)(21615005)(55016002)(2906002)(6436002)(14444005)(5660300002)(33656002)(52536014)(229853002)(19627235002)(486006)(446003)(256004)(476003)(5640700003)(2501003)(8676002)(26005)(7696005)(3846002)(6116002)(606006)(81166006)(2473003)(99286004)(9686003)(76116006)(66946007)(64756008)(66556008)(66476007)(66616009)(66446008)(91956017)(54896002)(6506007)(508600001)(236005)(2351001)(76176011)(45080400002)(6916009)(86362001)(102836004)(6306002)(15398625002)(16866085005);DIR:OUT;SFP:1101;SCL:1;SRVR:AM6PR08MB2950;H:AM6PR08MB3525.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: sW4MYYU0g1m9ZzktlydwDqCKpRiwNTp0om7/5yXUa8jGmHYxm9teYBGFPVwiM9ZdztFbweEPq0fsrDkIfFFUtcsvZPVfVQ8n7v1s2Sut5saIn0u9C77KI5aQJP6cslqTSpsjMbEIqogW/OmYQQ3W+LJ43uOs2v734x2dnxzsui0yhAq5OAkRDufoxTH5IhJct/LyMq+EAmiI0IFqKCRwlDPvBHQRF9sOG1cfAcNp1YYk36WhXX5oy5QwEK5XIJkkcqHFn0PgjrF4rAhiFT4oLlDlMMMcHuEtCYrEdjXXCv6cxps5g7Csqrxm1eeA2luf+ebLi8W7sQAIy2WyckEtb0zNcKZdKhx0UQIKnjB2raXQYFgDHRlUsTeoXyBdepvBa6Ux3tgX2q8C3NF6ySevC5y2ud/6xA66RdwCN85+co3HqlDs/BCjyOokm4+6LZ0ZdPCetgdMTrAKEq8rnHevjDwHf+U7O0Vl25ZnSjFujnA=
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/related;
+	boundary="_004_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_";
+	type="multipart/alternative"
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: 442b1a9e-1655-4d51-f57e-08d76916c270
+X-MS-Exchange-CrossTenant-originalarrivaltime: 14 Nov 2019 15:24:36.7754
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: +AWIN5bk+GNyd8mVaVRlFakN+I5BevxdADIDGSsq3hnh9EOp4INtQqE9feJ3n4Sg
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR08MB2950
+MIME-Version: 1.0
+
+--_004_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_"
+
+--_000_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Ottieni Outlook per Android<https://aka.ms/ghei36>
+
+________________________________
+Da: Test VoipVoice <test@voipvoice.it>
+Inviato: gioved=EC 14 novembre 2019, 11:43
+A: Help / CLOUD3
+Oggetto: Prova VoipVoice: 0553988727 mapricom
+
+Benvenuto in VoipVoice
+
+Il vostro numero di prova =E8: 0553988727
+Numero canali contemporanei: 4
+
+Attivo dalle ore 12:00 del giorno 14/11/2019
+Attenzione: numero valido fino alle ore 14:00 del giorno 22/11/2019
+CLI in uscita nascosto.
+Le chiamate internazionali sono disabilitate.
+
+--------------------------------------------------------
+PARAMETRI DI CONFIGURAZIONE:
+--------------------------------------------------------
+
+User: 0553988727
+Password: m4caNlS66HUw
+--------------------------------------------------------
+INFORMAZIONI SERVER:
+--------------------------------------------------------
+Sip Domain: user.voipvoice.it
+
+Realm: user.voipvoice.it
+
+Register Address: user.voipvoice.it
+
+Porta: 5060 TCP/UDP
+
+Re Registration Time Interval: 120 =96 2400 secondi
+
+Proxy Server: user.voipvoice.it
+
+Stun Server: stun.voipvoice.it
+
+Abilitazione delle porte SIP e RTP dalle subnet:
+
+
+
+- 62.94.199.32/28
+
+- 83.211.223.192/28
+
+- 83.211.227.0/26
+
+- 83.211.9.160/27
+
+
+--------------------------------------------------------
+CODIFICA AUDIO:
+--------------------------------------------------------
+
+
+Codecs Supportati: G.729a / G729 /  G.711 alaw / G.711 ulaw /  T.38
+
+Codifica Toni DTMF:  Sip-info (info): G729, G729a; rfc2833 con G729 e G729a=
+; Sip-info (info): G711a, G711u; Inaudio con G729; Inband con G711
+
+
+--------------------------------------------------------
+CHIAMATE INTERNAZIONALI
+--------------------------------------------------------
+La informiamo che le chiamate internazionali sono DISABILITATE.
+Per richiederne l=92attivazione si prega di inviare una mail ad attivazioni=
+@voipvoice.it<mailto:attivazioni@voipvoice.it>
+
+
+-------------------------------------------------------
+ATTENZIONE ALLE FRODI
+-------------------------------------------------------
+
+Qualora decidiate di abilitare le chiamate internazionali, la preghiamo di =
+porre attenzione alle seguenti buone prassi:
+
+
+  *   Mettere Access List sul Firewall sulla porta 5060 con lo scambio di p=
+acchetti solo dall=92IP della centrale VoipVoice
+83.211.227.21 (user.voipvoice.it)
+  *    Utilizzare password alfanumeriche complesse cambiandole periodicamen=
+te di almeno 8 caratteri per:
+     *   Tutti gli interni
+     *   L=92interfaccia di amministrazione
+     *   Tutte le macchine fax
+  *   Porre Attenzione agli interni remoti (VPN con IP Statici)
+
+ATTENZIONE: VoipVoice non =E8 responsabile dell=92eventuale traffico anomal=
+o verso le numerazioni estere.
+Vi preghiamo di porre in atto tutte le eventuali politiche di Sicurezza e d=
+i monitorare gli apparati Voip con i quali state effettuando le chiamate.
+
+VoipVoice
+Phone: +39 055 0935400
+E-mail: test@voipvoice.it<mailto:test@voipvoice.it>
+Via del Lavoro, 8 - 50056 Montelupo Fiorentino (FI)
+[Logo VoipVoice PNG]<http://www.voipvoice.it/index.html>
+
+
+
+
+
+
+
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<http://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 =96 GDPR=
+- e quindi ne =E8 proibita l=92utilizzazione ulteriore non autorizzata. Se =
+avete ricevuto per errore questo messaggio, Vi preghiamo cortesemente di co=
+ntattare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice =96 This e-mail message including any attachments is=
+ for the sole use of the intended recipient and may contain confidential an=
+d privileged information pursuant to Legislative Decree 196/2003 and the Eu=
+ropean General Data Protection Regulation 679/2016 =96 GDPR-. Any unauthori=
+zed review, use, disclosure or distribution is prohibited. If you are not t=
+he intended recipient, please contact the sender by reply e-mail and destro=
+y all copies of the original message.
+
+--_000_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div dir=3D"ltr" text-align=3D"left">
+<div style=3D"color: rgb(33, 33, 33); background-color: rgb(255, 255, 255);=
+ text-align: left;" dir=3D"ltr">
+<br>
+</div>
+<div id=3D"ms-outlook-mobile-signature">
+<div><br>
+</div>
+Ottieni <a href=3D"https://aka.ms/ghei36">Outlook per Android</a></div>
+<div id=3D"id-313e2692-dc68-4e9b-a865-b579b1023cfa" class=3D"ms-outlook-mob=
+ile-reference-message">
+<div style=3D"font-family: sans-serif; font-size: 15.6pt; color: rgb(0, 0, =
+0);"><br>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg"><strong>Da:</strong> Test VoipVoice &lt;test@voip=
+voice.it&gt;<br>
+<strong>Inviato:</strong> gioved=EC 14 novembre 2019, 11:43<br>
+<strong>A:</strong> Help / CLOUD3<br>
+<strong>Oggetto:</strong> Prova VoipVoice: 0553988727 mapricom<br>
+</div>
+<br>
+<meta content=3D"text/html; charset=3DWindows-1252">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style>=0A=
+<!--=0A=
+@font-face=0A=
+	{font-family:Calibri}=0A=
+@font-face=0A=
+	{font-family:Tahoma}=0A=
+@font-face=0A=
+	{font-family:Consolas}=0A=
+@font-face=0A=
+	{font-family:"HP Simplified Light"}=0A=
+p.MsoNormal, li.MsoNormal, div.MsoNormal=0A=
+	{margin:0cm;=0A=
+	margin-bottom:.0001pt;=0A=
+	font-size:12.0pt;=0A=
+	font-family:"Times New Roman","serif"}=0A=
+a:link, span.MsoHyperlink=0A=
+	{color:blue;=0A=
+	text-decoration:underline}=0A=
+a:visited, span.MsoHyperlinkFollowed=0A=
+	{color:purple;=0A=
+	text-decoration:underline}=0A=
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText=0A=
+	{margin:0cm;=0A=
+	margin-bottom:.0001pt;=0A=
+	font-size:10.5pt;=0A=
+	font-family:Consolas}=0A=
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate=0A=
+	{margin:0cm;=0A=
+	margin-bottom:.0001pt;=0A=
+	font-size:8.0pt;=0A=
+	font-family:"Tahoma","sans-serif"}=0A=
+span.TestonormaleCarattere=0A=
+	{font-family:Consolas}=0A=
+span.TestofumettoCarattere=0A=
+	{font-family:"Tahoma","sans-serif"}=0A=
+p.msonormal0, li.msonormal0, div.msonormal0=0A=
+	{margin-right:0cm;=0A=
+	margin-left:0cm;=0A=
+	font-size:11.0pt;=0A=
+	font-family:"Calibri","sans-serif"}=0A=
+p.stile28, li.stile28, div.stile28=0A=
+	{margin-right:0cm;=0A=
+	margin-left:0cm;=0A=
+	font-size:9.0pt;=0A=
+	font-family:"Times New Roman","serif";=0A=
+	color:#666666}=0A=
+span.testonormalecarattere0=0A=
+	{font-family:Consolas}=0A=
+span.testofumettocarattere0=0A=
+	{font-family:"Tahoma","sans-serif"}=0A=
+span.testonormalecarattere00=0A=
+	{font-family:Consolas}=0A=
+span.testofumettocarattere00=0A=
+	{font-family:"Tahoma","sans-serif"}=0A=
+span.testonormalecarattere000=0A=
+	{font-family:Consolas}=0A=
+span.StileMessaggioDiPostaElettronica28=0A=
+	{font-family:"Arial","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica29=0A=
+	{font-family:"Arial","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica30=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica31=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica32=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica33=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica34=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica35=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica36=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica37=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica38=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica39=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica40=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica41=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica42=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:navy}=0A=
+span.StileMessaggioDiPostaElettronica43=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica44=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica45=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica46=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica47=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica48=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica49=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica50=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica51=0A=
+	{font-family:"Arial","sans-serif";=0A=
+	color:black;=0A=
+	font-weight:normal;=0A=
+	font-style:normal}=0A=
+span.StileMessaggioDiPostaElettronica52=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	font-weight:normal;=0A=
+	font-style:normal;=0A=
+	text-decoration:none none}=0A=
+span.StileMessaggioDiPostaElettronica53=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	font-weight:normal;=0A=
+	font-style:normal;=0A=
+	text-decoration:none none}=0A=
+span.StileMessaggioDiPostaElettronica54=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	font-weight:normal;=0A=
+	font-style:normal;=0A=
+	text-decoration:none none}=0A=
+span.StileMessaggioDiPostaElettronica55=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica56=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica57=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	font-weight:normal;=0A=
+	font-style:normal;=0A=
+	text-decoration:none none}=0A=
+span.StileMessaggioDiPostaElettronica58=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica59=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica60=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica61=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica62=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica63=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica64=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica65=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica66=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica67=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica68=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica69=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica70=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica71=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica72=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica73=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+span.StileMessaggioDiPostaElettronica74=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica75=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica76=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica77=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica78=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica79=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica80=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:black}=0A=
+span.StileMessaggioDiPostaElettronica81=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica82=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica83=0A=
+	{font-family:"Calibri","sans-serif"}=0A=
+span.StileMessaggioDiPostaElettronica85=0A=
+	{font-family:"Calibri","sans-serif";=0A=
+	color:#1F497D}=0A=
+.MsoChpDefault=0A=
+	{font-size:10.0pt}=0A=
+@page WordSection1=0A=
+	{margin:70.85pt 2.0cm 2.0cm 2.0cm}=0A=
+div.WordSection1=0A=
+	{}=0A=
+ol=0A=
+	{margin-bottom:0cm}=0A=
+ul=0A=
+	{margin-bottom:0cm}=0A=
+-->=0A=
+</style>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Benvenuto in Voip<span style=3D"color:#0070C0">Voice<=
+/span></span></b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;"></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">&nbsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Il vostro numero di prova =E8:
+<span style=3D"color:#0070C0">0553988727</span><span style=3D"color:navy"><=
+/span></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Numero canali contemporanei:
+<span style=3D"color:#0070C0">4</span></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">&nbsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Attivo da<span style=3D"color:black">lle ore</span><s=
+pan style=3D"color:#0070C0"> 12:00
+</span><span style=3D"color:black">del giorno </span><span style=3D"color:#=
+0070C0">14/11/2019</span></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Attenzione:<span style=3D"color:navy">
+</span>numero valido fino al<span style=3D"color:black">le ore </span><span=
+ style=3D"color:#0070C0">14:0</span><span style=3D"color:#0070C6">0</span><=
+span style=3D"color:#0070C0">
+</span><span style=3D"color:black">del giorno </span><span style=3D"color:#=
+0070C0">22/11/2019</span></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">CLI in uscita nascosto<span style=3D"color:navy">.
+</span></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Le chiamate internazionali sono disabilitate.</span><=
+/b></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,&quot=
+;sans-serif&quot;; color:black">&nbsp;</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+---</span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,&quot=
+;sans-serif&quot;">PARAMETRI DI CONFIGURAZIONE<b>:</b></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+---</span></b></p>
+<p class=3D"MsoPlainText" style=3D"margin-bottom:12.0pt"><b><span style=3D"=
+font-size:12.0pt; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">U=
+ser</span></b><span style=3D"font-size:12.0pt; font-family:&quot;Calibri&qu=
+ot;,&quot;sans-serif&quot;">:
+<b><span style=3D"color:#0070C0">0553988727</span></b><br>
+<b>Password</b>: <b><span style=3D"color:#0070C0">m4caNlS66HUw</span><span =
+style=3D"color:#1F497D"></span></b></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;">--------------------------------------=
+------------------</span></b><span lang=3D"EN-US" style=3D"font-family:&quo=
+t;Calibri&quot;,&quot;sans-serif&quot;"><br>
+INFORMAZIONI SERVER<span style=3D"color:black">:</span><br>
+<b>--------------------------------------------------------</b><br>
+<b><span style=3D"color:black">Sip Domain</span></b><span style=3D"color:bl=
+ack">: </span>
+<b><span style=3D"color:#0070C0">user.voipvoice.it</span></b></span></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Real=
+m</span></b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&qu=
+ot;Calibri&quot;,&quot;sans-serif&quot;; color:black">:
+</span><b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">user.voipvoice.it</sp=
+an></b><b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Regi=
+ster Address</span></b><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font=
+-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">:
+</span><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">user.voipvoice.it</sp=
+an></b><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Port=
+a</span></b><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-family:&qu=
+ot;Calibri&quot;,&quot;sans-serif&quot;; color:black">:
+</span><strong><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-family:=
+&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">5060 TCP/UDP</sp=
+an></strong><strong><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-fa=
+mily:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#333333; font-weight=
+:normal">
+</span></strong><strong><span lang=3D"EN-US" style=3D"font-family:Consolas;=
+ color:#333333; font-weight:normal"></span></strong></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Re R=
+egistra</span></b><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt; font-f=
+amily:&quot;Calibri&quot;,&quot;sans-serif&quot;">t<span style=3D"color:bla=
+ck">ion Time
+ Interval: </span><span style=3D"color:#0070C0">120 =96 2400 secondi</span>=
+</span><span style=3D"color:black"></span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Prox=
+y Server</span></b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-fam=
+ily:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">:
+</span><b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">user.voipvoice.it</sp=
+an></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Stun=
+ Server</span></b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-fami=
+ly:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">:
+</span><b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">stun.voipvoice.it</sp=
+an></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Abil=
+itazione delle porte SIP e RTP dalle subnet:</span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">&nbs=
+p;</span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">-
+</span></b><b><span lang=3D"EN-US" style=3D"font-size:12.0pt; font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">62.94.199.32/28</=
+span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">- =
+83.211.223.192/28</span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">- =
+83.211.227.0/26</span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0070C0">- =
+83.211.9.160/27</span></b></p>
+<p class=3D"MsoPlainText"><b><span lang=3D"EN-US" style=3D"font-size:12.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#1F497D">&n=
+bsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+---</span></b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-ser=
+if&quot;"><br>
+CODIFICA AUDIO<span style=3D"color:black">:</span><br>
+<b>--------------------------------------------------------</b></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">&nbsp;</span></b></p>
+<p class=3D"MsoPlainText"><b><span style=3D"font-size:12.0pt; font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;; color:black">Codecs Supportati</=
+span></b><b><span style=3D"font-size:12.0pt; font-family:&quot;Calibri&quot=
+;,&quot;sans-serif&quot;">:</span></b><span style=3D"font-size:12.0pt; font=
+-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">
+<b><span style=3D"color:#0070C0">G.729a / G729 /&nbsp; G.711 alaw / G.711 u=
+law / &nbsp;T.38</span></b>&nbsp;&nbsp;
+</span></p>
+<p class=3D"MsoPlainText"><b><span style=3D"font-size:12.0pt; font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;">Codifica Toni DTMF:</span></b><s=
+pan style=3D"font-size:12.0pt; font-family:&quot;Calibri&quot;,&quot;sans-s=
+erif&quot;">
+<b><span style=3D"color:#0070C0">&nbsp;Sip-info (info): G729, G729a; rfc283=
+3 con G729 e G729a; Sip-info (info): G711a, G711u; Inaudio con G729; Inband=
+ con G711</span></b></span><b><span style=3D"font-family:&quot;Calibri&quot=
+;,&quot;sans-serif&quot;; color:#0070C0">
+</span></b><b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-ser=
+if&quot;"></span></b></p>
+<p class=3D"MsoPlainText"><span style=3D"font-size:12.0pt; font-family:&quo=
+t;Calibri&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+---</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:red">CHIAMATE INTERNAZIONALI
+</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+---</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">La informiamo che le chiamate internazionali sono DIS=
+ABILITATE.</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Per richiederne l=92attivazione si prega di inviare u=
+na mail ad
+</span></b><a href=3D"mailto:attivazioni@voipvoice.it"><b><span style=3D"fo=
+nt-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">attivazioni@voipvoice=
+.it</span></b></a><b><span style=3D"font-family:&quot;Calibri&quot;,&quot;s=
+ans-serif&quot;; color:red">
+</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:#1F497D">&nbsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:#1F497D">&nbsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+--</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:red">ATTENZIONE ALLE FRODI</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">-----------------------------------------------------=
+--</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:#1F497D">&nbsp;</span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">Qualora decidiate di abilitare le chiamate internazio=
+nali, la preghiamo di porre attenzione alle seguenti buone prassi:</span></=
+b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">&nbsp;</span></b></p>
+<ul type=3D"disc" style=3D"margin-top:0cm">
+<li class=3D"MsoNormal" style=3D""><b><span style=3D"font-family:&quot;Cali=
+bri&quot;,&quot;sans-serif&quot;">Mettere Access List sul Firewall sulla po=
+rta 5060 con lo scambio di pacchetti solo dall=92IP della centrale VoipVoic=
+e
+<br>
+<strong><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quo=
+t;; color:#0070C0">83.211.227.21
+</span></strong><strong><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;">(<span style=3D"color:#0070C0">user.voipvoice.it</span>=
+)</span></strong></span></b></li><li class=3D"MsoNormal" style=3D""><b><spa=
+n style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">&nbsp;Ut=
+ilizzare password alfanumeriche complesse cambiandole periodicamente di alm=
+eno 8 caratteri per:</span></b></li><ul type=3D"disc" style=3D"margin-top:0=
+cm">
+<li class=3D"MsoNormal" style=3D""><b><span style=3D"font-family:&quot;Cali=
+bri&quot;,&quot;sans-serif&quot;">Tutti gli interni</span></b></li><li clas=
+s=3D"MsoNormal" style=3D""><b><span style=3D"font-family:&quot;Calibri&quot=
+;,&quot;sans-serif&quot;">L=92interfaccia di amministrazione</span></b></li=
+><li class=3D"MsoNormal" style=3D""><b><span style=3D"font-family:&quot;Cal=
+ibri&quot;,&quot;sans-serif&quot;">Tutte le macchine fax</span></b></li></u=
+l>
+<li class=3D"MsoNormal" style=3D""><b><span style=3D"font-family:&quot;Cali=
+bri&quot;,&quot;sans-serif&quot;">Porre Attenzione agli interni remoti (VPN=
+ con IP Statici)</span></b></li></ul>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><u><span style=3D"=
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"><span =
+style=3D"text-decoration:none">&nbsp;</span></span></u></b></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b><u><span style=3D"=
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:red">ATTENZIO=
+NE</span></u></b><b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;; color:red">: VoipVoice non =E8 responsabile dell=92eventual=
+e traffico
+ anomalo verso le numerazioni estere.<br>
+Vi preghiamo di porre in atto tutte le eventuali politiche di Sicurezza e d=
+i monitorare gli apparati Voip con i quali state effettuando le chiamate.</=
+span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:14.0pt; font-family:&quo=
+t;Calibri&quot;,&quot;sans-serif&quot;; color:#0D0D0D">Voip</span></b><b><s=
+pan style=3D"font-size:14.0pt; font-family:&quot;Calibri&quot;,&quot;sans-s=
+erif&quot;; color:#0070C0">Voice</span></b><b><span style=3D"font-size:14.0=
+pt; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:#0D0D0D">=
+</span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;H=
+P Simplified Light&quot;,&quot;sans-serif&quot;; color:black">Phone: &#43;3=
+9 055 0935400</span><span style=3D"font-size:11.0pt; font-family:&quot;HP S=
+implified Light&quot;,&quot;sans-serif&quot;; color:#0070C0"></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;H=
+P Simplified Light&quot;,&quot;sans-serif&quot;; color:black">E-mail:
+</span><span style=3D"font-size:11.0pt; font-family:&quot;HP Simplified Lig=
+ht&quot;,&quot;sans-serif&quot;; color:#0070C0"><a href=3D"mailto:test@voip=
+voice.it"><span style=3D"color:#0070C0">test@voipvoice.it</span></a></span>=
+</p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;H=
+P Simplified Light&quot;,&quot;sans-serif&quot;; color:black">Via del Lavor=
+o, 8 - 50056 Montelupo Fiorentino (FI)</span></p>
+<p class=3D"MsoNormal"><a href=3D"http://www.voipvoice.it/index.html"><span=
+ style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans-seri=
+f&quot;; color:black; text-decoration:none"><img border=3D"0" id=3D"image00=
+2.png@01D45A69.F8953160" src=3D"cid:image002.png@01D45A69.F8953160" alt=3D"=
+Logo VoipVoice PNG" style=3D"max-width: 100%;"></span></a><span style=3D"fo=
+nt-size:11.0pt; font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; color=
+:#0070C0"></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;A=
+rial&quot;,&quot;sans-serif&quot;; color:#0070C0">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;; color:#0070C0">&nbsp;</span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt; font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;; color:#1F497D">&nbsp;</span></p>
+</div>
+<br>
+</div>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"http://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 =96 GDPR- e quindi ne =E8 proibita l=92utilizzazione ulteriore non a=
+utorizzata. Se avete ricevuto per errore questo messaggio, Vi preghiamo cor=
+tesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice =
+=96 This e-mail message including any attachments is for the sole use of th=
+e intended recipient and may contain confidential and privileged informatio=
+n pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 =96 GDPR-. An=
+y unauthorized review, use, disclosure or distribution is prohibited. If yo=
+u are not the intended recipient, please contact the sender by reply e-mail=
+ and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_--
+
+--_004_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=5994;
+	creation-date="Tue, 18 Dec 2018 10:44:33 GMT";
+	modification-date="Tue, 18 Dec 2018 10:44:33 GMT"
+Content-ID: <image002.png@01D45A69.F8953160>
+Content-Transfer-Encoding: base64
+
+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
+AElFTkSuQmCC
+
+--_004_AM6PR08MB3525FC9945FD43B6D1A4ABE8EA710AM6PR08MB3525eurp_--

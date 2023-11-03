@@ -1,0 +1,126 @@
+{
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Case",
+                "Opportunity",
+                "SalesOrder"
+            ]
+        },
+        "acceptanceStatus": {
+            "style": {
+                "None": null,
+                "Accepted": "success",
+                "Tentative": null,
+                "Declined": "danger"
+            },
+            "default": "Accepted",
+            "audited": true
+        },
+        "account": {
+            "readOnly": false,
+            "defaultAttributes": null,
+            "audited": true
+        },
+        "dateEnd": {
+            "required": false,
+            "default": "javascript: return this.dateTime.getNow(1);",
+            "before": null,
+            "minuteStep": 1,
+            "audited": true
+        },
+        "leads": {
+            "inlineEditDisabled": true
+        },
+        "createdAt": {
+            "default": "javascript: return this.dateTime.getNow(1);",
+            "minuteStep": 1,
+            "after": null,
+            "before": null
+        },
+        "direction": {
+            "options": false,
+            "default": "",
+            "style": []
+        },
+        "name": {
+            "required": false,
+            "default": null,
+            "maxLength": null,
+            "options": []
+        },
+        "assignedUser": {
+            "required": false,
+            "defaultAttributes": null
+        },
+        "duration": {
+            "options": [
+                300,
+                600,
+                900,
+                1800,
+                2700,
+                3600,
+                7200,
+                100
+            ],
+            "default": 60
+        },
+        "dateStart": {
+            "default": "javascript: return this.dateTime.getNow(1);",
+            "minuteStep": 1
+        },
+        "status": {
+            "options": [
+                "Aperto",
+                "Chiuso",
+                "Pianificare"
+            ],
+            "default": "Aperto",
+            "style": {
+                "Aperto": "warning",
+                "Chiuso": "success",
+                "Pianificare": "primary"
+            }
+        },
+        "reminders": {
+            "name": "reminders",
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "crm:views/meeting/fields/reminders",
+            "layoutListDisabled": true,
+            "dynamicLogicVisible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "notEquals",
+                                "attribute": "status",
+                                "value": "Aperto"
+                            },
+                            {
+                                "type": "notEquals",
+                                "attribute": "status",
+                                "value": "Chiuso"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dynamicLogicReadOnly": null,
+            "inlineEditDisabled": false,
+            "tooltip": false
+        }
+    },
+    "collection": {
+        "fullTextSearch": true,
+        "orderBy": "dateStart",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "account.name"
+        ],
+        "countDisabled": false
+    }
+}

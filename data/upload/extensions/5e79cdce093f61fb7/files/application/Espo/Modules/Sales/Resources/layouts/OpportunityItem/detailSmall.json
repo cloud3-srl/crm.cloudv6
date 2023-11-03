@@ -1,0 +1,45 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "quantity"
+                },
+                {
+                    "name": "opportunity"
+                }
+            ],
+            [
+                {
+                    "name": "product"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "unitPrice"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "amount"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

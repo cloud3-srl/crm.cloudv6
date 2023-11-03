@@ -1,0 +1,1438 @@
+X-Account-Key: account3
+X-UIDL: UID113499-1419929434
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:
+Return-Path: <>
+Delivered-To: morasso@alimentariasnc.it
+Received: from hostingssd93.netsons.net
+	by hostingssd93.netsons.net with LMTP
+	id 6K9UCbYGhWJxEQAAqHWqUA
+	(envelope-from <>)
+	for <morasso@alimentariasnc.it>; Wed, 18 May 2022 16:46:14 +0200
+Return-path: <>
+Envelope-to: morasso@alimentariasnc.it
+Delivery-date: Wed, 18 May 2022 16:46:14 +0200
+Received: from mailnull by hostingssd93.netsons.net with local (Exim 4.94.2)
+	id 1nrKwH-0000As-Ql
+	for morasso@alimentariasnc.it; Wed, 18 May 2022 16:46:14 +0200
+X-Failed-Recipients: info@minardierbe.it,
+  acquisti@minardierbe.it
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@hostingssd93.netsons.net>
+To: morasso@alimentariasnc.it
+References: <b40f2509-9d05-5c43-8ad1-5c75bd5dad01@alimentariasnc.it> <f20a5149-26c1-53cf-d1bd-b9ebb27b7b5b@alimentariasnc.it>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1652885173-eximdsn-1037915559
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nrKwH-0000As-Ql@hostingssd93.netsons.net>
+Date: Wed, 18 May 2022 16:46:13 +0200
+MIME-Version: 1.0
+
+--1652885173-eximdsn-1037915559
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@minardierbe.it
+    host smtp.e-mind.com [188.94.192.48]
+    SMTP error from remote mail server after initial connection:
+    554-extmx02.e-mind.com
+    554 Your access to this mail system has been rejected due to the sending MTA's poor reputation. If you believe that this failure is in error, please contact the intended recipient via alternate means.
+  acquisti@minardierbe.it
+    host smtp.e-mind.com [188.94.192.48]
+    SMTP error from remote mail server after initial connection:
+    554-extmx02.e-mind.com
+    554 Your access to this mail system has been rejected due to the sending MTA's poor reputation. If you believe that this failure is in error, please contact the intended recipient via alternate means.
+
+--1652885173-eximdsn-1037915559
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; hostingssd93.netsons.net
+
+Action: failed
+Final-Recipient: rfc822;acquisti@minardierbe.it
+Status: 5.0.0
+Remote-MTA: dns; smtp.e-mind.com
+Diagnostic-Code: smtp; 554-extmx02.e-mind.com
+ 554 Your access to this mail system has been rejected due to the sending MTA's poor reputation. If you believe that this failure is in error, please contact the intended recipient via alternate means.
+
+Action: failed
+Final-Recipient: rfc822;info@minardierbe.it
+Status: 5.0.0
+Remote-MTA: dns; smtp.e-mind.com
+Diagnostic-Code: smtp; 554-extmx02.e-mind.com
+ 554 Your access to this mail system has been rejected due to the sending MTA's poor reputation. If you believe that this failure is in error, please contact the intended recipient via alternate means.
+
+--1652885173-eximdsn-1037915559
+Content-type: message/rfc822
+
+Return-path: <morasso@alimentariasnc.it>
+Received: from 93-32-76-207.ip32.fastwebnet.it ([93.32.76.207]:41953 helo=[192.168.1.50])
+	by hostingssd93.netsons.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <morasso@alimentariasnc.it>)
+	id 1nrKQA-0005t1-5i; Wed, 18 May 2022 16:13:02 +0200
+Content-Type: multipart/alternative;
+ boundary="------------kM0NEyBi6GnGSaeYtZoSSQIS"
+Message-ID: <f20a5149-26c1-53cf-d1bd-b9ebb27b7b5b@alimentariasnc.it>
+Date: Wed, 18 May 2022 16:13:02 +0200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.0
+Subject: Fwd: Fwd: Fwd: Fwd: richieste per Saisse
+Content-Language: it
+Reply-To: morasso@alimentariasnc.it
+References: <b40f2509-9d05-5c43-8ad1-5c75bd5dad01@alimentariasnc.it>
+To: Anna Cortesi <acquisti@minardierbe.it>
+Cc: MINARDI <info@minardierbe.it>,
+ Morasso - Alimentaria <morasso@alimentariasnc.it>
+From: Morasso - Alimentaria <morasso@alimentariasnc.it>
+In-Reply-To: <b40f2509-9d05-5c43-8ad1-5c75bd5dad01@alimentariasnc.it>
+X-Forwarded-Message-Id: <b40f2509-9d05-5c43-8ad1-5c75bd5dad01@alimentariasnc.it>
+MIME-Version: 1.0
+
+--------------kM0NEyBi6GnGSaeYtZoSSQIS
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Messaggio Inoltrato --------
+Oggetto: 	Fwd: Fwd: Fwd: richieste per Saisse
+Data: 	Wed, 18 May 2022 16:11:47 +0200
+Mittente: 	Morasso - Alimentaria <morasso@alimentariasnc.it>
+Rispondi-a: 	morasso@alimentariasnc.it
+A: 	Anna Cortesi <acquisti@minardierbe.it>
+
+
+
+
+
+
+-------- Messaggio Inoltrato --------
+Oggetto: 	Fwd: Fwd: richieste per Saisse
+Data: 	Wed, 18 May 2022 15:47:28 +0200
+Mittente: 	Morasso - Alimentaria <morasso@alimentariasnc.it>
+Rispondi-a: 	morasso@alimentariasnc.it
+A: 	Anna Cortesi <acquisti@minardierbe.it>
+
+
+
+
+
+
+-------- Messaggio Inoltrato --------
+Oggetto: 	Fwd: richieste per Saisse
+Data: 	Wed, 18 May 2022 15:46:09 +0200
+Mittente: 	Morasso - Alimentaria <morasso@alimentariasnc.it>
+Rispondi-a: 	morasso@alimentariasnc.it
+A: 	Anna Cortesi <acquisti@minardierbe.it>
+
+
+
+*SAISSE*Genova, 18 Maggio 2022
+
+Ciao Anna,
+
+Ti ringrazio per la richiesta ed ecco le quotazioni di Borel.
+
+1.000 kg CURCUMA POLVERE INDIA, 2,5% curcumina, trattata termicamente a 
+3,50 €/kg
+
+gli ho sottolineato senza arachide e polvere impalpabile, che ribadirò 
+all’ordine. C’è stato un bell’aumento ma prodotto ottimo.
+
+300 kg HENNE NEUTRO POLVERE a 2,96 €/kg stesso lotto e prezzo 
+dell’ultima volta
+
+100 kg TIMO MONTANO FOGLIE, FRANCIA, a 4,84 e/kg
+
+Non risponde per LIMONE FOGLIE (sicuramente ha la scorza) e RODODENDRO, 
+quindi immagino non disponibili.
+
+LAVANDINO: il raccolto sarà a fine Luglio quindi è prematuro 
+pronunciarsi su come sarà e di conseguenza i prezzi.
+
+Direi che potremmo aggiornarci fra due mesi, indicando l’eventuale 
+fabbisogno che ti interesserà per spedizione fine 2022 – 2023 e poi 
+definiremo il programma quando darà informazioni e la quotazione.
+
+Fra 5 minuti ti chiamo.
+
+Saluti
+
+Paolo Morasso
+
+
+
+-------- Messaggio Inoltrato --------
+Oggetto: 	richieste per Saisse
+Data: 	Wed, 18 May 2022 09:57:55 +0200
+Mittente: 	Acquisti A. Minardi Srl <acquisti@minardierbe.it>
+A: 	morasso@alimentariasnc.it
+
+
+
+Buongiorno Paolo,
+
+spero tutto bene. Io mi sono già fatta anche la mia settimana di Covid, 
+così direi che le ho fatte tutte…
+
+ti allego alcune richieste per Saisse.
+
+Poi in via informale chiedo anche com’è la situazione LAVANDA 
+(LAVANDINO) FIORI. Ne ho ancora, ma volevo capire con tutti questi 
+cambiamenti di coltivazioni e raccolti se ci sono novità.
+
+Intanto ti saluto cordialmente e ti ringrazio.
+
+*Anna Cortesi*
+
+**
+
+*UFFICIO ACQUISTI*
+
+*A.MINARDI & FIGLI SRL*
+
+*48012 BAGNACAVALLO (RA)*
+
+Via Boncellino, 32
+
+48012 Bagnacavallo ( Ra )
+
+P.I. e C.F. : 00916310394
+
+TEL. 0545/61722 *Visitate il nostro nuovo sito **www.minardierbe.it 
+<http://www.minardierbe.it/>***
+
+FAX   0545/60686
+
+www.minardierbe.it <http://www.minardierbe.it/>
+
+e-mail : _acquisti@minardierbe.it <mailto:acquisti@minardierbe.it>_*//*
+
+*******************************************
+
+Sana 2019
+
+34° salone internazionale
+
+del Biologico e del Naturale
+
+*BOLOGNA 8 - 11**SETTEMBRE 2022*
+
+**
+
+*******************************************
+
+La ditta A. Minardi & figli srl tutela i dati personali dell’utente, 
+conformemente al Regolamento UE n. 2016/679 – GDPR.
+
+Il contenuto di questa e-mail e i suoi allegati sono coperti dal vincolo 
+di riservatezza. Qualsiasi soggetto diverso dal destinatario, è tenuto 
+ad avvertire immediatamente il mittente, astenersi dall’utilizzare e 
+comunque divulgare in tutto o in parte il suo contenuto ed eliminare la 
+e-mail.
+
+Per qualsiasi informazione  si prega di contattareinfo@minardierbe.it 
+<mailto:info@minardierbe.it>
+
+La versione completa dell’informativa GDPR è consultabile sul nostro 
+sito www.minardierbe.it <http://www.minardierbe.it/>
+
+The company A. Minardi & figli srl protects the user's personal data, in 
+accordance with the regulation UE n. 2016/679 – GDPR.
+
+The content of this e-mail and its attachments are covered by the 
+confidentiality obligation. Any person other than the recipient, is 
+required to immediately notify the sender, to refrain from using and in 
+any case disclosing in whole or in part its content and to delete the 
+e-mail.
+
+For any information please contactinfo@minardierbe.it 
+<mailto:info@minardierbe.it>.
+
+The full version of the information GDPR is available on our 
+websitewww.minardierbe.it <http://www.minardierbe.it/>
+
+
+
+            -- INFORMATIVA AI SENSI DEL CODICE DELLA PRIVACY (D. LGS.
+            196 - 30/06/2003). Le informazioni contenute nella presente
+            e-mail e negli eventuali allegati, devono essere nella
+            disponibilità del solo destinatario. Se avete ricevuto per
+            errore questa e-mail, siete pregati di informarci e di
+            provvedere alla sua rimozione. Possono essere presenti
+            informazioni riservate e non corrette (parzialmente o
+            totalmente). Le e-mail in partenza ed in arrivo possono
+            essere oggetto di monitoraggio da parte di Alimentaria
+            s.a.s. Del contenuto è responsabile il mittente della
+            presente. Chiunque venga in possesso non autorizzato di
+            questa e-mail è vincolato dalla Legge a non leggerne il
+            contenuto, a non copiarla, a non diffonderla ed a non
+            usarla. Informiamo che per l'esercizio dei diritti di cui
+            all'art. 7 del d.lgs.196/2003 ci si può rivolgere al
+            Titolare del trattamento Alimentaria s.a.s., Via di Serretto
+            25/6 - 16131 Genova per posta/fax, indicando Inerente alla
+            Privacy, o inviando un'e-mail a: morasso@alimentariasnc.it
+
+
+
+-- INFORMATIVA AI SENSI DEL CODICE DELLA PRIVACY (D. LGS. 196 - 
+30/06/2003). Le informazioni contenute nella presente e-mail e negli 
+eventuali allegati, devono essere nella disponibilità del solo 
+destinatario. Se avete ricevuto per errore questa e-mail, siete pregati 
+di informarci e di provvedere alla sua rimozione. Possono essere 
+presenti informazioni riservate e non corrette (parzialmente o 
+totalmente). Le e-mail in partenza ed in arrivo possono essere oggetto 
+di monitoraggio da parte di Alimentaria s.a.s. Del contenuto è 
+responsabile il mittente della presente. Chiunque venga in possesso non 
+autorizzato di questa e-mail è vincolato dalla Legge a non leggerne il 
+contenuto, a non copiarla, a non diffonderla ed a non usarla. Informiamo 
+che per l'esercizio dei diritti di cui all'art. 7 del d.lgs.196/2003 ci 
+si può rivolgere al Titolare del trattamento Alimentaria s.a.s., Via di 
+Serretto 25/6 - 16131 Genova per posta/fax, indicando Inerente alla 
+Privacy, o inviando un'e-mail a: morasso@alimentariasnc.it
+
+-- INFORMATIVA AI SENSI DEL CODICE DELLA PRIVACY (D. LGS. 196 - 
+30/06/2003). Le informazioni contenute nella presente e-mail e negli 
+eventuali allegati, devono essere nella disponibilità del solo 
+destinatario. Se avete ricevuto per errore questa e-mail, siete pregati 
+di informarci e di provvedere alla sua rimozione. Possono essere 
+presenti informazioni riservate e non corrette (parzialmente o 
+totalmente). Le e-mail in partenza ed in arrivo possono essere oggetto 
+di monitoraggio da parte di Alimentaria s.a.s. Del contenuto è 
+responsabile il mittente della presente. Chiunque venga in possesso non 
+autorizzato di questa e-mail è vincolato dalla Legge a non leggerne il 
+contenuto, a non copiarla, a non diffonderla ed a non usarla. Informiamo 
+che per l'esercizio dei diritti di cui all'art. 7 del d.lgs.196/2003 ci 
+si può rivolgere al Titolare del trattamento Alimentaria s.a.s., Via di 
+Serretto 25/6 - 16131 Genova per posta/fax, indicando Inerente alla 
+Privacy, o inviando un'e-mail a: morasso@alimentariasnc.it
+--------------kM0NEyBi6GnGSaeYtZoSSQIS
+Content-Type: multipart/related;
+ boundary="------------dHvZr240t4tmDFpmw7uVYqO0"
+
+--------------dHvZr240t4tmDFpmw7uVYqO0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body style="word-wrap:break-word" vlink="#954F72" link="#0563C1" lang="IT">
+    <br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Messaggio Inoltrato --------
+      <table class="moz-email-headers-table" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Oggetto:
+            </th>
+            <td>Fwd: Fwd: Fwd: richieste per Saisse</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Data: </th>
+            <td>Wed, 18 May 2022 16:11:47 +0200</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Mittente:
+            </th>
+            <td>Morasso - Alimentaria <a class="moz-txt-link-rfc2396E" href="mailto:morasso@alimentariasnc.it">&lt;morasso@alimentariasnc.it&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Rispondi-a:
+            </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:morasso@alimentariasnc.it">morasso@alimentariasnc.it</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">A: </th>
+            <td>Anna Cortesi <a class="moz-txt-link-rfc2396E" href="mailto:acquisti@minardierbe.it">&lt;acquisti@minardierbe.it&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      
+      <br>
+      <div class="moz-forward-container"><br>
+        <br>
+        -------- Messaggio Inoltrato --------
+        <table class="moz-email-headers-table" cellspacing="0" cellpadding="0" border="0">
+          <tbody>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Oggetto:
+              </th>
+              <td>Fwd: Fwd: richieste per Saisse</td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Data:
+              </th>
+              <td>Wed, 18 May 2022 15:47:28 +0200</td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Mittente:
+              </th>
+              <td>Morasso - Alimentaria <a class="moz-txt-link-rfc2396E" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">&lt;morasso@alimentariasnc.it&gt;</a></td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Rispondi-a:
+              </th>
+              <td><a class="moz-txt-link-abbreviated
+                  moz-txt-link-freetext" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">morasso@alimentariasnc.it</a></td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">A: </th>
+              <td>Anna Cortesi <a class="moz-txt-link-rfc2396E" href="mailto:acquisti@minardierbe.it" moz-do-not-send="true">&lt;acquisti@minardierbe.it&gt;</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        
+        <br>
+        <div class="moz-forward-container"><br>
+          <br>
+          -------- Messaggio Inoltrato --------
+          <table class="moz-email-headers-table" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Oggetto:
+                </th>
+                <td>Fwd: richieste per Saisse</td>
+              </tr>
+              <tr>
+                <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Data:
+                </th>
+                <td>Wed, 18 May 2022 15:46:09 +0200</td>
+              </tr>
+              <tr>
+                <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Mittente:
+                </th>
+                <td>Morasso - Alimentaria <a class="moz-txt-link-rfc2396E" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">&lt;morasso@alimentariasnc.it&gt;</a></td>
+              </tr>
+              <tr>
+                <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Rispondi-a:
+                </th>
+                <td><a class="moz-txt-link-abbreviated
+                    moz-txt-link-freetext" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">morasso@alimentariasnc.it</a></td>
+              </tr>
+              <tr>
+                <th valign="BASELINE" nowrap="nowrap" align="RIGHT">A: </th>
+                <td>Anna Cortesi <a class="moz-txt-link-rfc2396E" href="mailto:acquisti@minardierbe.it" moz-do-not-send="true">&lt;acquisti@minardierbe.it&gt;</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+          
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><b><span style="font-size: 9pt;">SAISSE</span></b><span style="font-size: 9pt;"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span>Genova, 18 Maggio 2022</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal"><font face="Courier New"><span style="font-size: 9pt;">Ciao Anna,<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal"><font face="Courier New"><span style="font-size: 9pt;">Ti ringrazio per la richiesta ed
+                ecco le quotazioni di Borel.</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">1.000 kg
+                CURCUMA POLVERE INDIA, 2,5% curcumina, trattata
+                termicamente a 3,50 €/kg</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">gli ho
+                sottolineato senza arachide e polvere impalpabile, che
+                ribadirò all’ordine. C’è stato un bell’aumento ma
+                prodotto ottimo.</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;"><span style="mso-spacerun:yes">&nbsp;</span>300 kg HENNE NEUTRO
+                POLVERE a 2,96 €/kg stesso lotto e prezzo dell’ultima
+                volta</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;"><span style="mso-spacerun:yes">&nbsp;</span>100 kg TIMO MONTANO
+                FOGLIE, FRANCIA, a 4,84 e/kg</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">Non
+                risponde per LIMONE FOGLIE (sicuramente ha la scorza) e
+                RODODENDRO, quindi immagino non disponibili.</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">LAVANDINO:
+                il raccolto sarà a fine Luglio quindi è prematuro
+                pronunciarsi su come sarà e di conseguenza i prezzi.<span style="mso-spacerun:yes">&nbsp; </span></span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">Direi che
+                potremmo aggiornarci fra due mesi, indicando l’eventuale
+                fabbisogno che ti interesserà per spedizione fine 2022 –
+                2023 e poi definiremo il programma quando darà
+                informazioni e la quotazione.</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">Fra 5
+                minuti ti chiamo.</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;">&nbsp;</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;" lang="FR">Saluti</span></font></p>
+          <font face="Courier New"> </font>
+          <p class="MsoNormal" style="tab-stops:435.0pt"><font face="Courier New"><span style="font-size: 9pt;" lang="FR">Paolo
+                Morasso</span></font></p>
+          <font face="Courier New"> </font><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>14</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>IT</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabella normale";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]-->
+          <div class="moz-forward-container"><br>
+            <br>
+            -------- Messaggio Inoltrato --------
+            <table class="moz-email-headers-table" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Oggetto:
+                  </th>
+                  <td>richieste per Saisse</td>
+                </tr>
+                <tr>
+                  <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Data:
+                  </th>
+                  <td>Wed, 18 May 2022 09:57:55 +0200</td>
+                </tr>
+                <tr>
+                  <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Mittente:
+                  </th>
+                  <td>Acquisti A. Minardi Srl <a class="moz-txt-link-rfc2396E" href="mailto:acquisti@minardierbe.it" moz-do-not-send="true">&lt;acquisti@minardierbe.it&gt;</a></td>
+                </tr>
+                <tr>
+                  <th valign="BASELINE" nowrap="nowrap" align="RIGHT">A:
+                  </th>
+                  <td><a class="moz-txt-link-abbreviated
+                      moz-txt-link-freetext" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">morasso@alimentariasnc.it</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <br>
+            
+            <meta name="Generator" content="Microsoft Word 15 (filtered
+              medium)">
+            <!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]-->
+            <style>@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}@font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;}@font-face
+	{font-family:"Monotype Corsiva";
+	panose-1:3 1 1 1 1 2 1 1 1 1;}@font-face
+	{font-family:Roboto;}p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Century",serif;
+	color:windowtext;}.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}div.WordSection1
+	{page:WordSection1;}</style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+            <div class="WordSection1">
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif">Buongiorno
+                  Paolo, <o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif">spero
+                  tutto bene. Io mi sono già fatta anche la mia
+                  settimana di Covid, così direi che le ho fatte tutte…<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif">ti
+                  allego alcune richieste per Saisse.<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif">Poi in
+                  via informale chiedo anche com’è la situazione LAVANDA
+                  (LAVANDINO) FIORI. Ne ho ancora, ma volevo capire con
+                  tutti questi cambiamenti di coltivazioni e raccolti se
+                  ci sono novità.<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif">Intanto
+                  ti saluto cordialmente e ti ringrazio.<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+              <p class="MsoNormal"><span style="font-family:&quot;Century&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+              <p class="MsoNormal"><b><span style="font-size:16.0pt;font-family:&quot;Monotype
+                    Corsiva&quot;;color:blue;mso-fareast-language:IT">Anna
+                    Cortesi<o:p></o:p></span></b></p>
+              <p class="MsoNormal"><b><span style="font-size:16.0pt;font-family:&quot;Monotype
+                    Corsiva&quot;;color:blue;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></b></p>
+              <p class="MsoNormal"><b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue;mso-fareast-language:IT">UFFICIO
+                    ACQUISTI<o:p></o:p></span></b></p>
+              <p class="MsoNormal"><b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue;mso-fareast-language:IT">A.MINARDI
+                    &amp; FIGLI SRL<o:p></o:p></span></b></p>
+              <p class="MsoNormal"><b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue;mso-fareast-language:IT">48012&nbsp;
+                    BAGNACAVALLO (RA)<o:p></o:p></span></b></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT">Via
+                  Boncellino, 32 <o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT">48012
+                  Bagnacavallo ( Ra )<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT">P.I.
+                  e C.F. : 00916310394<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT" lang="EN-GB">TEL.&nbsp;&nbsp;
+                  0545/61722&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style="font-size:8.0pt;font-family:&quot;Bookman Old
+Style&quot;,serif;color:#FF3399;mso-fareast-language:IT">Visitate il
+                    nostro nuovo sito </span></b><b><span style="font-size:8.0pt;font-family:&quot;Bookman Old
+Style&quot;,serif;color:#FF3399;mso-fareast-language:IT" lang="EN-GB"><a href="http://www.minardierbe.it/" moz-do-not-send="true"><span style="color:#FF3399" lang="IT">www.minardierbe.it</span></a></span></b><b><span style="font-size:8.0pt;font-family:&quot;Bookman Old
+                    Style&quot;,serif;mso-fareast-language:IT"><o:p></o:p></span></b></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT" lang="EN-GB">FAX&nbsp;&nbsp; 0545/60686<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT"><a href="http://www.minardierbe.it/" moz-do-not-send="true"><span style="color:blue" lang="EN-GB">www.minardierbe.it</span></a></span><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT" lang="EN-GB"><o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:8.0pt;color:blue;mso-fareast-language:IT" lang="EN-GB">e-mail : <u><a href="mailto:acquisti@minardierbe.it" moz-do-not-send="true"><span style="color:blue">acquisti@minardierbe.it</span></a></u></span><b><i><span style="font-size:14.0pt;font-family:&quot;Times
+                      New
+Roman&quot;,serif;color:#C00000;mso-fareast-language:IT" lang="EN-GB"> <o:p></o:p></span></i></b></p>
+              <p class="MsoNormal"><span style="mso-fareast-language:IT">*******************************************<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="mso-fareast-language:IT"><img style="width:.7083in;height:.4895in" id="Immagine_x0020_1" src="cid:part1.5casIYZT.FgsHPROi@alimentariasnc.it" alt="Sana 2019" class="" width="68" height="47" border="0"></span><span style="font-size:8.0pt;mso-fareast-language:IT"><o:p></o:p></span></p>
+              <p class="MsoNormal" style="margin-right:15.0pt"><span style="color:green;mso-fareast-language:IT">34° salone
+                  internazionale <o:p></o:p></span></p>
+              <p class="MsoNormal" style="margin-right:15.0pt"><span style="color:green;mso-fareast-language:IT">del
+                  Biologico e del Naturale<o:p></o:p></span></p>
+              <p class="MsoNormal"><b><span style="color:green;mso-fareast-language:IT">BOLOGNA
+                    <span style="border:none windowtext
+                      1.0pt;padding:0cm">8 - 11</span></span></b><span style="color:green;border:none windowtext
+                  1.0pt;padding:0cm;mso-fareast-language:IT"> </span><b><span style="color:green;mso-fareast-language:IT">SETTEMBRE
+                    2022<o:p></o:p></span></b></p>
+              <p class="MsoNormal"><b><span style="font-size:5.0pt;color:#0070C0;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></b></p>
+              <p class="MsoNormal"><span style="mso-fareast-language:IT">*******************************************<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:5.0pt;mso-fareast-language:IT" lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT">La
+                  ditta A. Minardi &amp; figli srl tutela i dati
+                  personali dell’utente, conformemente al Regolamento UE
+                  n. 2016/679 – GDPR. <o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT">Il
+                  contenuto di questa e-mail e i suoi allegati
+                  sono&nbsp;coperti dal vincolo di riservatezza. Qualsiasi
+                  soggetto diverso dal destinatario, è tenuto ad
+                  avvertire immediatamente il mittente, astenersi
+                  dall’utilizzare e comunque divulgare in tutto o in
+                  parte il suo contenuto ed eliminare la e-mail.<o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT">Per&nbsp;
+                  qualsiasi informazione&nbsp; si prega di contattare<span style="color:#1F497D"> </span></span><span style="font-size:7.0pt"><a href="mailto:info@minardierbe.it" moz-do-not-send="true"><span style="color:#0563C1;mso-fareast-language:IT">info@minardierbe.it</span></a></span><span style="font-size:7.0pt;color:#1F497D;mso-fareast-language:IT"> <o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT">La
+                  versione completa dell’informativa GDPR è consultabile
+                  sul nostro sito <span style="color:#1F497D"><a href="http://www.minardierbe.it/" moz-do-not-send="true"><span style="color:blue">www.minardierbe.it</span></a><o:p></o:p></span></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;color:#1F497D;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt" lang="EN-US">The company A. Minardi &amp; figli srl </span><span style="font-size:7.0pt" lang="EN">protects the user's
+                  personal data, in accordance with the regulation UE n.
+                  2016/679 – GDPR.</span><span style="font-size:7.0pt" lang="EN-US"><o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT" lang="EN-GB">The content </span><span style="font-size:7.0pt" lang="EN">of this e-mail and
+                  its attachments are covered by the confidentiality
+                  obligation. Any person other than the recipient, is
+                  required to immediately notify the sender, to refrain
+                  from using and in any case disclosing in whole or in
+                  part its content and to delete the e-mail.</span><span style="font-size:7.0pt;mso-fareast-language:IT" lang="EN-US"><o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt;mso-fareast-language:IT" lang="EN-GB">For any information </span><span style="font-size:7.0pt" lang="EN">please contact</span><span style="font-size:7.0pt;font-family:Roboto" lang="EN">
+                </span><span style="font-size:7.0pt"><a href="mailto:info@minardierbe.it" moz-do-not-send="true"><span style="color:#0563C1;mso-fareast-language:IT" lang="EN-US">info@minardierbe.it</span></a></span><span style="font-size:7.0pt" lang="EN-US">.</span><span style="font-size:7.0pt;color:#1F497D;mso-fareast-language:IT" lang="EN-US"><o:p></o:p></span></p>
+              <p class="MsoNormal"><span style="font-size:7.0pt" lang="EN-US">The full version </span><span style="font-size:7.0pt" lang="EN">of the information
+                  GDPR is available on our website</span><span style="font-size:7.0pt;font-family:Roboto" lang="EN">
+                </span><span style="font-size:7.0pt;color:#1F497D;mso-fareast-language:IT"><a href="http://www.minardierbe.it/" moz-do-not-send="true"><span style="color:blue" lang="EN-GB">www.minardierbe.it</span></a></span><span style="font-size:7.0pt;color:#1F497D;mso-fareast-language:IT" lang="EN-GB"><o:p></o:p></span></p>
+              <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+            </div>
+          </div>
+          <h6><br>
+          </h6>
+          <div class="moz-signature">
+            <h6>-- INFORMATIVA AI SENSI DEL CODICE DELLA PRIVACY (D.
+              LGS. 196 - 30/06/2003). Le informazioni contenute nella
+              presente e-mail e negli eventuali allegati, devono essere
+              nella disponibilità del solo destinatario. Se avete
+              ricevuto per errore questa e-mail, siete pregati di
+              informarci e di provvedere alla sua rimozione. Possono
+              essere presenti informazioni riservate e non corrette
+              (parzialmente o totalmente). Le e-mail in partenza ed in
+              arrivo possono essere oggetto di monitoraggio da parte di
+              Alimentaria s.a.s. Del contenuto è responsabile il
+              mittente della presente. Chiunque venga in possesso non
+              autorizzato di questa e-mail è vincolato dalla Legge a non
+              leggerne il contenuto, a non copiarla, a non diffonderla
+              ed a non usarla. Informiamo che per l'esercizio dei
+              diritti di cui all'art. 7 del d.lgs.196/2003 ci si può
+              rivolgere al Titolare del trattamento Alimentaria s.a.s.,
+              Via di Serretto 25/6 - 16131 Genova per posta/fax,
+              indicando Inerente alla Privacy, o inviando un'e-mail a: <a class="moz-txt-link-abbreviated moz-txt-link-freetext" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">morasso@alimentariasnc.it</a></h6>
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="moz-signature">-- INFORMATIVA AI SENSI DEL CODICE
+        DELLA PRIVACY (D. LGS. 196 - 30/06/2003). Le informazioni
+        contenute nella presente e-mail e negli eventuali allegati,
+        devono essere nella disponibilità del solo destinatario. Se
+        avete ricevuto per errore questa e-mail, siete pregati di
+        informarci e di provvedere alla sua rimozione. Possono essere
+        presenti informazioni riservate e non corrette (parzialmente o
+        totalmente). Le e-mail in partenza ed in arrivo possono essere
+        oggetto di monitoraggio da parte di Alimentaria s.a.s. Del
+        contenuto è responsabile il mittente della presente. Chiunque
+        venga in possesso non autorizzato di questa e-mail è vincolato
+        dalla Legge a non leggerne il contenuto, a non copiarla, a non
+        diffonderla ed a non usarla. Informiamo che per l'esercizio dei
+        diritti di cui all'art. 7 del d.lgs.196/2003 ci si può rivolgere
+        al Titolare del trattamento Alimentaria s.a.s., Via di Serretto
+        25/6 - 16131 Genova per posta/fax, indicando Inerente alla
+        Privacy, o inviando un'e-mail a: <a class="moz-txt-link-abbreviated moz-txt-link-freetext" href="mailto:morasso@alimentariasnc.it" moz-do-not-send="true">morasso@alimentariasnc.it</a></div>
+    </div>
+    <br>
+    <div class="moz-signature">-- INFORMATIVA AI SENSI DEL CODICE DELLA
+      PRIVACY (D. LGS. 196 - 30/06/2003). Le informazioni contenute
+      nella presente e-mail e negli eventuali allegati, devono essere
+      nella disponibilità del solo destinatario. Se avete ricevuto per
+      errore questa e-mail, siete pregati di informarci e di provvedere
+      alla sua rimozione. Possono essere presenti informazioni riservate
+      e non corrette (parzialmente o totalmente). Le e-mail in partenza
+      ed in arrivo possono essere oggetto di monitoraggio da parte di
+      Alimentaria s.a.s. Del contenuto è responsabile il mittente della
+      presente. Chiunque venga in possesso non autorizzato di questa
+      e-mail è vincolato dalla Legge a non leggerne il contenuto, a non
+      copiarla, a non diffonderla ed a non usarla. Informiamo che per
+      l'esercizio dei diritti di cui all'art. 7 del d.lgs.196/2003 ci si
+      può rivolgere al Titolare del trattamento Alimentaria s.a.s., Via
+      di Serretto 25/6 - 16131 Genova per posta/fax, indicando Inerente
+      alla Privacy, o inviando un'e-mail a: <a class="moz-txt-link-abbreviated" href="mailto:morasso@alimentariasnc.it">morasso@alimentariasnc.it</a></div>
+  </body>
+</html>
+--------------dHvZr240t4tmDFpmw7uVYqO0
+Content-Type: image/png; name="image001.png"
+Content-Disposition: inline; filename="image001.png"
+Content-Id: <part1.5casIYZT.FgsHPROi@alimentariasnc.it>
+Content-Transfer-Encoding: base64
+
+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
+
+--------------dHvZr240t4tmDFpmw7uVYqO0--
+
+--------------kM0NEyBi6GnGSaeYtZoSSQIS--
+
+--1652885173-eximdsn-1037915559--

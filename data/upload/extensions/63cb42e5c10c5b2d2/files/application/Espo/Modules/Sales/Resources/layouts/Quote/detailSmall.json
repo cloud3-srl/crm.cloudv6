@@ -1,0 +1,13 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name": "name", "fullWidth": true}],
+            [{"name": "status", "fullWidth": true}],
+            [{"name": "opportunity", "fullWidth": true}],
+            [{"name": "account", "fullWidth": true}],
+            [{"name": "dateQuoted", "fullWidth": true}],
+            [{"name": "amount", "fullWidth": true}]
+        ]
+    }
+]

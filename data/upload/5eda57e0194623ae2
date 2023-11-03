@@ -1,0 +1,164 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SyncBackFree V8 Log</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #F4F8FB;
+}
+-->
+</style>
+</head><body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><div align="center">
+<table width="97%" border="0" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td width="70%" align="left" valign="middle" style="background-color: #DDDDDD; padding: 15px"><font color="#000077" size="4" face="&#39;Segoe UI&#39;, Verdana, sans-serif">
+<strong>SyncBackFree V8 Log</strong><br>
+<strong>Pagina principale</strong></font>
+</td>
+<td width="30%" align="right" valign="middle" style="background-color: #DDDDDD; padding: 15px"><font color="#777777" size="4" face="&#39;Segoe UI&#39;, Verdana, sans-serif">
+<small>V8.5.122.0 (32-bit)</small></font>
+</td>
+</tr>
+</tbody></table>
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr><td>&nbsp;</td></tr>
+<!--12/06/2019 20:00:23
+SyncBackFree V8.5.122.0 
+Windows 10 x64 build 17134 (10.0.17134) (Italian) (Unknown)
+Prev Win   = Windows 10 x64 build 17134 (10.0.17134) (Unknown) , 09/03/2019 16:58:07
+Cur/Prev V = 8.5.122.0 , 8.5.122.0
+Cur/Prev DT= 09/03/2019 16:58:07 , 09/03/2019 16:58:07
+Memory     = 2801/4096 MB (free/total)
+Allocated  = 36,78 MB
+Display    = 1024x768, 32 bit (1) (96)
+Sys Uptime = 37 days 10 hours 
+Prog Uptime= 21 seconds 
+CPU        = Intel(R) Xeon(R) CPU E5~2620 v3 @ 2.40GHz
+CPU count  = 1
+Admin      = ~1
+GUI        = 130/58/10000
+Temp Folder= C:\Users\CL3\AppData\Local\Temp\
+Temp Free  = 51589468160
+Username   = BK~SRV\CL3
+IsInWrkgrp = WORKGROUP
+SessionID  = 0
+ActSessID  = 1
+Filename   = C:\Program Files (x86)\2BrightSparks\SyncBackFree\SyncBackFree.exe
+ParentProc = C:\Windows\System32\svchost.exe
+No Desktop = ~1
+VM/VP/BP/WI= ~1/0/0/0
+TS         = 0
+External   = 0
+WinExternal= 0
+Debug      = 0
+DOP        = NS
+GW         = Y
+GMT Bias   = ~120
+EHV        = 4DA41B246A41DF06ADD0133238F1CC7A
+Settings   = C:\Users\CL3\AppData\Local\2BrightSparks\SyncBackFree\Settings.ini
+CS         = CF82CEC618ED56349458B7F018E1C02A
+Environment=
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\CL3\AppData\Roaming
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=BK~SRV
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+LOCALAPPDATA=C:\Users\CL3\AppData\Local
+NUMBER_OF_PROCESSORS=1
+OneDrive=C:\Users\CL3\OneDrive
+OS=Windows_NT
+Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\CL3\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f02
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\CL3\AppData\Local\Temp
+TMP=C:\Users\CL3\AppData\Local\Temp
+USERDOMAIN=BK~SRV
+USERNAME=CL3
+USERPROFILE=C:\Users\CL3
+windir=C:\WINDOWS
+-->
+<tr><td><font size="3" face="'Segoe UI', Verdana, sans-serif">Selezionare uno dei collegamenti qui sotto per avere informazioni dettagliate circa l'attività che è stata conclusa:</font><br>
+<br><font color="#CCCCCC">
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Copiato, eliminato, rinominato e modificato (0)</font></strong>
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Verificato (0)</font></strong>
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Saltati (0)</font></strong>
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Allarmi (0)</font></strong>
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Errori (0)</font></strong>
+ | <strong><font size="3" face="'Segoe UI', Verdana, sans-serif">Errori non critici (0)</font></strong>
+ |</font></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+<table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#C4D2E3">
+
+<tr bgcolor="#D2DEFB"><td colspan="4"><strong><font color="#003366" size="3" face="'Segoe UI', Verdana, sans-serif">Registro eventi: Sintesi</font></strong>
+</td></tr>
+<tr>
+<td bgcolor="#EEF4FD"><strong><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif">Nome profilo</font></strong></td>
+<td width="23%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">Da iscasi a RDX</font></td>
+<td bgcolor="#EEF4FD"><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif"><strong>Tipo</strong></font></td>
+<td width="39%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">Copia speculare</font></td>
+</tr>
+<tr>
+<td width="22%" bgcolor="#FFFF99"><strong><font color="#990000" size="3" face="'Segoe UI', Verdana, sans-serif">Risultato</font></strong></td>
+<td width="78%" colspan="3" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">Errore scansione</font></td>
+</tr>
+<tr>
+<td width="22%" bgcolor="#EEF4FD"><strong><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif">Non gestito da SyncBack ma dal Task Scheduler di Windows o in automatico</font></strong></td>
+<td width="78%" colspan="3" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">Sì</font></td>
+</tr>
+<tr>
+<td width="22%" bgcolor="#EEF4FD"><strong><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif">Avvio</font></strong></td>
+<td width="78%" colspan="3" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">"C:\Program Files (x86)\2BrightSparks\SyncBackFree\SyncBackFree.exe" -m "Da iscasi a RDX"</font></td>
+</tr>
+<tr>
+<td bgcolor="#EEF4FD"><strong><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif">Nome utente</font></strong></td>
+<td width="23%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">BK-SRV\CL3</font></td>
+<td bgcolor="#EEF4FD"><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif"><strong>Nome computer</strong></font></td>
+<td width="39%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">BK-SRV</font></td>
+</tr>
+<tr>
+<td bgcolor="#EEF4FD"><strong><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif">Ora di esecuzione del profilo</font></strong></td>
+<td width="23%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">12/06/2019 20:00:03</font></td>
+<td bgcolor="#EEF4FD"><font color="#4A72A2" size="3" face="'Segoe UI', Verdana, sans-serif"><strong>Ora di completamento del profilo</strong></font></td>
+<td width="39%" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">12/06/2019 20:00:23 (20 secondi)</font></td>
+</tr>
+</table></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+<table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#C4D2E3">
+
+<tr bgcolor="#D2DEFB"><td colspan="4"><strong><font color="#003366" size="3" face="'Segoe UI', Verdana, sans-serif">Registro eventi: Errori ed allarmi</font></strong>
+</td></tr>
+<tr>
+<td width="22%" bgcolor="#FFFF99"><strong><font color="#990000" size="3" face="'Segoe UI', Verdana, sans-serif">Errore critico</font></strong></td>
+<td width="78%" colspan="3" bgcolor="#FFFFFF"><font size="3" face="'Segoe UI', Verdana, sans-serif">Errore nella preparazione di Destinazione : Non c'è un disco nell'unità D:</font></td>
+</tr>
+</table></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td><div align="right"><table width="100%"><tr>
+<td><font color="#C1C1C1" size="3" face="'Segoe UI', Verdana, sans-serif">
+</font></td>
+<td><div align="right"><font size="3" face="'Segoe UI', Verdana, sans-serif">
+<a href="http://www.2brightsparks.com/"></a></font></div></td></tr></table></div></td></tr>
+</table></div></td></tr></table>
+</body></html>

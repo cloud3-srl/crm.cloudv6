@@ -1,0 +1,21 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [{"name": "name"}, {"name":"salesOrder"}],
+            [{"name": "status"}, {"name":"account"}],
+            [{"name": "amount"}, {"name":"quote"}],
+            [{"name": "dateInvoiced"}, {"name":"opportunity"}],
+            [false, {"name": "number"}]
+        ]
+    },
+    {
+        "label": "Details",
+        "rows": [
+            [{"name": "billingAddress"}, {"name":"shippingAddress"}],
+            [{"name": "billingContact"}, {"name":"shippingContact"}],
+            [{"name": "tax"}, {"name":"shippingProvider"}],
+            [{"name": "description", "fullWidth": true}]
+        ]
+    }
+]

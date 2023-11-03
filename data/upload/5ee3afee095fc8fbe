@@ -1,0 +1,74 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector1-cloud3-srl;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=SGYIS5wWr7Rwzra7suxfB6nP9LWn1KyxeexTpM1X36U=;
+ b=sXOKFBWMYTO2/SCr9Mnfnu6N9HLkgTbd1dVrA0hXpDf8BABoB2AziQecMyAibJ2xK8NYkLU4rqyYpnyJGKi9mqMhSQ3Efpk3HSfUHy8Eqanc+Ry71piFiBJSCfK2sFeD2QlmwK29OZLmD6AZzgyVv8a0DHWbJCnlmpTda3raoSc=
+Received: from DB6PR0801MB1367.eurprd08.prod.outlook.com (10.168.11.143) by
+ DB6PR0801MB1894.eurprd08.prod.outlook.com (10.168.84.13) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1750.15; Thu, 28 Mar 2019 15:20:29 +0000
+Received: from DB6PR0801MB1367.eurprd08.prod.outlook.com
+ ([fe80::4956:45cc:6caa:3ace]) by DB6PR0801MB1367.eurprd08.prod.outlook.com
+ ([fe80::4956:45cc:6caa:3ace%2]) with mapi id 15.20.1750.014; Thu, 28 Mar 2019
+ 15:20:29 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "c.tardito@seaqueen.com" <c.tardito@seaqueen.com>
+Subject: Pass
+Thread-Topic: Pass
+Thread-Index: AQHU5XnHIspl3yv4u06UO561kFbQQA==
+Date: Thu, 28 Mar 2019 15:20:29 +0000
+Message-ID: <9305FEE5-1E08-486D-862F-88D29CD1160B@cloud3.srl>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-originating-ip: [5.169.13.159]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: a27ffc3e-968d-4c94-2557-08d6b390e9a9
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(7021145)(8989299)(4534185)(7022145)(4603075)(4627221)(201702281549075)(8990200)(7048125)(7024125)(7027125)(7023125)(5600127)(711020)(4605104)(2017052603328)(7153060)(7193020);SRVR:DB6PR0801MB1894;
+x-ms-traffictypediagnostic: DB6PR0801MB1894:
+x-microsoft-antispam-prvs: <DB6PR0801MB189449716187F93D45CAB59AEA590@DB6PR0801MB1894.eurprd08.prod.outlook.com>
+x-forefront-prvs: 0990C54589
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(136003)(366004)(39830400003)(346002)(376002)(396003)(189003)(199004)(508600001)(256004)(8676002)(81166006)(14444005)(5024004)(6436002)(6486002)(81156014)(6116002)(86362001)(25786009)(71200400001)(14454004)(8936002)(83716004)(316002)(6916009)(71190400001)(5660300002)(15974865002)(3480700005)(68736007)(82746002)(105586002)(221733001)(99286004)(2906002)(2616005)(7116003)(26005)(186003)(66066001)(3846002)(106356001)(71446004)(2351001)(7736002)(305945005)(6506007)(33656002)(102836004)(486006)(97736004)(476003)(36756003)(5640700003)(6306002)(6512007)(53936002)(2501003)(15398625002);DIR:OUT;SFP:1101;SCL:1;SRVR:DB6PR0801MB1894;H:DB6PR0801MB1367.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info: WMbga0zPdg+SuXWeLyxZvOjA4UOWHGZ6OjlbMH34tTWbvsoh1nVtfwCY+9M8pyKLtZQe4XvLUP7RzrTiVAGi71Cj7cz6zJrAD7BgfVFX1+wCkeitKEUJUV3g+wopmcw4N0OHDdnbsBt8ssvhBbGo5aMF2XpCB9ZStnwhxi11BRKSF7vMg/efiQHeKn1QI6liK2sVIUuaKjJBESsHXRXKqEcFHlyQrrB5iySY73KAXkLF9QnN27UwrFlEF3k1XqgKL3fnhwr3EWwHC/z9GSNyUypvJZUVODMNAlKtCg8JjczG25xJ9Oj5zjGotPurb9xqEvrLyVvoRDL1sXpD5wl4unnHNv8NnOqeik3ym1kyTJtvBfc8ZT2vbwwh9QLammKaV638D9eBKEkYVlr5kHK9TZzJw+nXoIDrgQMbW4wo0PE=
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <C7EFDBF408C3B14B87900F7FE908DD1F@cloud3.srl>
+Content-Transfer-Encoding: base64
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: a27ffc3e-968d-4c94-2557-08d6b390e9a9
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Mar 2019 15:20:29.4821
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB6PR0801MB1894
+MIME-Version: 1.0
+
+c2VhcXVlZW5AY29tcHVuZXQuaGVscA0KDQpQYXNzOiBDenBTR1VAI0BRNGliDQoNCkludmlhdG8g
+ZGEgaVBob25lDQpbaHR0cHM6Ly93d3cuY2xvdWQzLnNybC93cC1jb250ZW50L3VwbG9hZHMvMjAx
+OC8wMi9DbG91ZDNfbG9nb184NXg1NS5wbmddDQoNCg0KIENMT1VEMyBTUkwNCiBQaWF6emEgQ2Ft
+aWxsbyBHb2xnaSAyOGMNCiAxNjAxMSBBcmVuemFubw0KIFRlbC4gKzM5IDAxMCA5MTEwNjUzDQog
+d3d3LmNsb3VkMy5zcmw8aHR0cDovL3d3dy5jbG91ZDMuc3JsLz4NCiBQLklWQSAwMjQ5Nzc0MDk5
+OQ0KDQoNClF1ZXN0byBkb2N1bWVudG8gw6ggZm9ybWF0byBlc2NsdXNpdmFtZW50ZSBwZXIgaWwg
+ZGVzdGluYXRhcmlvLiBUdXR0ZSBsZSBpbmZvcm1hemlvbmkgaXZpIGNvbnRlbnV0ZSwgY29tcHJl
+c2kgZXZlbnR1YWxpIGFsbGVnYXRpLCBzb25vIGRhIHJpdGVuZXJlIGVzY2x1c2l2YW1lbnRlIGNv
+bmZpZGVuemlhbGkgZSByaXNlcnZhdGUgc2Vjb25kbyBpIHRlcm1pbmkgZGVsIHZpZ2VudGUgRC5M
+Z3MuIDE5Ni8yMDAzIGluIG1hdGVyaWEgZGkgcHJpdmFjeSBlIGRlbCBSZWdvbGFtZW50byBldXJv
+cGVvIDY3OS8yMDE2IOKAkyBHRFBSLSBlIHF1aW5kaSBuZSDDqCBwcm9pYml0YSBs4oCZdXRpbGl6
+emF6aW9uZSB1bHRlcmlvcmUgbm9uIGF1dG9yaXp6YXRhLiBTZSBhdmV0ZSByaWNldnV0byBwZXIg
+ZXJyb3JlIHF1ZXN0byBtZXNzYWdnaW8sIFZpIHByZWdoaWFtbyBjb3J0ZXNlbWVudGUgZGkgY29u
+dGF0dGFyZSBpbW1lZGlhdGFtZW50ZSBpbCBtaXR0ZW50ZSBlIGNhbmNlbGxhcmUgbGEgZS1tYWls
+LiBHcmF6aWUNCg0KDQpDb25maWRlbnRpYWxpdHkgTm90aWNlIOKAkyBUaGlzIGUtbWFpbCBtZXNz
+YWdlIGluY2x1ZGluZyBhbnkgYXR0YWNobWVudHMgaXMgZm9yIHRoZSBzb2xlIHVzZSBvZiB0aGUg
+aW50ZW5kZWQgcmVjaXBpZW50IGFuZCBtYXkgY29udGFpbiBjb25maWRlbnRpYWwgYW5kIHByaXZp
+bGVnZWQgaW5mb3JtYXRpb24gcHVyc3VhbnQgdG8gTGVnaXNsYXRpdmUgRGVjcmVlIDE5Ni8yMDAz
+IGFuZCB0aGUgRXVyb3BlYW4gR2VuZXJhbCBEYXRhIFByb3RlY3Rpb24gUmVndWxhdGlvbiA2Nzkv
+MjAxNiDigJMgR0RQUi0uIEFueSB1bmF1dGhvcml6ZWQgcmV2aWV3LCB1c2UsIGRpc2Nsb3N1cmUg
+b3IgZGlzdHJpYnV0aW9uIGlzIHByb2hpYml0ZWQuIElmIHlvdSBhcmUgbm90IHRoZSBpbnRlbmRl
+ZCByZWNpcGllbnQsIHBsZWFzZSBjb250YWN0IHRoZSBzZW5kZXIgYnkgcmVwbHkgZS1tYWlsIGFu
+ZCBkZXN0cm95IGFsbCBjb3BpZXMgb2YgdGhlIG9yaWdpbmFsIG1lc3NhZ2UuDQo=

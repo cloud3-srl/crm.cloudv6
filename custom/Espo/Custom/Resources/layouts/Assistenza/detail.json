@@ -1,0 +1,30 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "mvNumDoc"
+                },
+                {
+                    "name": "mvAlfDoc"
+                }
+            ],
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "mvDatDoc"
+                }
+            ],
+            [
+                {
+                    "name": "mvNumReg"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Panoramica"
+    }
+]

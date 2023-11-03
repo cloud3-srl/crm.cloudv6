@@ -1,0 +1,42 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "anCodice"
+                },
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddressStreet"
+                },
+                {
+                    "name": "billingAddressCity"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddressState"
+                },
+                {
+                    "name": "billingAddressCountry"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": ""
+    }
+]

@@ -1,0 +1,10 @@
+Reporting-MTA: dns; DBBPR08MB4348.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; gabriele.defrancesco@toio.it
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; prohosting3.netsons.net
+X-Supplementary-Info: <prohosting3.netsons.net #5.0.350 smtp;550 5.0.350
+ Remote server returned an error -> 550 Mail to gabriele.defrancesco@toio.it
+ has been suspended>
+

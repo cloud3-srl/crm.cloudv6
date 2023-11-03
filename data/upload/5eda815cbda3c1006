@@ -1,0 +1,10 @@
+Reporting-MTA: dns; DBBPR08MB4348.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; contabilia@avannaolii.com
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain avannaolii.com
+ does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=avannaolii.com]
+ [VE1EUR02FT039.eop-EUR02.prod.protection.outlook.com]>
+

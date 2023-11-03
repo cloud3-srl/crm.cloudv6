@@ -1,0 +1,127 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "case": {
+            "type": "link",
+            "readOnly": true
+        },
+        "product": {
+            "type": "link",
+            "readOnly": true,
+            "itemNotReadOnly": true,
+            "fieldManagerAdditionalParamList": [
+                {
+                    "name": "copyFieldList",
+                    "type": "multiEnum",
+                    "view": "cloud3:views/admin/field-manager/case-item/fields/product-copy-field-list",
+                    "isSorted": true
+                }
+            ]
+        },
+        "quantity": {
+            "type": "float",
+            "default": 0.0,
+            "required": true,
+            "readOnly": false,
+            "itemNotReadOnly": true
+        },
+        "unitPrice": {
+            "type": "currency",
+            "required": true,
+            "readOnly": true,
+            "itemNotReadOnly": true
+        },
+        "amount": {
+            "type": "currency",
+            "required": true,
+            "readOnly": true
+        },
+        "order": {
+            "type": "int",
+            "default": 1,
+            "readOnly": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "dateStart": {
+            "type": "datetime",
+            "required": true,
+            "before": "dateEnd",
+            "minuteStep": 30,
+            "default": "javascript: return this.dateTime.getNow();",
+            "audited": true
+        },
+        "dateEnd": {
+            "type": "datetime",
+            "required": true,
+            "minuteStep": 30,
+            "after": "dateStart"
+        },
+        "duration": {
+            "type": "duration",
+            "start": "dateStart",
+            "end": "dateEnd",
+            "options": [300, 600, 900, 1800, 2700, 3600, 7200],
+            "default": null,
+            "notStorable": true,
+            "orderBy": "duration {direction}"
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Open",
+                "Closed"
+            ],
+            "style": {
+                "Open": "danger",
+                "Closed": "success"
+            },
+            "displayAsLabel": true,
+            "default": "Open",
+            "view": "cloud3:views/case-item/fields/status"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "product": {
+            "type": "belongsTo",
+            "entity": "Product"
+        },
+        "case": {
+            "type": "belongsTo",
+            "entity": "Case",
+            "foreign": "items"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    }
+}

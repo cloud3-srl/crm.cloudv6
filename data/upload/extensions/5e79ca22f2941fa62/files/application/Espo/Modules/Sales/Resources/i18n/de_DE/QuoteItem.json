@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "name": "Betreff",
+    "qty": "Mng",
+    "quantity": "Menge",
+    "listPrice": "Listpreis",
+    "unitPrice": "Einzelpreis",
+    "amount": "Betrag",
+    "taxRate": "Steuersatz:",
+    "product": "Produkt",
+    "order": "Zeilennummer",
+    "quote": "Angebot",
+    "weight": "Gewicht",
+    "unitWeight": "Gewicht/Einheit",
+    "description": "Beschreibung",
+    "discount": "Rabatt (%)",
+    "amountConverted": "Betrag (konvertiert)",
+    "unitPriceConverted": "Einzelpreis (konvertiert)",
+    "listPriceConverted": "Listpreis (konvertiert)",
+    "account": "Firma",
+    "quoteStatus": "Angebotstatus"
+  },
+  "links": {
+    "quote": "Angebot",
+    "product": "Produkt",
+    "account": "Firma"
+  },
+  "labels": {
+    "Quotes": "Angebote"
+  }
+}

@@ -1,0 +1,318 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=lGGpKQw/vthtHz4brf6tDixujInKoHnEAXy+n3O5G2S4q656+omgah2pk8Q7LQAlKEv+h0fE0u0EQeL3Ldud8UCE5PdLYfkkujwODcUCcK1P5j2/2lfTVlt1ebombYl4LCZZcFswBLMdqarYgpNL9Uwkxhj0n9tkiVXS+ueWx/meLqE0sfR9U9zZlpSgNp86/YqXLlxUmchiOuVVpzyh8F4oz4zG2XrXHvlj4uHJkP9fktgd64LvhshhVEVWvhPieOgrGJ/CxKnbhPY9MEDFdLwZhdT2mkkz8ai6K716X8PABHgbVgKVTk21yU3FDQwD8QlN9sV9Q2hnmcngrdqnGg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=BNXKNyzaRssgVJ+Lwkzd8bh3VgEfS9GHPEVWSWk8Z3o=;
+ b=nqM2kogoxePbk+9dXXhFt2NiKjFOJqA0c8bRNWXnuWyEC0NHkLpxAG9H0V/ORd2VBDgaiNTI5cueGEtS8wuZ4B5tC33jPS8AM7JTu/a/symGzeYRoskGaNUky6zceF6+KJJFH8NWYyHys7aVDTVLp5X/T9jxuGDqF3/nEXGXIr/Ow+UA3iOQa2a3PH/LpEAsPcFAx8iU6yfMv9qF/h8tzBjhWOWK96gpkQd7wNnku/kiaWrijJkYCS3gkZSece6AX3Zo9cYhzjVFDtYSmVYvy9EO3Y46Ym3Pz6t96IFE5hmif4M7pNWojNPKLkHSL7IUXNjrDme5idovkErz0mQpmw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=BNXKNyzaRssgVJ+Lwkzd8bh3VgEfS9GHPEVWSWk8Z3o=;
+ b=M0siH3/ZMFneYQSCVfTzO2/q7zzlFeFWFuRz5Kz3h29Blgv5jk0Dnms3mwvSP/49Euwjt9ytUZXL6UZrrqVi2kCsIGrDTI4r2uNdKv4tQOyLpXWhCLZtvV9yXUK8J5mu5Jz5dnZPn1A2FzPLzNJ66N7RXEXgLD+zbD0pPnXI+sk=
+Authentication-Results: in-service.com; dkim=none (message not signed)
+ header.d=none;in-service.com; dmarc=none action=none header.from=cloud3.srl;
+Received: from AM6PR08MB4440.eurprd08.prod.outlook.com (2603:10a6:20b:bc::19)
+ by AM5PR0801MB1745.eurprd08.prod.outlook.com (2603:10a6:203:3a::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.25; Mon, 29 Jun
+ 2020 09:51:51 +0000
+Received: from AM6PR08MB4440.eurprd08.prod.outlook.com
+ ([fe80::214c:f58b:4e90:f1c7]) by AM6PR08MB4440.eurprd08.prod.outlook.com
+ ([fe80::214c:f58b:4e90:f1c7%6]) with mapi id 15.20.3131.027; Mon, 29 Jun 2020
+ 09:51:51 +0000
+Date: Mon, 29 Jun 2020 09:51:49 +0000
+From: =?UTF-8?Q?Ticket=20|=20CLOUD3?= <ticket@cloud3.srl>
+To: segreteria@in-service.com
+Subject: =?UTF-8?Q?Credenziali=20NAS?=
+Content-Type: multipart/alternative;
+ boundary="=_86dc914ddd38ce49103a21709019ae98"
+Message-ID: <Case/5ef9b4af2c2bfb3d9/1593424309/7296@espo>
+X-ClientProxiedBy: ZRAP278CA0014.CHEP278.PROD.OUTLOOK.COM
+ (2603:10a6:910:10::24) To AM6PR08MB4440.eurprd08.prod.outlook.com
+ (2603:10a6:20b:bc::19)
+Return-Path: ticket@cloud3.srl
+X-MS-Exchange-MessageSentRepresentingType: 1
+Received: from crm.cloud3srl.com (93.42.63.176) by ZRAP278CA0014.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:10::24) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.21 via Frontend Transport; Mon, 29 Jun 2020 09:51:50 +0000
+X-Originating-IP: [93.42.63.176]
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 23599bda-7341-47bb-9e20-08d81c120bf5
+X-MS-TrafficTypeDiagnostic: AM5PR0801MB1745:
+X-Microsoft-Antispam-PRVS: <AM5PR0801MB174531208C00FB069C22F59DFF6E0@AM5PR0801MB1745.eurprd08.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:1728;
+X-Forefront-PRVS: 044968D9E1
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: LvdsC9EEFv4rCb5EbzIp9nruX+fIeUvBiFXv4l0nsMH/IcO4Zfyiep2/VRViiUknMtR0jxjzIB0+P38u/27qVSZsdsmWPogllIMKC/Ni26MPXKq/dtpYl5z879Y94T0+oyoxfkKpq8YJcuQZcbsh9pJTKWGRcowlRAjqq+GcfO2Wkp30+Yn9jwJd2BRSIyIBYi18RJaCoPPlYQURHpxmrjhPmaIT3MYlHGAr2BFRckbeXRnklg05P+ojZmweisS/ZaEx+JphDGPrtWc7hOzVZ7Pm9b9o9UN8oZ9tT7nAN/zOW0cplGcgnEf6zfOdGvHmcikhIdjha6GYdhb/9NtGm9jtzuWwuiYJhJpmqCePm0tysOdTkPtKAf0B0PIpfPJcGandRoztS8ULOZEwdPVdXcGsp5mrZZ6XE5bTXCG9+uo=
+X-Forefront-Antispam-Report: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM6PR08MB4440.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:(7916004)(136003)(396003)(366004)(39830400003)(376002)(346002)(3480700007)(2906002)(5660300002)(7116003)(6512007)(9686003)(52116002)(83380400001)(26005)(166002)(316002)(33964004)(15974865002)(16526019)(33716001)(186003)(6486002)(6916009)(6506007)(66946007)(8936002)(66556008)(66476007)(956004)(8676002)(86362001)(508600001)(15398625002)(16866085005);DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData: WZd+Q5KrSdwcJDh6aUUi3nyK3/ODUkb7JMTvlBhYsrcWZEJDXWpfs3/aNe4AiK+Djp+X6HGj458FXwaAcRucoAD7vfDogiV09Chuh15kRwFENm3spesgCq3pmpiideMzGu6mStllzAC0vcL0zxvbUXyPIm1NaN9/i6XZiz+WK1YDFolrJKZcDCi4YXBfVUaKWfpDH54hL2mpwewI+3Jch2AfYMVx0PBzYb0fo11eU1EMmFGWz87WBgzA4MubuXpJQMKnv9id9yQx5/c8YhjA286Uv54tK+unCrL2oWIHXauXPjqd2JSnilpSYn3CAKIKM1TzaufRM00Q/qqcKd5NwoabOGYh9Fa4wN1yJKV0avi2Y/GhijBSS5kNtkO/pwza4VebPeWcMaqt+R1Iih4UkeUIuN/rtfcNziUlEB5fmcya0hWZfu2NkmPGkgrkO52MvIycEZNCLO/5Pv2Eml+bmbSpBcr9cx11CMdkSCVP8B4=
+X-MS-Exchange-CrossTenant-Network-Message-Id: 23599bda-7341-47bb-9e20-08d81c120bf5
+X-MS-Exchange-CrossTenant-AuthSource: AM6PR08MB4440.eurprd08.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Jun 2020 09:51:51.0769
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: mQMWjai7k6VHckofsVGSOUxFW/qsfuiXNyv0TkoUMxYsmC3aEfTEN2YHFZrtQfOoz2uk0BQCcd1PZFscuh7xYQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM5PR0801MB1745
+X-OriginatorOrg: cloud3.srl
+MIME-Version: 1.0
+
+--=_86dc914ddd38ce49103a21709019ae98
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+IP      10.10.10.63
+Marca   BUFFALO LINK STATION
+
+
+Ubicazione      SALA SERVER
+
+Credenziali
+Nome Utente     admin
+Password        Outsourcing_2017
+Altri utenti
+copie
+Altre password
+Cloud315
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<https://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =C3=A8 formato esclusivamente per il destinatario. Tutte l=
+e informazioni ivi contenute, compresi eventuali allegati, sono da ritenere=
+ esclusivamente confidenziali e riservate secondo i termini del vigente D.L=
+gs. 196/2003 in materia di privacy e del Regolamento europeo 679/2016 =E2=
+=80=93 GDPR- e quindi ne =C3=A8 proibita l=E2=80=99utilizzazione ulteriore =
+non autorizzata. Se avete ricevuto per errore questo messaggio, Vi preghiam=
+o cortesemente di contattare immediatamente il mittente e cancellare la e-m=
+ail. Grazie
+
+
+Confidentiality Notice =E2=80=93 This e-mail message including any attachme=
+nts is for the sole use of the intended recipient and may contain confident=
+ial and privileged information pursuant to Legislative Decree 196/2003 and =
+the European General Data Protection Regulation 679/2016 =E2=80=93 GDPR-. A=
+ny unauthorized review, use, disclosure or distribution is prohibited. If y=
+ou are not the intended recipient, please contact the sender by reply e-mai=
+l and destroy all copies of the original message.
+
+--=_86dc914ddd38ce49103a21709019ae98
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<div class=3D"data_group" id=3D"data_group_22" style=3D"clear: both; color:=
+ rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial=
+, sans-serif;">
+<div class=3D"box " data-fieldset-settings=3D"{&quot;fields&quot;:0}" data-=
+fieldset-id=3D"fieldset_b5d78" id=3D"fieldset_b5d78" style=3D"margin: 10px =
+auto; position: relative; border: 1px solid rgb(239, 239, 239);">
+<div class=3D"body" style=3D"padding: 10px; box-shadow: rgba(0, 0, 0, 0.05)=
+ 0px 1px 1px inset; width: 1766px;">
+<table class=3D"tableclass tableclass_form tableclass_full data_group_field=
+s" id=3D"data_group_fields_22" rel=3D"22" style=3D"background: rgb(255, 255=
+, 255); margin-bottom: 20px; width: 1746px; overflow-x: auto; margin-top: 0=
+px !important; margin-right: 0px !important; margin-left: 0px !important;">
+<tbody>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_146" re=
+l=3D"146">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+<br>
+</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_147" re=
+l=3D"147">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+IP</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+10.10.10.63<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_148" re=
+l=3D"148">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Marca</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+BUFFALO LINK STATION<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_149" re=
+l=3D"149">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+<br>
+</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+</td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_150" re=
+l=3D"150">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+<br>
+</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+</td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_151" re=
+l=3D"151">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Ubicazione</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+SALA SERVER<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_textarea" id=3D"container_data_field_152=
+" rel=3D"152">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+<br>
+</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+<span class=3D"data_field_action"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=3D"data_group" id=3D"data_group_23" style=3D"clear: both; color:=
+ rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial=
+, sans-serif;">
+<div class=3D"box " data-fieldset-settings=3D"{&quot;fields&quot;:0}" data-=
+fieldset-id=3D"fieldset_e7434" id=3D"fieldset_e7434" style=3D"margin: 10px =
+auto; position: relative; border: 1px solid rgb(239, 239, 239);">
+<header style=3D"background-image: linear-gradient(rgb(255, 255, 255) 0%, r=
+gb(242, 242, 242) 100%); background-repeat: repeat-x; border-bottom: 1px so=
+lid rgb(212, 212, 212); box-shadow: rgba(0, 0, 0, 0.067) 0px 1px 4px;">
+<h5 style=3D"font-family: inherit; line-height: 1.1; color: inherit; margin=
+: 0px; font-size: 14px; position: relative; min-height: 1px; float: none; p=
+adding: 12px;">
+<span class=3D"button" style=3D"float: right; margin-left: 2px;"><span clas=
+s=3D"fieldset-settings-button" style=3D"position: relative; display: block;=
+ width: 30px;"></span></span><span class=3D"title">Credenziali</span></h5>
+</header>
+<div class=3D"body" style=3D"padding: 10px; box-shadow: rgba(0, 0, 0, 0.05)=
+ 0px 1px 1px inset; width: 1766px;">
+<table class=3D"tableclass tableclass_form tableclass_full data_group_field=
+s" id=3D"data_group_fields_23" rel=3D"23" style=3D"background: rgb(255, 255=
+, 255); margin-bottom: 20px; width: 1746px; overflow-x: auto; margin-top: 0=
+px !important; margin-right: 0px !important; margin-left: 0px !important;">
+<tbody>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_153" re=
+l=3D"153">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Nome Utente</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+admin<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_154" re=
+l=3D"154">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Password</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+Outsourcing_2017<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_155" re=
+l=3D"155">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Altri utenti</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+<div class=3D"data_multiple_value">copie</div>
+<span class=3D"data_field_action"></span></td>
+</tr>
+<tr class=3D"data_field data_field_text" id=3D"container_data_field_156" re=
+l=3D"156">
+<th class=3D"width2" style=3D"text-align: right; padding: 5px; font-size: 1=
+2px; font-weight: normal; line-height: 1.42857; vertical-align: top; width:=
+ 170px;">
+Altre password</th>
+<td style=3D"padding: 5px; font-size: 12px; line-height: 1.42857; vertical-=
+align: top;">
+<div class=3D"data_multiple_value">Cloud315</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"https://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =C3=A8 =
+formato esclusivamente per il destinatario. Tutte le informazioni ivi conte=
+nute, compresi eventuali allegati, sono da ritenere esclusivamente confiden=
+ziali e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 =E2=80=93 GDPR- e quindi ne =C3=A8 proibita l=E2=80=99utilizzazione =
+ulteriore non autorizzata. Se avete ricevuto per errore questo messaggio, V=
+i preghiamo cortesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice =
+=E2=80=93 This e-mail message including any attachments is for the sole use=
+ of the intended recipient and may contain confidential and privileged info=
+rmation pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 =E2=80=93 GDP=
+R-. Any unauthorized review, use, disclosure or distribution is prohibited.=
+ If you are not the intended recipient, please contact the sender by reply =
+e-mail and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--=_86dc914ddd38ce49103a21709019ae98--

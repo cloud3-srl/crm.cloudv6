@@ -1,0 +1,32 @@
+[
+    {
+        "name": "anCodice",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 50,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "billingAddressCity",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "prepagati",
+        "notSortable": true
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "align": "left",
+        "width": 35
+    },
+    {
+        "name": "dateStart",
+        "align": "left",
+        "width": 40
+    },
+    {
+        "name": "quantity",
+        "align": "right",
+        "width": 10
+    },
+    {
+        "name": "status",
+        "align": "right",
+        "width": 15
+    }
+]

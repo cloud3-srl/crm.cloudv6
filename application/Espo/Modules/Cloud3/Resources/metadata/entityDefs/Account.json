@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "anCodice": {
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 7,
+            "readOnly": false,
+            "options": []
+        },
+        "cpccchk": {
+            "type": "varchar",
+            "trim": true,
+            "default": "xxxxxxxxxx",
+            "maxLength": 10,
+            "readOnly": true,
+            "options": []
+        },
+        "utdc": {
+            "notNull": false,
+            "type": "datetime",
+            "readOnly": true,
+            "minuteStep": 30
+        },
+        "utdv": {
+            "notNull": false,
+            "type": "datetime",
+            "readOnly": true,
+            "minuteStep": 30
+        },
+        "idJob": {
+            "type": "varchar",
+            "trim": true,
+            "options": [],
+            "maxLength": 36,
+            "readOnly": true,
+            "default": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        }
+    }
+}

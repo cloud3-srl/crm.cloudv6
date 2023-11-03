@@ -1,0 +1,157 @@
+ 3
+"Primanota master"
+"PNT_MAST"
+"PNT_MAST"
+ 76
+ 73
+*
+"Causali contabili"
+"CAU_CONT"
+"CAU_CONT"
+ 238
+ 91
+*
+"Conti"
+"CONTI"
+"CONTI"
+ 5
+ 5
+*
+ 15
+"Chiave primaria"
+"PNT_MAST.PNSERIAL"
+"PNSERIAL"
+"Char"
+ 0
+ 0
+*
+"N.registrazione"
+"PNT_MAST.PNNUMRER"
+"PNNUMRER"
+"Char"
+ 0
+ 0
+*
+"Data registrazione"
+"PNT_MAST.PNDATREG"
+"PNDATREG"
+"Char"
+ 0
+ 0
+*
+"Causale contabile"
+"PNT_MAST.PNCODCAU"
+"PNCODCAU"
+"Char"
+ 0
+ 0
+*
+"Competenza contabile"
+"PNT_MAST.PNCOMPET"
+"PNCOMPET"
+"Char"
+ 0
+ 0
+*
+"Numero documento"
+"PNT_MAST.PNNUMDOC"
+"PNNUMDOC"
+"Char"
+ 0
+ 0
+*
+"Alfa documento"
+"PNT_MAST.PNALFDOC"
+"PNALFDOC"
+"Char"
+ 0
+ 0
+*
+"Data documento"
+"PNT_MAST.PNDATDOC"
+"PNDATDOC"
+"Char"
+ 0
+ 0
+*
+"Numero protocollo"
+"PNT_MAST.PNNUMPRO"
+"PNNUMPRO"
+"Char"
+ 0
+ 0
+*
+"Descrizione"
+"CAU_CONT.CCDESCRI"
+"CCDESCRI"
+"Char"
+ 0
+ 0
+*
+"Flag reg.provvisoria"
+"PNT_MAST.PNFLPROV"
+"PNFLPROV"
+"Char"
+ 0
+ 0
+*
+"Descrizione supplementare"
+"PNT_MAST.PNDESSUP"
+"PNDESSUP"
+"Char"
+ 0
+ 0
+*
+"Alfa protocollo"
+"PNT_MAST.PNALFPRO"
+"PNALFPRO"
+"Char"
+ 0
+ 0
+*
+"Codice cli/for"
+"PNT_MAST.PNCODCLF"
+"PNCODCLF"
+"Char"
+ 0
+ 0
+*
+"Descrizione"
+"CONTI.ANDESCRI"
+"ANDESCRI"
+"Char"
+ 60
+ 0
+*
+ 2
+"Causali contabili (causale contabile)"
+"CAU_CONT.CCCODICE=PNT_MAST.PNCODCAU"
+"Left outer"
+"PNT_MAST"
+"CAU_CONT"
+*
+"Conti(Tipo cli/for,Codice cli/for)"
+"CONTI.ANTIPCON=PNT_MAST.PNTIPCLF and CONTI.ANCODICE=PNT_MAST.PNCODCLF"
+"Right outer"
+"CONTI"
+"PNT_MAST"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+*

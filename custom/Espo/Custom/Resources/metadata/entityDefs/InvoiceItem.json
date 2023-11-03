@@ -1,0 +1,48 @@
+{
+    "fields": {
+        "dateStart": {
+            "type": "datetime",
+            "required": true,
+            "default": "javascript: return this.dateTime.getNow();",
+            "audited": true
+        },
+        "dateEnd": {
+            "type": "datetime",
+            "required": true,
+            "after": "dateStart"
+        },
+        "duration": {
+            "type": "duration",
+            "start": "dateStart",
+            "end": "dateEnd",
+            "options": [
+                300,
+                600,
+                900,
+                1800,
+                2700,
+                3600,
+                7200
+            ],
+            "default": null,
+            "notStorable": true,
+            "orderBy": "duration {direction}"
+        },
+        "name": {
+            "options": []
+        },
+        "quantity": {
+            "default": 1,
+            "tooltip": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

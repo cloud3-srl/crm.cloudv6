@@ -1,0 +1,17 @@
+Reporting-MTA: dns; hostingssd93.netsons.net
+
+Action: failed
+Final-Recipient: rfc822;annalisa.novaglio@miaprada.it
+Status: 5.0.0
+Remote-MTA: dns; antispam.purelab.it
+Diagnostic-Code: smtp; 550-Blacklisted in dnsbl-1.uceprotect.net:
+ 550-IP 89.40.172.106 is UCEPROTECT-Level 1 listed. See
+ 550 http://www.uceprotect.net/rblcheck.php?ipr=89.40.172.106
+
+Action: failed
+Final-Recipient: rfc822;s.preziati@miaprada.it
+Status: 5.0.0
+Remote-MTA: dns; antispam.purelab.it
+Diagnostic-Code: smtp; 550-Blacklisted in dnsbl-1.uceprotect.net:
+ 550-IP 89.40.172.106 is UCEPROTECT-Level 1 listed. See
+ 550 http://www.uceprotect.net/rblcheck.php?ipr=89.40.172.106

@@ -1,0 +1,64 @@
+/*********************************************************************************
+ * The contents of this file are subject to the EspoCRM Sales Pack
+ * Agreement ("License") which can be viewed at
+ * https://www.espocrm.com/sales-pack-agreement.
+ * By installing or using this file, You have unconditionally agreed to the
+ * terms and conditions of the License, and You may not use this file except in
+ * compliance with the License.  Under the terms of the license, You shall not,
+ * sublicense, resell, rent, lease, distribute, or otherwise  transfer rights
+ * or usage to the software.
+ *
+ * Copyright (C) 2015-2022 Letrium Ltd.
+ *
+ * License ID: c235cfac520a05e355b12cda9ca78531
+ ***********************************************************************************/
+
+define('sales:views/invoice/fields/opportunity', 'views/fields/link', function (Dep) {
+
+    return Dep.extend({
+
+        getSelectFilters: function () {
+            if (this.model.get('accountId')) {
+                return {
+                    'account': {
+                        type: 'equals',
+                        attribute: 'accountId',
+                        value: this.model.get('accountId'),
+                        data: {
+                            type: 'is',
+                            nameValue: this.model.get('accountName'),
+                        }
+                    }
+                };
+            }
+        },
+
+        select: function (model) {
+            Dep.prototype.select.call(this, model);
+
+            if (this.model.isNew()) {
+                this.ajaxGetRequest('Invoice/action/getAttributesFromOpportunity', {
+                    opportunityId: model.id
+                }).then(function (attributes) {
+                    var a = {};
+
+                    for (var item in attributes) {
+                        if (~['amountCurrency'].indexOf(item)) {
+                            continue;
+                        }
+
+                        if (~['name'].indexOf(item)) {
+                            if (this.model.get(item)) {
+                                continue;
+                            }
+                        }
+
+                        a[item] = attributes[item];
+                    }
+                    this.model.set(a);
+                    this.model.set('amountCurrency', attributes.amountCurrency, {ui: true});
+                }.bind(this));
+            }
+        }
+    });
+});

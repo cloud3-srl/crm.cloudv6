@@ -1,0 +1,5 @@
+{
+  "clientiURL" : "http://10.0.50.51/api/clienti",
+  "articoliURL" : "http://10.0.50.51/api/articoli",
+  "prepagatiURL" : "http://10.0.50.51/api/prepagati"
+}

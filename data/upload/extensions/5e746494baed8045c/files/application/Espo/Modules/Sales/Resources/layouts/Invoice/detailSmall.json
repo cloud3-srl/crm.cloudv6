@@ -1,0 +1,15 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name": "name", "fullWidth": true}],
+            [{"name": "status", "fullWidth": true}],
+            [{"name": "salesOrder", "fullWidth": true}],
+            [{"name": "account", "fullWidth": true}],
+            [{"name": "quote", "fullWidth": true}],
+            [{"name": "opportunity", "fullWidth": true}],
+            [{"name": "dateOrdered", "fullWidth": true}],
+            [{"name": "amount", "fullWidth": true}]
+        ]
+    }
+]

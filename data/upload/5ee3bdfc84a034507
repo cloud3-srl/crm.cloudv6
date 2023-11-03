@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM7PR08MB5494.eurprd08.prod.outlook.com
+Received-From-MTA: dns;AM7PR08MB5511.eurprd08.prod.outlook.com
+Arrival-Date: Thu, 9 Jan 2020 16:11:14 +0000
+
+Final-Recipient: rfc822;duetiall@cloud3.help
+Action: relayed
+Status: 5.0.350
+Diagnostic-Code: smtp;550 5.0.350 Remote server returned an error -> 250 Accepted
+Remote-MTA: dns;hostingssd36.netsons.net
+X-Display-Name: duetiall@cloud3.help
+

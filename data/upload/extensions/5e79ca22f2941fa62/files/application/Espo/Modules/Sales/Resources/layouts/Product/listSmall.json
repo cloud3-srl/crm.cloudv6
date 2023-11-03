@@ -1,0 +1,5 @@
+[
+    {"name":"name", "width": 40, "link": true},
+    {"name":"brand", "width": 30},
+    {"name":"unitPrice", "align": "right"}
+]

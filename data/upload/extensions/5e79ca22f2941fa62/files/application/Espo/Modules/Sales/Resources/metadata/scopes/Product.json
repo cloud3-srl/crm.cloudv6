@@ -1,0 +1,13 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": true,
+    "acl": "recordAllTeamNo",
+    "aclPortal": true,
+    "aclPortalLevelList": ["all", "no"],
+    "module": "Sales",
+    "customizable": true,
+    "importable": true,
+    "notifications": false,
+    "object": true
+}

@@ -1,0 +1,46 @@
+{
+    "fields": {
+        "parent": "Genitore",
+        "dateStart": "Data inizio",
+        "dateEnd": "Data termine",
+        "status": "Stato",
+        "reminders": "Promemoria",
+        "dateStartDate": "Data inizio (tutto il giorno)",
+        "dateEndDate": "Data fine (tutto il giorno)",
+        "isAllDay": "È tutto il giorno",
+        "callType": "Type of call",
+        "number": "External contact number",
+        "agent": "Agent extension number"
+    },
+    "links": {
+        "parent": "Genitore"
+    },
+    "options": {
+        "status": {
+            "Planned": "Pianificato",
+            "Held": "Trattenuto",
+            "Not Held": "Non trattenuto"
+        }
+    },
+    "labels": {
+        "Create TCXCall": "Crea TCXCall",
+        "Schedule TCXCall": "Pianificazione TCXCall",
+        "Log TCXCall": "Registro TCXCall",
+        "Set Held": "Imposta trattenuto",
+        "Set Not Held": "Imposta non trattenuto"
+    },
+    "massActions": {
+        "setHeld": "Imposta trattenuto",
+        "setNotHeld": "Imposta non trattenuto"
+    },
+    "presetFilters": {
+        "planned": "Pianificato",
+        "held": "Trattenuto",
+        "todays": "Di oggi"
+    },
+    "tooltips": {
+        "callType": "The type of call, it can be “Inbound”, “Outbound”, “Missed”, or “Unanswered”.",
+        "number": "The external contact number (the number dialed for outbound calls or the caller number for inbound calls).",
+        "agent": "The extension number of the agent handling the call."
+    }
+}

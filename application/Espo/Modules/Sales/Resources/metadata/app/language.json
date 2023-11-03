@@ -1,0 +1,7 @@
+{
+    "aclDependencies": {
+        "Opportunity": {
+            "anyScopeList": ["Quote", "SalesOrder", "Invoice"]
+        }
+    }
+}

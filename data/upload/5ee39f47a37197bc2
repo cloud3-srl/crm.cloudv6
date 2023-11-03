@@ -1,0 +1,10 @@
+Reporting-MTA: dns;DB6P191MB0167.EURP191.PROD.OUTLOOK.COM
+Received-From-MTA: dns;EUR02-HE1-obe.outbound.protection.outlook.com
+Arrival-Date: Mon, 14 Oct 2019 07:59:05 +0000
+
+Final-Recipient: rfc822;alucarelli@dssurvey.com
+Action: delivered
+Status: 2.0.0
+Diagnostic-Code: smtp;250 2.0.0 OK
+X-Display-Name: alucarelli@dssurvey.com
+

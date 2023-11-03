@@ -1,0 +1,40 @@
+{
+    "links": {
+        "quotes": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "account",
+            "audited": true
+        },
+        "quoteItems": {
+            "type": "hasMany",
+            "entity": "QuoteItem",
+            "foreign": "account",
+            "layoutRelationshipsDisabled": true
+        },
+        "salesOrders": {
+            "type": "hasMany",
+            "entity": "SalesOrder",
+            "foreign": "account",
+            "audited": true
+        },
+        "salesOrderItems": {
+            "type": "hasMany",
+            "entity": "SalesOrderItem",
+            "foreign": "account",
+            "layoutRelationshipsDisabled": true
+        },
+        "invoices": {
+            "type": "hasMany",
+            "entity": "Invoice",
+            "foreign": "account",
+            "audited": true
+        },
+        "invoiceItems": {
+            "type": "hasMany",
+            "entity": "InvoiceItem",
+            "foreign": "account",
+            "layoutRelationshipsDisabled": true
+        }
+    }
+}

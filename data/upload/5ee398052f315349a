@@ -1,0 +1,167 @@
+Received: from SBS2008 (127.0.0.1) by SBS2008.cavanna.local (127.0.0.1) with
+ Microsoft SMTP Server id 8.3.389.2; Mon, 16 Sep 2019 08:40:46 +0200
+Received: by [SBS2008.cavanna.local (Microsoft Connector for POP3 Mailboxes)]
+ id <"{DE446F27-65E5-4181-9D42-549F464A1E55}"@cavanna.local>; Mon, 16 Sep 2019
+ 08:40:46 +0200
+Received: (qmail 30072 invoked by uid 89); 14 Sep 2019 22:01:10 -0000
+Received: from unknown (HELO mxdhfe10.ad.aruba.it) (10.10.11.220)  by
+ mxdhbe03.ad.aruba.it with SMTP; 14 Sep 2019 22:01:10 -0000
+Received: from mail1.bemta24.messagelabs.com ([67.219.250.1])	by bizsmtp with
+ ESMTP	id 9G6Ni2iNbByiQ9G6OiPrWl; Sun, 15 Sep 2019 00:01:10 +0200
+Received: from [67.219.250.96] (using TLSv1.2 with cipher
+ DHE-RSA-AES256-GCM-SHA384 (256 bits))	by
+ server-1.bemta.az-a.us-west-2.aws.symcld.net id F6/90-10901-2236D7D5; Sat, 14
+ Sep 2019 22:01:06 +0000
+Received: (qmail 11124 invoked from network); 14 Sep 2019 22:01:05 -0000
+Received: from p01a.mail.dlp.protect.symantec.com (HELO
+ mail.ds.dlp.protect.symantec.com) (18.237.140.176)  by
+ server-2.tower-320.messagelabs.com with ECDHE-RSA-AES256-SHA384 encrypted
+ SMTP; 14 Sep 2019 22:01:05 -0000
+Received: from MN2PR05CA0027.namprd05.prod.outlook.com (2603:10b6:208:c0::40)
+ by DM5PR05MB3420.namprd05.prod.outlook.com (2603:10b6:4:40::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2284.10; Sat, 14 Sep
+ 2019 22:01:03 +0000
+Received: from CO1NAM11FT014.eop-nam11.prod.protection.outlook.com
+ (2a01:111:f400:7eab::204) by MN2PR05CA0027.outlook.office365.com
+ (2603:10b6:208:c0::40) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2199.12 via Frontend
+ Transport; Sat, 14 Sep 2019 22:01:02 +0000
+Received: from mail.safeway.com (167.146.208.74) by
+ CO1NAM11FT014.mail.protection.outlook.com (10.13.175.99) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2263.23 via Frontend Transport; Sat, 14 Sep 2019 22:01:02 +0000
+Received: from pnv0124ff.safeway01.ad.safeway.com (172.26.1.239) by
+ mail.safeway.com (167.146.208.74) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1713.5; Sat, 14
+ Sep 2019 16:00:31 -0600
+Received: from pnv012502.safeway01.ad.safeway.com (172.26.1.241) by
+ pnv0124ff.safeway01.ad.safeway.com (172.26.1.239) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1713.5; Sat, 14 Sep 2019 16:00:29 -0600
+Received: from phvgpz0h.safeway.com (172.26.5.60) by
+ pnv012502.safeway01.ad.safeway.com (172.26.1.241) with Microsoft SMTP Server
+ id 15.1.1713.5 via Frontend Transport; Sat, 14 Sep 2019 16:00:29 -0600
+From: "eb2b@safeway.com" <eb2b@safeway.com>
+To: Ufficio Ordini Cavanna Olii Snc <ordini@cavannaolii.com>, "Sales  Cavanna
+ Olii Snc --" <sales@cavannaolii.com>, Direzione Cavanna Olii Snc
+	<direzione@cavannaolii.com>, "kdepaulo@easylink.com" <kdepaulo@easylink.com>
+CC: "ecredi@safeway.com" <ecredi@safeway.com>
+Subject:
+ =?utf-8?B?Q0FWQU5OQSBPTElJIERJIFNBTkRSTyBDQVZBTk5BIEFORCBDIC0gTWlzc2lu?=
+ =?utf-8?B?ZyBGQSA5OTcgwqBPdmVyIDI0IGhyIG5vdGljZQ==?=
+Thread-Topic:
+ =?utf-8?B?Q0FWQU5OQSBPTElJIERJIFNBTkRSTyBDQVZBTk5BIEFORCBDIC0gTWlzc2lu?=
+ =?utf-8?B?ZyBGQSA5OTcgwqBPdmVyIDI0IGhyIG5vdGljZQ==?=
+Thread-Index: AdVsWavoU9S8GhdEQsOdF/PC0lmR+g==
+Date: Sat, 14 Sep 2019 22:00:29 +0000
+Message-ID:
+ <1131114936.44233.1568498429759.JavaMail.ii00wl@phvgpz0h.safeway.com>
+Reply-To: "no.reply@yourdomain.com" <no.reply@yourdomain.com>
+Content-Language: it-IT
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: SBS2008.cavanna.local
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+delivered-to: cavannaolii.com-direzione@cavannaolii.com
+received-spf: Pass (protection.outlook.com: domain of albertsons.com
+ designates 167.146.208.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=167.146.208.74;
+ helo=mail.safeway.com;
+x-spam-rating: mxdhbe03.ad.aruba.it 1.6.2 0/1000/N
+x-msg-ref: server-2.tower-320.messagelabs.com!1568498464!120000!1
+x-viruschecked: Checked
+x-env-sender: eb2b@albertsons.com
+x-originating-ip: [18.237.140.176]
+x-starscan-version: 9.43.12; banners=-,-,-
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=rxsafeway.onmicrosoft.com; s=selector2-rxsafeway-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=tedn7Lwdob1l1+ui2sE5EDWkx2SRcWBtbj2PN7EwLWY=;
+ b=IjKgPH1aa1fTyFCclOrPYtwXnaXnN/qJvQIMXe/+x8wzRpybK351AqzXLm3icbWChDTAkBoUKxsMcfi5aMpVtLA7RHYhfsJvAQIgUD5J7iSCuCmox0OCawcuHGRFlRbuVxzTkDlut9fIWZD3y4OuHk4ndkpARBr1vIWISHk9BVo=
+x-brightmail-tracker: H4sIAAAAAAAAA+NgFjrGJsWRWlGSWpSXmKPExsUi9LZng65Scm2
+  swScJi9aWS6wWq7c9ZLX4sekBk8WL069YHVg8+k8cZ/V49PsNYwBTFGtmXlJ+RQJrRtOU68wF
+  i7kqDizrY25gvMbRxcjFwSiwlFni7sH/zF2MnEDOMRaJbW3VEIkJTBKrNyxlB3FYBDYzSyx5t
+  JARxBESmMskca9zHyuEc5BJ4mlzOyNEzz1GiT33XzBBZE4wSsw42cAO4Uxikmg9/ZgFwvnOKD
+  Hn0C42kJ1CAu1MEhsaoRKnGCWeP9vOBJFQkHjz5jpYEZuAhMTBo/ehGpQl1nVvAbNFBCol5rx
+  fC1bPDFTz+eUOMJtXIFBizbaVYDXCAgUS//ums0PEBSVOznzCAlGvIbHgzj5GCFtbYtnC1+BA
+  kBDglZjR/pQFwnaQeNR9E2wmi4CqxNlV66DikhLXbl4AmskBZCtLnGrxA7lfQmAaq8SZX18ZI
+  WpkJY6enQNV7yux9OJkJoiiW4wSRw+/hSrSkvi+dT3LBEa9WUjum4XkvllI7lvAyLyK0SypKD
+  M9oyQ3MTNH19DAQNfQ0EjX0MhC10wvsUo3Ua+0WLc8tbhE10gvsbxYr7gyNzknRS8vtWQTIzD
+  ppBQ0sO1gbJz1Ru8QoyQHk5Io7+ON1bFCfEn5KZUZicUZ8UWlOanFhxhlODiUJHgfJtTGCgkW
+  paanVqRl5gATIExagoNHSYS3PhEozVtckJhbnJkOkTrF6Mox4eXcRcwcH1ctAZLfweQPMNn0A
+  UgKseTl56VKifPKJgE1C4A0Z5TmwY2GJe9LjLJSwryMDAwMQjwFqUW5mSWo8q8YxTkYlYR5a0
+  Gm8GTmlcBd8AroOCag4zxyK0GOK0lESEk1ME03ehzV5ffzz19rxZPMVhtdX3S96nE4FXphzra
+  5Pm2XHr3mZ/6tcjV8otvulXLr/OefzdHRn18XV/n8d5rzxM38Z6a+ezS5/WXEulsZnD0S01sq
+  /3gJHFXulY6M3JzUb2y1dm9EUULjTblbpzrVTzg52HboHhC7teH39IvHevh97yk/D3fLrxK2F
+  wiy4XTpLulTzaiveWm8QOpDCL9/oOVBLrak2mtTVC4X2+g08XYHHFV5feLg5QTuLwyM9/hPr9
+  GYtla1MzbTqdN82698B6OtE70kDzE/80uvv7hdo9/45JTTHAU/50Re6NoYuPVAR27YC6Waj5e
+  3mth+b/D70th0gaknzMjvY0n73x0vlFiKMxINtZiLihMBwQgc1lkEAAA=
+x-spam-report: v=2.3 cv=MLDUZ/Rl c=1 sm=1 tr=0 a=hATV4R61TTyvgCu+egT7IQ==:117
+ a=Q1wxl4Rq77ktZkHEj9zE9g==:17 a=DRVCck7S0p4A:10 a=EfMMrNuyYRAA:10
+ a=IkcTkHD0fZMA:10 a=J70Eh1EUuV4A:10 a=1S0cEXufRPgA:10 a=5KLPUuaC_9wA:10
+ a=Nqy7krIEAAAA:8 a=l1o46GDFfFpmxIw-ly0A:9 a=m46qOpHHMU6eFaby:21
+ a=XzQBQxsa91uSnck9:21 a=zCVU0kTnNylVPI3b:21 a=_W_S_7VecoQA:10
+ a=QEXdDO2ut3YA:10 a=VvtY-R5aXGgA:10 a=JYC4dv1DgV0fhRNv_t4V:22
+ a=p-dnK0njbqwfn1k4-x12:22 a=7aar8cbMflRChVwg8ngv:22
+Content-Type: multipart/alternative;
+	boundary="_000_1131114936442331568498429759JavaMailii00wlphvgpz0hsafew_"
+MIME-Version: 1.0
+
+--_000_1131114936442331568498429759JavaMailii00wlphvgpz0hsafew_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGVhciBQYXJ0bmVyIENBVkFOTkEgT0xJSSBESSBTQU5EUk8gQ0FWQU5OQSBBTkQgQw0KDQpBTEJF
+UlRTT05TIENPTVBBTklFUywgTExDIHdpdGggSVNBIDA4KjkyNTE3NTAwMDAgaGFzIG5vdCByZWNl
+aXZlZCBhIGZ1bmN0aW9uYWwgYWNrbm93bGVkZ2VtZW50LCA5OTcsIGZvciB0aGUgZm9sbG93aW5n
+IHRyYW5zYWN0aW9ucy4NClBsZWFzZSBzZW5kIEZBKHMpIG9yIGNvbnRhY3QgZWNyZWRpQHNhZmV3
+YXkuY29tIHdpdGggc3RhdHVzIG9mIHRoZSBkb2N1bWVudChzKS4NCg0KfHwgSU5UUkNITkcgfCBE
+T0MgfCBSRUYgVFlQRSDigJMgUkVGIE5VTSB8IERBVEUgVElNRSAoTVNUKSB8fA0KfHwgMTAwMDAw
+MDA1IHwgODUwIHwgUE8gTnVtYmVyLTQ4OTg0NCB8IDIwMTkvMDkvMTMgMTE6MDk6MjYgfHwNCg0K
+DQpUaGFuayB5b3UgZm9yIHlvdXIgYXR0ZW50aW9uIHRvIHRoaXMgbWF0dGVyLg0KDQpBbGJlcnRz
+b25zIENvbXBhbmllcywgTExDDQplY3JlZGlAc2FmZXdheS5jb20NCg0KRE8gTk9UIFJFUExZIHRv
+IHRoaXMgZW1haWwuDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KV2FybmluZzog
+QWxsIGUtbWFpbCBzZW50IHRvIHRoaXMgYWRkcmVzcyB3aWxsIGJlIHJlY2VpdmVkIGJ5IHRoZSBj
+b3Jwb3JhdGUgZS1tYWlsIHN5c3RlbSwgYW5kIGlzIHN1YmplY3QgdG8gYXJjaGl2YWwgYW5kIHJl
+dmlldyBieSBzb21lb25lIG90aGVyIHRoYW4gdGhlIHJlY2lwaWVudC4gVGhpcyBlLW1haWwgbWF5
+IGNvbnRhaW4gcHJvcHJpZXRhcnkgaW5mb3JtYXRpb24gYW5kIGlzIGludGVuZGVkIG9ubHkgZm9y
+IHRoZSB1c2Ugb2YgdGhlIGludGVuZGVkIHJlY2lwaWVudChzKS4gSWYgdGhlIHJlYWRlciBvZiB0
+aGlzIG1lc3NhZ2UgaXMgbm90IHRoZSBpbnRlbmRlZCByZWNpcGllbnQocyksIHlvdSBhcmUgbm90
+aWZpZWQgdGhhdCB5b3UgaGF2ZSByZWNlaXZlZCB0aGlzIG1lc3NhZ2UgaW4gZXJyb3IgYW5kIHRo
+YXQgYW55IHJldmlldywgZGlzc2VtaW5hdGlvbiwgZGlzdHJpYnV0aW9uIG9yIGNvcHlpbmcgb2Yg
+dGhpcyBtZXNzYWdlIGlzIHN0cmljdGx5IHByb2hpYml0ZWQuIElmIHlvdSBoYXZlIHJlY2VpdmVk
+IHRoaXMgbWVzc2FnZSBpbiBlcnJvciwgcGxlYXNlIG5vdGlmeSB0aGUgc2VuZGVyIGltbWVkaWF0
+ZWx5Lg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg==
+
+--_000_1131114936442331568498429759JavaMailii00wlphvgpz0hsafew_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD11dGYtOCI+DQo8L2hlYWQ+DQo8Ym9keT4NCkRlYXIgUGFydG5lciBD
+QVZBTk5BIE9MSUkgREkgU0FORFJPIENBVkFOTkEgQU5EIEM8YnI+DQo8YnI+DQpBTEJFUlRTT05T
+IENPTVBBTklFUywgTExDIHdpdGggSVNBIDA4KjkyNTE3NTAwMDAgaGFzIG5vdCByZWNlaXZlZCBh
+IGZ1bmN0aW9uYWwgYWNrbm93bGVkZ2VtZW50LCA5OTcsIGZvciB0aGUgZm9sbG93aW5nIHRyYW5z
+YWN0aW9ucy48YnI+DQpQbGVhc2Ugc2VuZCBGQShzKSBvciBjb250YWN0IGVjcmVkaUBzYWZld2F5
+LmNvbSB3aXRoIHN0YXR1cyBvZiB0aGUgZG9jdW1lbnQocykuPGJyPg0KPGJyPg0KPGI+fHwgSU5U
+UkNITkcgfCBET0MgfCBSRUYgVFlQRSDigJMgUkVGIE5VTSB8IERBVEUgVElNRSAoTVNUKSB8fDwv
+Yj48YnI+DQp8fCAxMDAwMDAwMDUgfCA4NTAgfCBQTyBOdW1iZXItNDg5ODQ0IHwgMjAxOS8wOS8x
+MyAxMTowOToyNiB8fDxicj4NCjxicj4NCjxicj4NClRoYW5rIHlvdSBmb3IgeW91ciBhdHRlbnRp
+b24gdG8gdGhpcyBtYXR0ZXIuPGJyPg0KPGJyPg0KQWxiZXJ0c29ucyBDb21wYW5pZXMsIExMQzxi
+cj4NCmVjcmVkaUBzYWZld2F5LmNvbTxicj4NCjxicj4NCkRPIE5PVCBSRVBMWSB0byB0aGlzIGVt
+YWlsLg0KPGhyPg0KV2FybmluZzogQWxsIGUtbWFpbCBzZW50IHRvIHRoaXMgYWRkcmVzcyB3aWxs
+IGJlIHJlY2VpdmVkIGJ5IHRoZSBjb3Jwb3JhdGUgZS1tYWlsIHN5c3RlbSwgYW5kIGlzIHN1Ympl
+Y3QgdG8gYXJjaGl2YWwgYW5kIHJldmlldyBieSBzb21lb25lIG90aGVyIHRoYW4gdGhlIHJlY2lw
+aWVudC4gVGhpcyBlLW1haWwgbWF5IGNvbnRhaW4gcHJvcHJpZXRhcnkgaW5mb3JtYXRpb24gYW5k
+IGlzIGludGVuZGVkIG9ubHkgZm9yIHRoZSB1c2Ugb2YgdGhlIGludGVuZGVkDQogcmVjaXBpZW50
+KHMpLiBJZiB0aGUgcmVhZGVyIG9mIHRoaXMgbWVzc2FnZSBpcyBub3QgdGhlIGludGVuZGVkIHJl
+Y2lwaWVudChzKSwgeW91IGFyZSBub3RpZmllZCB0aGF0IHlvdSBoYXZlIHJlY2VpdmVkIHRoaXMg
+bWVzc2FnZSBpbiBlcnJvciBhbmQgdGhhdCBhbnkgcmV2aWV3LCBkaXNzZW1pbmF0aW9uLCBkaXN0
+cmlidXRpb24gb3IgY29weWluZyBvZiB0aGlzIG1lc3NhZ2UgaXMgc3RyaWN0bHkgcHJvaGliaXRl
+ZC4gSWYgeW91IGhhdmUgcmVjZWl2ZWQNCiB0aGlzIG1lc3NhZ2UgaW4gZXJyb3IsIHBsZWFzZSBu
+b3RpZnkgdGhlIHNlbmRlciBpbW1lZGlhdGVseS4NCjxocj4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+
+--_000_1131114936442331568498429759JavaMailii00wlphvgpz0hsafew_--

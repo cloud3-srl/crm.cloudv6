@@ -1,0 +1,32 @@
+Received: from SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f]) by
+ SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f%14]) with mapi; Mon, 2 Mar
+ 2020 15:42:23 +0100
+From: Edoardo Sostegni <esostegni@cavannaolii.com>
+To: Stefano Negri <stefano.negri@piramisgroup.com>,
+	"alessando.burrosi@vodafone.com" <alessando.burrosi@vodafone.com>
+Subject: R: SONO ATTIVI
+Thread-Topic: SONO ATTIVI
+Thread-Index: AdXuKp6YwvYS7qMTQCOXMalv9bOALgCceUMQAAD/5QA=
+Date: Mon, 2 Mar 2020 14:42:22 +0000
+Message-ID:
+ <DBEFA95F29B64A488560E0B81D5B437E02DEE74D5F9C@SBS2008.cavanna.local>
+References:
+ <CAK7ZddM-YGxR-FkKKMbB6LxVfXk7xiZzHeOeAjCvq9wCVzef8Q@mail.gmail.com> 
+Accept-Language: it-IT
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1583160145; bh=K8W+OJWXHHJdFoCG4+iecwjYEEI2mk0oZDogVEhj2KI=;
+	h=From:To:Date:Subject:Content-Type:MIME-Version;
+	b=C3ZgOsEh9Hqb/Ql7ET9KqE7RP2vDXBp452ro9nVDvAOmtmWze1fYhZ3GHz7G15Okg
+	 5GiGmJ3cqM0zxQxy4FBkAzjC42DDpqAjSCEld9ltRTWD9kYWDzWh+Sdi0+sdYOAsic
+	 RIktIr4q5/M1s0tIE4Y/9bv6F3L4XHZOEqe9ZrR3bvYHouTW0tCAqj+qZEvbdCy0/w
+	 WdPClNQuN4EAGWQ2zaaOEq1z0XP4UAHe7/OizbTVMnLJWf3ejoYlvs348Y6oDzs0E3
+	 vmA/v9X9vs5e4Dg+ZgovYw9AFEAFXOitg1iIBFaKSMVhhtDzrBG+anocSnI6SfJaA3
+	 GvayfDMdtItdw==
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+

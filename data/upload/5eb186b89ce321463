@@ -1,0 +1,1397 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=fJzLvNuda29m0k0L8hz2gpJnUTjI4LY0HT8GPau6CIkSAdFRwf8CvIospzfkghf6ErlZFfxDa3R5Zb4ZAmuPxzKJbmsxbaPj74qRTS7nRVI+nrjywOihJuE0ojlcecUs11zuwpH4Q8aOMB6lwBJhM75y94bWeINaMq1IPL3G4ipK5t/bhQv/nC0xRvi4HMzltUZweRrz6a2vFXjeEx5eIojU6pzvGw3atc8gg1kP3DK9LLoKQQ8kV982244GmpaRMibPg9CUl4vpQuzFwVt+2T+3LxaYYZv9+1rWZkY/8IG/IizDaCTk60d/M9kWeuOyh52dUdwK/rmErqNp52dCUA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=YfjEeJek3YQvner3Z4aarP+QIfbDQryA9omEmmTeluo=;
+ b=gdulvhOzZSQHeUt/iQitI2JBp9BmqFZEOsH6iVgqyeS6jEaozRsvmNs6QwkIwZ4rJrh23FyeMmuBN2Vvj9ayYrwO/zdHO/pQwcVj8WJqctXEN0wcPDUzaOJGfLMAzYh3sVABqCfM6CWZcohfAdm+vVLwfxhKGsYOOYkspbt1tIHQqvaV0xfMRnmgwlhJqPlD9A+1RUH6cSu3OG+Ll1RwdriB4KsCpuoxirbgTgSHkvEuS0m6dqjt3fDP+EKXmbewm4iKxx0NQ8rnwCIuactb0We2f0YmWcUApDubW9rx9q6WVJbWXgKwqk/repcwRaFoJpuRag/w1NSEdBSfop0Urg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=YfjEeJek3YQvner3Z4aarP+QIfbDQryA9omEmmTeluo=;
+ b=FGWWgPcFvQ9P/Sjag90+P2SXe93v8IaHXWU6DsPiRRQKksdD2Ziy8+ZfFElVvpt1o+lnviVmNR5P+inn4fyKX9gxyLCV1+G1hBjrEkPWc0ZsR3aL85oJ7zU2srXOcjr5owsmb4Cy+x7veTw5O5dieDi233W6vuvYz7Yjoh6mb+k=
+Received: from VI1PR08MB3760.eurprd08.prod.outlook.com (2603:10a6:803:c1::27)
+ by VI1PR08MB3280.eurprd08.prod.outlook.com (2603:10a6:803:3d::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2958.20; Tue, 5 May
+ 2020 15:30:18 +0000
+Received: from VI1PR08MB3760.eurprd08.prod.outlook.com
+ ([fe80::acf5:3103:8e4d:af20]) by VI1PR08MB3760.eurprd08.prod.outlook.com
+ ([fe80::acf5:3103:8e4d:af20%7]) with mapi id 15.20.2958.030; Tue, 5 May 2020
+ 15:30:18 +0000
+From: Filippo Domenicali / CLOUD3 <f.domenicali@cloud3.srl>
+To: "ordini@mascherinefutura.it" <ordini@mascherinefutura.it>
+Subject: I: Prova email
+Thread-Topic: Prova email
+Thread-Index: AdYi8egLP8rW/G1OT5iLmLSVZd2SmAAAAK2gAAAIEHA=
+Date: Tue, 5 May 2020 15:30:16 +0000
+Message-ID: <VI1PR08MB3760F7151F9D3AC3E19E1588B0A70@VI1PR08MB3760.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: mascherinefutura.it; dkim=none (message not signed)
+ header.d=none;mascherinefutura.it; dmarc=none action=none
+ header.from=cloud3.srl;
+x-originating-ip: [95.255.142.92]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 86c02ecd-0c79-4f1a-f670-08d7f1093740
+x-ms-traffictypediagnostic: VI1PR08MB3280:
+x-microsoft-antispam-prvs: <VI1PR08MB3280A5D3FCE93020EF2019E5B0A70@VI1PR08MB3280.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:181;
+x-forefront-prvs: 0394259C80
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: Paq0v0KIBKxjfo5NikrKjVqqgb/vm6Y0cpQQYt2wKZE1z3WJpl46Ox0YznZ1G0nOgCZBez8mtChR93N9+1RDM3CYCMRrDbooHW7TNotQzhdFIteerLLhs1XCzc3CxnOvDQx+AbQ3qTdbP1NUiSzkIqossjp2uF1W/XJuteuEDdPycbX7CurazUQ/qHtbC8ndKAQbUitUhuSH/EMIaT4U+RwOouSUMqwzEtYYAZripKcTMth63/2IbZtXcZUhW8bmMpkDUo1jvV/pND3HA3soLMpnkVAn5G1f8t8blHlPz5tRQYabcD38ipgHvDiPQgx6CkfXeEmZdinZJhiGRwaCY0K39lbw/pBaqeGFYPlBopyJ9Iw6QdH7yY/COSyrKl44H/dwhLlOoydZi19BnL8nVUD1Drg/MmrCV94W1dzUQE+S3vPjRuX/q/O/SEGSJWjhvjMtSda7vpF1+MpSPkioWP99VPhgJG9fpptT5zEvLy77/sE/e7efv72R/OjAa6Pu+FJlbdk0/4jSMeu1+4oWfF4IvfQR+hOhMpqOvmmm/G8SNCLpQogTor8fVy7R2XZCCVYggP3CkJ4Qn+TQR1bTSr/zHbsAmOdf1k7bKyn1sxJgMvVWGLBN7ijbWVZmN5oswVmsWdrlXCXfauadDatnmzTft2cuQetdX/Yj744yQkI=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:VI1PR08MB3760.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:(346002)(366004)(33430700001)(5660300002)(30864003)(8676002)(66556008)(64756008)(66946007)(33440700001)(86362001)(66446008)(99936003)(19627235002)(66476007)(33656002)(66616009)(76116006)(45080400002)(52536014)(6506007)(53546011)(8936002)(2906002)(7696005)(55016002)(9686003)(6916009)(71200400001)(186003)(26005)(508600001)(15398625002)(579004)(16866085005);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata: vEM6M0g5oGCgnKoYvwLXrOyBe58OGIvHS/q9qwy/65Zhm05aSbK9jyVSUSn1c8Dsp/povJddS7RZ0yHtc91Mp23ErLqYdhSQ5o1OFGL2tTYWaffkHYLLntTXdMDrGo02Nkwbqoo184T+AuUOsHL5o97Y1Zfotawftgmh0ctg/3cewyekGUOga250Hw1kKw5zUWHZJz1OgcjpAnTmhGtu6SycIxclIfGnnBmFP2TpB4FwGhMGOny23gHW+xNAB0myXa3Y0IFUvr26KK2rGOP8GlwC3ZM78bYlXIy+6Ot8jYvboM9laWxtalJoNtqfvF6jYoZK2WXAQ3fGj4PZFA0+QiueurUBedUSZOtlAVfCPYFnKBynVPqGVL0qp5cXcB2x11foyZDCoVKCU4WB5j92VWjF4jHxG0NxH2DVaLaE9z0Q/sg+nIeJgtN8nWku4C5SBdczRzSe6ZdbjRcVoeXQ30sgvP+0YQFLH4koAqgdFM3aiV5EYHXn2aIYWExjRrdhOZ3htSKgcZknJclMvrGah7NmZ4RPCc0ZL1Y/FEZacscJyoPhCrFdYxVdZw4fvEpotvL0Uvbrk5DWgBxBt6sGaROAsmSJZg3e+JiCaWVNBJxKJKvhveMA7K4dyL/3VtImZYNU12XaTZCUArvjjlvhbLzw2L4U9dQnVjYR4yvU6uM9h2MezYS+dmCNwz1Tnk9LLlBe7k2CXZAIQuySJcURPXZRrHtfvveV5gjbUQ5SP3y8jTgIiMX0N5AZSg3VSaD++PiSNilaI/9KDlOgCMr+3EqzzdlYvf+SPcDFvmyWjIc=
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/related;
+	boundary="_004_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_";
+	type="multipart/alternative"
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: 86c02ecd-0c79-4f1a-f670-08d7f1093740
+X-MS-Exchange-CrossTenant-originalarrivaltime: 05 May 2020 15:30:17.1933
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: wlMd5nyiIPnTxYObNOu0BynBN1yG0zxDTguwKB9kEdjQ2M4xXwVFYSj39VhFkjQ6J/C10yIczdOoo5+vczgwww==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR08MB3280
+MIME-Version: 1.0
+
+--_004_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_"
+
+--_000_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Da: Microsoft Outlook <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@cl=
+oud3srl.onmicrosoft.com>
+Inviato: marted=EC 5 maggio 2020 17:29
+A: Filippo Domenicali / CLOUD3
+Oggetto: Non recapitabile: Prova email
+
+[Immagine rimossa dal mittente.]
+Non =E8 stato possibile recapitare il messaggio a order@mascherinefutura.co=
+m.
+order non =E8 stato trovato in mascherinefutura.com o la cassetta postale n=
+on =E8 disponibile.
+f.domenicali
+Office 365
+order
+Azione richiesta
+Destinatario
+
+
+
+
+
+Indirizzo destinatario sconosciuto
+
+Correzione
+L'indirizzo di posta elettronica potrebbe essere stato digitato in modo err=
+ato o non esistere. Prova a eseguire una o pi=F9 delle operazioni seguenti:
+=B7         Ridigita l'indirizzo del destinatario, quindi invia di nuovo il=
+ messaggio. Se usi Outlook, apri questo messaggio di mancato recapito e fai=
+ clic su Invia di nuovo nel menu o sulla barra multifunzione. In Outlook su=
+l Web seleziona questo messaggio, quindi fai clic sul collegamento "Fai cli=
+c qui per inviare di nuovo il messaggio" appena sopra la finestra di antepr=
+ima del messaggio. Nella riga A o Cc elimina e ridigita l'intero indirizzo =
+del destinatario (ignora eventuali suggerimenti). Dopo aver digitato l'indi=
+rizzo completo, fai clic su Invia per inviare di nuovo il messaggio. Se usi=
+ un programma di posta elettronica diverso da Outlook o Outlook sul Web, se=
+gui la procedura standard per inviare di nuovo il messaggio. Verifica di av=
+er eliminato e ridigitato l'intero indirizzo del destinatario prima di invi=
+arlo di nuovo.
+=B7         Rimuovi i destinatario dall'elenco di completamento automatico =
+dei destinatari, quindi invia di nuovo il messaggio. Se usi Outlook o Outlo=
+ok sul Web, segui la procedura nella sezione "Aggiornare l'indirizzo di pos=
+ta elettronica del destinatario nell'elenco di completamento automatico" di=
+ questo articolo<https://go.microsoft.com/fwlink/?LinkId=3D532972>. Quindi =
+invia di nuovo il messaggio. Verifica di aver eliminato e ridigitato l'inte=
+ro indirizzo del destinatario prima di fare clic su Invia.
+=B7         Contatta il destinatario in altro modo (ad esempio tramite tele=
+fono) per verificare di usare l'indirizzo corretto. Chiedi al destinatario =
+se ha configurato una regola di inoltro della posta elettronica che potrebb=
+e inoltrare il tuo messaggio a un indirizzo non corretto.
+Se il problema persiste, inoltra questo messaggio all'amministratore della =
+posta elettronica. Se sei un amministratore della posta elettronica, consul=
+ta la sezione Altre informazioni per gli amministratori della posta elettro=
+nica riportata di seguito.
+
+Queste informazioni sono risultate utili? Invia feedback a Microsoft<https:=
+//go.microsoft.com/fwlink/p/?LinkID=3D717200>.
+________________________________
+
+Altre informazioni per gli amministratori della posta elettronica
+Codice stato: 550 5.1.351
+
+Quando Office 365 ha provato a inviare il messaggio, il server di posta ele=
+ttronica esterno ha restituito un errore che indica che il destinatario =E8=
+ sconosciuto o la cassetta postale non =E8 disponibile. Questo errore =E8 s=
+tato segnalato da un server di posta elettronica esterno a Office 365.
+
+Se tu o il mittente non riuscite a risolvere il problema, contatta l'ammini=
+stratore della posta elettronica della parte responsabile. Fornisci il codi=
+ce dell'errore e il messaggio di errore indicati in questo rapporto di manc=
+ato recapito per agevolare la risoluzione del problema. Per determinare qua=
+l =E8 la parte responsabile, controlla nell'errore le informazioni che indi=
+cano dove si verifica il problema. Cerca ad esempio un nome di dominio come=
+ contoso.com. La presenza di un nome di dominio nell'errore pu=F2 suggerire=
+ chi =E8 il responsabile dell'errore. Potrebbe essere il server di posta el=
+ettronica del destinatario o un servizio di terze parti che la tua organizz=
+azione o quella del destinatario usa per elaborare o filtrare i messaggi di=
+ posta elettronica.
+
+Il mittente potrebbe essere in grado di correggere il problema correggendo =
+l'indirizzo del destinatario, ma =E8 probabile che solo l'amministratore de=
+lla posta elettronica del destinatario possa risolverlo. Il supporto tecnic=
+o di Office 365 probabilmente non =E8 in grado di aiutarti a risolvere ques=
+to tipo di errore segnalato esternamente.
+Dettagli messaggio originale
+Data creazione:
+05/05/2020 15:29:04
+Indirizzo mittente:
+f.domenicali@cloud3.srl
+Indirizzo destinatario:
+order@mascherinefutura.com
+Oggetto:
+Prova email
+
+Dettagli errore
+Errore segnalato:
+550 5.1.351 Remote server returned unknown recipient or mailbox unavailable=
+ -> 550 No Such User Here"
+DSN generato da:
+VI1PR08MB3280.eurprd08.prod.outlook.com
+Server remoto:
+cloudhosting17.netsons.net
+
+Hop del messaggio
+HOP
+ORA (UTC)
+DA
+A
+CON
+ORA INOLTRO
+1
+05/05/2020
+15:29:05
+VI1PR08MB3760.eurprd08.prod.outlook.com
+VI1PR08MB3760.eurprd08.prod.outlook.com
+mapi
+1 sec
+2
+05/05/2020
+15:29:05
+VI1PR08MB3760.eurprd08.prod.outlook.com
+VI1PR08MB3280.eurprd08.prod.outlook.com
+Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_25=
+6_GCM_SHA384)
+*
+
+Intestazioni messaggio originale
+
+ARC-Seal: i=3D1; a=3Drsa-sha256; s=3Darcselector9901; d=3Dmicrosoft.com; cv=
+=3Dnone;
+
+ b=3DSO2pcFfESTBra3RImZBHTo/0AUkIPlgmi0YWka/ZC8ce9OWP6ToGuEa1nXwcHXO07iUOZr=
+gDt+Mpveuj4m9cKc2YA7+YBGixZxTvkRI1r9WMgtsSSrw+ZecIBCdDgNRl0j+RyinKoF//VFWI8=
+MPpcs3bwPfWumhnR708ifEHtyNAdwX+kq+ASIlmEOl5elWIr5vlHaxxkELpUx/q5LH1KLONiXzx=
+aXUF3PsVJJbtSDrn1xRZ3fVCEqjQfUkAwlGyaDi6tENAkX/5jkApFB6f1oXIJ0q8mJrGifDoQ9g=
+Hpl3YchW4sAieH6f8ml+dYo6ULK9gzKEzD+vpc00imOXvZg=3D=3D
+
+ARC-Message-Signature: i=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; d=3Dmicr=
+osoft.com;
+
+ s=3Darcselector9901;
+
+ h=3DFrom:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-S=
+enderADCheck;
+
+ bh=3DaWGTrtwB7RnU8McoGtzti+HLaSD4PK+CJiT/KQApdgw=3D;
+
+ b=3DZ8PMniSXelT2GObDEWgOpS4kIL/fLUmFa71AqXa1UQS4oKbAFFpUzazvUWIck5UuuyRSf5=
+e90clZVio84WBlLx9wodFJiyccL17duAHs10EjKo8eMeF0UZqGTxd3GhWvA6uc9jr4hsFSRYJka=
+PKAULFrBC2lk0P3pQ5GJtoFBMPZvajbm9L7atIbeovxjtTbBCNXcHNTKnUxwzCD4yH8hLhBcmUl=
+k1ROgXc++6aku0FBR4pEK09vP2U0E8/UtunMHIoZ8+IE/yCe0qq9qMsE2zvX/G9l+XWtx0m0cmM=
+9zjoRSjeYmU9vaiYXwKxtkz6IEOGPETd5MqUqcQXuiXOWNw=3D=3D
+
+ARC-Authentication-Results: i=3D1; mx.microsoft.com 1; spf=3Dpass
+
+ smtp.mailfrom=3Dcloud3.srl; dmarc=3Dpass action=3Dnone header.from=3Dcloud=
+3.srl;
+
+ dkim=3Dpass header.d=3Dcloud3.srl; arc=3Dnone
+
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+
+ d=3Dcloud3srl.onmicrosoft.com; s=3Dselector2-cloud3srl-onmicrosoft-com;
+
+ h=3DFrom:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-S=
+enderADCheck;
+
+ bh=3DaWGTrtwB7RnU8McoGtzti+HLaSD4PK+CJiT/KQApdgw=3D;
+
+ b=3DX7FLMYj17TzmV5xTKMFlIq8Mrj52hv8jvYqQN2AKW8bsOpPN1VLIrpgpX3bG0PRP8do4ZB=
+7vsvVZBxckPu8T73EoewwOE7KfoyGMHLWOecyoyF3Rx3P886TcepeG39Sg8QKaly/3xshQYQOXw=
+zKAIoutyLUo8JQPtjdCFZTOXA0=3D
+
+Received: from VI1PR08MB3760.eurprd08.prod.outlook.com (2603:10a6:803:c1::2=
+7)
+
+ by VI1PR08MB3280.eurprd08.prod.outlook.com (2603:10a6:803:3d::24) with
+
+ Microsoft SMTP Server (version=3DTLS1_2,
+
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2958.20; Tue, 5 M=
+ay
+
+ 2020 15:29:05 +0000
+
+Received: from VI1PR08MB3760.eurprd08.prod.outlook.com
+
+ ([fe80::acf5:3103:8e4d:af20]) by VI1PR08MB3760.eurprd08.prod.outlook.com
+
+ ([fe80::acf5:3103:8e4d:af20%7]) with mapi id 15.20.2958.030; Tue, 5 May 20=
+20
+
+ 15:29:05 +0000
+
+From: Filippo Domenicali / CLOUD3 <f.domenicali@cloud3.srl>
+
+To: "order@mascherinefutura.com" <order@mascherinefutura.com>
+
+Subject: Prova email
+
+Thread-Topic: Prova email
+
+Thread-Index: AdYi8egLP8rW/G1OT5iLmLSVZd2SmA=3D=3D
+
+Date: Tue, 5 May 2020 15:29:04 +0000
+
+Message-ID: <VI1PR08MB3760D17F161181936A1149F2B0A70@VI1PR08MB3760.eurprd08.=
+prod.outlook.com>
+
+Accept-Language: it-IT, en-US
+
+Content-Language: it-IT
+
+X-MS-Has-Attach:
+
+X-MS-TNEF-Correlator:
+
+authentication-results: mascherinefutura.com; dkim=3Dnone (message not sign=
+ed)
+
+ header.d=3Dnone;mascherinefutura.com; dmarc=3Dnone action=3Dnone
+
+ header.from=3Dcloud3.srl;
+
+x-originating-ip: [95.255.142.92]
+
+x-ms-publictraffictype: Email
+
+x-ms-office365-filtering-correlation-id: d28c04af-911b-4c54-7897-08d7f1090b=
+da
+
+x-ms-traffictypediagnostic: VI1PR08MB3280:
+
+x-microsoft-antispam-prvs: <VI1PR08MB328054EF07C1C34096785E18B0A70@VI1PR08M=
+B3280.eurprd08.prod.outlook.com>
+
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+
+x-forefront-prvs: 0394259C80
+
+x-ms-exchange-senderadcheck: 1
+
+x-microsoft-antispam: BCL:0;
+
+x-microsoft-antispam-message-info: 3uVgCCxK/5ZTV9HwtbeKZoGd4GwP7fagfPWY7wkz=
+/GcFKPFq/OuP1wdlrIwQq+WQh5kkzFWy6t8s7tqiEZmDpYxMUTptNF4GcovEH3fYMZJPsrtU9DM=
+DnAkCKC3nC7vqRX66fHhfbJKdejif92t1aYJXocqKfVtNNRXkV+Yqm7oZ7994gmlp8L5XdvwJi7=
+jqQN6mxjx4hLWgRHQ27PIqlKTsGL3KcKNjlL9dIGxWM3f0hcj7QAVyFualcf99nRbzG1Lcof4Rt=
+do74HkjafLL2CYCyqkEKzKiQuPHoqklGhABnT7kOI4CV7qICPJNCpXTXsV1jjR6YES6p5LiPGWK=
+tFSoHTUMQs+HeVj9l05S7dEhUw0sbvMQsPwchwlbyVPzAHVEL6Gzz5XEYe5/lX4FIb4LGiwiT4p=
+1YtXf4wGfDIWnwlUxTUd7H7SbUCY1EO/dmH9iAsAEyyTiFKKiZlX1Dw=3D=3D
+
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;I=
+PV:NLI;SFV:NSPM;H:VI1PR08MB3760.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFT=
+Y:;SFS:(346002)(366004)(33430700001)(5660300002)(8676002)(66556008)(6475600=
+8)(66946007)(33440700001)(86362001)(66446008)(19627235002)(66476007)(336560=
+02)(76116006)(52536014)(6506007)(8936002)(2906002)(7696005)(55016002)(96860=
+03)(7116003)(3480700007)(6916009)(71200400001)(186003)(26005)(508600001)(15=
+398625002)(16866085005);DIR:OUT;SFP:1101;
+
+x-ms-exchange-antispam-messagedata: nNX3YA+RkHEclurqJPOQGgyY4Oq6rWhdSWon1P1=
+1lx8LwZ4G19IOzr/5sCVHFtsG8egDQPzdLPax7K6Kxmg0KxvuszBIyTAsbHhjHgIc6H4+GgDgiA=
+kVzoGU4oBxL0lbnT53D//UNwi7lmHXPvnRfEYqYwQvnH5Td9AK9qf/BWgivzVv4smY/a2wXv+ph=
+co237OU8I+9eZRgY7SikX7wBosCjsWeXA9t4U4hDWiBsZcteI3UljPHLtM6dRs0r2KLbgzTkstC=
+yWLp/hGGBZAscvUZ2S44o/3S0dy1NZfywglEqDx1NQEIvtQ1KZ8QJGLbeF4odMKFjzRjaGvzdlA=
+76WhQT4S+O1UIRp+CGU10B6DUoOEx/CAo1mXuAk9G0cmQ0uk13obdE3YfQluhZ05YV03h3Hv0T4=
+riZ096wtn9LkOKefUIrtNjxX2NLbN07Fw1nrvMHW+rLS/+ZLm4ErmY0uZM9doMl5+T42rp8+3E3=
+1o1DqVqFtGnZyiFewFEJ9us/zr7+XbvGs0mOL9joITPI+8Ths0eLQy/lgAId1/qDU/XFoSEFk5m=
+Vp8fzOFdJhPyCXfHHdawvFfgUcD5aJBzFKS6xEBH+hVQJ0XaxggRk+blBbl3WQaWzsH0Zw0TRx9=
+sXdcOZwRB94nNrQqyMCeI+Pp+7weHWKvefAAZTSlZesY9TJ+hqVRURyrMOF1dWHtPh8ppU36knc=
+kaPlfs49M6LIkCD0Ac190Q3bfmkL4HlU5BHrbALXrvKO2ch4bD9IkvnS1PGMwoobZ78YNl4nm04=
++kBBRAkyAmPFH1K+HGpnNo=3D
+
+x-ms-exchange-transport-forked: True
+
+Content-Type: multipart/alternative;
+
+        boundary=3D"_000_VI1PR08MB3760D17F161181936A1149F2B0A70VI1PR08MB376=
+0eurp_"
+
+MIME-Version: 1.0
+
+X-OriginatorOrg: cloud3.srl
+
+X-MS-Exchange-CrossTenant-Network-Message-Id: d28c04af-911b-4c54-7897-08d7f=
+1090bda
+
+X-MS-Exchange-CrossTenant-originalarrivaltime: 05 May 2020 15:29:05.0452
+
+ (UTC)
+
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+
+X-MS-Exchange-CrossTenant-userprincipalname: vLhvMY+bHPnXRlGP8+zIrigVB5rlhQ=
+VqOoRhJPqxk9YQJZhpXqHB0mAxDbCKkK82p1P1FZLmtY2BqW9ZGCvIoQ=3D=3D
+
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR08MB3280
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<https://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 - GDPR- =
+e quindi ne =E8 proibita l'utilizzazione ulteriore non autorizzata. Se avet=
+e ricevuto per errore questo messaggio, Vi preghiamo cortesemente di contat=
+tare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice - This e-mail message including any attachments is f=
+or the sole use of the intended recipient and may contain confidential and =
+privileged information pursuant to Legislative Decree 196/2003 and the Euro=
+pean General Data Protection Regulation 679/2016 - GDPR-. Any unauthorized =
+review, use, disclosure or distribution is prohibited. If you are not the i=
+ntended recipient, please contact the sender by reply e-mail and destroy al=
+l copies of the original message.
+
+--_000_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]-->
+<title>DSN</title>
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Consolas;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+pre
+	{mso-style-priority:99;
+	mso-style-link:"Preformattato HTML Carattere";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.PreformattatoHTMLCarattere
+	{mso-style-name:"Preformattato HTML Carattere";
+	mso-style-priority:99;
+	mso-style-link:"Preformattato HTML";
+	font-family:"Consolas",serif;}
+span.StileMessaggioDiPostaElettronica22
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1162087354;
+	mso-list-template-ids:97693058;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body bgcolor=3D"white" lang=3D"IT" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><o:p>&nbs=
+p;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b>Da:</b> Microsoft Outlook &lt;MicrosoftExchange32=
+9e71ec88ae4615bbc36ab6ce41109e@cloud3srl.onmicrosoft.com&gt;
+<br>
+<b>Inviato:</b> marted=EC 5 maggio 2020 17:29<br>
+<b>A:</b> Filippo Domenicali / CLOUD3<br>
+<b>Oggetto:</b> Non recapitabile: Prova email<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"max-width:411.0pt;background:white;border-collapse:collapse=
+">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 15.0pt 0cm">
+<p class=3D"MsoNormal"><span style=3D"color:black;border:solid windowtext 1=
+.0pt;padding:0cm"><img width=3D"126" height=3D"28" style=3D"width:1.3125in;=
+height:.2916in" id=3D"_x0000_i1025" src=3D"cid:image001.jpg@01D62302.D97C58=
+40" alt=3D"Immagine rimossa dal mittente."></span><span style=3D"color:blac=
+k"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 7.5pt 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black">Non =E8 stato possibile recapitare il =
+messaggio a
+</span><span style=3D"font-size:12.0pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif;color:#0072C6">order@mascherinefutura.com</span><span style=3D"font=
+-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">.<o:p=
+></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 15.0pt 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:18.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:=
+#0072C6">order</span><span style=3D"font-size:18.0pt;font-family:&quot;Sego=
+e UI&quot;,sans-serif;color:black"> non =E8 stato trovato in
+</span><span style=3D"font-size:18.0pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif;color:#0072C6">mascherinefutura.com</span><span style=3D"font-size:=
+18.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black"> o la casse=
+tta postale non =E8 disponibile.<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 11.25pt 0cm;border-spacing: 0px 0px">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"max-width:411.0pt;border-collapse:collapse;border-spacing: =
+0px 0px">
+<tbody>
+<tr>
+<td width=3D"181" valign=3D"bottom" style=3D"width:135.75pt;padding:0cm .75=
+pt 0cm .75pt;border-spacing: 0px 0px">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.5pt;font-family:&quot=
+;Segoe UI&quot;,sans-serif;color:black">f.domenicali</span></b><b><span sty=
+le=3D"font-size:11.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:wh=
+ite">
+</span></b><b><span style=3D"font-size:11.5pt;font-family:&quot;Segoe UI&qu=
+ot;,sans-serif"><o:p></o:p></span></b></p>
+</td>
+<td width=3D"186" valign=3D"bottom" style=3D"width:139.5pt;padding:0cm .75p=
+t 0cm .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:11.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;col=
+or:black">Office 365</span></b><b><span style=3D"font-size:11.5pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:white">
+</span></b><b><span style=3D"font-size:11.5pt;font-family:&quot;Segoe UI&qu=
+ot;,sans-serif"><o:p></o:p></span></b></p>
+</td>
+<td width=3D"181" valign=3D"bottom" style=3D"width:135.75pt;padding:0cm .75=
+pt 0cm .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><b><span =
+style=3D"font-size:11.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color=
+:black">order</span></b><b><span style=3D"font-size:11.5pt;font-family:&quo=
+t;Segoe UI&quot;,sans-serif;color:white">
+</span></b><b><span style=3D"font-size:11.5pt;font-family:&quot;Segoe UI&qu=
+ot;,sans-serif"><o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"181" style=3D"width:135.75pt;padding:0cm .75pt 0cm .75pt;-ms-t=
+ext-size-adjust: 100%">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.5pt;font-family:&quot=
+;Segoe UI&quot;,sans-serif;color:#C00000">Azione richiesta</span></b><span =
+style=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color=
+:#C00000">
+</span><span style=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"186" style=3D"width:139.5pt;padding:0cm .75pt 0cm .75pt;-ms-te=
+xt-size-adjust: 100%">
+</td>
+<td width=3D"181" style=3D"width:135.75pt;padding:0cm .75pt 0cm .75pt;-ms-t=
+ext-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span sty=
+le=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:bl=
+ack">Destinatario</span><span style=3D"font-size:10.5pt;font-family:&quot;S=
+egoe UI&quot;,sans-serif;color:white">
+</span><span style=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"padding:0cm 0cm 0cm 0cm">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse;border-spacing: 0px 0px">
+<tbody>
+<tr style=3D"height:7.5pt">
+<td width=3D"180" style=3D"width:135.0pt;background:#C00000;padding:0cm 0cm=
+ 0cm 0cm;height:7.5pt">
+<p class=3D"MsoNormal" style=3D"line-height:7.5pt"><span style=3D"font-size=
+:4.5pt;color:white">&nbsp;</span><span style=3D"font-size:4.5pt"><o:p></o:p=
+></span></p>
+</td>
+<td width=3D"4" style=3D"width:3.0pt;background:white;padding:0cm 0cm 0cm 0=
+cm;height:7.5pt">
+<p class=3D"MsoNormal" style=3D"line-height:7.5pt"><span style=3D"font-size=
+:4.5pt;color:black">&nbsp;</span><span style=3D"font-size:4.5pt"><o:p></o:p=
+></span></p>
+</td>
+<td width=3D"180" style=3D"width:135.0pt;background:#CCCCCC;padding:0cm 0cm=
+ 0cm 0cm;height:7.5pt">
+<p class=3D"MsoNormal" style=3D"line-height:7.5pt"><span style=3D"font-size=
+:4.5pt;color:black">&nbsp;</span><span style=3D"font-size:4.5pt"><o:p></o:p=
+></span></p>
+</td>
+<td width=3D"4" style=3D"width:3.0pt;background:white;padding:0cm 0cm 0cm 0=
+cm;height:7.5pt">
+<p class=3D"MsoNormal" style=3D"line-height:7.5pt"><span style=3D"font-size=
+:4.5pt;color:black">&nbsp;</span><span style=3D"font-size:4.5pt"><o:p></o:p=
+></span></p>
+</td>
+<td width=3D"180" style=3D"width:135.0pt;background:#CCCCCC;padding:0cm 0cm=
+ 0cm 0cm;height:7.5pt">
+<p class=3D"MsoNormal" style=3D"line-height:7.5pt"><span style=3D"font-size=
+:4.5pt;color:black">&nbsp;</span><span style=3D"font-size:4.5pt"><o:p></o:p=
+></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width=3D"181" style=3D"width:135.75pt;padding:0cm 0cm 0cm 0cm;-ms-text-=
+size-adjust: 100%">
+<p class=3D"MsoNormal" style=3D"line-height:15.0pt"><span style=3D"font-siz=
+e:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#C00000">Indiriz=
+zo destinatario sconosciuto</span><span style=3D"font-size:10.5pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:white">
+</span><span style=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"186" style=3D"width:139.5pt;padding:0cm 0cm 0cm 0cm;-ms-text-s=
+ize-adjust: 100%">
+</td>
+<td width=3D"181" style=3D"width:135.75pt;padding:0cm 0cm 0cm 0cm;-ms-text-=
+size-adjust: 100%">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" style=3D"width:100.0%;padding:0cm 7.5pt 0cm 7.5pt">
+<p class=3D"MsoNormal"><span style=3D"color:black"><o:p>&nbsp;</o:p></span>=
+</p>
+<table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0" width=3D"100=
+%" style=3D"width:100.0%;background:#F2F5FA">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 0cm 7.5pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black">Correzione</span><span style=3D"font-s=
+ize:16.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span><=
+/p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 7.5pt 4.5pt 7.5pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black">L'indirizzo di posta elettronica potre=
+bbe essere stato digitato in modo errato o non esistere. Prova a eseguire u=
+na o pi=F9 delle operazioni seguenti:</span><span style=3D"font-size:12.0pt=
+;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;border-spacing: 0px 0px">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;margin-left:30.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;back=
+ground:#F2F5FA">
+<![if !supportLists]><span style=3D"font-size:10.0pt;font-family:Symbol"><s=
+pan style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New =
+Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style=3D"font-size:12.0pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:black">Ridigita l'indirizzo del de=
+stinatario, quindi invia di nuovo il messaggio.</span></b><span style=3D"fo=
+nt-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">
+ Se usi Outlook, apri questo messaggio di mancato recapito e fai clic su <b=
+>Invia di nuovo</b> nel menu o sulla barra multifunzione. In Outlook sul We=
+b seleziona questo messaggio, quindi fai clic sul collegamento &quot;<b>Fai=
+ clic qui per inviare di nuovo il messaggio</b>&quot;
+ appena sopra la finestra di anteprima del messaggio. Nella riga A o Cc eli=
+mina e ridigita l'intero indirizzo del destinatario (ignora eventuali sugge=
+rimenti). Dopo aver digitato l'indirizzo completo, fai clic su
+<b>Invia</b> per inviare di nuovo il messaggio. Se usi un programma di post=
+a elettronica diverso da Outlook o Outlook sul Web, segui la procedura stan=
+dard per inviare di nuovo il messaggio. Verifica di aver eliminato e ridigi=
+tato l'intero indirizzo del destinatario
+ prima di inviarlo di nuovo.</span><span style=3D"font-size:12.0pt;font-fam=
+ily:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;margin-left:30.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;back=
+ground:#F2F5FA">
+<![if !supportLists]><span style=3D"font-size:10.0pt;font-family:Symbol"><s=
+pan style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New =
+Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style=3D"font-size:12.0pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:black">Rimuovi i destinatario dall=
+'elenco di completamento automatico dei destinatari, quindi invia di nuovo =
+il messaggio.</span></b><span style=3D"font-size:12.0pt;font-family:&quot;S=
+egoe UI&quot;,sans-serif;color:black">
+ Se usi Outlook o Outlook sul Web, segui la procedura nella sezione &quot;A=
+ggiornare l'indirizzo di posta elettronica del destinatario nell'elenco di =
+completamento automatico&quot; di
+<a href=3D"https://go.microsoft.com/fwlink/?LinkId=3D532972">questo articol=
+o</a>. Quindi invia di nuovo il messaggio. Verifica di aver eliminato e rid=
+igitato l'intero indirizzo del destinatario prima di fare clic su
+<b>Invia</b>.</span><span style=3D"font-size:12.0pt;font-family:&quot;Segoe=
+ UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;margin-left:30.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;back=
+ground:#F2F5FA">
+<![if !supportLists]><span style=3D"font-size:10.0pt;font-family:Symbol"><s=
+pan style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New =
+Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style=3D"font-size:12.0pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:black">Contatta il destinatario in=
+ altro modo</span></b><span style=3D"font-size:12.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black"> (ad esempio tramite
+ telefono) per verificare di usare l'indirizzo corretto. Chiedi al destinat=
+ario se ha configurato una regola di inoltro della posta elettronica che po=
+trebbe inoltrare il tuo messaggio a un indirizzo non corretto.</span><span =
+style=3D"font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p=
+></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 7.5pt 4.5pt 7.5pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black">Se il problema persiste, inoltra quest=
+o messaggio all'amministratore della posta elettronica. Se sei un amministr=
+atore della posta elettronica, consulta la sezione
+<b>Altre informazioni per gli amministratori della posta elettronica</b> ri=
+portata di seguito.</span><span style=3D"font-size:12.0pt;font-family:&quot=
+;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:7.5pt 0cm 3.0pt 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black"><br>
+<em><span style=3D"font-family:&quot;Segoe UI&quot;,sans-serif">Queste info=
+rmazioni sono risultate utili?
+<a href=3D"https://go.microsoft.com/fwlink/p/?LinkID=3D717200">Invia feedba=
+ck a Microsoft</a>.</span></em>
+<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;mso-li=
+ne-height-alt:0pt">
+<span style=3D"font-size:1.0pt;color:black">
+<hr size=3D"2" width=3D"100%" align=3D"center">
+</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black"><br>
+Altre informazioni per gli amministratori della posta elettronica<o:p></o:p=
+></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><em><span style=3D"fo=
+nt-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Cod=
+ice stato: 550 5.1.351</span></em><span style=3D"font-size:10.5pt;font-fami=
+ly:&quot;Segoe UI&quot;,sans-serif;color:black">
+<br>
+<br>
+Quando Office 365 ha provato a inviare il messaggio, il server di posta ele=
+ttronica esterno ha restituito un errore che indica che il destinatario =E8=
+ sconosciuto o la cassetta postale non =E8 disponibile. Questo errore =E8 s=
+tato segnalato da un server di posta elettronica
+ esterno a Office 365.<br>
+<br>
+<b>Se tu o il mittente non riuscite a risolvere il problema, contatta l'amm=
+inistratore della posta elettronica della parte responsabile.</b> Fornisci =
+il codice dell'errore e il messaggio di errore indicati in questo rapporto =
+di mancato recapito per agevolare
+ la risoluzione del problema. Per determinare qual =E8 la parte responsabil=
+e, controlla nell'errore le informazioni che indicano dove si verifica il p=
+roblema. Cerca ad esempio un nome di dominio come contoso.com. La presenza =
+di un nome di dominio nell'errore
+ pu=F2 suggerire chi =E8 il responsabile dell'errore. Potrebbe essere il se=
+rver di posta elettronica del destinatario o un servizio di terze parti che=
+ la tua organizzazione o quella del destinatario usa per elaborare o filtra=
+re i messaggi di posta elettronica.<br>
+<br>
+Il mittente potrebbe essere in grado di correggere il problema correggendo =
+l'indirizzo del destinatario, ma =E8 probabile che solo l'amministratore de=
+lla posta elettronica del destinatario possa risolverlo. Il supporto tecnic=
+o di Office 365 probabilmente non
+ =E8 in grado di aiutarti a risolvere questo tipo di errore segnalato ester=
+namente.<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black">Dettagli messaggio originale<o:p></o:p=
+></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"width:100.0%;margin-left:7.5pt;border-collap=
+se:collapse">
+<tbody>
+<tr>
+<td width=3D"140" nowrap=3D"" valign=3D"top" style=3D"width:105.0pt;padding=
+:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Data creazione:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">05/05/2020 15:29:04<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"140" nowrap=3D"" valign=3D"top" style=3D"width:105.0pt;padding=
+:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Indirizzo mittente:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">f.domenicali@cloud3.srl<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"140" nowrap=3D"" style=3D"width:105.0pt;padding:.75pt .75pt .7=
+5pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Indirizzo destinatario:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">order@mascherinefutura.com<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"140" nowrap=3D"" style=3D"width:105.0pt;padding:.75pt .75pt .7=
+5pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Oggetto:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Prova email<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:black"><br>
+Dettagli errore<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm;-ms-text-size-adjust: 100%">
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"width:100.0%;margin-left:7.5pt;border-collap=
+se:collapse">
+<tbody>
+<tr>
+<td width=3D"140" nowrap=3D"" valign=3D"top" style=3D"width:105.0pt;padding=
+:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Errore segnalato:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><em><span style=3D"font-size:10.5pt;font-family:&quo=
+t;Segoe UI&quot;,sans-serif">550 5.1.351 Remote server returned unknown rec=
+ipient or mailbox unavailable -&gt; 550 No Such User Here&quot;</span></em>=
+<span style=3D"font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif=
+">
+<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"140" nowrap=3D"" style=3D"width:105.0pt;padding:.75pt .75pt .7=
+5pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">DSN generato da:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">VI1PR08MB3280.eurprd08.prod.outlook.com<o:p></o:p>=
+</span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"140" nowrap=3D"" style=3D"width:105.0pt;padding:.75pt .75pt .7=
+5pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">Server remoto:<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif">cloudhosting17.netsons.net<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"880" style=3D"width:660.0pt">
+<tbody>
+<tr>
+<td colspan=3D"6" style=3D"border:none;border-bottom:solid #999999 1.0pt;pa=
+dding:3.0pt .75pt 3.0pt .75pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" style=3D"line-height:120%"><span style=3D"font-size:=
+13.0pt;line-height:120%;font-family:&quot;Segoe UI&quot;,sans-serif">Hop de=
+l messaggio<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td nowrap=3D"" style=3D"border:none;border-bottom:solid #999999 1.0pt;back=
+ground:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">HOP</span><span style=3D"font-size:9.0p=
+t;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"80" nowrap=3D"" style=3D"width:60.0pt;border:none;border-botto=
+m:solid #999999 1.0pt;background:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-m=
+s-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">ORA (UTC)</span><span style=3D"font-siz=
+e:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td nowrap=3D"" style=3D"border:none;border-bottom:solid #999999 1.0pt;back=
+ground:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">DA</span><span style=3D"font-size:9.0pt=
+;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td nowrap=3D"" style=3D"border:none;border-bottom:solid #999999 1.0pt;back=
+ground:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">A</span><span style=3D"font-size:9.0pt;=
+font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td nowrap=3D"" style=3D"border:none;border-bottom:solid #999999 1.0pt;back=
+ground:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">CON</span><span style=3D"font-size:9.0p=
+t;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td nowrap=3D"" style=3D"border:none;border-bottom:solid #999999 1.0pt;back=
+ground:#F2F5FA;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif;color:black">ORA INOLTRO</span><span style=3D"font-s=
+ize:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></=
+p>
+</td>
+</tr>
+<tr>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif">1<o:p>=
+</o:p></span></p>
+</td>
+<td width=3D"80" style=3D"width:60.0pt;border:none;border-bottom:solid #999=
+999 1.0pt;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">05/05/2020<br>
+15:29:05<o:p></o:p></span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">VI1PR08MB3760.eurprd08.prod.outlook.com<o:p></o:p><=
+/span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">VI1PR08MB3760.eurprd08.prod.outlook.com<o:p></o:p><=
+/span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">mapi<o:p></o:p></span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">1&nbsp;sec<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif">2<o:p>=
+</o:p></span></p>
+</td>
+<td width=3D"80" style=3D"width:60.0pt;border:none;border-bottom:solid #999=
+999 1.0pt;padding:6.0pt 6.0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">05/05/2020<br>
+15:29:05<o:p></o:p></span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">VI1PR08MB3760.eurprd08.prod.outlook.com<o:p></o:p><=
+/span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">VI1PR08MB3280.eurprd08.prod.outlook.com<o:p></o:p><=
+/span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">Microsoft SMTP Server (version=3DTLS1_2, cipher=3DT=
+LS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)<o:p></o:p></span></p>
+</td>
+<td style=3D"border:none;border-bottom:solid #999999 1.0pt;padding:6.0pt 6.=
+0pt 6.0pt 6.0pt;-ms-text-size-adjust: 100%">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Seg=
+oe UI&quot;,sans-serif">*<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"mso-margin-top-alt:14.25pt;margin-right:0cm;margin-bottom:3.75p=
+t;margin-left:0cm;-ms-text-size-adjust: 100%">
+<span style=3D"font-size:13.0pt;font-family:&quot;Segoe UI&quot;,sans-serif=
+;color:white">Intestazioni messaggio originale</span><span style=3D"font-si=
+ze:13.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></=
+p>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">ARC-Seal: i=3D1=
+; a=3Drsa-sha256; s=3Darcselector9901; d=3Dmicrosoft.com; cv=3Dnone;<o:p></=
+o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> b=3DSO2pcFfEST=
+Bra3RImZBHTo/0AUkIPlgmi0YWka/ZC8ce9OWP6ToGuEa1nXwcHXO07iUOZrgDt&#43;Mpveuj4=
+m9cKc2YA7&#43;YBGixZxTvkRI1r9WMgtsSSrw&#43;ZecIBCdDgNRl0j&#43;RyinKoF//VFWI=
+8MPpcs3bwPfWumhnR708ifEHtyNAdwX&#43;kq&#43;ASIlmEOl5elWIr5vlHaxxkELpUx/q5LH=
+1KLONiXzxaXUF3PsVJJbtSDrn1xRZ3fVCEqjQfUkAwlGyaDi6tENAkX/5jkApFB6f1oXIJ0q8mJ=
+rGifDoQ9gHpl3YchW4sAieH6f8ml&#43;dYo6ULK9gzKEzD&#43;vpc00imOXvZg=3D=3D<o:p>=
+</o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">ARC-Message-Sig=
+nature: i=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; d=3Dmicrosoft.com;<o:p>=
+</o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> s=3Darcselecto=
+r9901;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> h=3DFrom:Date:=
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;<o=
+:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> bh=3DaWGTrtwB7=
+RnU8McoGtzti&#43;HLaSD4PK&#43;CJiT/KQApdgw=3D;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> b=3DZ8PMniSXel=
+T2GObDEWgOpS4kIL/fLUmFa71AqXa1UQS4oKbAFFpUzazvUWIck5UuuyRSf5e90clZVio84WBlL=
+x9wodFJiyccL17duAHs10EjKo8eMeF0UZqGTxd3GhWvA6uc9jr4hsFSRYJkaPKAULFrBC2lk0P3=
+pQ5GJtoFBMPZvajbm9L7atIbeovxjtTbBCNXcHNTKnUxwzCD4yH8hLhBcmUlk1ROgXc&#43;&#4=
+3;6aku0FBR4pEK09vP2U0E8/UtunMHIoZ8&#43;IE/yCe0qq9qMsE2zvX/G9l&#43;XWtx0m0cm=
+M9zjoRSjeYmU9vaiYXwKxtkz6IEOGPETd5MqUqcQXuiXOWNw=3D=3D<o:p></o:p></span></p=
+re>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">ARC-Authenticat=
+ion-Results: i=3D1; mx.microsoft.com 1; spf=3Dpass<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> smtp.mailfrom=
+=3Dcloud3.srl; dmarc=3Dpass action=3Dnone header.from=3Dcloud3.srl;<o:p></o=
+:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> dkim=3Dpass he=
+ader.d=3Dcloud3.srl; arc=3Dnone<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">DKIM-Signature:=
+ v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> d=3Dcloud3srl.=
+onmicrosoft.com; s=3Dselector2-cloud3srl-onmicrosoft-com;<o:p></o:p></span>=
+</pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> h=3DFrom:Date:=
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;<o=
+:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> bh=3DaWGTrtwB7=
+RnU8McoGtzti&#43;HLaSD4PK&#43;CJiT/KQApdgw=3D;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> b=3DX7FLMYj17T=
+zmV5xTKMFlIq8Mrj52hv8jvYqQN2AKW8bsOpPN1VLIrpgpX3bG0PRP8do4ZB7vsvVZBxckPu8T7=
+3EoewwOE7KfoyGMHLWOecyoyF3Rx3P886TcepeG39Sg8QKaly/3xshQYQOXwzKAIoutyLUo8JQP=
+tjdCFZTOXA0=3D<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Received: from =
+VI1PR08MB3760.eurprd08.prod.outlook.com (2603:10a6:803:c1::27)<o:p></o:p></=
+span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> by VI1PR08MB32=
+80.eurprd08.prod.outlook.com (2603:10a6:803:3d::24) with<o:p></o:p></span><=
+/pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> Microsoft SMTP=
+ Server (version=3DTLS1_2,<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> cipher=3DTLS_E=
+CDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2958.20; Tue, 5 May<o:p></o:p></=
+span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> 2020 15:29:05 =
+&#43;0000<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Received: from =
+VI1PR08MB3760.eurprd08.prod.outlook.com<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> ([fe80::acf5:3=
+103:8e4d:af20]) by VI1PR08MB3760.eurprd08.prod.outlook.com<o:p></o:p></span=
+></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> ([fe80::acf5:3=
+103:8e4d:af20%7]) with mapi id 15.20.2958.030; Tue, 5 May 2020<o:p></o:p></=
+span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> 15:29:05 &#43;=
+0000<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">From: Filippo D=
+omenicali / CLOUD3 &lt;f.domenicali@cloud3.srl&gt;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">To: &quot;order=
+@mascherinefutura.com&quot; &lt;order@mascherinefutura.com&gt;<o:p></o:p></=
+span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Subject: Prova =
+email<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Thread-Topic: P=
+rova email<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Thread-Index: A=
+dYi8egLP8rW/G1OT5iLmLSVZd2SmA=3D=3D<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Date: Tue, 5 Ma=
+y 2020 15:29:04 &#43;0000<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Message-ID: &lt=
+;VI1PR08MB3760D17F161181936A1149F2B0A70@VI1PR08MB3760.eurprd08.prod.outlook=
+.com&gt;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Accept-Language=
+: it-IT, en-US<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Content-Languag=
+e: it-IT<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Has-Attach=
+:<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-TNEF-Corre=
+lator:<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">authentication-=
+results: mascherinefutura.com; dkim=3Dnone (message not signed)<o:p></o:p><=
+/span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> header.d=3Dnon=
+e;mascherinefutura.com; dmarc=3Dnone action=3Dnone<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> header.from=3D=
+cloud3.srl;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-originating-i=
+p: [95.255.142.92]<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-publictraf=
+fictype: Email<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-office365-=
+filtering-correlation-id: d28c04af-911b-4c54-7897-08d7f1090bda<o:p></o:p></=
+span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-traffictyp=
+ediagnostic: VI1PR08MB3280:<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-microsoft-ant=
+ispam-prvs: &lt;VI1PR08MB328054EF07C1C34096785E18B0A70@VI1PR08MB3280.eurprd=
+08.prod.outlook.com&gt;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-oob-tlc-oo=
+bclassifiers: OLM:1728;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-forefront-prv=
+s: 0394259C80<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-exchange-s=
+enderadcheck: 1<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-microsoft-ant=
+ispam: BCL:0;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-microsoft-ant=
+ispam-message-info: 3uVgCCxK/5ZTV9HwtbeKZoGd4GwP7fagfPWY7wkz/GcFKPFq/OuP1wd=
+lrIwQq&#43;WQh5kkzFWy6t8s7tqiEZmDpYxMUTptNF4GcovEH3fYMZJPsrtU9DMDnAkCKC3nC7=
+vqRX66fHhfbJKdejif92t1aYJXocqKfVtNNRXkV&#43;Yqm7oZ7994gmlp8L5XdvwJi7jqQN6mx=
+jx4hLWgRHQ27PIqlKTsGL3KcKNjlL9dIGxWM3f0hcj7QAVyFualcf99nRbzG1Lcof4Rtdo74Hkj=
+afLL2CYCyqkEKzKiQuPHoqklGhABnT7kOI4CV7qICPJNCpXTXsV1jjR6YES6p5LiPGWKtFSoHTU=
+MQs&#43;HeVj9l05S7dEhUw0sbvMQsPwchwlbyVPzAHVEL6Gzz5XEYe5/lX4FIb4LGiwiT4p1Yt=
+Xf4wGfDIWnwlUxTUd7H7SbUCY1EO/dmH9iAsAEyyTiFKKiZlX1Dw=3D=3D<o:p></o:p></span=
+></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-forefront-ant=
+ispam-report: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM=
+;H:VI1PR08MB3760.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:(346002)=
+(366004)(33430700001)(5660300002)(8676002)(66556008)(64756008)(66946007)(33=
+440700001)(86362001)(66446008)(19627235002)(66476007)(33656002)(76116006)(5=
+2536014)(6506007)(8936002)(2906002)(7696005)(55016002)(9686003)(7116003)(34=
+80700007)(6916009)(71200400001)(186003)(26005)(508600001)(15398625002)(1686=
+6085005);DIR:OUT;SFP:1101;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-exchange-a=
+ntispam-messagedata: nNX3YA&#43;RkHEclurqJPOQGgyY4Oq6rWhdSWon1P11lx8LwZ4G19=
+IOzr/5sCVHFtsG8egDQPzdLPax7K6Kxmg0KxvuszBIyTAsbHhjHgIc6H4&#43;GgDgiAkVzoGU4=
+oBxL0lbnT53D//UNwi7lmHXPvnRfEYqYwQvnH5Td9AK9qf/BWgivzVv4smY/a2wXv&#43;phco2=
+37OU8I&#43;9eZRgY7SikX7wBosCjsWeXA9t4U4hDWiBsZcteI3UljPHLtM6dRs0r2KLbgzTkst=
+CyWLp/hGGBZAscvUZ2S44o/3S0dy1NZfywglEqDx1NQEIvtQ1KZ8QJGLbeF4odMKFjzRjaGvzdl=
+A76WhQT4S&#43;O1UIRp&#43;CGU10B6DUoOEx/CAo1mXuAk9G0cmQ0uk13obdE3YfQluhZ05YV=
+03h3Hv0T4riZ096wtn9LkOKefUIrtNjxX2NLbN07Fw1nrvMHW&#43;rLS/&#43;ZLm4ErmY0uZM=
+9doMl5&#43;T42rp8&#43;3E31o1DqVqFtGnZyiFewFEJ9us/zr7&#43;XbvGs0mOL9joITPI&#=
+43;8Ths0eLQy/lgAId1/qDU/XFoSEFk5mVp8fzOFdJhPyCXfHHdawvFfgUcD5aJBzFKS6xEBH&#=
+43;hVQJ0XaxggRk&#43;blBbl3WQaWzsH0Zw0TRx9sXdcOZwRB94nNrQqyMCeI&#43;Pp&#43;7=
+weHWKvefAAZTSlZesY9TJ&#43;hqVRURyrMOF1dWHtPh8ppU36knckaPlfs49M6LIkCD0Ac190Q=
+3bfmkL4HlU5BHrbALXrvKO2ch4bD9IkvnS1PGMwoobZ78YNl4nm04&#43;kBBRAkyAmPFH1K&#4=
+3;HGpnNo=3D<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">x-ms-exchange-t=
+ransport-forked: True<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">Content-Type: m=
+ultipart/alternative;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; boundary=3D&quot;_000_VI1PR08MB3760D17F16118193=
+6A1149F2B0A70VI1PR08MB3760eurp_&quot;<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">MIME-Version: 1=
+.0<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-OriginatorOrg=
+: cloud3.srl<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-Network-Message-Id: d28c04af-911b-4c54-7897-08d7f1090bda<o:p></o=
+:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-originalarrivaltime: 05 May 2020 15:29:05.0452<o:p></o:p></span>=
+</pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray"> (UTC)<o:p></o:=
+p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-fromentityheader: Hosted<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-mailboxtype: HOSTED<o:p></o:p></span></pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-C=
+rossTenant-userprincipalname: vLhvMY&#43;bHPnXRlGP8&#43;zIrigVB5rlhQVqOoRhJ=
+Pqxk9YQJZhpXqHB0mAxDbCKkK82p1P1FZLmtY2BqW9ZGCvIoQ=3D=3D<o:p></o:p></span></=
+pre>
+<pre style=3D"margin-top:3.75pt"><span style=3D"color:gray">X-MS-Exchange-T=
+ransport-CrossTenantHeadersStamped: VI1PR08MB3280<o:p></o:p></span></pre>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"https://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 &#8211; GDPR- e quindi ne =E8 proibita l&#8217;utilizzazione ulterio=
+re non autorizzata. Se avete ricevuto per errore questo messaggio, Vi pregh=
+iamo cortesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice &=
+#8211; This e-mail message including any attachments is for the sole use of=
+ the intended recipient and may contain confidential and privileged informa=
+tion pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 &#8211; GDPR-=
+. Any unauthorized review, use, disclosure or distribution is prohibited. I=
+f you are not the intended recipient, please contact the sender by reply e-=
+mail and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_--
+
+--_004_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=380;
+	creation-date="Tue, 05 May 2020 15:30:16 GMT";
+	modification-date="Tue, 05 May 2020 15:30:16 GMT"
+Content-ID: <image001.jpg@01D62302.D97C5840>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/wAALCAAcAH4BAREA/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oACAEBAAA/APZqKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK//9k=
+
+--_004_VI1PR08MB3760F7151F9D3AC3E19E1588B0A70VI1PR08MB3760eurp_--

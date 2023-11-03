@@ -1,0 +1,10 @@
+{
+    "links": {
+        "quotesBilling": "Quotes (Billing)",
+        "quotesShipping": "Quotes (Shipping)",
+        "salesOrdersBilling": "Sales Orders (Billing)",
+        "salesOrdersShipping": "Sales Orders (Shipping)",
+        "invoicesBilling": "Invoices (Billing)",
+        "invoicesShipping": "Invoices (Shipping)"
+    }
+}

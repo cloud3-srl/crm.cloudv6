@@ -1,0 +1,10 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "QuoteItem": "Quote",
+            "SalesOrderItem": "SalesOrder",
+            "InvoiceItem": "Invoice",
+            "OpportunityItem": "Opportunity"
+        }
+    }
+}

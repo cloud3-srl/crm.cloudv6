@@ -1,0 +1,53 @@
+Received: from SBS-SRV (192.168.1.10) by sbs-srv.dominio.local (192.168.1.10)
+ with Microsoft SMTP Server id 14.3.319.2; Fri, 30 Oct 2020 21:31:20 +0100
+From: Info <info@officinagrassini.com>
+To: "Amministrazione  Officina Grassini"
+	<amministrazione@officinagrassini.com>
+Subject: Errore nel Report backup win 2008 [Grassini]  10/30/2020
+ 21:30:43SBS-SRV
+Thread-Topic: Errore nel Report backup win 2008 [Grassini]  10/30/2020
+ 21:30:43SBS-SRV
+Thread-Index: AQHWrvugVBsAoPtam0eXx5g3MUtCZg==
+Date: Fri, 30 Oct 2020 20:31:20 +0000
+Message-ID: <59551b77-922c-494a-9246-9b86262965ca@SBS-SRV.dominio.local>
+Content-Language: it-IT
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 0a
+X-MS-Exchange-Organization-AuthSource: SBS-SRV.dominio.local
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+Content-Type: multipart/mixed;
+	boundary="_002_59551b77922c494a92469b86262965caSBSSRVdominiolocal_"
+MIME-Version: 1.0
+
+--_002_59551b77922c494a92469b86262965caSBSSRVdominiolocal_
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <E93A8D8A18DDD444AD73789B8F214CE8@dominio.local>
+Content-Transfer-Encoding: quoted-printable
+
+Inizio: 10/30/2020 21:30:43 Fine: 10/30/2020 21:31:19  del giorno: =
+
+--_002_59551b77922c494a92469b86262965caSBSSRVdominiolocal_
+Content-Type: application/octet-stream; name="Grassini20201030.log"
+Content-Description: Grassini20201030.log
+Content-Disposition: attachment; filename="Grassini20201030.log"; size=706;
+	creation-date="Fri, 30 Oct 2020 20:31:20 GMT";
+	modification-date="Fri, 30 Oct 2020 20:31:20 GMT"
+Content-ID: <CA3F4F40E11AE9408A3E63E03AB3451C@dominio.local>
+Content-Transfer-Encoding: base64
+
+//53AGIAYQBkAG0AaQBuACAAMQAuADAAIAAtACAAVQB0AGkAbABpAHQA4AAgAGQAYQAgAHIAaQBn
+AGEAIABkAGkAIABjAG8AbQBhAG4AZABvACAAZABpACAAYgBhAGMAawB1AHAADQAKACgAQwApACAA
+QwBvAHAAeQByAGkAZwBoAHQAIAAyADAAMAA0ACAATQBpAGMAcgBvAHMAbwBmAHQAIABDAG8AcgBw
+AC4ADQAKAA0ACgBSAGUAYwB1AHAAZQByAG8AIABkAGUAbABsAGUAIABpAG4AZgBvAHIAbQBhAHoA
+aQBvAG4AaQAgAHMAdQBpACAAdgBvAGwAdQBtAGkAIABpAG4AIABjAG8AcgBzAG8ALgAuAC4ADQAK
+AFYAZQByAHIA4AAgAGUAcwBlAGcAdQBpAHQAbwAgAGkAbAAgAGIAYQBjAGsAdQBwACAAZABlAGwA
+IAB2AG8AbAB1AG0AZQAgAEQAaQBzAGMAbwAgAGwAbwBjAGEAbABlACgAQwA6ACkALABFAHgAYwBo
+AGEAbgBnAGUAKABFADoAKQAsAEQAYQB0AGkAKABEADoAKQAgAHMAdQAgAEIAOgAuAA0ACgBFAFIA
+UgBPAFIARQAgAC0AIABJAGwAIABwAGUAcgBjAG8AcgBzAG8AIABkAGkAIABiAGEAYwBrAHUAcAAg
+AHMAcABlAGMAaQBmAGkAYwBhAHQAbwAgAG4AbwBuACAA6AAgAHMAdABhAHQAbwAgAHQAcgBvAHYA
+YQB0AG8AIABvACAAbgBvAG4AIADoACAAdQBuAA0ACgBwAGUAcgBjAG8AcgBzAG8AIABkAGkAIABh
+AHIAYwBoAGkAdgBpAGEAegBpAG8AbgBlACAAZABlAGkAIABiAGEAYwBrAHUAcAAgAHMAdQBwAHAA
+bwByAHQAYQB0AG8ALgANAAoADQAKAA==
+
+--_002_59551b77922c494a92469b86262965caSBSSRVdominiolocal_--

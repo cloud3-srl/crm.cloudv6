@@ -1,0 +1,14 @@
+[
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "phoneNumber"
+    },
+    {
+        "name": "hasAccount"
+    }
+]

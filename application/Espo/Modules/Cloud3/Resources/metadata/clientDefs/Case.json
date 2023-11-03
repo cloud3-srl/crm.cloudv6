@@ -1,0 +1,22 @@
+{
+    "relationshipPanels": {
+        "quotes": {
+            "createAction":"createRelatedQuote",
+            "view":"cloud3:views/case/record/panels/quotes",
+            "layout": "listForAccount",
+            "selectDisabled": true
+        },
+        "customOrders": {
+            "createAction":"createRelatedSalesOrder",
+            "view":"cloud3:views/case/record/panels/sales-orders",
+            "layout": "listForAccount",
+            "selectDisabled": true
+        },
+        "invoices": {
+            "createAction":"createRelatedInvoice",
+            "view":"cloud3:views/case/record/panels/invoices",
+            "layout": "listForAccount",
+            "selectDisabled": true
+        }
+    }
+}

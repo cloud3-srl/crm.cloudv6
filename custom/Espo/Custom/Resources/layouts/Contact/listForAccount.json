@@ -1,0 +1,20 @@
+[
+    {
+        "name": "name",
+        "width": 35,
+        "link": "true",
+        "view": "crm:views\/contact\/fields\/name-for-account"
+    },
+    {
+        "name": "account"
+    },
+    {
+        "name": "emailAddress"
+    },
+    {
+        "name": "phoneNumber"
+    },
+    {
+        "name": "review"
+    }
+]

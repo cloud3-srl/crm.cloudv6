@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM6PR08MB5288.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; studio@auditfossati.it
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.310 smtp;550 5.4.310 DNS domain auditfossati.it
+ does not exist [Message=InfoDomainNonexistent]
+ [LastAttemptedServerName=auditfossati.it]
+ [HE1EUR01FT008.eop-EUR01.prod.protection.outlook.com]>
+

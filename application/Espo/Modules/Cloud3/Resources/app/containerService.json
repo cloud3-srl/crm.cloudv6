@@ -1,0 +1,6 @@
+{
+  "logger": {
+    "className": "\\Espo\\Modules\\Cloud3\\Core\\Utils\\Logger",
+    "dependencyList": ["config"]
+  }
+}

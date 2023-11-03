@@ -1,0 +1,185 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ZrOLS2yYSXGeIe2y5aXnLEgtKqocxxCyXERxmaICJMKj3mh1oOz23eEg+RpL2QuD0RswmOwwjhq/5c748QN+sJLNc47kQbpAKkjCSu9oaa3wTceXw7AdjWo0hO68Y2pZrnIYKry6oouT2pWWlM96ov1g3mLOFv6SihHqaJXTmAMNBvzP8WPIekPn+xMTCY95YxrQ42iIUHytcHVttBr4P2jdjKFf+VlewZXZE0ilpDgA+yCik+QVvoe7G96T9EmvnC6eMAUlxbnuBHuRuWxt4gOYbJFrY2EJnwsSJ3864mN2imzYOMmdIVx5wXUBfxJl5kMK0z8hGhgnXTcJxvWI+g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=/R6DZ0SS0wNFB4UzcpmrEY/FOg+9oxvfO1lmqObOGic=;
+ b=ZHONCA1Vbo59Rr3t7CL0UDRVRS8KQYQViqETRAFraBAw1Zo7+NDidpaNDKiZFGRZfrSI8qHt2Jis3kI+0SmPl5K9K9llQRajtgEl5GLmS6kwS095n3GD7er6Bcm8wZILUFfJvkplkCgm6WzppZA9MrU7lKNoufH3Qd4o6VxY5lnePSZoLpCa3WD+41b8fViqKehbtzbrm3l8JWQtRuLz2C4N/i8dzqifwdGzl0NADxdE3JFipiRroahTjmo1Qy3cay/E4DA71PHZj5AxRidtSaosulP5IVa2BGW31QvWPwhfKSg7yJ6B1RvoPi1BgXw4UFFNn/GerCWbExjl61BFNw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=/R6DZ0SS0wNFB4UzcpmrEY/FOg+9oxvfO1lmqObOGic=;
+ b=FqsiDS3ucjQ3t36CZ+r4Dzq72csVemDmzpaVgeFP4YszMhkeyr3zcRQ0naTU3xeqDFbRpbGLTjDiCWUgAWWvnNlW4zKCDX8HOegL2ZFWwEsFH6Eg3yg6B/buDxl0Jpzbf116Q8pFN4LyJerVhsA2rQwkc6qC70usRKtjYv3fcXY=
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com (20.178.118.202) by
+ AM0PR08MB2945.eurprd08.prod.outlook.com (52.134.124.157) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2856.18; Mon, 30 Mar 2020 08:40:38 +0000
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b]) by AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b%3]) with mapi id 15.20.2856.019; Mon, 30 Mar 2020
+ 08:40:38 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: Alessandro Grassini <grassini.alessandro@officinagrassini.com>
+Subject: test 10.40
+Thread-Topic: test 10.40
+Thread-Index: AdYGbtaeAXWEgZ7pQL2tzB6D+TI8QQ==
+Disposition-Notification-To: Help / CLOUD3 <help@cloud3.srl>
+Return-Receipt-To: <help@cloud3.srl>
+Date: Mon, 30 Mar 2020 08:40:38 +0000
+Message-ID:
+ <AM0PR08MB5284AE2AF541AAABB046B2C0D9CB0@AM0PR08MB5284.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM0PR08MB5284.eurprd08.prod.outlook.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-TransportTrafficSubType:
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3f8870a6-d5a8-456b-92c7-08d7d4860597
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-exchange-organization-recordreviewcfmtype: 0
+x-ms-exchange-organization-originalsize: 7972
+x-ms-exchange-organization-originalarrivaltime: 30 Mar 2020 08:40:38.0170
+ (UTC)
+x-ms-exchange-organization-messagesource: StoreDriver
+x-ms-exchange-organization-fromentityheader: Hosted
+x-ms-exchange-organization-messagedirectionality: Originating
+x-ms-exchange-organization-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+x-ms-exchange-organization-bcc:
+x-ms-exchange-organization-originalclientipaddress: 83.211.212.84
+x-ms-exchange-organization-mailuseragent-ipaddress: [83.211.212.84]
+x-originating-ip: [83.211.212.84]
+x-ms-exchange-organization-originalserveripaddress: 2603:10a6:208:12a::10
+x-ms-exchange-organization-submissionrecipientcount: 1
+x-ms-exchange-organization-orgeopforest: EUR01
+x-ms-exchange-organization-transporttraffictype: Email
+x-ms-exchange-organization-transporttrafficsubtype:
+x-ms-publictraffictype: Email
+x-ms-exchange-organization-mailboxtype: HOSTED
+x-ms-exchange-organization-userprincipalname:
+ IiX+2H/tJ7xUZWs7HH4Zwt2QS0PPEFN/zuYtBOk9pN8av8OmJV4WIjOljj9E/sBl1P2abREPAQQbq25cvlfjOA==
+x-ms-exchange-organization-antispam-mailboxsubmissionfilter-policyloadtime:
+ MSFAPolicyLoadTime:1;
+x-ms-exchange-organization-orderedprecisionlatencyinprogress:
+	LSRV=AM0PR08MB2945.eurprd08.prod.outlook.com:TOTAL-HUB=0.579|SMRI=0.206(RENV=0.031|REOD=0.065(SMRED=0.065(SMRED-Protocol
+ Filter Agent=0.062))|CMSGC=0.102
+ |R-CMSG=0.030(R-CMSGC=0.024(R-HSRR=0.024)))|CAT=0.371(CATOS=0.024(CATSM=0.022)|CATORES=0.308
+ (CATRS=0.308(CATRS-DC Content Filter Agent=0.038|CATRS-Spam Filter
+ Agent=0.233)));2020-03-30T08:40:38.707Z
+x-ms-exchange-forest-arrivalhubserver: AM0PR08MB2945.eurprd08.prod.outlook.com
+x-ms-exchange-organization-expirationstarttime: 30 Mar 2020 08:40:38.1622
+ (UTC)
+x-ms-exchange-organization-expirationstarttimereason: OriginalSubmit
+x-ms-exchange-organization-expirationinterval: 1:00:00:00.0000000
+x-ms-exchange-organization-expirationintervalreason: OriginalSubmit
+x-ms-exchange-organization-messagescope: c2d87935-c76f-4de2-8cf2-5c97884975d2
+x-ms-exchange-forest-messagescope: c2d87935-c76f-4de2-8cf2-5c97884975d2
+x-ms-exchange-organization-cross-premises-headers-processed:
+ AM0PR08MB2945.eurprd08.prod.outlook.com
+x-ms-exchange-organization-antispam-protocolfilterhub-scancontext:
+ ProtocolFilterHub:SmtpOnEndOfData;
+x-ms-office365-filtering-correlation-id: 3f8870a6-d5a8-456b-92c7-08d7d4860597
+x-ms-exchange-organization-accepteddomain: True
+x-ms-exchange-organization-oldtenant: True
+x-ms-exchange-organization-mailtier: 4
+x-ms-exchange-organization-tenantage: 856
+x-ms-exchange-organization-istrial: False
+x-ms-exchange-organization-paidseats: 8
+x-ms-exchange-organization-messagesent24: 25
+x-ms-exchange-organization-repstatus: 1
+x-ms-traffictypediagnostic: AM0PR08MB2945:
+x-ms-exchange-organization-hygienepolicy: Premium
+x-ms-exchange-organization-replicationinfo:
+ ReplicaId=09041e6b-eada-8b94-8ada-9f0586d4d708;ReplicatingServerFqdn=VI1PR08MB2959.eurprd08.prod.outlook.com
+x-ms-exchange-organization-messagelatency:
+ SRV=AM0PR08MB5284.eurprd08.prod.outlook.com:TOTAL-SUB=0.107|SA=0.035|MTSS-PEN=0.073(MTSSD-PEN=0.072(MTSSDSDM=0.032(MTSSDSDM-Mailbox
+ Submission Filter Agent=0.031 )|SDSSO-PEN=0.018(MTSSDM-PEN=0.012)))
+x-ms-exchange-forest-language: en
+x-ms-exchange-forest-indexagent-0:
+ AQ0CZW4AATEAAAAPAAADH4sIAAAAAAAEABPi5QpJLS7h5XJPTCrKTM
+ 1J5eViYGJhYOMAAI4Yv1MZAAAA
+x-ms-exchange-forest-indexagent: 1 60
+x-ms-exchange-forest-emailmessagehash: EE33AA8F
+x-ms-exchange-organization-ispotentialintraorgmail: False
+x-ms-exchange-organization-antispam-precontentfilter-policyloadtime:
+ MAOSUB:0;MAOSUBLOAD:0;SAORES:1;SAORESLOAD:1;SLORES:0;SLORESLOAD:0;
+x-ms-exchange-organization-messagefingerprint:
+ BF6B76BB.FC170480.88584669.5BD213F9.2000C
+x-ms-exchange-organization-antispam-precontentfilter-scancontext:
+ CategorizerOnSubmitted;CategorizerOnResolved;
+x-ms-exchange-organization-avscannedbyv2: Symantec;Command;Microsoft
+x-ms-exchange-organization-avscancomplete: true
+x-ms-exchange-organization-recipient-limit-verified: True
+x-ms-exchange-organization-totalrecipientcount: 1
+x-ms-exchange-organization-replyallblocker-verdict: Allow
+X-MS-Exchange-Organization-ASDirectionalityType: 2
+x-microsoft-antispam-prvs:
+ <AM0PR08MB2945E89D8D3102568E9E7E46EACB0@AM0PR08MB2945.eurprd08.prod.outlook.com>
+x-ms-exchange-organization-rules-execution-history:
+ c229acd1-a96b-4099-a7e0-b608dbe2a19f%%%f857b778-72ea-4523-a4ae-aaf47afd448f
+x-ms-exchange-organization-disclaimer-hash:
+ c7a28739d05a2b57a0dd5985c52165496dddabf7ee6b8824e90157ee40aa679f
+x-ms-exchange-forest-rulesexecuted: AM0PR08MB2945
+x-ms-exchange-organization-rulesexecuted: AM0PR08MB2945
+x-ms-exchange-organization-antispam-contentfilter-scancontext:
+ CategorizerOnResolved;
+x-ms-exchange-organization-helordns: AM0PR08MB5284.eurprd08.prod.outlook.com;
+x-ms-exchange-organization-extractiontags: SUB64;1IMG;LINK;
+x-ms-exchange-organization-extractiontagssubject: test 10.40
+x-ms-exchange-organization-extractiontagsfrom: Help / CLOUD3 <help@cloud3.srl>
+x-ms-exchange-organization-extractiontagssubjectnormalized: test lo 4o
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-organization-client-country: IT
+x-forefront-prvs: 0358535363
+x-ms-exchange-organization-spamscore: 2
+x-ms-exchange-organization-antispam-analystrulehits:
+ (10009020)(366004)(39830400003)(136003)(346002)(376002)(396003)(186003)(6916009)(7116003)(19627235002)(86362001)(71200400001)(9686003)(55016002)(316002)(8936002)(81156014)(81166006)(8676002)(861006)(2906002)(66556008)(26005)(66446008)(64756008)(66476007)(5660300002)(52536014)(76116006)(66946007)(33656002)(508600001)(6506007)(7696005)(15398625002)(16866085005)
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0PR08MB5284.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:(10009020)(366004)(39830400003)(136003)(346002)(376002)(396003)(186003)(6916009)(7116003)(19627235002)(86362001)(71200400001)(9686003)(55016002)(316002)(8936002)(81156014)(81166006)(8676002)(861006)(2906002)(66556008)(26005)(66446008)(64756008)(66476007)(5660300002)(52536014)(76116006)(66946007)(33656002)(508600001)(6506007)(7696005)(15398625002)(16866085005);DIR:OUT;SFP:1101;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-organization-antispam-scancontext:
+ DIR:Originating;SFV:NSPM;SKIP:0;
+x-ms-exchange-organization-antispam-outboundippartition: 1101
+x-ms-exchange-organization-antispam-postcontentfilter-scancontext:
+	CategorizerOnResolved;CategorizerOnRouted;CategorizerOnCategorized;
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ vA1niM5nK9x6oiqxlhDp+1k7ImOcORzNF0tLMysXLVzJb7GDWscxCDDlrOKmAX2O54ofoTWl7pK6O3e7fn+50ky//aRUk95l8gwvxJWz+V2rsnRmidPhYVRaNV9V0ZImVGHi0b5SOOrvtAxSIglfZPdFka2P6yJJicyQDuXNBJRWy3pg37RgGFSe+5ldOx8Oepm8Y3genClLAxLWzj4WAGQq6GPdCb3GGYZFOHejL3aJaf9bRQ/S7HMdICubvlNwXpw5WUn6adEHgJ1pAnHXCJmLfzP4PDem6X7nQ/K+L+QzMBLQvvfZ8rUrCMfmQ8w4VQA50Y3yHAaTsTXTXr3XPo8JH1E3NKSJCF6Kd7c9j1nkRdKyFN+k0Cc7/0F+KZIMGrhD/OGxrYOlAK4Fn++Tu7/lynwejvBYuKcI+w6saYS8fKZuh4apa5UAL3RWijZSlHTgvCcYLuMt6UgvDp/6mmGWgmx9aMBK/9p82r4JTE3b+xYSoza08wzNGW88bmr4uceFwmET2r5R2SoqZUxAeA==
+x-ms-exchange-antispam-messagedata:
+ pnBsU/87UKHeAy91jGyG6UDZZkGqDkCZaNaoH6jWx5WnxsX0o9UtXEgQCgjw0puvtuvpumkf9EnHMIT/ocySMundD4GFImAfQ6LDCZOSxApF3d7xc4QwQ0md/l1Eyl77mEmf9xxTzwtVUtx5uCyJdA==
+x-ms-exchange-organization-groupforkperf: VCL=0;VL=3
+x-ms-exchange-organization-supervisoryreviewpoliciesexecuted: AM0PR08MB2945
+x-ms-exchange-organization-processed-by-gcc-journaling: Journal Agent
+x-ms-exchange-organization-processed-by-journaling: Journal Agent
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR08MB5284AE2AF541AAABB046B2C0D9CB0AM0PR08MB5284eurp_"
+MIME-Version: 1.0
+X-MS-Exchange-Organization-ContentConversionOptions:
+	False;00160000;True;;iso-8859-1
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	00HOSFP=58bdbfeb-de05-4f2a-8ca1-3b014d310759;SL=1;EMSL=1;SCL=1;BL=0;RL=1;PID=1101;EXPID=;SpfResult=-1;SAUTHOP=1;DkimStatus=7;DkimSS=0;DmarcStatus=4;DmarcAction=0;EIPC2=1607,1609,1803,1608,796;MIPC2=;AUTHRES=[mx.microsoft.com,1]{5,1,UABhAHMAcwA=,,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=|YwBsAG8AdQBkADMALgBzAHIAbAA=}{9,1,UABhAHMAcwA=,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=,aABlAGEAZABlAHIALgBmAHIAbwBtAA==|YwBsAG8AdQBkADMALgBzAHIAbAA=}{2,1,UABhAHMAcwA=,,aABlAGEAZABlAHIALgBkAA==|YwBsAG8AdQBkADMALgBzAHIAbAA=}{12,7,TgBvAG4AZQA=,};MFP=5ce8bb48-e0af-437f-8934-03fd66f41a86;PReRC=1;FPR=BF6B76BB.FC170480.88584669.5BD213F9.2000C;URLC_BE=0;URLC_BEC=0;URLC_AE=0;NoDLx=1;RMX=;DIR=2;StampedBoomerangHeader=true;SFA_SFV=NSPM;SFA_ASC=2;SFA_SCL=1;ASC=2;ASCID=15398625002|16866085005;FFV=NSPM;FV_SCL=1;FV=NSPM;FVS=Filters;FSCL=1;TAP_EP=
+X-MS-Exchange-Organization-OriginatorOrganization: cloud3.srl
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3f8870a6-d5a8-456b-92c7-08d7d4860597
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Mar 2020 08:40:38.0170
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: IiX+2H/tJ7xUZWs7HH4Zwt2QS0PPEFN/zuYtBOk9pN8av8OmJV4WIjOljj9E/sBl1P2abREPAQQbq25cvlfjOA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR08MB2945
+X-MS-Exchange-Organization-OutboundCrossTenantAgentProcessed: AM0PR08MB2945
+X-MS-Exchange-Organization-DelayAnalysis-Summary: Processed

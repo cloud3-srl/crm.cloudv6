@@ -1,0 +1,31 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "quantity"
+                },
+                {
+                    "name": "product"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateEnd"
+                }
+            ]
+        ],
+        "style": "primary",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Intervento"
+    }
+]

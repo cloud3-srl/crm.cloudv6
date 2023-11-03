@@ -1,0 +1,14 @@
+[
+    "status",
+    "account",
+    "opportunity",
+    "quote",
+    "assignedUser",
+    "teams",
+    "createdAt",
+    "createdBy",
+    "dateOrdered",
+    "number",
+    "amountConverted",
+    "grandTotalAmountConverted"
+]

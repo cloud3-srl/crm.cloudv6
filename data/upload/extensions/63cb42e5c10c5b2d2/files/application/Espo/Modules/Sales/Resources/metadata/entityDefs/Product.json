@@ -1,0 +1,105 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Available", "Unavailable"],
+            "default": "Available"
+        },
+        "brand": {
+            "type": "link"
+        },
+        "partNumber": {
+            "type": "varchar",
+            "maxLength": 50
+        },
+        "url": {
+            "type": "url"
+        },
+        "category": {
+            "type": "link",
+            "view": "views/fields/link-category-tree"
+        },
+        "description": {
+            "type": "text"
+        },
+        "pricingType": {
+            "type": "enum",
+            "options": ["Same as List", "Fixed", "Discount from List", "Markup over Cost", "Profit Margin"],
+            "default": "Same as List",
+            "view": "sales:views/product/fields/pricing-type"
+        },
+        "pricingFactor": {
+            "type": "float",
+            "default": 0
+        },
+        "costPrice": {
+            "type": "currency"
+        },
+        "listPrice": {
+            "type": "currency"
+        },
+        "unitPrice": {
+            "type": "currency"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "teams": {
+            "type": "linkMultiple"
+        },
+        "weight": {
+            "type": "float",
+            "min": 0
+        },
+        "isTaxFree": {
+            "type": "bool"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "brand": {
+            "type": "belongsTo",
+            "entity": "ProductBrand"
+        },
+        "category": {
+            "type": "belongsTo",
+            "foreign": "products",
+            "entity": "ProductCategory"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "sortBy": "name",
+        "asc": true
+    }
+}

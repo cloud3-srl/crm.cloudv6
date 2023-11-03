@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "chiamate": "chiamate",
+        "callPrimary": "Chiamate",
+        "account": "Cliente",
+        "accounts": "Clienti",
+        "accountType": "Tipo di Cliente",
+        "description": "Note",
+        "review": "Revisione"
+    },
+    "links": {
+        "chiamate": "chiamate",
+        "callPrimary": "Chiamate"
+    }
+}

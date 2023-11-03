@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "contatti": "Contatti",
+        "contact": "Contatto (Primario)",
+        "cases": "Cases",
+        "hasAccount": "Cliente",
+        "phoneNumber": "Telefono"
+    },
+    "links": {
+        "contatti": "Contatti",
+        "contact": "Contatto (Primario)",
+        "cases": "Cases"
+    },
+    "tooltips": {
+        "hasAccount": "È un cliente?"
+    }
+}

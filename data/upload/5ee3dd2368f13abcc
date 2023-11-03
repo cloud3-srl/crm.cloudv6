@@ -1,0 +1,96 @@
+Received: from mail.grattacaso.it (192.168.1.2) by mail.grattacaso.it
+ (192.168.1.12) with Microsoft SMTP Server (TLS) id 8.3.83.0; Tue, 24 Mar 2020
+ 10:22:14 +0100
+Received: from mail.grattacaso.it (127.0.0.1) id hf78oo0171sa for
+ <Commercialegare@grattacaso.it>; Tue, 24 Mar 2020 10:23:23 +0100
+ (envelope-from <help@cloud3.srl>)
+Received: from EUR01-HE1-obe.outbound.protection.outlook.com ([40.107.13.59])
+	by mail.grattacaso.it ([192.168.1.2]) (SonicWALL 9.0.5.2081 UNLICENSED )	with
+ ESMTPS (version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256/256)	id
+ i202003240923120081242-1; Tue, 24 Mar 2020 10:23:21 +0100
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com (20.178.118.202) by
+ AM0PR08MB4482.eurprd08.prod.outlook.com (20.179.34.77) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2835.19; Tue, 24 Mar 2020 09:23:10 +0000
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b]) by AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b%3]) with mapi id 15.20.2835.021; Tue, 24 Mar 2020
+ 09:23:10 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "commercialegare@grattacaso.it" <Commercialegare@grattacaso.it>
+Subject: R: GRATTACASO
+Thread-Topic: GRATTACASO
+Thread-Index: AdYBugkb4VaAVvteSpSiIkueItERAQAA7t+Q
+Disposition-Notification-To: Help / CLOUD3 <help@cloud3.srl>
+Return-Receipt-To: <help@cloud3.srl>
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 24 Mar 2020 10:23:10 +0100
+Message-ID:
+	<AM0PR08MB52845E1DDABB0DF0C2B0C29AD9F10@AM0PR08MB5284.eurprd08.prod.outlook.com>
+References:
+	<EDFB0313D035D14FAE311F9DD2B89855019F1891547B@SERVERSBS2008.grattacaso.local>
+In-Reply-To:
+	<EDFB0313D035D14FAE311F9DD2B89855019F1891547B@SERVERSBS2008.grattacaso.local>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=TTlZjkkrmFsBD1iRQgf3QphbtngGAASOhYAiQbZX1Po=;
+ b=vX3anDXhxodBZ0FbNPFKko9fLcVpaKnBdqC1ygOy8+ESXbx/jsmUcUZEPtJuBThM++Dr6+NCdi6NDothIeE4JVQbF9GFv9Y5y2Ky+xA9SmTYFOVTH4MWwuNL3CMSurNOzAN+RMjGhwbLGaQh7YoLz2i/81Q8JeUvN50zhgZQ7mE=
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-mlf-uniqueid: i202003240923120081242
+x-mlf-threat: nothreat
+x-mlf-threat-detailed: nothreat;other;none;none
+x-mlf-version: 9.0.5.2081
+x-originating-ip: [212.110.2.217]
+x-microsoft-antispam-message-info:
+	xRG95++6EXgAC1r7s4JyAjpyoBVLAgOp7kibi73tk8QT+Mov2bI15O3VHeGvVQY0S1zCN83x5jYouh8Hj2Pk5NwWVdgvmN3pHsurLXEnvDZnpycKxPmZ/0B7p6u/wpW+4BGYjRy1CbygeczqqAlDiK/kagekY+2/F59DItbxxM/mDeDyTgt4FCCgDagPwrQL8QMG+HpEYx9MWV3TrYvgO34q6kv3gL0p6FB4PTe90haQ5GcDzYXo4aipgmwIbwrjoK3GQFImA+fQdqjlfYB7ho2rfzMNyXcwmWCI1LAAmYs2HgjsYbWzU1JNPQFTg+ENfo4WWlELB61k9WUZiW/anha8US9xNzvms0tao8q4pNAjtV/pdBnxGQaY7FlMo4NVqVW0ovaT1bgQBUSBLvU5QFXaxTx0o1lnot5uWF9X5jLYGJ+ae/aqFNNdhIQlHT08BIcRxRfvd27Ai8/M0kW+kG6V8gyD3VuUTky9T2komG1PEyGD6GmO5MIf4ry1vpWm5+VQ37h4vbpMHjzgohdHfelfxugnGgYiqdFTyhz/IZayAk5+5K8Nn0sX2eYgcu+vTtpDsCCp6RGq8x62pLgDDjXFt6tlzEJtNmwMR+twLgk=
+arc-seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=T8YVyhm3qxtAt1kQ8TVfux0c8BC1I03RRGpyGEkiZdDUJK643gzRiAvx+1hNuMDi6EJPBj4usNiXmDiZG9EEQn99lqylv0M76hOVqm8Yy5AtkWKWSkrOC+GAAKiXcjdgdq2ucvjEV6D+X1WxViA6h54yRAuR6OBOJ5wuSwa7aBR4UZVT+2YcwCEheA/WzWsIKC0Kt1tMTVTnETBcUGv/6rJAqX11bb2fzLa2vDipgRTOS2zLYcZFyiwa7JI7g7oIrkFXtq11h2At4WcAAaMzoR9p86ZznN5S3tSGrhHp3v0mTGcrjdw44RnDC6NrLlF+BDJStwHSD61CvrmsPE+H/A==
+arc-message-signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=TTlZjkkrmFsBD1iRQgf3QphbtngGAASOhYAiQbZX1Po=;
+ b=U/dJvyFciChIz274c6mOFYgU2Taj5YzoxUZkynbo+KnwavpA4OYoFyDhfJkTJOyzLdUhazFPIWjDvAtOBvbAgp8LhVpufp6orOCsCIt4Az4ssxNwIsDSf1qwZxJR3itRz3QbUDHrLcWJN0DFqCSS56qiwf6FABJz6nZp2AZVg0WfX4C8SNnuE2v26fqM59qu7KGLZ4oD9jc9sHiQVonbi62fUpfEGXXIrIMAvzVndP5wI2OZBhV59Jzzss8+m9x4uhSX3BmFbMVqvl9jX501Pxf+PtN5/i1/6aqNPHKslf6ikZ484RkFeOnNgY0elyH8b+/eTQ2UrIHDqOR5xs2keA==
+arc-authentication-results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-office365-filtering-correlation-id: 8b78d0fa-d8fc-4732-037e-08d7cfd4f896
+x-ms-traffictypediagnostic: AM0PR08MB4482:
+x-microsoft-antispam-prvs:
+	<AM0PR08MB4482FD36C7FCA75840E83654EAF10@AM0PR08MB4482.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:873;
+x-forefront-prvs: 03524FBD26
+x-forefront-antispam-report:
+	SFV:NSPM;SFS:(10009020)(136003)(396003)(39830400003)(376002)(346002)(366004)(64756008)(6506007)(71200400001)(966005)(508600001)(8676002)(81166006)(81156014)(8936002)(19627235002)(316002)(33656002)(26005)(76116006)(7696005)(52536014)(186003)(66446008)(66556008)(66946007)(55016002)(5660300002)(66476007)(86362001)(9686003)(6916009)(2906002)(15398625002)(16866085005);DIR:OUT;SFP:1101;SCL:1;SRVR:AM0PR08MB4482;H:AM0PR08MB5284.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:it;PTR:InfoNoRecords;
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-ms-exchange-antispam-messagedata:
+	Oh7qbHbJEePD3fugyh+fKJdVzJ3Y0dOLwQkqeZdZiPtRr3WY84ya2zQv7KcqE5e/QLlEayAG5hSrxglclYwJh0xN4pZciBEKmOjfOkuM07CCVybdRh2ZBmzVtW8dqeyokxxH3K5NDHkWLPh1nQ0eog==
+x-ms-exchange-transport-forked: True
+x-originatororg: cloud3.srl
+x-ms-exchange-crosstenant-network-message-id:
+	8b78d0fa-d8fc-4732-037e-08d7cfd4f896
+x-ms-exchange-crosstenant-originalarrivaltime: 24 Mar 2020 09:23:10.6501 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	RGOoP3PdZtklUrYuyUkYufpO3wMtS+N3qKqzgOaqVVtlbQjJz/nm3skLf8C4I8uKlYvPuA/ZhZyQ6t3oZp2XPQ==
+x-ms-exchange-transport-crosstenantheadersstamped: AM0PR08MB4482
+x-mlf-language-detected: NoLanguageFilter_Italian
+x-mlf-connecting-ip: 40.107.13.59
+x-mlf-country-code: US
+x-mlf-license: B________
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+

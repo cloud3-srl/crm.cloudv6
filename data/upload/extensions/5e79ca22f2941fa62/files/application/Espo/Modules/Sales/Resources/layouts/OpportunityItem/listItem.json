@@ -1,0 +1,6 @@
+[
+    {"name": "name"},
+    {"name": "quantity", "width": "9"},
+    {"name": "unitPrice", "width": "17", "align": "right"},
+    {"name": "amount", "width": "17", "align": "right"}
+]

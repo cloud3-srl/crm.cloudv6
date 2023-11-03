@@ -1,0 +1,8 @@
+{
+    "jobs": {
+        "SalesPack": {
+            "isSystem": true,
+            "scheduling": "3 3 * * 6"
+        }
+    }
+}

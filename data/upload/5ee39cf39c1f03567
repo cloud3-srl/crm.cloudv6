@@ -1,0 +1,10 @@
+Reporting-MTA: dns; prohosting5.netsons.net
+
+Final-recipient: RFC822; forward2office9@gmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+X-Supplementary-Info: <gmail-smtp-in.l.google.com #5.0.0 smtp; 550-5.2.1 The
+ email account that you tried to reach is disabled. Learn more at 550 5.2.1
+  https://support.google.com/mail/?p=DisabledUser g11si4154919wmh.56 - gsmtp>
+

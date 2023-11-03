@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postacert tipo="posta-certificata" errore="nessuno">
+    <intestazione>
+        <mittente>detursiantonio60@pec.it</mittente>
+        <destinatari tipo="certificato">grattacaso@legalmail.it</destinatari>
+        <risposte>detursiantonio60@pec.it</risposte>
+        <oggetto>Avviso di addebito n. 471653154136 - Gestione Gestione Aziende con lavoratori dipendenti</oggetto>
+    </intestazione>
+    <dati>
+        <gestore-emittente>ARUBA PEC S.p.A.</gestore-emittente>
+        <data zona="+0200">
+            <giorno>26/07/2019</giorno>
+            <ora>09:00:27</ora>
+        </data>
+        <identificativo>opec292.20190726090027.29225.121.1.64@pec.aruba.it</identificativo>
+        <msgid>&lt;o0n90hg-0te7oy-B4@pec.it&gt;</msgid>
+        <ricevuta tipo="completa" />
+    </dati>
+</postacert>

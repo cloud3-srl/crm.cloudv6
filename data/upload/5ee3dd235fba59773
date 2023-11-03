@@ -1,0 +1,8 @@
+Reporting-MTA: dns; grattacaso.local
+
+Final-recipient: RFC822; Commercialegare@grattacaso.it
+Action: delivered
+Status: 5.4.0
+X-Supplementary-Info: < #2.0.0>
+X-Display-Name: commercialegare@grattacaso.it
+

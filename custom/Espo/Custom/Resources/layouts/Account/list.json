@@ -1,0 +1,40 @@
+[
+    {
+        "name": "anCodice",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "billingAddressStreet",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "billingAddressPostalCode"
+    },
+    {
+        "name": "billingAddressCity",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "billingAddressState",
+        "link": true,
+        "align": "left"
+    }
+]

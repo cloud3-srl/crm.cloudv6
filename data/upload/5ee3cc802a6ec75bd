@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM6PR08MB4881.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; m.dellagnol@italmatch.com
+Action: failed
+Status: 5.4.1
+Remote-MTA: dns; DB3EUR04FT020.mail.protection.outlook.com
+X-Supplementary-Info: <DB3EUR04FT020.mail.protection.outlook.com #5.4.1
+ smtp;550 5.4.1 Recipient address rejected: Access denied. AS(201806281)
+ [DB3EUR04FT020.eop-eur04.prod.protection.outlook.com]>
+

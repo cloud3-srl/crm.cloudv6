@@ -1,0 +1,25 @@
+[
+    {
+        "name": "product",
+        "width": 30,
+        "align": "left"
+    },
+    {
+        "name": "description"
+    },
+    {
+        "name": "dateStart",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "dateEnd",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "quantity",
+        "width": 6,
+        "align": "center"
+    }
+]

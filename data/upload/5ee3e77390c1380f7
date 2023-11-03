@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID:-//3CX/Web Meeting v.15//EN
+METHOD:REQUEST
+VERSION:2.0
+BEGIN:VEVENT
+ORGANIZER:MAILTO:noreply@3cx.cloud
+DTSTAMP:20200414T133545Z
+DTSTART:20200414T125400Z
+DTEND:20200414T135400Z
+CLASS:PUBLIC
+SUMMARY:3CX Web Meeting: Test meeting mascherina futura
+LOCATION:Online meeting
+DESCRIPTION:Click this link to join the meeting: https://cloud3srl-myit.3cx.net/join/Grpeg9TdIM1vrs_xgnw-gRPj\nLA RICONVERSIONE\nUna storia tutta da scrivere\nLa pesce pazzo nasce 16 anni fa ed opera nel settore della pesca e della ristorazione avendo due pescherecci di proprietà ed un ristorante all’interno del porto turistico di Varazze.\nSimone Cola\nhelp\nsimonecola
+UID:{3b0b90b6-5bf1-4792-bdb1-45ac3c58a746}
+SEQUENCE:1
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT900S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

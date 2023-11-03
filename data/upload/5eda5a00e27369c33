@@ -1,0 +1,16 @@
+Reporting-MTA: dns; DBBPR08MB4869.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; vendite@euro-parts.it
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.316 smtp;550 5.4.316 Message expired, connection
+ refused>
+X-Display-Name: EUROPARTS VENDITA (vendite@euro-parts.it)
+
+Final-recipient: RFC822; vendite-b@euro-parts.it
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.316 smtp;550 5.4.316 Message expired, connection
+ refused>
+X-Display-Name: Euro Parts
+

@@ -1,0 +1,5 @@
+Reporting-MTA: dns; hostingssd23.netsons.net
+
+Action: failed
+Final-Recipient: rfc822;tiziana.carelli@rb-autom.it
+Status: 5.0.0

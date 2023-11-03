@@ -1,0 +1,26 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "dateInvoiced"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

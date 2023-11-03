@@ -1,0 +1,10 @@
+Reporting-MTA: dns;VI1PR10MB1869.EURPRD10.PROD.OUTLOOK.COM
+Received-From-MTA: dns;FRA01-PR2-obe.outbound.protection.outlook.com
+Arrival-Date: Mon, 29 Jul 2019 13:23:45 +0000
+
+Final-Recipient: rfc822;lds@ldslogistic.it
+Action: delivered
+Status: 2.0.0
+Diagnostic-Code: smtp;250 2.0.0 OK
+X-Display-Name: lds@ldslogistic.it
+

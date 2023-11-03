@@ -1,0 +1,28 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left",
+        "isLarge": true
+    },
+    {
+        "name": "account",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "contact",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "link": true,
+        "align": "left"
+    }
+]

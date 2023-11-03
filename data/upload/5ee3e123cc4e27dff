@@ -1,0 +1,11 @@
+Reporting-MTA: dns;AM0PR08MB2945.eurprd08.prod.outlook.com
+Received-From-MTA: dns;AM0PR08MB5284.eurprd08.prod.outlook.com
+Arrival-Date: Mon, 30 Mar 2020 08:40:38 +0000
+
+Final-Recipient: rfc822;grassini.alessandro@officinagrassini.com
+Action: relayed
+Status: 2.1.5
+Diagnostic-Code: smtp;250 2.1.5 <grassini.alessandro@officinagrassini.com> recipient ok
+Remote-MTA: dns;scott11
+X-Display-Name: Alessandro Grassini
+

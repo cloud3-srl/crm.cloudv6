@@ -1,0 +1,79 @@
+{
+    "fields": {
+        "case": {
+            "type": "link",
+            "readOnly": true
+        },
+        "status": {
+            "options": [
+                "In Review",
+                "Confirmed",
+                "Verified",
+                "Sent"
+            ],
+            "style": {
+                "In Review": "danger",
+                "Confirmed": "success",
+                "Verified": "warning",
+                "Sent": "primary"
+            },
+            "default": "Confirmed",
+            "displayAsLabel": true,
+            "required": true
+        },
+        "number": {
+            "maxLength": 100,
+            "readOnly": true,
+            "options": []
+        },
+        "review": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "itemList": {
+            "name": "itemList",
+            "type": "jsonArray",
+            "notStorable": true,
+            "layoutDetailDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true,
+            "view": "sales:views/quote/fields/item-list",
+            "templatePlaceholderDisabled": true,
+            "reportDisabled": true,
+            "inlineEditDisabled": false,
+            "tooltip": false
+        },
+        "dateInvoiced": {
+            "required": true
+        },
+        "account": {
+            "required": true
+        },
+        "adHoc": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        }
+    },
+    "links": {
+        "case": {
+            "type": "belongsTo",
+            "foreign": "invoices",
+            "entity": "Case",
+            "audited": false
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "account.description",
+            "account.anCodice",
+            "account.name",
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

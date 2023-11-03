@@ -1,0 +1,22 @@
+[
+    {
+        "name": "mvNumDoc",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "mvAlfDoc",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "mvDatDoc",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "mvQtaRes",
+        "link": true,
+        "align": "left"
+    }
+]

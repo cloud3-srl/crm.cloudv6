@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "qty": "szt.",
+    "quantity": "Ilość",
+    "unitPrice": "Cena jednostkowa",
+    "amount": "Ilość",
+    "product": "Produkt",
+    "order": "Nr linii",
+    "opportunity": "Szansa"
+  },
+  "links": {
+    "opportunity": "Szansa"
+  }
+}

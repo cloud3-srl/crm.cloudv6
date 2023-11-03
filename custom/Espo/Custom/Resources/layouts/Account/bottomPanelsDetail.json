@@ -1,0 +1,36 @@
+{
+    "stream": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "reportPanel5ee330b4ab4fe7f5a": {
+        "sticked": true,
+        "index": 0
+    },
+    "contacts": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 1
+    },
+    "cases": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 2
+    },
+    "invoices": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 3
+    },
+    "prepagati": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 4
+    }
+}

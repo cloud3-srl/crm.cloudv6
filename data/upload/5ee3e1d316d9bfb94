@@ -1,0 +1,210 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=EF9VWgZy9Dfk5/Ga05mgjc/c+WiRTXAVPOjF7Dr6kNvFTzFHGXBlbT0MFSH2m8GDxoyX0lezfoy0nhIgmcTAlcKu20y5LSd3Kps777UamB90lH8RLZhlVuqinXT3I8kRYTQLa7jHWMHgs8C44KbhLN8dTbNqzPzYJtwtLg5UKSSQXnW+0K9H4lUj3gKQEAMTl2PU0ePq4rx6vns3Km3is9e5YbGR2XS+GZ9yURpKk6L50E5ugYYGX7WSBIAxzDV3a0A0/aNTNij8+c1QFX0vwrKiZVx44HS0voh8NSQbEq77JLX9sLKYl86r8RzLKLOsH3wxUq+IaHKru0S8MdzjyA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=C7KMOf7HmOGL8lxIvSZhBHP2b3BrvZpTE+OqK63Grpk=;
+ b=FaOzeMrw82fLqc7RFdniwZFJnDHiV/FOAW1n7uTgffTvNgs23BvfTO+yC1Fo06bytTT9Her2e6kuKacXdJnuY9CHsfOOZZftaLaJMtEyftI4o2RSKKG317GWQHk0g11r5zXqNUyfyPN4FSP/5b8EL6rpLQgLuCgnzCeUCvHbuteycqTM0+dcVQu+9Q7v8usO8iUfn2gFOgCsVNRwY5APDhTpWOWDI9eGzI04/H2dy6QPfPhDeq2bPMuH2g5ydZAXQuVy+ulVYwjJ5YfrzXdEWcOtKTiB8JZTjU5OyDn+Is/XKFoGUMysN0AWxO6em+VTw1QLhnuIRsJb2n5XnJW+sQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=cloud3.srl; dmarc=pass action=none header.from=cloud3.srl;
+ dkim=pass header.d=cloud3.srl; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=C7KMOf7HmOGL8lxIvSZhBHP2b3BrvZpTE+OqK63Grpk=;
+ b=LICD0aKU+apVJIirbaiH70vXH8+Z5VyTC53cNR4veothi39i7L1kN7tY8r9MHTd6T0gQflaJBTwHOUBFZOjhLYGq04c1uaVqU+8zjTFdtJkbz57GZ3zBeZJ61rOrrnHgGvEDyt47iFwl9KkPlbMVW4tEKYPqiaAwwofEV6Gs26I=
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com (20.178.118.202) by
+ AM0PR08MB4098.eurprd08.prod.outlook.com (20.178.202.33) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2856.19; Tue, 31 Mar 2020 10:47:19 +0000
+Received: from AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b]) by AM0PR08MB5284.eurprd08.prod.outlook.com
+ ([fe80::fc4c:5cd5:d2fc:d86b%3]) with mapi id 15.20.2856.019; Tue, 31 Mar 2020
+ 10:47:19 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "info@lemcolor.it" <info@lemcolor.it>
+Subject: Appuntamento
+Thread-Topic: Appuntamento
+Thread-Index: AdYHSWBY9DumaNrmTfGqpd/YCeyZfg==
+Date: Tue, 31 Mar 2020 10:47:19 +0000
+Message-ID: <AM0PR08MB528418D1B39E2B738FC49299D9C80@AM0PR08MB5284.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [212.110.3.245]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 162a4530-fead-4f5a-d902-08d7d560e2c4
+x-ms-traffictypediagnostic: AM0PR08MB4098:
+x-microsoft-antispam-prvs: <AM0PR08MB40982916D58C4528CD0E4958EAC80@AM0PR08MB4098.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1227;
+x-forefront-prvs: 0359162B6D
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0PR08MB5284.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:(10009020)(136003)(366004)(396003)(376002)(39830400003)(346002)(64756008)(81156014)(52536014)(7116003)(861006)(66476007)(2906002)(81166006)(8936002)(186003)(5660300002)(33656002)(26005)(66446008)(66946007)(3480700007)(6506007)(7696005)(76116006)(66556008)(86362001)(9686003)(8676002)(19627235002)(55016002)(71200400001)(6916009)(316002)(508600001)(15398625002)(16866085005);DIR:OUT;SFP:1101;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: Fe/xzNzX1XuWkDk8wALRtriNWk2uEWSz74Mn+tIiGUUHCxkWFLI7wv66VyCRVAI914iyv0vzKPXaofl04k9Jr/hgiw7v+244BDlk0GhCaNGf+AVgUVlty5+U5ZsW913uLC25VYI3vWRaQDmBdn4YRg/JmTgPED91aQy+huToUFXMOw1BsIFAe0vqlrXc6jrcphiLbuEvhbT2mGfpsP92TPgvINQBPb6Qmp3fe55pnhdc1F8DG5shbrzYkE/1gMx14I4U+WCg0ZmNZxBtf31DZVYq1dCob20qBuOYp8C2Tf8FAdWsDKIMHJSTOhVW2dryejlBFtsURWkcCczT4D6S9yhMIXH0NdH0Ju9Ym4O3lhNkfSPLSLlEzVhhTZVNNAQ7+qEXz4Z50nqYCcaMVYTUc3dV9FlumV002pHuOkn7cx2imFz03dCQrcCgSwKkjs5x/JqVuN/QKeO5duApEbpqH4KJp6ngigh8h20CO1JCaEGKLFPm8LtYyM3iKac0ibn52cSskeJPUZtutgxGJRL4vQ==
+x-ms-exchange-antispam-messagedata: TlbLNO5IyTdPqgJvdXvG9CBJhme8tCduFA88WUxYHQVzrARx/ET3JwQTcbn6kS3xyZHJfY9LSoACurb+LwEyBgdtE4ypYtpkMouokJjg2sdihltWGI0rlL7R4yhKEIrJC9nGej2CCkvAeSt0TKK9WQ==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR08MB528418D1B39E2B738FC49299D9C80AM0PR08MB5284eurp_"
+X-OriginatorOrg: cloud3.srl
+X-MS-Exchange-CrossTenant-Network-Message-Id: 162a4530-fead-4f5a-d902-08d7d560e2c4
+X-MS-Exchange-CrossTenant-originalarrivaltime: 31 Mar 2020 10:47:19.3333
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: twx1Vi8qTbh4f35LEA/+kIP8yNXyyHgm+p0hwdcbSuqhAUtTvSGDxBaXVCpAP5U8Ot99P9yIFjVM7XTl5eYCQg==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR08MB4098
+MIME-Version: 1.0
+
+--_000_AM0PR08MB528418D1B39E2B738FC49299D9C80AM0PR08MB5284eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buongiorno,
+ho provato a richiamarvi per il computer in magazzino per l'aggiornamento d=
+ell'antivirus, ma subito era occupato e poi squilla libero ma probabilmente=
+ siete gi=E0 andati via.
+Se nel pomeriggio siete aperti chiamatemi altrimenti ci sentiamo domani
+
+Buona giornata
+Gabriele
+010 9110653
+
+[https://www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png]
+
+
+ CLOUD3 SRL
+ Piazza Camillo Golgi 28c
+ 16011 Arenzano
+ Tel. +39 010 9110653
+ www.cloud3.srl<https://www.cloud3.srl/>
+ P.IVA 02497740999
+
+
+Questo documento =E8 formato esclusivamente per il destinatario. Tutte le i=
+nformazioni ivi contenute, compresi eventuali allegati, sono da ritenere es=
+clusivamente confidenziali e riservate secondo i termini del vigente D.Lgs.=
+ 196/2003 in materia di privacy e del Regolamento europeo 679/2016 - GDPR- =
+e quindi ne =E8 proibita l'utilizzazione ulteriore non autorizzata. Se avet=
+e ricevuto per errore questo messaggio, Vi preghiamo cortesemente di contat=
+tare immediatamente il mittente e cancellare la e-mail. Grazie
+
+
+Confidentiality Notice - This e-mail message including any attachments is f=
+or the sole use of the intended recipient and may contain confidential and =
+privileged information pursuant to Legislative Decree 196/2003 and the Euro=
+pean General Data Protection Regulation 679/2016 - GDPR-. Any unauthorized =
+review, use, disclosure or distribution is prohibited. If you are not the i=
+ntended recipient, please contact the sender by reply e-mail and destroy al=
+l copies of the original message.
+
+--_000_AM0PR08MB528418D1B39E2B738FC49299D9C80AM0PR08MB5284eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Buongiorno,<o:p></o:p></p>
+<p class=3D"MsoNormal">ho provato a richiamarvi per il computer in magazzin=
+o per l&#8217;aggiornamento dell&#8217;antivirus, ma subito era occupato e =
+poi squilla libero ma probabilmente siete gi=E0 andati via.<o:p></o:p></p>
+<p class=3D"MsoNormal">Se nel pomeriggio siete aperti chiamatemi altrimenti=
+ ci sentiamo domani<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Buona giornata<o:p></o:p></p>
+<p class=3D"MsoNormal">Gabriele<o:p></o:p></p>
+<p class=3D"MsoNormal">010 9110653<o:p></o:p></p>
+</div>
+<p style=3D"text-align: justify; font-size: 10px;"><img src=3D"https://www.=
+cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" alt=3D"https:/=
+/www.cloud3.srl/wp-content/uploads/2018/02/Cloud3_logo_85x55.png" width=3D"=
+85" height=3D"55"></p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;"><strong>&nbsp;CLOUD3 SRL=
+</strong><br>
+&nbsp;Piazza Camillo Golgi 28c<br>
+&nbsp;16011 Arenzano<br>
+&nbsp;Tel. &#43;39 010 9110653 <br>
+&nbsp;<a href=3D"https://www.cloud3.srl/">www.cloud3.srl</a><br>
+&nbsp;P.IVA&nbsp;02497740999</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Questo documento =E8 for=
+mato esclusivamente per il destinatario. Tutte le informazioni ivi contenut=
+e, compresi eventuali allegati, sono da ritenere esclusivamente confidenzia=
+li e riservate secondo i termini del
+ vigente D.Lgs. 196/2003 in materia di privacy e del Regolamento europeo 67=
+9/2016 &#8211; GDPR- e quindi ne =E8 proibita l&#8217;utilizzazione ulterio=
+re non autorizzata. Se avete ricevuto per errore questo messaggio, Vi pregh=
+iamo cortesemente di contattare immediatamente
+ il mittente e cancellare la e-mail. Grazie</p>
+<br>
+<p style=3D"text-align: justify; font-size: 10px;">Confidentiality Notice &=
+#8211; This e-mail message including any attachments is for the sole use of=
+ the intended recipient and may contain confidential and privileged informa=
+tion pursuant to Legislative Decree 196/2003
+ and the European General Data Protection Regulation 679/2016 &#8211; GDPR-=
+. Any unauthorized review, use, disclosure or distribution is prohibited. I=
+f you are not the intended recipient, please contact the sender by reply e-=
+mail and destroy all copies of the original
+ message.</p>
+</body>
+</html>
+
+--_000_AM0PR08MB528418D1B39E2B738FC49299D9C80AM0PR08MB5284eurp_--

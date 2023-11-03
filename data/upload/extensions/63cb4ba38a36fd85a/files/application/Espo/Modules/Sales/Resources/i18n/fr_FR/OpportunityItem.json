@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "name": "Nom",
+    "qty": "Qté",
+    "quantity": "Quantité",
+    "unitPrice": "Prix unitaire",
+    "amount": "Montant",
+    "product": "Produit",
+    "order": "Numéro de ligne",
+    "opportunity": "Opportunité",
+    "amountConverted": "Montant (converti)",
+    "unitPriceConverted": "Prix unitaire (converti)",
+    "opportunityStage": "Étape"
+  },
+  "links": {
+    "opportunity": "Opportunité",
+    "product": "Produit"
+  },
+  "labels": {
+    "Opportunities": "Opportunités"
+  }
+}

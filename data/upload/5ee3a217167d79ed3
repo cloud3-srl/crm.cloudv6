@@ -1,0 +1,9 @@
+Reporting-MTA: dns; smtp205.alice.it
+Received-from-MTA: dns; CasaHP (95.232.198.38)
+Arrival-Date: Tue, 22 Oct 2019 09:17:53 +0200
+
+Final-Recipient: rfc822; ettore@msn.com
+Action: Failed
+Status: 5.1.1 (bad destination mailbox address)
+Remote-MTA: dns; msn-com.olc.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.5.0 Requested action not taken: mailbox unavailable.

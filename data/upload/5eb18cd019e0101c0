@@ -1,0 +1,10 @@
+Reporting-MTA: dns; VI1PR08MB2846.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; order@mascherinefutura.com
+Action: failed
+Status: 5.1.0
+Remote-MTA: dns; cloudhosting17.netsons.net
+X-Supplementary-Info: <cloudhosting17.netsons.net #5.1.351 smtp;550 5.1.351
+ Remote server returned unknown recipient or mailbox unavailable -> 550 No
+ Such User Here">
+

@@ -1,0 +1,38 @@
+Received: from SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f]) by
+ SBS2008.cavanna.local ([fe80::a1a1:8f0b:7daf:254f%14]) with mapi; Tue, 19 Nov
+ 2019 09:27:06 +0100
+From: Monica Reghitto --- Cavanna Olii Snc <monicar@cavannaolii.com>
+To: "am@perlasrl.it" <am@perlasrl.it>
+Date: Tue, 19 Nov 2019 09:27:04 +0100
+Subject: I: DDT N.3276 del 24/10/2019 e Certificato BIO
+Thread-Topic: DDT N.3276 del 24/10/2019 e Certificato BIO
+Thread-Index:
+ AQIn1C/moqxr9l/qc7rGQl2iQCEQb6bsWwiggAADi5CAADx/4IAAAt1QgAEfdtA=
+Message-ID:
+ <543966367C0FB3438B2BB9572E0BD1CE02939FCA3FC0@SBS2008.cavanna.local>
+References:
+ <543966367C0FB3438B2BB9572E0BD1CE02939FCA3F5E@SBS2008.cavanna.local>
+ <!&!AAAAAAAAAAAYAAAAAAAAAPz3OkYXMMFAhWLaJw+dxtbCgAAAEAAAACLJmyQhAUBMiIldJ+mWAhUBAAAAAA==@perlasrl.it>
+ <543966367C0FB3438B2BB9572E0BD1CE02939FCA3F7B@SBS2008.cavanna.local>
+ <DBEFA95F29B64A488560E0B81D5B437E02DEB140F841@SBS2008.cavanna.local>
+ <DBEFA95F29B64A488560E0B81D5B437E02DEB140F847@SBS2008.cavanna.local>
+In-Reply-To:
+ <DBEFA95F29B64A488560E0B81D5B437E02DEB140F847@SBS2008.cavanna.local>
+Accept-Language: it-IT
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: it-IT
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1574152114; bh=R5EA16/B9+piDDnwfv9+KuJbSbcxCbCpYYzMPt3+dSo=;
+	h=From:To:Date:Subject:Content-Type:MIME-Version;
+	b=CMFfGhUOjhTQ0zoCWcM5iUfVMGC8aNvWOw8gZI1jiJCYFZ2sVQnb8IrcpahHiET4j
+	 xRHlXkab/2Ho4hetHIE0rMMib7Pv1Ah/wgcsb+ijytdT4Hq4b8ND2cEwVUg6tQ2wlx
+	 UKMsBHS/alnFBAqw+rjVTvXTG5JSsSVSQDzxl/JSk5qMYlAjKzBc11pQXZXdCYofiT
+	 OygB4FsNmQFExagMB3FL7L3kDPSGc9du/zGoIdfeKkYkQCvMXT/N5H2ylkkbeZKCWd
+	 VCxGApC0tDhE+BF2xd9BXjV4RBAVq6RZcS2f5TuoyQTQGgEvaWu5FqjUbKi1GIn4TM
+	 BiK9pBEvwI3zw==
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+

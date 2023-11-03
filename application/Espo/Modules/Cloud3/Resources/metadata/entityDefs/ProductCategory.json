@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "arCatCon": {
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 5,
+            "readOnly": true,
+            "options": []
+        },
+        "idJob": {
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 36,
+            "readOnly": true,
+            "options": [],
+            "default": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        }
+    }
+}

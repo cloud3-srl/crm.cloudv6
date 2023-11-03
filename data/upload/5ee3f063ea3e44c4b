@@ -1,0 +1,10 @@
+Reporting-MTA: dns; AM0PR08MB4562.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; ettorev@compunetweb.it
+Action: failed
+Status: 5.1.0
+X-Supplementary-Info: < #5.1.10 smtp;550 5.1.10
+ RESOLVER.ADR.RecipientNotFound; Recipient ettorev@compunetweb.it not found by
+ SMTP address lookup>
+X-Display-Name: Ettore Vernazza
+

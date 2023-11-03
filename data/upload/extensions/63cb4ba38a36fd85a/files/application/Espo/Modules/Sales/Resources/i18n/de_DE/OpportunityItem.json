@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "name": "Betreff",
+    "qty": "Mng",
+    "quantity": "Menge",
+    "unitPrice": "Einzelpreis",
+    "amount": "Betrag",
+    "product": "Produkt",
+    "order": "Zeilennummer",
+    "opportunity": "Verkaufschance",
+    "description": "Beschreibung",
+    "amountConverted": "Betrag (konvertiert)",
+    "unitPriceConverted": "Einzelpreis (konvertiert)",
+    "opportunityStage": "Verkaufsphase"
+  },
+  "links": {
+    "opportunity": "Verkaufschance",
+    "product": "Produkt"
+  },
+  "labels": {
+    "Opportunities": "Verkaufschancen"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Název",
+    "qty": "Qty",
+    "quantity": "Kvantita",
+    "unitPrice": "Jednotková cena",
+    "amount": "Částka",
+    "product": "Produkt",
+    "order": "Číslo řádku",
+    "opportunity": "Příležitost"
+  },
+  "links": {
+    "opportunity": "Příležitost"
+  }
+}

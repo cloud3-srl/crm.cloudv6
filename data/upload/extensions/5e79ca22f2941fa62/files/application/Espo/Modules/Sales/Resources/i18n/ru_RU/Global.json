@@ -1,0 +1,24 @@
+{
+  "scopeNames": {
+    "Product": "Продукт",
+    "ProductCategory": "Категория продуктов",
+    "ProductBrand": "Бренд продукта",
+    "ReportCategory": "Категории отчетов",
+    "Quote": "Предложение",
+    "QuoteItem": "Пункт предложения",
+    "Tax": "Налог",
+    "ShippingProvider": "Служба доставки",
+    "OpportunityItem": "Пункт сделки"
+  },
+  "scopeNamesPlural": {
+    "Product": "Продукты",
+    "ProductCategory": "Категории продуктов",
+    "ReportCategory": "Категории отчетов",
+    "Quote": "Предложения",
+    "QuoteItem": "Пункты предложения",
+    "Tax": "Налоги",
+    "ShippingProvider": "Службы доставок",
+    "OpportunityItem": "Пункты сделок",
+    "ProductBrand": "Бренды продуктов"
+  }
+}

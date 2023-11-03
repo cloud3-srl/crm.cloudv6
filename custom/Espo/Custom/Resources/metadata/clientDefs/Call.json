@@ -1,0 +1,79 @@
+{
+    "kanbanViewMode": true,
+    "color": "#ff0000",
+    "iconClass": "fas fa-phone",
+    "dynamicLogic": {
+        "panels": [],
+        "fields": {
+            "contact": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "hasAccount"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "hasAccount"
+                        }
+                    ]
+                }
+            },
+            "account": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "hasAccount"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "hasAccount"
+                        }
+                    ]
+                }
+            },
+            "phoneNumber": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "phoneNumber"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "sidePanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel60096a595ad12f3a1",
+                "label": "Ore prepagate",
+                "view": "cloud3:views/call/record/panels/prepagati",
+                "reportPanelId": "60096a595ad12f3a1",
+                "reportType": "Grid",
+                "reportEntityType": "Prepagato",
+                "displayTotal": false,
+                "displayOnlyTotal": true,
+                "useSiMultiplier": false,
+                "accessDataList": [
+                    {
+                        "scope": "Prepagato"
+                    }
+                ],
+                "column": "SUM:mvQtaRes"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postacert tipo="errore-consegna" errore="no-dest">
+    <intestazione>
+        <mittente>leterrazzedivado@pec.it</mittente>
+        <destinatari tipo="certificato">latorremarina@pec.it</destinatari>
+        <risposte>leterrazzedivado@pec.it</risposte>
+        <oggetto>prova</oggetto>
+    </intestazione>
+    <dati>
+        <gestore-emittente>ARUBA PEC S.p.A.</gestore-emittente>
+        <data zona="+0200">
+            <giorno>27/08/2019</giorno>
+            <ora>15:27:06</ora>
+        </data>
+        <identificativo>opec292.20190827152701.27646.693.2.62@pec.aruba.it</identificativo>
+        <msgid>&lt;000d01d55cdb$1bb83d30$5328b790$@pec.it&gt;</msgid>
+        <consegna>latorremarina@pec.it</consegna>
+        <errore-esteso>5.1.1 - Aruba Pec S.p.A. - indirizzo non valido</errore-esteso>
+    </dati>
+</postacert>

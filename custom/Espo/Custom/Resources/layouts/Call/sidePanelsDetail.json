@@ -1,0 +1,17 @@
+{
+    "attendees": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "default": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": null,
+        "index": 0
+    },
+    "reportPanel60096a595ad12f3a1": {
+        "index": 1
+    }
+}

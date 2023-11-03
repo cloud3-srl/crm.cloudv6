@@ -1,0 +1,11 @@
+Reporting-MTA: dns;VI1PR08MB5326.eurprd08.prod.outlook.com
+Received-From-MTA: dns;VI1PR08MB3760.eurprd08.prod.outlook.com
+Arrival-Date: Tue, 31 Mar 2020 08:03:46 +0000
+
+Final-Recipient: rfc822;no-reply@sharepointonline.com
+Action: failed
+Status: 5.7.64
+Diagnostic-Code: smtp;550 5.7.64 TenantAttribution; Relay Access Denied [SN1NAM02FT021.eop-nam02.prod.protection.outlook.com]
+Remote-MTA: dns;SN1NAM02FT021.mail.protection.outlook.com
+X-Display-Name: Simone Cola / CLOUD3
+

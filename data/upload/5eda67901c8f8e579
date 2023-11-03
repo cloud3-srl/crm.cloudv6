@@ -1,0 +1,453 @@
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=Zpi+vJWxSrRIRPv9hO3XWX30jqX8aKI2cMga2qeKRMFiQ6Cy2jYY+sWHyi94Oct/zmilbP8GIreKm0WKAZEqFMABqEljQPe12mvpYD16Kx1Q8jRVbJqj/MVe1UjuWZkbyjdBcQRG5jLvcjIiZOrwKMw+DtNJooKq7rxzFn2FsNDMSQxOGc85j2ysDcbBcJ5VG781nnTnATvvFT4PuRJ2EBjLOveHKsanMo+BY/mg5zDQgxgaqYpNNyGl4HvW7KrxSWXoqkb3q7PtGKaJ8Iy1HENIE+AhlSof+Ur/zsWsosKWyV9QAqAsCwa0C20SRT/pU3zkOur6FuRPObu2JI2Kgw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=8BWltk4pKRuvtwAm9HiHrGxrJDSninTQZvoHC+8F8Mk=;
+ b=PLnOit9jpnCCTUPKI7iMULZABUmkOkO+FqFpSAHiVa7ebyJjKFD4k9YreVdCSyafHvhowk7bD/h6NY9KCIkRmTkPd96WiKCdsH2s24UM3XKLkHUlMirVKyigzA02aBd0U94TaeVdBFxfW49DbApFYHU83+dRLmSQGeEZUo6HLdJhcIUWViD1o4Y2V6g3HRuMRZL8ZQ4Syro1+oF+Fv3vwqh4a5rdsZgLsWZ722EtQs93T7KGN3A4u3hUOKHp7uaUqFRevnUC4O6b0aFJdZe2cM6XIhJpHE1p8rUmgUaIWV0TC6qx+5CziZ+xZ/vjdEsa5VjUKY/MDqFNwJcHElHEsA==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1;spf=pass (sender ip is
+ 40.107.12.54) smtp.rcpttodomain=ldslogistic.it
+ smtp.mailfrom=cloud3.srl;dmarc=bestguesspass action=none
+ header.from=cloud3.srl;dkim=pass (signature was verified)
+ header.d=cloud3srl.onmicrosoft.com;arc=pass (0 oda=1 ltdi=1
+ spf=[1,1,smtp.mailfrom=cloud3.srl] dkim=[1,1,header.d=cloud3.srl]
+ dmarc=[1,1,header.from=cloud3.srl])
+Received: from DB6PR1001CA0024.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:4:b7::34)
+ by VI1PR10MB1869.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:803:34::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2094.17; Mon, 29 Jul
+ 2019 13:23:45 +0000
+Received: from AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e08::209) by DB6PR1001CA0024.outlook.office365.com
+ (2603:10a6:4:b7::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2115.14 via Frontend
+ Transport; Mon, 29 Jul 2019 13:23:45 +0000
+Authentication-Results: spf=pass (sender IP is 40.107.12.54)
+ smtp.mailfrom=cloud3.srl; ldslogistic.it; dkim=pass (signature was verified)
+ header.d=cloud3srl.onmicrosoft.com;ldslogistic.it; dmarc=bestguesspass
+ action=none header.from=cloud3.srl;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of cloud3.srl designates
+ 40.107.12.54 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.107.12.54; helo=FRA01-PR2-obe.outbound.protection.outlook.com;
+Received: from FRA01-PR2-obe.outbound.protection.outlook.com (40.107.12.54) by
+ AM5EUR03FT024.mail.protection.outlook.com (10.152.16.175) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2052.18 via Frontend Transport; Mon, 29 Jul 2019 13:23:44 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=FHlwKaAfbyGkEwCjHC8TpmKCZpUGcqpd5DhlYnt6gJC3CuXjDY5XirfN1olca4f2ekOdpZhorOr91DA1UIYLCUYvAvhCr+2Elrjev3bZ0q5L+xdsOxjjtJSpq1rkPgIgNv2uIvffzPpjJVuuDWwXQ/upY6F1lgeX7NHJECYF8Zkd1UFEgALdGUOh7B793aqJyfnAtvH3ETlRWjPcxdxX7K2Gw3RO0KAfgjPVYOQAK95LU8DcN0Wr+ItmgiUGzcjsdFloKMDMTnt0DtHc+0MOIvRiOhwOzRXEQO9XNkgKcjeklNgQwo1vDDM+gt9Bmdwue5HFpS3VJlxfu4YfD0KS2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=8BWltk4pKRuvtwAm9HiHrGxrJDSninTQZvoHC+8F8Mk=;
+ b=Iq8i72R9UuuQJ1SFulW7rx4Ho8vwRMHLbJYpDS0SfdzhxmPmp9LMmsgkWdhbOI8mSjmjnxd31hHqO3UlN7UwI+VoUBwTra2X3vrYHju202HDfBzfEgTqQvbO7MH5y9Beb+9O/IjTZg8Yq2A2boiVigyYGul0d+dXFjhwFeqPU+aiHhcKQFvYXUzconkxslCbqJse0xj4YAXvS6o0Hmzc84nEJHjIzyyLF/aqIOkELsocNbquSjz+l35m29gDSzVtnDKdu0HGeCQY1Y5gjVD1sUfnG7OHZKSz1CoGv/LinJhgJ9NDXkvjlhwa0Z6Sis608InyBVgvtmuxAF+DMdPitg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1;spf=pass
+ smtp.mailfrom=cloud3.srl;dmarc=pass action=none
+ header.from=cloud3.srl;dkim=pass header.d=cloud3.srl;arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cloud3srl.onmicrosoft.com; s=selector2-cloud3srl-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=8BWltk4pKRuvtwAm9HiHrGxrJDSninTQZvoHC+8F8Mk=;
+ b=UsnYgLgT9VjpLgEL2xOLeaC1bU5I8Z+sntoRPE/ICj2aJugWiKhHSBvxyAtVloPeI4CS0cgE7nRTBjc4M+MjAFDts/y5V87AXLLPe9JykYYt53cuG9URSlV2B3KY7OMgUoC+8GRB9nFhWFl0qy36bclvmRdzwEJFMkhnWUmwhNI=
+Received: from PR2PR08MB4812.eurprd08.prod.outlook.com (52.133.110.142) by
+ PR2PR08MB4748.eurprd08.prod.outlook.com (52.133.109.13) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2115.10; Mon, 29 Jul 2019 13:23:44 +0000
+Received: from PR2PR08MB4812.eurprd08.prod.outlook.com
+ ([fe80::b547:223b:46df:1bef]) by PR2PR08MB4812.eurprd08.prod.outlook.com
+ ([fe80::b547:223b:46df:1bef%6]) with mapi id 15.20.2115.005; Mon, 29 Jul 2019
+ 13:23:44 +0000
+From: Help / CLOUD3 <help@cloud3.srl>
+To: "lds@ldslogistic.it" <lds@ldslogistic.it>
+Subject: test
+Thread-Topic: test
+Thread-Index: AdVGEM18R2ta9sOFT16fN87lXmhkTw==
+Disposition-Notification-To: Help / CLOUD3 <help@cloud3.srl>
+Return-Receipt-To: <help@cloud3.srl>
+Date: Mon, 29 Jul 2019 13:23:43 +0000
+Message-ID: <PR2PR08MB4812B35B3B50A7C77933FD19D9DD0@PR2PR08MB4812.eurprd08.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=help@cloud3.srl; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [95.255.142.92]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: a4192dfd-9587-4c1e-ca40-08d71427fb33
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(7021145)(8989299)(4534185)(7022145)(4603075)(4627221)(201702281549075)(8990200)(7048125)(7024125)(7027125)(7023125)(5600148)(711020)(4605104)(1401327)(2017052603328)(7193020);SRVR:PR2PR08MB4748;
+X-MS-TrafficTypeDiagnostic: PR2PR08MB4748:|VI1PR10MB1869:
+x-microsoft-antispam-prvs: <PR2PR08MB4748F375900C5EE03DA5FA20EADD0@PR2PR08MB4748.eurprd08.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;OLM:3383;
+x-forefront-prvs: 01136D2D90
+X-Forefront-Antispam-Report-Untrusted:
+ SFV:NSPM;SFS:(10009020)(136003)(376002)(366004)(396003)(39830400003)(346002)(189003)(199004)(7736002)(68736007)(33656002)(8676002)(81156014)(14454004)(8936002)(486006)(81166006)(86362001)(7116003)(74316002)(508600001)(3480700005)(25786009)(476003)(1730700003)(53936002)(7696005)(26005)(186003)(6306002)(54896002)(55016002)(5640700003)(6506007)(14444005)(5660300002)(99286004)(316002)(236005)(861006)(2351001)(71190400001)(71200400001)(256004)(52536014)(5024004)(66946007)(606006)(2906002)(733005)(6916009)(19627235002)(76116006)(3846002)(66066001)(66446008)(64756008)(66556008)(66476007)(6116002)(2501003)(790700001)(221733001)(217283003)(6436002)(626008)(9686003)(102836004)(15398625002)(220243001)(16866085005);DIR:OUT;SFP:1101;SCL:1;SRVR:PR2PR08MB4748;H:PR2PR08MB4812.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: cloud3.srl does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Message-Info-Original:
+ PzRHXmIZ8Z2N6MntsQJuPslzeEwFjn8wGABOgtI+vjvZVW8esHCS+rFsiPBRKkK7xTZWgJ1pD5J7Qg6NOdDmk5GU699sFTWbjWu4ObZWNLm57XlBufkuJ8o5Z35Dypd7hCk/esx7NvzwZ/y3N7Yi5i8j3VJDfmcViQgPleDHVoxU1ugdsehLtowP1SS6cJQnpzN3GY7/19xrvWx8tBp1ahgnatOTuzSDtsxRExnMEeRoGvzpVIdW6+22pqlWegXQAjNNh3rb/pY/oBy5kscrF8Wjq506+0dRFSXOqYRAiww=
+Content-Type: multipart/alternative;
+	boundary="_000_PR2PR08MB4812B35B3B50A7C77933FD19D9DD0PR2PR08MB4812eurp_"
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PR2PR08MB4748
+Return-Path: help@cloud3.srl
+X-MS-Exchange-Organization-OriginalArrivalTime: 29 Jul 2019 13:23:44.6349
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 29 Jul 2019 13:23:44.6969
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a4192dfd-9587-4c1e-ca40-08d71427fb33
+X-MS-Exchange-Organization-OriginalClientIPAddress: 40.107.12.54
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.152.16.175
+X-MS-Exchange-Organization-MessageScope: 068c230c-d840-4585-a3b2-abac8e5e3522
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 113b75e3-2cc5-425c-bfa7-6286326558d9:0
+X-MS-Exchange-Organization-TargetResourceForest: EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-OrgEopForest: EUR03
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-Id: 113b75e3-2cc5-425c-bfa7-6286326558d9
+X-MS-Exchange-Organization-FFO-ServiceTag: EUR03B
+X-MS-Exchange-Organization-TenantServiceProvider: FOPE
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed:
+ AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-OriginalTenant-Network-Message-Id: e5e6d628-cb9b-4b3c-18a6-08d71427fad5
+X-MS-Exchange-Organization-OriginalTenant-originalarrivaltime: 29 Jul 2019 13:23:43.9824
+ (UTC)
+X-MS-Exchange-Organization-OriginalTenant-fromentityheader: Hosted
+X-MS-Exchange-Organization-OriginalTenant-id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-Organization-OriginalTenant-mailboxtype: HOSTED
+X-MS-Exchange-Organization-OriginalTenant-userprincipalname: g.baccino@cloud3.srl
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted:
+ AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 40.107.12.54
+X-MS-Exchange-Organization-ConnectingEHLO:
+ FRA01-PR2-obe.outbound.protection.outlook.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 40.107.12.54
+X-MS-Exchange-Organization-RecipientMxInfo:
+ ldslogistic.it#10:ldslogistic-it.mail.protection.outlook.com
+X-MS-Exchange-Organization-MxPointsToUs: true
+X-MS-Exchange-Organization-Antispam-Routing-Category: 1
+X-MS-Exchange-Organization-SpoofDetection-ImplicitAllow: True
+X-MS-Exchange-Organization-IntraOrgSpoof-ImplicitAllowReason: 702
+X-MS-Exchange-Organization-VBR-Class: GrayOther
+X-MS-Exchange-Organization-SpoofDetection-Frontdoor-DisplayDomainName:
+ cloud3.srl
+X-MS-Exchange-Organization-CompAuthRes: pass
+X-MS-Exchange-Organization-CompAuthReason: 109
+X-Forefront-Antispam-Report:
+	CIP:40.107.12.54;IPV:NLI;CTRY:FR;EFV:NLI;SFV:NSPM;SFS:(2980300002)(189003)(199004)(626008)(606006)(106002)(7736002)(16586007)(7636002)(1730700003)(74316002)(7116003)(66066001)(3846002)(6116002)(790700001)(217283003)(14454004)(3480700005)(6506007)(26005)(102836004)(7696005)(15974865002)(5660300002)(99286004)(476003)(126002)(58800400005)(8636004)(336012)(14444005)(5024004)(52536014)(25786009)(19627235002)(2351001)(2501003)(356004)(55016002)(486006)(71190400001)(33656002)(61614004)(6436002)(6916009)(221733001)(1096003)(8676002)(236005)(6306002)(54896002)(9686003)(86362001)(733005)(16003)(5640700003)(246002)(220243001)(15398625002)(16866085005);DIR:INB;SFP:;SCL:1;SRVR:VI1PR10MB1869;H:FRA01-PR2-obe.outbound.protection.outlook.com;FPR:;SPF:Pass;LANG:en;PTR:mail-eopbgr120054.outbound.protection.outlook.com;MX:1;A:1;
+X-MS-Exchange-Organization-Originating-Country: FR
+X-MS-Exchange-Organization-Scanned-By-IP-Filter: true
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: lds@ldslogistic.it
+X-MS-Exchange-Organization-MxRecordAlignment: 0
+X-MS-Exchange-Organization-SenderRep-Score: 3
+X-MS-Exchange-Organization-SenderRep-Data:
+ IpClassLargeGrayOther_GrayOther_SmallGrayOther
+X-MS-Exchange-Organization-TLSSubject: CN=mail.protection.outlook.com,
+ O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+X-MS-Exchange-Organization-RepTable-Version: 636960672000000000
+X-MS-Exchange-Organization-HMATPModel-Spf: 1
+X-MS-Exchange-Organization-HMATPModel-FeatureReputationValues-Spam:
+ 260;-1;145;0;0;-1;0;0;-1;-1;-1;-1;-1;109;-1
+X-MS-Exchange-Organization-HMATPModel-FeatureReputationValues-Phish:
+ 21;-1;28;0;0;-1;0;0;-1;-1;-1;-1;-1;29;-1
+X-MS-Exchange-Organization-HMATPModel-Recipient:
+ <PII:H101(bvXyQLh4jd/eUOAnQcw29KgqOUqP175PiIxqo4p7ZHc=)>@ldslogistic.it
+X-MS-Exchange-Organization-P2SenderPII:
+ <PII:H101(Hgfz1wY5Z7gIGTVRUg1tssXqPx+svOYesLYP7EOoCEY=)>@cloud3.srl
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress:
+	LSRV=VI1PR10MB1869.EURPRD10.PROD.OUTLOOK.COM:TOTAL-HUB=1.342|SMRE=0.453(RENV=0.063|CMSGC=0.375|R-CMSG=0.139(R-HS=0.085(R-HSCC=0.085)|R-HSRR=0.053
+ )|R-CMSGC=0.131)|CAT=0.920(CATOS=0.111(CATSM=0.111(CATSM-Pre Index Routing
+ Agent=0.021 |CATSM-Unified Group Post Sent Item Routing Agent=0.033|CATSM-DC
+ Pre Content Filter Agent=0.054 ))|CATORES=0.760(CATRS=0.760(CATRS-DC Pre
+ Content Filter Agent=0.072|CATRS-Transport Rule Agent=0.116
+ (X-ETRLD=0.115)|CATRS-DLP Policy Agent=0.033(X-DLPLD=0.033)|CATRS-DC Content
+ Filter Agent=0.264 |CATRS-Spam Filter Agent=0.231|CATRS-Tenant Outbound
+ Connector Agent=0.038))|CATORT=0.036 (CATRT=0.036(CATRT-RMS Encryption
+ Agent=0.032)));2019-07-29T13:23:46.587Z
+X-MS-Exchange-Organization-MessageLatency:
+ SRV=AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com:TOTAL-FE=0.437|SMR-PEN=0.332(RENV=0.061(SMRRC=0.045(SMRRC-Protocol
+ Filter Agent=0.030))|REOH=0.270 (SMREH=0.268(SMREH-Protocol Filter
+ Agent=0.266))|SMRPROXY-PEN=0.000)|SMS=0.106
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=DB6PR1001CA0024.EURPRD10.PROD.OUTLOOK.COM:TOTAL-FE=0.171|SMR-PEN=0.110(RENV=0.072|REOH=0.037(SMRPI=0.035(SMRPI-FrontendProxyAgent=0.035))|SMRPROXY-PEN=0.000
+ )|SMS=0.095
+X-MS-Exchange-Forest-ArrivalHubServer: VI1PR10MB1869.EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthSource:
+	AM5EUR03FT024.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Forest-MessageScope: 068c230c-d840-4585-a3b2-abac8e5e3522
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+	ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	e5e6d628-cb9b-4b3c-18a6-08d71427fad5
+X-MS-Exchange-Organization-Auth-DmarcStatus: Pass
+X-MS-Exchange-Organization-VerifiedDkimDomainsList: cloud3srl.onmicrosoft.com
+X-MS-Exchange-Organization-Originating-IPHeaderPresent: True
+X-Microsoft-Antispam:
+	BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600148)(710020)(711020)(4605104)(4709080)(1420029)(8001031)(1414054)(1124261)(71702078)(7193020);SRVR:VI1PR10MB1869;
+X-MS-Exchange-Organization-OriginalSize: 19734
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+	ReplicaId=9c500854-7a09-97f2-9273-82fb2714d708;ReplicatingServerFqdn=AM6PR10MB1863.EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Forest-IndexAgent-0:
+	AQ0CZW4AAc0DAAAPAAADH4sIAAAAAAAEAHVT227bRhBdWbIulOjkE+
+ Y9CitZqV09GnFhBDBa13HzvibH1ABLrrJLypCf8g996h/0P/onec5H
+ 9CzXdt0WBQhiuXPmzMw5w2/jNCn1rRM2nCbvL3/+9XxFH68v0+RK9M
+ ODpve6EmMsXVhTCh3/kKfJ8mSxXNKZ4/pB1zZNbthk9Ga1psVyQevl
+ cnHy/SpN7u/vs9zYtlhl3hnwZR8+ndHi+N369PTdYr1ep8kvLfvGUm
+ HztuIapz//oDvrKo0j+9y0XnY6RJi27EgMFUiQWjfaic3opm0QMkxS
+ d2kPYmsh2QnlFkl12/Acx2rr2AvxDkytNkLaGC51I3PytkZ9TU4AZ8
+ f/LgueOykwqIQ8Bs6z22lEPCNWWBJq2FWCugVjyp2UXeJ5dln6jJbr
+ k++OF4sVOiSMxU40FUJbhwr5HoRIomsurdFRAW6d3bKlk9M1Epcn9P
+ XLb3RxfnX9FuDPrdTIrjkItXVWbqXRZL5++b1txAjsCgowtSZUshin
+ tjXptrEuBBud0UcmveMmTJLzDpFOWXYuoD9HPyr2Xpel2Dl9Cr1yuR
+ FdWYjhGvYclSmiyLqBFzCgqrgQVOiCaQKrKoE5AQkVdZ2zMQFoNPHb
+ Sgs25sKh3bB0jxo3QeNmTz/ZBr11g99sxD/iH7sKXsOhQuqSdL2nUD
+ /fhKqegMUaULOBOxZb0Xome9d9S1iHggtynMtWAEd2AUv2cQrYk79o
+ owsGkwSLgqzH/WqgLm1b51sNAih1yaV4g/sdHOfcMT87niaBI9T+sb
+ NU13QRVgzk59CJrpxtOO8Y4X9rIvl/bc/oDGO2NVzcBBu7GXbC9/Mw
+ 3xw+YGOtb6EtZsdX4+S27cigB5ZkE7aEi4w+3NHetqS7tWj+R5Y5bQ
+ 1rz1GWPMJ8ADm63QO3NfsnR8KA4Yd0dh9+KaSAwj9JjmZL/Kr4Jx6d
+ y9JEHYxVMlSjvjrEe6TGh2rY7x0eKoUDQjj3ler3BvE9UmqkJv2eOl
+ KDmNXrAXmA0FSpqUpxOVFJTx2A6ki96qvBgerP1BHYukOKm4majtUE
+ MPAP1CHu8Qlwqo6QiHvkRgbwx/NzGwOlYgru4ztEFarPRr3xC8xooI
+ YIoR/AemHMySv1GuQdOMVlN+Ck3w3StT3FJQCzLpqo6ZF6HXtDetJF
+ h2qMBzxDNRk8KfbEOQMABzwIxcHxjpPGe4CjAmADHiFgcBj2Ri86H0
+ YwosCDCuCkN/3naMAPZkHtIFHs7antv9t45sFosdU4bJy9s2/w8rID
+ J6O/AOF9L8OBBgAAAQmOAjw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2
+ Rpbmc9InV0Zi0xNiI/Pg0KPFBob25lU2V0Pg0KICA8VmVyc2lvbj4x
+ NS4wLjAuMDwvVmVyc2lvbj4NCiAgPFBob25lcz4NCiAgICA8UGhvbm
+ UgU3RhcnRJbmRleD0iNzUiPg0KICAgICAgPFBob25lU3RyaW5nPjAx
+ MDkxMTA2NTM8L1Bob25lU3RyaW5nPg0KICAgICAgPE9yaWdpbmFsUG
+ hvbmVTdHJpbmc+MDEwIDkxMTA2NTM8L09yaWdpbmFsUGhvbmVTdHJp
+ bmc+DQogICAgPC9QaG9uZT4NCiAgPC9QaG9uZXM+DQo8L1Bob25lU2
+ V0PgELzwE8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYt
+ MTYiPz4NCjxVcmxTZXQ+DQogIDxWZXJzaW9uPjE1LjAuMC4wPC9WZX
+ JzaW9uPg0KICA8VXJscz4NCiAgICA8VXJsIFN0YXJ0SW5kZXg9Ijg4
+ IiBUeXBlPSJVcmwiPg0KICAgICAgPFVybFN0cmluZz53d3cuY2xvdW
+ QzLnNybDwvVXJsU3RyaW5nPg0KICAgIDwvVXJsPg0KICA8L1VybHM+
+ DQo8L1VybFNldD4BDNEFPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZG
+ luZz0idXRmLTE2Ij8+DQo8Q29udGFjdFNldD4NCiAgPFZlcnNpb24+
+ MTUuMC4wLjA8L1ZlcnNpb24+DQogIDxDb250YWN0cz4NCiAgICA8Q2
+ 9udGFjdCBTdGFydEluZGV4PSIzMSI+DQogICAgICA8UGVyc29uIFN0
+ YXJ0SW5kZXg9IjMxIj4NCiAgICAgICAgPFBlcnNvblN0cmluZz5DYW
+ 1pbGxvIEdvbGdpPC9QZXJzb25TdHJpbmc+DQogICAgICA8L1BlcnNv
+ bj4NCiAgICAgIDxQaG9uZXM+DQogICAgICAgIDxQaG9uZSBTdGFydE
+ luZGV4PSI3NSI+DQogICAgICAgICAgPFBob25lU3RyaW5nPjAxMDkx
+ MTA2NTM8L1Bob25lU3RyaW5nPg0KICAgICAgICAgIDxPcmlnaW5hbF
+ Bob25lU3RyaW5nPjAxMCA5MTEwNjUzPC9PcmlnaW5hbFBob25lU3Ry
+ aW5nPg0KICAgICAgICA8L1Bob25lPg0KICAgICAgPC9QaG9uZXM+DQ
+ ogICAgICA8VXJscz4NCiAgICAgICAgPFVybCBTdGFydEluZGV4PSI4
+ OCIgVHlwZT0iVXJsIj4NCiAgICAgICAgICA8VXJsU3RyaW5nPnd3dy
+ 5jbG91ZDMuc3JsPC9VcmxTdHJpbmc+DQogICAgICAgIDwvVXJsPg0K
+ ICAgICAgPC9VcmxzPg0KICAgICAgPENvbnRhY3RTdHJpbmc+Q2FtaW
+ xsbyBHb2xnaSAyOGMNCjE2MDExIEFyZW56YW5vDQpUZWwuICszOSAw
+ MTAgOTExMDY1Mw0Kd3d3LmNsb3VkMy5zcmw8L0NvbnRhY3RTdHJpbm
+ c+DQogICAgPC9Db250YWN0Pg0KICA8L0NvbnRhY3RzPg0KPC9Db250
+ YWN0U2V0PgEOzwFSZXRyaWV2ZXJPcGVyYXRvciwxMCwwO1JldHJpZX
+ Zlck9wZXJhdG9yLDExLDE7UG9zdERvY1BhcnNlck9wZXJhdG9yLDEw
+ LDA7UG9zdERvY1BhcnNlck9wZXJhdG9yLDExLDA7UG9zdFdvcmRCcm
+ Vha2VyRGlhZ25vc3RpY09wZXJhdG9yLDEwLDA7UG9zdFdvcmRCcmVh
+ a2VyRGlhZ25vc3RpY09wZXJhdG9yLDExLDA7VHJhbnNwb3J0V3JpdG VyUHJvZHVjZXIsMjAsMTI=
+X-MS-Exchange-Forest-IndexAgent: 1 2405
+X-MS-Exchange-Forest-EmailMessageHash: A0152F95
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Organization-IsPotentialIntraOrgMail: False
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+	MAOSUB:1;MAOSUBLOAD:1;SAORES:32;SAORESLOAD:32;SLORES:1;SLORESLOAD:1;
+X-MS-Exchange-Organization-MessageFingerprint:
+	F7D07015.ACD3A712.74D75ECB.C0E9B9C1.2024D
+X-MS-Exchange-Organization-Persisted-Urls-ChunkCount: 1
+X-MS-Exchange-Organization-Persisted-Urls-0:
+	=?us-ascii?Q?[{"ID":1,"OU":"https://www.cloud3.srl/wp-content/uploads/201?=
+ =?us-ascii?Q?8/02/Cloud3=5Flogo=5F85x55.png","IBT":false,"U":"https://www?=
+ =?us-ascii?Q?.cloud3.srl/wp-content/uploads/2018/02/Cloud3=5Flogo=5F85x55?=
+ =?us-ascii?Q?.png","DNR":false,"IAR":false,"LI":{"BF":1,"SI":13,"EndIndex?=
+ =?us-ascii?Q?":85},"SRCI":1,"CannonicalizedUrl":"https://www.cloud3.srl/w?=
+ =?us-ascii?Q?p-content/uploads/2018/02/Cloud3=5Flogo=5F85x55.png","Normal?=
+ =?us-ascii?Q?izedUrl":"https://www.cloud3.srl/wp-content/uploads/2018/02/?=
+ =?us-ascii?Q?Cloud3=5Flogo=5F85x55.png","DPD":{"OCH":"1547423037650069994?=
+ =?us-ascii?Q?","CNT":"1"},"PROC":[{"T":2,"PU":"https://www.cloud3.srl/wp-?=
+ =?us-ascii?Q?content/uploads/2018/02/Cloud3=5Flogo=5F85x55.png","CR":null?=
+ =?us-ascii?Q?,"OR":[{"OC":8,"RC":2,"EX":false},{"OC":16384,"RC":2,"EX":fa?=
+ =?us-ascii?Q?lse},{"OC":1,"RC":2,"EX":false},{"OC":512,"RC":3,"EX":false}?=
+ =?us-ascii?Q?,{"OC":262144,"RC":2,"EX":false},{"OC":256,"RC":2,"EX":false?=
+ =?us-ascii?Q?},{"OC":4,"RC":3,"EX":false},{"OC":16,"RC":2,"EX":false},{"O?=
+ =?us-ascii?Q?C":1024,"RC":3,"EX":false},{"OC":32,"RC":2,"EX":false}],"Url?=
+ =?us-ascii?Q?OperationFlag":1540},{"T":1,"PU":"https://www.cloud3.srl/wp-?=
+ =?us-ascii?Q?content/uploads/2018/02/Cloud3=5Flogo=5F85x55.png","CR":null?=
+ =?us-ascii?Q?,"OR":[{"OC":8,"RC":2,"EX":false},{"OC":16384,"RC":2,"EX":fa?=
+ =?us-ascii?Q?lse},{"OC":1,"RC":2,"EX":false},{"OC":512,"RC":3,"EX":false}?=
+ =?us-ascii?Q?,{"OC":262144,"RC":2,"EX":false},{"OC":256,"RC":2,"EX":false?=
+ =?us-ascii?Q?},{"OC":4,"RC":3,"EX":false},{"OC":16,"RC":2,"EX":false},{"O?=
+ =?us-ascii?Q?C":1024,"RC":3,"EX":false},{"OC":32,"RC":2,"EX":false},{"OC"?=
+ =?us-ascii?Q?:4096,"RC":3,"EX":false}],"UrlOperationFlag":5636}]},{"ID":1?=
+ =?us-ascii?Q?,"OU":"http://www.cloud3.srl/","IBT":false,"U":"http://www.c?=
+ =?us-ascii?Q?loud3.srl/","DNR":false,"IAR":false,"LI":{"TN":"a","IC":true?=
+ =?us-ascii?Q?,"BF":2,"SI":2166,"EndIndex":2214},"SRCI":1,"CannonicalizedU?=
+ =?us-ascii?Q?rl":"http://www.cloud3.srl","NormalizedUrl":"http://www.clou?=
+ =?us-ascii?Q?d3.srl/","DPD":{"UF":"256","OCH":"697283440383771307","CNT":?=
+ =?us-ascii?Q?"3","SL":"1"},"PROC":[{"T":2,"PU":"http://www.cloud3.srl/","?=
+ =?us-ascii?Q?CR":null,"OR":[{"OC":8,"RC":2,"EX":false},{"OC":16384,"RC":2?=
+ =?us-ascii?Q?,"EX":false},{"OC":1,"RC":2,"EX":false},{"OC":512,"RC":3,"EX?=
+ =?us-ascii?Q?":false},{"OC":262144,"RC":2,"EX":false},{"OC":256,"RC":2,"E?=
+ =?us-ascii?Q?X":false},{"OC":4,"RC":3,"EX":false},{"OC":16,"RC":2,"EX":fa?=
+ =?us-ascii?Q?lse},{"OC":1024,"RC":3,"EX":false},{"OC":32,"RC":2,"EX":fals?=
+ =?us-ascii?Q?e}],"UrlOperationFlag":1540},{"T":1,"PU":"http://www.cloud3.?=
+ =?us-ascii?Q?srl","CR":null,"OR":[{"OC":8,"RC":2,"EX":false},{"OC":16384,?=
+ =?us-ascii?Q?"RC":2,"EX":false},{"OC":1,"RC":2,"EX":false},{"OC":512,"RC"?=
+ =?us-ascii?Q?:3,"EX":false},{"OC":262144,"RC":2,"EX":false},{"OC":256,"RC?=
+ =?us-ascii?Q?":2,"EX":false},{"OC":4,"RC":3,"EX":false},{"OC":16,"RC":2,"?=
+ =?us-ascii?Q?EX":false},{"OC":1024,"RC":3,"EX":false},{"OC":32,"RC":2,"EX?=
+ =?us-ascii?Q?":false},{"OC":4096,"RC":2,"EX":false}],"UrlOperationFlag":1?=
+ =?us-ascii?Q?540}]}]?=
+X-MS-Exchange-PUrlCount: 2
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+	CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: Command;Symantec;Microsoft
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-UrlSelected: 1
+X-MS-Exchange-Organization-UrlLogged: 1
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-ASDirectionalityType: 1
+X-MS-Exchange-Organization-HMATPModel-DkimAuthStatus: 1
+X-MS-Exchange-Organization-HMATPModel-DmarcAuthStatus: 2
+X-MS-Exchange-Organization-Antispam-ContentFilter-ScanContext:
+	CategorizerOnResolved;
+X-MS-Exchange-Organization-CFA-UserOption: 0
+X-MS-Exchange-Organization-CommunicationStateSummary: NEI
+X-MS-Exchange-Organization-FirstContactSummary:
+	ST=2;MRG=0;EXT=0;UN=1;ORCT=1;EV=1;FC=0;NESI=1;NES=0;ESTI=0;EST=0;INS=0;ERR=0
+X-MS-Exchange-Organization-CompAuth-Eop: compauth=pass reason=109
+X-MS-Exchange-Organization-UriInBody: true
+X-MS-Exchange-Organization-Feature-Long: 0	201:3432	202:1091	203:1	205:23
+	208:73	215:3430	220:1	221:1	223:1	227:1	235:2	236:1	238:2	239:1	241:1	243:1
+	244:3	245:1	246:1	247:1	248:1	252:1	260:3	261:400	262:6
+	1006:notice,attach,contact	1007:Latn	1014:cloud3srl.onmicrosoft.com
+	1015:cloud3.srl	1020:cloud3.srl	1030:cloud3.srl	1034:536D474A@ldslogistic.it
+	1035:cloud3.srl
+X-MS-Exchange-Organization-CBAS-Score: 4268
+X-MS-Exchange-Organization-ExtractionTags: SUB64;1IMG;LINK;
+X-MS-Exchange-Organization-ExtractionTagsURLFound: URL
+X-MS-Exchange-Organization-ExtractionTagsSubject: test
+X-MS-Exchange-Organization-ExtractionTagsFrom: Help / CLOUD3 <help@cloud3.srl>
+X-MS-Exchange-Organization-ExtractionTagsSubjectNormalized: test
+X-MS-Exchange-Organization-HeloRdns:
+	FRA01-PR2-obe.outbound.protection.outlook.com;mail-eopbgr120054.outbound.protection.outlook.com
+X-MS-Exchange-Organization-SpamScore: 3
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Antispam-PostContentFilter-ScanContext:
+	CategorizerOnResolved;CategorizerOnRouted;CategorizerOnCategorized;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?xaqCK9T4ww0UXL3H/WElOBlWGOBCotIBDOT9rRsvR0aleW2Lw23vsNc9pZ9X?=
+ =?us-ascii?Q?pRoE/6NMR6ubTsQKUsOxX2HPrVoAy85qJYs2Sk9kYA+NjikqTzFNP0LDvULP?=
+ =?us-ascii?Q?4HIWZfCZBQ4L+F3uKghEeQfXWufdZNO7kzkstAbfEMUVka3AkJopKOw/B7in?=
+ =?us-ascii?Q?5mCXJoRFNYOViQrcrsgv8ppmCAkH+iQphgMMFmJ66+VPmpRHBnz9ywKrtheC?=
+ =?us-ascii?Q?sVh6xw7vFgG7snGS/wHdNqwpf/ULfu0sCk3EyIPczY/rcpYmmWUc4hgIgeiM?=
+ =?us-ascii?Q?xZoAo93nmqaV5cV3012Q9TfJnrNdRsQ52t/TvUJieZogi4CU7gLaESr+X6ES?=
+ =?us-ascii?Q?zNVgzzlzGfu4gDl/1+FCjA8ilfglznVqdh/HeWXaJDtpXokgG9BbtHe6o+4q?=
+ =?us-ascii?Q?73/t+dpgwplrdAfpiP9tqgL6+ARMO2Wdbz5ck3TBVVGvaH+1rd1Iw6ectVdN?=
+ =?us-ascii?Q?n/eLRDFWXqHmwu6wBKy9gQUFZfFo1SUdwHGpGGc+vJ9/oyuxWdHuyyhZ2gXG?=
+ =?us-ascii?Q?x7SykUmmbx6Clc2M2OM1df8O2yrsSUpBn0WJ2gPccyesCPCJ1h9OswVaPfbs?=
+ =?us-ascii?Q?0XElGiduvetl6DeGGZZmabGZAkpEGd5JeSetBHGjx8ocGx6V7QaqhhjKgKsD?=
+ =?us-ascii?Q?2Dd40EKwuDxQxHkAGLZu/3aGuY+OiRl/mCa2ZrsOf0LNAhpzNO6Fx9ILzNFS?=
+ =?us-ascii?Q?5CbzzHSNgzbd3OpzzDin/C923bWWSYd8sW7y5TZFJJVKvcBwvQuOilaeBQN3?=
+ =?us-ascii?Q?smru22nWYOhUIkaoxsMQKhV2uavsyq2jq6HDGawhInHVu/MPZVhMVKJZIwYD?=
+ =?us-ascii?Q?X50D5NM05agWD0AhJL2I4DryqbMZifVglChM1MW28o+8ct4GOdreBXHFjlTd?=
+ =?us-ascii?Q?6s7lo3ErnJBXqAFfBRO+/+UbBWFYMolJAeZFDuVXjPlZRdf4sTXUEuIPoveW?=
+ =?us-ascii?Q?gXhnyX9btFqxHF4H2d/fiQ=3D=3D?=
+X-MS-Exchange-Organization-GroupForkPerf: VCL=0;VL=0
+X-MS-Exchange-Organization-Processed-By-Gcc-Journaling: Journal Agent
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?00CIP=3D40.107.12.54;EIPC0=3D2004,2055,950,2005,2006,2007,20?=
+ =?us-ascii?Q?08,2009,2010,2011,2012,2013,2014,951,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,907,2015,2001,3000,904,2003,2002,?=
+ =?us-ascii?Q?967,2058,2059,2060,531,2017,5011,5053,5051,5060,5001,5056,50?=
+ =?us-ascii?Q?57,5054,5050,5058,906,5010,5055,5052,5059,5031,5040,5022,503?=
+ =?us-ascii?Q?7,5035,5034,5032,5027,5030,5028,5029,5024,5025,5023,5026,503?=
+ =?us-ascii?Q?3,5039,5036,5038,5021,5020,5002,5003,5005;MIPC0=3D2002,2003,?=
+ =?us-ascii?Q?2004,950,952,951;REP=3D01,1,187\;01,2,832\;01,3,5623\;01,4,1?=
+ =?us-ascii?Q?040\;01,5,113\;01,6,3\;01,7,27\;01,8,350\;01,9,459398\;01,10?=
+ =?us-ascii?Q?,76169\;01,11,0\;01,12,350\;02,1,750\;02,2,0\;02,3,135\;02,4?=
+ =?us-ascii?Q?,17\;02,5,74\;02,6,0\;02,7,0;SL=3D1;EMSL=3D1;SCL=3D0;BL=3D0;?=
+ =?us-ascii?Q?RL=3D1;PID=3D0;PL=3D0;EXPID=3D;ACTH=3Dtrue;IsIncomingMail=3D?=
+ =?us-ascii?Q?true;SAUTHOP=3D1;MxRslt=3DMxPointsToUsV1;EIPC1=3D2004,2055,9?=
+ =?us-ascii?Q?50,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,951,200?=
+ =?us-ascii?Q?0,2050,2051,2052,952,902,2054,2016,903,901,905,907,2015,2001?=
+ =?us-ascii?Q?,3000,904,2003,2002,967,2058,2059,2060,531,2017,5011,5053,50?=
+ =?us-ascii?Q?51,5060,5001,5056,5057,5054,5050,5058,906,5010,5055,5052,505?=
+ =?us-ascii?Q?9,5031,5040,5022,5037,5035,5034,5032,5027,5030,5028,5029,502?=
+ =?us-ascii?Q?4,5025,5023,5026,5033,5039,5036,5038,5021,5020,5002,5003,500?=
+ =?us-ascii?Q?5,2019,2056,2018,6001,2057,2053;MIPC1=3D2002,2003,2004,950,9?=
+ =?us-ascii?Q?52,951,2054,2057;A=3D00;MX=3D00;P2A=3D00;P2MX=3D00;PTR=3D00m?=
+ =?us-ascii?Q?ail-eopbgr120054.outbound.protection.outlook.com;SPF=3D011aG?=
+ =?us-ascii?Q?VscEBjbG91ZDMuc3Js;DKIM=3D00c2VsZWN0b3IyLWNsb3VkM3NybC1vbm1p?=
+ =?us-ascii?Q?Y3Jvc29mdC1jb20uX2RvbWFpbmtleS5jbG91ZDNzcmwub25taWNyb3NvZnQu?=
+ =?us-ascii?Q?Y29t\;dj1ES0lNMTsgaz1yc2E7IHA9TUlHZk1BMEdDU3FHU0liM0RRRUJBUV?=
+ =?us-ascii?Q?VBQTRHTkFEQ0JpUUtCZ1FEVW5ZR25LSUt5QU5WRFJXblppWmpPTWFKQnVYNm?=
+ =?us-ascii?Q?1LUUF2eE5ueVBiMWlFN2dpRi9NZjcrOVNLMi9vdE9VMCt2bktjUXRINE9xZX?=
+ =?us-ascii?Q?FHWDB1dmZEWGxjVGhPMGZEVXRjUm5RYVU0MlpvUkkvNTdpMFZtdjRDLy9SMD?=
+ =?us-ascii?Q?FTZmNQYUkzbm1EU1p1REFMZ0g4UE93WXBXYmI4TG9Ca0c5dmNiTGRJbU9UVU?=
+ =?us-ascii?Q?hJMkxBUnR3SURBUUFCOw=3D=3D;DMARC=3D01Y2xvdWQzLnNybA=3D=3D\;;?=
+ =?us-ascii?Q?ARC=3D00YXJjc2VsZWN0b3I5OTAxLl9kb21haW5rZXkubWljcm9zb2Z0LmNv?=
+ =?us-ascii?Q?bQ=3D=3D\;dj1ES0lNMTsgaz1yc2E7IHA9TUlJQklqQU5CZ2txaGtpRzl3ME?=
+ =?us-ascii?Q?JBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvaENFQ3g4QUNWSWo0MnRhTWM4Rz?=
+ =?us-ascii?Q?JsamlEbXNib1VXNG1nYXNPZzMvMkF5MUQzN0R3SzBDRTFhb2s2eDB4NmRRNE?=
+ =?us-ascii?Q?ZDL05HZGVrc1BqVC9aTFlIK3p3d1V2RWxKd2Q4YWR0Wks0RTdBVDlSenI2V1?=
+ =?us-ascii?Q?B0VGlGSGk4N2Vt?=
+X-MS-Exchange-Organization-Cross-Session-Cache:
+	=?us-ascii?Q?01Nm4xMkhUdnA4cGxwR0hYbm04dmRGclR4Y0NVZ3V3VUJ6YmU2TUIxMkRjM3?=
+ =?us-ascii?Q?ZTVVJjT1VxZmE2RGxqLzZjTmVobCtQTW9ucWxMeE9sMkttcFRKL1Z5OWpoZE?=
+ =?us-ascii?Q?ZPdTUweEVoWElUNW9jT2E0dFgxMmhmb01wWmZCVzZpVTVRSXl2bkVGa0p1Rj?=
+ =?us-ascii?Q?hJYnM3SGhyN0VjMUdaYzZ0Z09kNXVOVEFubnZoK3hpWXM4ZTcyMkg1aURlY0?=
+ =?us-ascii?Q?1zQnpqK0k5VStDQlkxQUN3WTloVEMxVUROdTN4UytXS1FOZ3ZuaWZkSVFJRE?=
+ =?us-ascii?Q?FRQUI=3D;AUTHRES=3D[mx.microsoft.com,1]{5,1,UABhAHMAcwA=3D,c?=
+ =?us-ascii?Q?wBlAG4AZABlAHIAIABJAFAAIABpAHMAIAA0ADAALgAxADAANwAuADEAMgAuA?=
+ =?us-ascii?Q?DUANAA=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D?=
+ =?us-ascii?Q?=3D|bABkAHMAbABvAGcAaQBzAHQAaQBjAC4AaQB0AA=3D=3D,cwBtAHQAcAA?=
+ =?us-ascii?Q?uAE0AYQBpAGwARgByAG8AbQA=3D|YwBsAG8AdQBkADMALgBzAHIAbAA=3D}{?=
+ =?us-ascii?Q?9,17,QgBlAHMAdABHAHUAZQBzAHMAUABhAHMAcwA=3D,,YQBjAHQAaQBvAG4?=
+ =?us-ascii?Q?A|TgBvAG4AZQA=3D,aABlAGEAZABlAHIALgBmAHIAbwBtAA=3D=3D|YwBsAG?=
+ =?us-ascii?Q?8AdQBkADMALgBzAHIAbAA=3D}{2,1,UABhAHMAcwA=3D,cwBpAGcAbgBhAHQ?=
+ =?us-ascii?Q?AdQByAGUAIAB3AGEAcwAgAHYAZQByAGkAZgBpAGUAZAA=3D,aABlAGEAZABl?=
+ =?us-ascii?Q?AHIALgBkAA=3D=3D|YwBsAG8AdQBkADMAcwByAGwALgBvAG4AbQBpAGMAcgB?=
+ =?us-ascii?Q?vAHMAbwBmAHQALgBjAG8AbQA=3D}{12,1,UABhAHMAcwA=3D,MAAgAG8AZAB?=
+ =?us-ascii?Q?hAD0AMQAgAGwAdABkAGkAPQAxACAAcwBwAGYAPQBbADEALAAxACwAcwBtAHQ?=
+ =?us-ascii?Q?AcAAuAG0AYQBpAGwAZgByAG8AbQA9AGMAbABvAHUAZAAzAC4AcwByAGwAXQA?=
+ =?us-ascii?Q?gAGQAawBpAG0APQBbADEALAAxACwAaABlAGEAZABlAHIALgBkAD0AYwBsAG8?=
+ =?us-ascii?Q?AdQBkADMALgBzAHIAbABdACAAZABtAGEAcgBjAD0AWwAxACwAMQAsAGgAZQB?=
+ =?us-ascii?Q?hAGQAZQByAC4AZgByAG8AbQA9AGMAbABvAHUAZAAzAC4AcwByAGwAXQA=3D}?=
+ =?us-ascii?Q?;SpfResult=3D1;DkimStatus=3D1;DkimSS=3D0;DmarcStatus=3D2;Dma?=
+ =?us-ascii?Q?rcAction=3D0;IsSenderVerified=3Dtrue;CAuthExp=3Dtrue;ARCRES?=
+ =?us-ascii?Q?=3Dv120010000000000000000000000000000000000000;PReRC=3D1;FPR?=
+ =?us-ascii?Q?=3DF7D07015.ACD3A712.74D75ECB.C0E9B9C1.2024D;URLC=5FBE=3D4;U?=
+ =?us-ascii?B?UkxDX0JFQz0xO1VSTENfQj0yO1VSTENfQkM9MTtVUkxDX0FFPTA7VU1fTUlO?=
+ =?us-ascii?Q?FPR=3D3458;NoDLx=3D1;DIR=3D1;PTRO=3Doutlook.com;P2O=3Dcloud3?=
+ =?us-ascii?Q?.srl;P=5FCAUTH=3Dpass;P=5FCAUTHR=3D109;IntraOrgXmiPipelineEn?=
+ =?us-ascii?Q?abled=3Dtrue;GWS=5FRead=3DV2;SRCS=3DNEI;CAUTH=3Dpass;CAUTHR?=
+ =?us-ascii?Q?=3D109;CAUTH=5FCAT=3DAD;HMEPV=3D140;HMESV=3D1166;UMGPV=3D410?=
+ =?us-ascii?Q?1;BMASV=3D2118;BMAPV=3D1001;CMASV=3D2822;CMAPV=3D2454;CBASV?=
+ =?us-ascii?Q?=3D4268;CBESV=3D1846;CBEBV=3D2966;CLEPV=3D32;EIPC2=3D2055,20?=
+ =?us-ascii?Q?19,2056,2018,2050,2051,2052,2054,6001,2057,2053;MIPC2=3D2057?=
+ =?us-ascii?Q?;SFA=5FSFV=3DNSPM;SFA=5FASC=3D3;SFA=5FSCL=3D1;FFV=3DNSPM;FV?=
+ =?us-ascii?Q?=5FSCL=3D1;FV=3DNSPM;FVS=3DFilters;FSCL=3D1;TAP=5FEP=3D?=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Jul 2019 13:23:44.6349
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a4192dfd-9587-4c1e-ca40-08d71427fb33
+X-MS-Exchange-CrossTenant-Id: 113b75e3-2cc5-425c-bfa7-6286326558d9
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR10MB1869
+X-MS-Exchange-Organization-OutboundCrossTenantAgentProcessed: VI1PR10MB1869
+X-MS-Exchange-Organization-DelayAnalysis-Summary: Processed

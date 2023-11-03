@@ -1,0 +1,17 @@
+[
+    {
+        "name": "arCodArt",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "category",
+        "link": true,
+        "align": "left"
+    }
+]

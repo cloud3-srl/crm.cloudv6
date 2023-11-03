@@ -1,0 +1,21 @@
+{
+    "scheduler": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "cases": {
+        "style": "primary",
+        "sticked": false,
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "isTrue",
+                    "attribute": "hasAccount"
+                }
+            ]
+        },
+        "index": 0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "layouts": {
+        "listItem": "List (Item)",
+        "detailBottomTotal": "Bottom Total"
+    },
+    "fields": {
+        "useAutoincrement": "Auto-Increment",
+        "copyFieldList": "Fields to Copy"
+    },
+    "templates": {
+        "salesEmailPdf": "Email PDF (Sales)"
+    }
+}

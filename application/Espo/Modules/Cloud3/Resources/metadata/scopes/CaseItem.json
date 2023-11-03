@@ -1,0 +1,11 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": false,
+    "acl": false,
+    "module": "Cloud3",
+    "customizable": true,
+    "importable": false,
+    "notifications": false,
+    "object": true
+}

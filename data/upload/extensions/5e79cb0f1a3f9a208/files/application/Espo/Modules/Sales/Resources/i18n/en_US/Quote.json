@@ -1,0 +1,76 @@
+{
+    "labels": {
+        "Create Quote": "Create Quote",
+        "Taxes": "Taxes",
+        "Shipping Providers": "Shipping Providers",
+        "Add Item": "Add Item",
+        "Templates": "Templates",
+        "Items": "Items",
+        "Email PDF": "Email PDF",
+        "Quote Items": "Quote Items"
+    },
+    "fields": {
+        "status": "Status",
+        "number": "Quote Number",
+        "numberA": "Quote Number (auto-incremented)",
+        "invoiceNumber": "Invoice Number",
+        "account": "Account",
+        "opportunity": "Opportunity",
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "billingContact": "Billing Contact",
+        "shippingContact": "Shipping Contact",
+        "tax": "Tax",
+        "taxRate": "Tax Rate",
+        "shippingCost": "Shipping Cost",
+        "shippingProvider": "Shipping Provider",
+        "taxAmount": "Tax Amount",
+        "discountAmount": "Discount Amount",
+        "amount": "Amount",
+        "preDiscountedAmount": "Pre-Discount Amount",
+        "grandTotalAmount": "Grand Total Amount",
+        "itemList": "Item List",
+        "dateQuoted": "Date Quoted",
+        "dateOrdered": "Date Ordered",
+        "dateInvoiced": "Date Invoiced",
+        "weight": "Weight",
+        "amountConverted": "Amount (converted)",
+        "taxAmountConverted": "Tax Amount (converted)",
+        "shippingCostConverted": "Shipping Cost (converted)",
+        "preDiscountedAmountConverted": "Pre-Discount Amount (converted)",
+        "discountAmountConverted": "Discount Amount (converted)",
+        "grandTotalAmountConverted": "Grand Total Amount (converted)",
+        "shippingCostCurrency": "Shipping Cost Currency",
+        "taxAmountCurrency": "Tax Amount Currency",
+        "discountAmountCurrency": "Discount Amount Currency",
+        "amountCurrency": "Amount Currency",
+        "preDiscountedAmountCurrency": "Pre-Discount Amoun Currency",
+        "grandTotalAmountCurrency": "Grand Total Amount Currency",
+        "currency": "Currency"
+    },
+    "links": {
+        "items": "Items",
+        "billingContact": "Billing Contact",
+        "shippingContact": "Shipping Contact",
+        "shippingProvider": "Shipping Provider",
+        "opportunity": "Opportunity",
+        "account": "Account",
+        "tax": "Tax",
+        "salesOrders": "Sales Orders",
+        "invoices": "Invoices"
+    },
+    "options": {
+        "status": {
+            "Draft": "Draft",
+            "In Review": "In Review",
+            "Presented": "Presented",
+            "Approved": "Approved",
+            "Rejected": "Rejected",
+            "Canceled": "Canceled"
+        }
+    },
+    "presetFilters": {
+        "actual": "Actual",
+        "approved": "Approved"
+    }
+}

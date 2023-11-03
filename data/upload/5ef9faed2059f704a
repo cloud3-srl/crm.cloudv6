@@ -1,0 +1,415 @@
+Received: from AM6PR09MB3222.eurprd09.prod.outlook.com (2603:10a6:4:8f::16) by
+ DB7PR09MB2345.eurprd09.prod.outlook.com with HTTPS via
+ DB6PR0501CA0006.EURPRD05.PROD.OUTLOOK.COM; Mon, 29 Jun 2020 10:07:52 +0000
+Received: from AM6P194CA0075.EURP194.PROD.OUTLOOK.COM (2603:10a6:209:8f::16)
+ by AM6PR09MB3222.eurprd09.prod.outlook.com (2603:10a6:20b:da::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.23; Mon, 29 Jun
+ 2020 10:07:52 +0000
+Received: from VI1EUR05FT015.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:209:8f:cafe::8c) by AM6P194CA0075.outlook.office365.com
+ (2603:10a6:209:8f::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.20 via Frontend
+ Transport; Mon, 29 Jun 2020 10:07:52 +0000
+Received: from smtpcmd02101.aruba.it (62.149.158.101) by
+ VI1EUR05FT015.mail.protection.outlook.com (10.233.242.108) with Microsoft
+ SMTP Server (version=TLS1_0, cipher=TLS_RSA_WITH_AES_256_CBC_SHA) id
+ 15.20.3131.20 via Frontend Transport; Mon, 29 Jun 2020 10:07:51 +0000
+Received: from mxdhbe11.ad.aruba.it ([10.10.10.61])
+	by smtpcmd02.ad.aruba.it with bizsmtp
+	id wy7q220081K13Mm01y7qUM; Mon, 29 Jun 2020 12:07:50 +0200
+Received: (qmail 27244 invoked by uid 89); 29 Jun 2020 10:07:49 -0000
+Received: (qmail 27228 invoked by uid 89); 29 Jun 2020 10:07:49 -0000
+Received: from unknown (HELO mxdhfe03.ad.aruba.it) (10.10.10.213)
+  by mxdhbe11.ad.aruba.it with SMTP; 29 Jun 2020 10:07:49 -0000
+Received: from smtp175.ext.armada.it ([5.134.127.135])
+	by bizsmtp with ESMTP
+	id pqhZjiIJ35QaJpqhZjYKBE; Mon, 29 Jun 2020 12:07:49 +0200
+Received: from PCTraffico3 (unknown [185.214.200.33])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: SMTP-BASIC-12697)
+	by smtp170.ext.armada.it (Postfix) with ESMTPSA id 7D37C143161;
+	Mon, 29 Jun 2020 10:01:26 +0200 (CEST)
+From: Brian - Continent Transport <brian@continent.it>
+To: "'Marina Zonza  -- Cavanna Olii Snc --'" <marinaz@cavannaolii.com>,
+	'Ordini - Cavanna' <ordini@cavannaolii.com>
+CC: 'Andreas' <andreas@continent.it>, 'Marc Wartmann'
+	<marc.wartmann@mds-holding.de>
+Subject: carichi setttimanali
+Thread-Topic: carichi setttimanali
+Thread-Index: AdZN6wf5ybk3SB7bSiecWV2AR3miEA==
+Date: Mon, 29 Jun 2020 08:00:35 +0000
+Message-ID: <010b01d64deb$5efe5d70$1cfb1850$@continent.it>
+Content-Language: aa
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR05FT015.eop-eur05.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+ 6e2f9051-cd58-4078-d8e9-08d81c1448b9
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+received-spf: Pass (protection.outlook.com: domain of continent.it designates
+ 62.149.158.101 as permitted sender) receiver=protection.outlook.com;
+ client-ip=62.149.158.101; helo=smtpcmd02101.aruba.it;
+x-ms-exchange-organization-originalclientipaddress: 62.149.158.101
+x-ms-exchange-organization-originalserveripaddress: 10.233.242.108
+x-ms-exchange-organization-submissionquotaskipped: False
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aruba.it; s=a1;
+	t=1593425270; bh=LqEr+mat8SEVg0k1ag1hoNLvUIoruLrXtUtt8VmKhjo=;
+	h=From:To:Subject:Date:MIME-Version:Content-Type;
+	b=OpDCygLW++SSLuRi1iW5ZMvLBXwxg9H+hY9091ed/5vS9VYwx9q3ury8Cm53qkuCs
+	 sUuqmK4OgSfVfzUh3baI7/e3c58ls4ISBslCgF2R6UDdSe+8PHqURz3mE9ezG8IHq5
+	 Ml5x/eTHB4Z2klPSzqldlznQup4R7df8Vuci8ltTQBzo77aIkFYc0DgITAHRHxZ58U
+	 kB17n1Krlrl/8e4PKUxSyEZohR+zm4zWTe/YYavSbPxep2JNCPhQE0eWG2Gq6BSDRA
+	 AZEg9m20MN8YlEHPengHY8yqxWW46Lq0eyOFISrGZYfLXJLpGbMC85JSynGDlq/1fT
+	 Fhy//JCjeEvrA==
+authentication-results: spf=pass (sender IP is 62.149.158.101)
+ smtp.mailfrom=continent.it; cavannaolii.onmicrosoft.com; dkim=pass (signature
+ was verified) header.d=aruba.it;cavannaolii.onmicrosoft.com; dmarc=permerror
+ action=none header.from=continent.it;compauth=pass reason=111
+x-ms-office365-filtering-correlation-id: 6e2f9051-cd58-4078-d8e9-08d81c1448b9
+x-ms-traffictypediagnostic: AM6PR09MB3222:
+x-ms-oob-tlc-oobclassifiers: OLM:195;
+x-forefront-antispam-report:
+ CIP:62.149.158.101;CTRY:IT;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:smtpcmd02101.aruba.it;PTR:smtpcmd02101.aruba.it;CAT:NONE;SFTY:;SFS:(2616005)(956004)(26005)(19627235002)(44736005)(1420700001)(3480700007)(336012)(86362001)(6666004)(6966003)(36756003)(54906003)(110136005)(7116003)(8676002)(4326008)(58800400005)(83380400001)(66574015)(7636003)(1096003)(6266002)(356005)(7596003)(5660300002)(107886003);DIR:INB;SFP:;
+x-microsoft-antispam: BCL:0;
+x-ms-exchange-crosstenant-network-message-id:
+ 6e2f9051-cd58-4078-d8e9-08d81c1448b9
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Jun 2020 10:07:51.0482 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Internet
+x-ms-exchange-crosstenant-id: 9f2cef08-6b83-4f95-8ffc-92df150cf5ad
+x-ms-exchange-transport-crosstenantheadersstamped: AM6PR09MB3222
+x-spam-report: v=2.3 cv=B7UNL9lM c=1 sm=1 tr=0 a=3xLdFziOOHcn9DPqX1Tleg==:117
+ a=W94MVyOle5MsZAuIAeEqJQ==:17 a=nTHF0DUjJn0A:10 a=DAwyPP_o2Byb1YXLmDAA:9
+ a=mcVZ5Myaw3abL8d58P4A:9 a=eVdPzHcXglMR_Rin:21 a=A2eirYHzhyOraW_Z:21
+ a=wPNLvfGTeEIA:10 a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8 a=IErVaXO0LEozHggQqTcA:9
+ a=jzOqe2daxRaCH1z7:21 a=gKO2Hq4RSVkA:10 a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10
+ a=frz4AuCg-hUA:10
+x-mailer: Microsoft Outlook 16.0
+x-cmae-envelope:
+ MS4wfNt8Skl3ntH/GKVnhfZDZnpzT7/B2b+dN155dvA3dB1BQdTTS9Z6IrW3ccfK5Un8/qmV8xg2x8O1+pwZQJNnFGcMGSOxNm/HWjo4m70AlDnOCP5Ojq1L
+ SMDlwF+uar4EE8exv+81SmqXj9tjAYUwaSLAfPABvkriEP6X9fEZ0l1sYWlSzSwl5re0YMCa2C678Q==
+delivered-to: marinaz@cavannaolii.com
+x-spam-rating: mxdhbe11.ad.aruba.it 1.6.2 0/1000/N
+x-eopattributedmessage: 0
+x-ms-exchange-transport-endtoendlatency: 00:00:01.8494620
+x-ms-exchange-processed-by-bccfoldering: 15.20.3131.027
+x-eoptenantattributedmessage: 9f2cef08-6b83-4f95-8ffc-92df150cf5ad:0
+X-Microsoft-Antispam-Mailbox-Delivery:
+ rwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(20160514016)(750128)(520011016)(520005050)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+ =?iso-8859-1?Q?r8IKEabPtcXlBPdD2Jfo3jViYTf38Pql8Giqd/x7uEdFKNpsqDb22R2oBd?=
+ =?iso-8859-1?Q?vkEpK1xrfc3m5ZYRuFc4BwAI0yaSAqT1AjL8SYEMqURiKNoAqTh+2/8VbO?=
+ =?iso-8859-1?Q?/k2YZeQag6occsDSDa6ThischScWMk/pDKjSOW5Uzr84xLte62xN48CNjJ?=
+ =?iso-8859-1?Q?cDanKdpGFvP9mPKznlv/Gol1JGc++NCYKTHjIfgZN7cejzgqRlwjPU+8xJ?=
+ =?iso-8859-1?Q?H3gLX/yzSeyHRzLy8QWw2zawBH9onHcg4gf7/D0XxUPd+fs4dSMXeb8Fsn?=
+ =?iso-8859-1?Q?4LHvJQiFIO7L3SkHIYZ25Zv4u6UNZ6UDFv1yco4R9AbRBSyNyLa9w+2CTy?=
+ =?iso-8859-1?Q?nw+YSdO+XeYYXwDeB++1iU3upXHwepsW95a1ybI2m+xdayRitpsdJEH4cJ?=
+ =?iso-8859-1?Q?clO9jAYUm4kyxLxtm9tnyHjSKB454mvU89079/OSUa9OGbW02EnpWg1J2P?=
+ =?iso-8859-1?Q?1ISrjkHofH26+1pmEoN9Vbk+AF0CPyW02hcZGVkWwzDbZIX9jPS76gDXm/?=
+ =?iso-8859-1?Q?LBrCYgVSy89eNJ0DgHlB8G0M8TSjnM+USQrg9kxcYAZFrm6gve7lwAT4ii?=
+ =?iso-8859-1?Q?uBcxgyYVyJ08OvDoLLb2eO1AyeFAyRBWfds5BSfpnoYkv9RyMnQmWAAqrY?=
+ =?iso-8859-1?Q?q5lMmYIPfAi5Ek65mLcMuxCu2azR0cyVPZW8RFEz1G3jEZW5snWV9StqHj?=
+ =?iso-8859-1?Q?SgNPHQEQbcNAinekCawE9Zn6GQO1ph/gX3+yyKgF+l2GgKy/bs6927ctxf?=
+ =?iso-8859-1?Q?TTGzC2PkLCI3Xp4QmeX77f2ECdSt867BaHDDpR+sYoE3qx4vOAdLhXqFbb?=
+ =?iso-8859-1?Q?AExVRPjsHtip/MjYH4LX69hDPBdi7M6BLbosWWfdk9oemkTZVuZHW2d4ao?=
+ =?iso-8859-1?Q?PTLrvw15J6woEeOTUpjryxY6tpdmy55y2GhchVO29B2BHyMK2Rrsg63PNR?=
+ =?iso-8859-1?Q?J25C5UlgU/1Q4Vk3+6VD6YRGlau1ikewRb1mWZSHJHTbJvWVKAEznarjp+?=
+ =?iso-8859-1?Q?bzpZHQ12ZDJkd8+IRq1w3j2bJ20/zAPiuIr5yzC+8l9KGhLJ2JjArk9aHG?=
+ =?iso-8859-1?Q?NjviFR5JYU1DtO4ZlFewQiz554hwgfnMepy+cCFa0xuusqqZVyF+peNAGa?=
+ =?iso-8859-1?Q?lLzS89lCw3Mtx2oxnDrI/1lPo0Mar6EkuUlR1zJiQZaAwUP16E?=
+Content-Type: multipart/alternative;
+	boundary="_000_010b01d64deb5efe5d701cfb1850continentit_"
+MIME-Version: 1.0
+
+--_000_010b01d64deb5efe5d701cfb1850continentit_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buongiorno
+
+Purtroppo ad oggi non abbiamo ancora ricevuto nessuna data di carico dei 5 =
+carichi che dobbiamo fare per Transbozen questa settimana, con termine ulti=
+mo di consegna giovedi 02/07
+
+Se non riceviamo subito le date di carico NON possiamo garantire le consegn=
+e nei termini previsti.
+
+Saluti
+
+
+
+
+
+Brian
+
+
+
+Prego notare che ci siamo trasferiti il 06.12.2019, di seguito il nuovo ind=
+irizzo:
+
+Achtung: Wir sind umgezogen!! Seit 06.12.2019 lautet unsere neue Adresse wi=
+e folgt:
+
+We moved!!  From Dec. 6th 2019 our new address is the following:
+
+Zona Industriale 1/5
+
+I-39011 Lana
+
+
+
+CONTINENT TRANSPORT SRL.
+
+Zona Industriale 1/5
+
+I-39011 Lana
+
+
+
+* 0039 0471 548920          6  0039 0471 500051          *  brian@continent=
+.it<mailto:brian@continent.it>
+
+CODICE PER FATTURAZIONE ELETTRONICA: SUBM70N   ---- P.IVA-MWSTNR.:IT-015496=
+20217
+
+__________________________________________________________________________
+
+* Before printing think about your responsibility for the ENVIRONMENT
+
+
+
+Questo  messaggio  contiene  informazioni  confidenziali. Nel  caso  di  un=
+a  ricezione  errata  del  messaggio  Vi  preghiamo
+
+di voler distruggere il messaggio e di voler informare immediatamente il mi=
+ttente.
+
+
+
+Dieses   E-Mail  enth=E4lt vertrauliche Informationen.  Sollten Sie  dieses=
+ Email  irrt=FCmlich erhalten  haben, bitten wir Sie dieses
+
+zu vernichten und informieren Sie bitte den Absender
+
+
+This e-mail  may contain confidential  information. If  you  received  this=
+ e-mail  in error, please  destroy this email and notify
+
+the sender immediately.
+
+
+
+
+
+
+
+
+--_000_010b01d64deb5efe5d701cfb1850continentit_
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <032776430E8FE84AB64DC4B57BCD3D6E@eurprd09.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Webdings;
+	panose-1:5 3 1 2 1 5 9 6 7 3;}
+@font-face
+	{font-family:"MS Reference Sans Serif";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Wingdings 2";
+	panose-1:5 2 1 2 1 5 7 7 7 7;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Buongiorno<o:p></o:p></p>
+<p class=3D"MsoNormal">Purtroppo ad oggi non abbiamo ancora ricevuto nessun=
+a data di carico dei 5 carichi che dobbiamo fare per Transbozen questa sett=
+imana, con termine ultimo di consegna giovedi 02/07<o:p></o:p></p>
+<p class=3D"MsoNormal">Se non riceviamo subito le date di carico NON possia=
+mo garantire le consegne nei termini previsti.
+<o:p></o:p></p>
+<p class=3D"MsoNormal">Saluti<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:IT">Brian <o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial Black&quot;,sans-serif;color:#333399;mso-fareast-language:IT"><o:p>&=
+nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"font-size:9.0pt;font-family:&qu=
+ot;Verdana&quot;,sans-serif;color:#C00000;mso-fareast-language:IT">Prego no=
+tare che ci siamo trasferiti il 06.12.2019, di seguito il nuovo indirizzo:<=
+o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><span lang=3D"DE" style=3D"font-size:9.0pt;fon=
+t-family:&quot;Verdana&quot;,sans-serif;color:#C00000;mso-fareast-language:=
+IT">Achtung: Wir sind umgezogen!! Seit 06.12.2019 lautet unsere neue Adress=
+e wie folgt:<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><span lang=3D"DE" style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Verdana&quot;,sans-serif;color:#C00000;mso-fareast-language=
+:IT">We moved!!&nbsp; From Dec. 6th 2019 our new address is the following:<=
+o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"font-size:12.0pt;mso-fareast-la=
+nguage:IT">Zona Industriale 1/5</span></i></b><b><i><span style=3D"font-siz=
+e:12.0pt;mso-fareast-language:IT"><o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"font-size:12.0pt;mso-fareast-la=
+nguage:IT">I-39011 Lana<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial Black&quot;,sans-serif;color:#333399;mso-fareast-language:IT"><o:p>&=
+nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial Black&quot;,sans-serif;color:#333399;mso-fareast-language:IT">CONTIN=
+ENT TRANSPORT SRL</span></b><b><span style=3D"font-size:10.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:#333399;mso-fareast-language:IT">.</span=
+></b><span style=3D"mso-fareast-language:IT">
+</span><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,san=
+s-serif;color:#333399;mso-fareast-language:IT"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;mso-fareast-language:IT">Zona Industriale 1/5<o:p></o:=
+p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;mso-fareast-language:IT">I-39011 Lana<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><a name=3D"OLE_LINK1"></a><a name=3D"OLE_LINK2"></a>=
+<span style=3D"font-size:10.0pt;font-family:Wingdings;color:black;mso-farea=
+st-language:IT">(</span><span style=3D"font-size:10.0pt;color:black;mso-far=
+east-language:IT">
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;mso-fareast-language:IT">0039 0471 548920&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Wingdings 2&quot;;=
+color:black;mso-fareast-language:IT">6</span><span style=3D"font-size:10.0p=
+t;font-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language=
+:IT">&nbsp; 0039 0471 500051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;
+</span><span style=3D"font-size:10.0pt;font-family:Wingdings;color:black;ms=
+o-fareast-language:IT">*</span><span style=3D"font-size:10.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:IT">
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;mso-fareast-language:IT">&nbsp;</span><span lang=3D"EN-GB" style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-languag=
+e:IT"><a href=3D"mailto:brian@continent.it"><span style=3D"color:#0563C1">b=
+rian@continent.it</span></a></span><span style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Arial&quot;,sans-serif;mso-fareast-language:IT">
+ &nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;mso-fareast-language:IT">CODICE PER FATTURAZIONE ELETT=
+RONICA: SUBM70N&nbsp;&nbsp; ---- P.IVA-MWSTNR.:IT-01549620217&nbsp;&nbsp;&n=
+bsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:IT">____________=
+______________________________________________________________</span><span =
+style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;mso=
+-fareast-language:IT"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:18.0pt;font-family:Webdings=
+;color:green;mso-fareast-language:IT">P</span><span style=3D"color:green;ms=
+o-fareast-language:IT">
+</span><span style=3D"font-size:10.0pt;font-family:&quot;MS Reference Sans =
+Serif&quot;,sans-serif;color:green;mso-fareast-language:IT">Before</span><s=
+pan style=3D"color:green;mso-fareast-language:IT">
+</span><span style=3D"font-size:10.0pt;font-family:&quot;MS Reference Sans =
+Serif&quot;,sans-serif;color:green;mso-fareast-language:IT">printing</span>=
+<span style=3D"mso-fareast-language:IT">
+</span><span style=3D"font-size:10.0pt;font-family:&quot;MS Reference Sans =
+Serif&quot;,sans-serif;color:green;mso-fareast-language:IT">think about you=
+r responsibility for the</span><span style=3D"mso-fareast-language:IT">
+</span><b><span style=3D"font-size:10.0pt;font-family:&quot;MS Reference Sa=
+ns Serif&quot;,sans-serif;color:green;mso-fareast-language:IT">ENVIRONMENT<=
+/span></b><span style=3D"mso-fareast-language:IT">
+</span><span style=3D"mso-fareast-language:IT"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;co=
+lor:green;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;mso-fareast-language:IT">Questo&nbsp; messaggio&nbsp; c=
+ontiene&nbsp; informazioni&nbsp; confidenziali. Nel&nbsp; caso&nbsp; di&nbs=
+p; una&nbsp; ricezione&nbsp; errata&nbsp; del&nbsp; messaggio&nbsp; Vi&nbsp=
+; preghiamo<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;mso-fareast-language:IT">di voler distruggere il messag=
+gio e di voler informare immediatamente il mittente.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;mso-fareast-language:IT"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"DE" style=3D"font-size:8.0pt;font-fami=
+ly:&quot;Arial&quot;,sans-serif;mso-fareast-language:IT">Dieses&nbsp;&nbsp;=
+ E-Mail&nbsp; enth=E4lt vertrauliche Informationen.&nbsp; Sollten Sie&nbsp;=
+ dieses Email&nbsp; irrt=FCmlich erhalten&nbsp; haben, bitten wir Sie diese=
+s<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"DE" style=3D"font-size:8.0pt;font-fami=
+ly:&quot;Arial&quot;,sans-serif;mso-fareast-language:IT">zu vernichten und =
+informieren Sie bitte den Absender<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"DE" style=3D"font-size:8.0pt;font-fami=
+ly:&quot;Arial&quot;,sans-serif;mso-fareast-language:IT"><br>
+</span><span lang=3D"EN-GB" style=3D"font-size:8.0pt;font-family:&quot;Aria=
+l&quot;,sans-serif;mso-fareast-language:IT">This e-mail&nbsp; may contain c=
+onfidential&nbsp; information. If&nbsp; you&nbsp; received&nbsp; this e-mai=
+l&nbsp; in error, please&nbsp; destroy this email and notify<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:8.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:IT">the sender imme=
+diately</span><span lang=3D"EN-GB" style=3D"font-size:7.5pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;mso-fareast-language:IT">.</span><span lang=3D"EN=
+-GB" style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-=
+fareast-language:IT"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:IT"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_010b01d64deb5efe5d701cfb1850continentit_--

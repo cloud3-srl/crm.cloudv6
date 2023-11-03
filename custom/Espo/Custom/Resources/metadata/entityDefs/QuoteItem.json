@@ -1,0 +1,7 @@
+{
+    "fields": {
+        "quantity": {
+            "default": 1
+        }
+    }
+}

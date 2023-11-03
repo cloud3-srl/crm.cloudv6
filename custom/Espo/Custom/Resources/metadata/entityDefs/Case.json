@@ -1,0 +1,81 @@
+{
+    "links": {
+        "invoices": {
+            "audited": true
+        },
+        "call": {
+            "type": "belongsTo",
+            "foreign": "cases",
+            "entity": "Call",
+            "audited": false,
+            "isCustom": true
+        },
+        "items": {
+            "audited": false
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "description",
+            "account.anCodice",
+            "account.description",
+            "account.name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false,
+        "filters": []
+    },
+    "fields": {
+        "status": {
+            "options": [
+                "New",
+                "OnGoing",
+                "Closed"
+            ],
+            "style": {
+                "New": "danger",
+                "OnGoing": "warning",
+                "Closed": "success"
+            },
+            "displayAsLabel": true,
+            "notActualOptions": [
+                "Closed"
+            ]
+        },
+        "call": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "minuteStep": 30
+        },
+        "itemList": {
+            "name": "itemList",
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "cloud3:views/case/fields/item-list",
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true,
+            "templatePlaceholderDisabled": true,
+            "reportDisabled": true,
+            "dynamicLogicVisible": null,
+            "dynamicLogicReadOnly": null,
+            "inlineEditDisabled": false,
+            "tooltip": false
+        },
+        "contact": {
+            "required": true,
+            "view": "cloud3:views/case/fields/contact"
+        },
+        "account": {
+            "required": true,
+            "view": "cloud3:views/case/fields/account"
+        },
+        "assignedUser": {
+            "defaultAttributes": null
+        }
+    }
+}

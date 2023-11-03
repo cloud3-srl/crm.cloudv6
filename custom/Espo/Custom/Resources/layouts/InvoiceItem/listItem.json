@@ -1,0 +1,14 @@
+[
+    {
+        "name": "name",
+        "align": "left"
+    },
+    {
+        "name": "dateStart",
+        "align": "left"
+    },
+    {
+        "name": "quantity",
+        "align": "left"
+    }
+]

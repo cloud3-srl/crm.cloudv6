@@ -1,0 +1,301 @@
+Received: from HE1PR0802MB2603.eurprd08.prod.outlook.com (2603:10a6:3:e0::16)
+ by AM6PR08MB5206.eurprd08.prod.outlook.com with HTTPS; Sun, 10 Apr 2022
+ 20:12:39 +0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=RjSTzcnhvm5KvgezGJmvtBYyKUdMloMzwjQ+4fIA5XGLYsf2FkM2zJd0eKe0KiGKmWiIim0cDduvO1tbZBYwdiwNZIoMQJ6rDTIUkUO592Sloo/dFFyHk/c+DGD5vHoVtfZfhTIPS3HFNgm1YxcdoPJeJL4P5iVcQoq9qe2WfQPVxmQFmJI6vTK9vuSP6v0aMM+/V1d9LEFm/+E0B6EEYxoKJvJUhYKNFC6SgUg8diDfbncxoY2R+UKNnD5nAlmuhkWcyzeGAkwmbnGMhSrfYZVmNsO300iwt4Nmb/jHfKSGKp2jFJDSCN0R+zwQ0QVbfxCIMMXOYJsjUcVPolIv8g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Yxg/5BjFmU0M0KVSYR5MLNxUqOh/SDknb0l6nbX0bDU=;
+ b=ZG/9/mTucWOhGFO5pgY/TgZ1FxlftKRV/rWgNLC9O7MTxCHogqYVRwri4zT6JWHi8+/pftPP6+eEzEBmistrbynOXClh+Ze0TYhEVGy7ujUIqzfHeFwb6ePLrTt462DJIsHRcTlT+FF/tkyD1/Wh0UhtPIp9q4JDZDBSZ4JSYm2qlCjrcpn6QqBW17WR7EEWz3uue87OtpXiPO9EYyirq5E0gqHgr4pfdcfl+CL0HTb8ngnM1GLbT4gxQ2lUgFeXkwXZJ3eVrqL9qjIWJUID7f2VMMtYL2ojdHuuZJFdUjytM6/Le6K62i6PBiCSY4AmVwkkZAJOka5TiqC4WOyQrw==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 40.107.6.109) smtp.rcpttodomain=cloud3.srl smtp.mailfrom=studiogaio.it;
+ dmarc=bestguesspass action=none header.from=studiogaio.it; dkim=pass
+ (signature was verified) header.d=dueticonsulting.onmicrosoft.com; arc=pass
+ (0 oda=1 ltdi=1 spf=[1,1,smtp.mailfrom=studiogaio.it]
+ dkim=[1,1,header.d=studiogaio.it] dmarc=[1,1,header.from=studiogaio.it])
+Received: from DB8PR06CA0047.eurprd06.prod.outlook.com (2603:10a6:10:120::21)
+ by HE1PR0802MB2603.eurprd08.prod.outlook.com (2603:10a6:3:e0::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.29; Sun, 10 Apr
+ 2022 20:12:37 +0000
+Received: from DB3EUR04FT042.eop-eur04.prod.protection.outlook.com
+ (2603:10a6:10:120:cafe::d4) by DB8PR06CA0047.outlook.office365.com
+ (2603:10a6:10:120::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.29 via Frontend
+ Transport; Sun, 10 Apr 2022 20:12:36 +0000
+Authentication-Results: spf=pass (sender IP is 40.107.6.109)
+ smtp.mailfrom=studiogaio.it; dkim=pass (signature was verified)
+ header.d=dueticonsulting.onmicrosoft.com;dmarc=bestguesspass action=none
+ header.from=studiogaio.it;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of studiogaio.it designates
+ 40.107.6.109 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.107.6.109; helo=EUR04-DB3-obe.outbound.protection.outlook.com;
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com (40.107.6.109) by
+ DB3EUR04FT042.mail.protection.outlook.com (10.152.25.33) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5144.21 via Frontend Transport; Sun, 10 Apr 2022 20:12:36 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=MypyiQtxNpmV7AhsLNxw4SXBANjNqQ3eLa6btWsYX8IcVek+14uGqbLzD14FksY5bqn8pPN2O2u86bZw89rzvFAZrMA5RMLoMJcMe5zJWUlQj7d1j0lEJZGfH5vS9189wWtPNvnrKNrcqrjk1LBaROTmux7cb2zzscBwWLWdzeec3eBjbtR8ioJwk/Fal2tP9sy3OBhAeSlsrBCeFjTPs1B53tbX1cjj6AmIuCLn710hOKK/zJe0Un4uL6TyBk9XZKI+nhiJOLTjouF9X7ydXmuw6e8tn2rJdFvWF2YAJzrHZ92cW+EDDBo9Y8rckEISE6poGUUOEqd44ZkqzcER2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Yxg/5BjFmU0M0KVSYR5MLNxUqOh/SDknb0l6nbX0bDU=;
+ b=PsEGvxrFbawvMq6oby3Lxfavaag/sapIWn0hkapSz6GFEGp/1PWTNlDtBSHRNF89lT5KxfUqAja729GdSDXO3WvQKDkkIULai2ji86/rX3PjaX3cOJt+oFX4mWUHpOIxpWdsI3qAaz3efRQ+Go6gqfqoadSH5vM4aouZ7jiLlvPVpnCU1R8blZDAX2TdmFJsuorO8foIz/PBgjA87tBeux9FJknQ4AyhaQBS9oUM5fp6ltZeoniaiauctxxQKRpUXO+TZkE9qfAHGNntElD8S8HT5NaCGCtcVUlmPKaxS19gPCrpvT+7BU80nM9OZuZEa2rhwqXwx7tEC40AxulfNg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=studiogaio.it; dmarc=pass action=none
+ header.from=studiogaio.it; dkim=pass header.d=studiogaio.it; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=dueticonsulting.onmicrosoft.com;
+ s=selector1-dueticonsulting-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Yxg/5BjFmU0M0KVSYR5MLNxUqOh/SDknb0l6nbX0bDU=;
+ b=DwR7iY1MrwUVg4Kizad//4/am5lJcu2AZYYcRG6mLLBJMhfBwnlwCIMVpdZ/Otv7VqthG40TUzoz/EtedN5zVOsAcs2Q8g1YmzojVP6qomLVDit3Gfn1lPi0MRJtktpI6ybVkDvjoFJ7b5DKQf46CqzJENoGxbuuSGrTFi/DgwM=
+Received: from DB7PR04MB4042.eurprd04.prod.outlook.com (2603:10a6:5:25::19) by
+ DB9PR04MB9330.eurprd04.prod.outlook.com (2603:10a6:10:36e::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5144.28; Sun, 10 Apr 2022 20:12:35 +0000
+Received: from DB7PR04MB4042.eurprd04.prod.outlook.com
+ ([fe80::803e:eb03:6d24:9491]) by DB7PR04MB4042.eurprd04.prod.outlook.com
+ ([fe80::803e:eb03:6d24:9491%7]) with mapi id 15.20.5144.029; Sun, 10 Apr 2022
+ 20:12:35 +0000
+From: Marzio Gaio / Studio Gaio <marzio.gaio@studiogaio.it>
+To: 'Simone Cola / CLOUD3' <simone.cola@cloud3.srl>
+Subject: segnalazione
+Thread-Topic: segnalazione
+Thread-Index: AdhNFo9Sag2lL06iSTWlzZg/nS9KNQ==
+Date: Sun, 10 Apr 2022 20:12:35 +0000
+Message-ID:
+ <DB7PR04MB4042CB5B255E05A221F01938F5EB9@DB7PR04MB4042.eurprd04.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=studiogaio.it;
+X-MS-Office365-Filtering-Correlation-Id: 6fb97e1d-6ddc-4838-a85c-08da1b2e7493
+x-ms-traffictypediagnostic:
+ DB9PR04MB9330:EE_|DB3EUR04FT042:EE_|HE1PR0802MB2603:EE_
+x-microsoft-antispam-prvs:
+ <DB9PR04MB933009385E6842C8FF456CEDF5EB9@DB9PR04MB9330.eurprd04.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ gfHIyRVkF8Cez55/G3XcbzsewrRMR5uVP9K/J42+Sf3sDhySI7YwVtm3CbUbaz1DkMXTwFWhNTJ2KqidmqIVvS0FzUIe0tqlWROCDSZU2dGnmK30yzvZfpywuAFes3CVj554lEQmNohqTmGli2gYizzx2ndmVsp7h8MT3Evr56/pvL9D2MsdAxNyLZZkGlnmhzIx0C7D2r8n5VfZU0EGNjMo/qwgi3ddDCkeEvecFEW4gI1U/aW+NggaBFz+PxnGMILZQJcuwHXXZM/Yr/1MDvtE0/EhqUYsu8xJQVoCrmeF1dNNd5KsB7tF4j7WWp3/S4K/qlEMsmduYFLr6fmJsuw6j+0ghGpUTgo61FYVbdFdS76ZN47pC4nsghJO61BsiFdznz9N4VvmuVYQxiJ1ZNMKfHahvp8HeGpDoyscZIA+HDxa8Lp05eEidIlMs7jhixciNHni4xvplnVBDAeUhZang9a1WuSTuL7hP3uNr6Ce0jwPXa1mytPDbdv+4kOiIsovT2JpQ19SIe382T55AgJt2Zih8QluC0SqlDpQwYzmj9h5IEkGYkwzFN/O+U147O1BQv+UDgJoWBInfsVQ4B86fMwi29ZpNLwieD+HaC8Vjp05iCNrbO7oHgiWjbB97WhzxD7cXT7ekb3ia8ytbeMNV32DG5H2kYauStS/BIugJN1MY2KKFuZbKS6v2ihqCcFbjh3aI0ibxD2rTansVJux9x6yeBKrUrhHyjzkOeeH8HQqIn2UdrLUt88nD9g5MflamecqTAmgOz4clhcnCs4ahAtiaGAFWkT47ojgXHa6mjyIkKGwcHBKPElNFhDt
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:255.255.255.255;CTRY:;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DB7PR04MB4042.eurprd04.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(39830400003)(346002)(376002)(136003)(366004)(396003)(508600001)(86362001)(7116003)(122000001)(45080400002)(52536014)(6506007)(38100700002)(38070700005)(316002)(8936002)(6916009)(8676002)(76116006)(9686003)(19627235002)(64756008)(66476007)(66946007)(66446008)(66556008)(5660300002)(71200400001)(7696005)(33656002)(55016003)(83380400001)(3480700007)(2906002)(186003)(26005)(4744005)(166393002)(220243001);DIR:OUT;SFP:1102;
+X-MS-Exchange-AntiSpam-MessageData-Original-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-Original-0:
+ =?us-ascii?Q?1bjcrHgBbAnDLSl0ICdhYZN9fYhEImlrHfGYwHGhURwg9NkbY5+YPbXdSq2B?=
+ =?us-ascii?Q?g+4r2+FSzmkij28HM5Yuxiv1PrHRm1UqgEQXOvcZFpdn77Gz4/ZHZx5dca6Z?=
+ =?us-ascii?Q?Ef/utb08jMVvOzCsNrxnKMZvueYTDJO7aQdRK+HvczovRUXKgSV1ZXt1c+GP?=
+ =?us-ascii?Q?5T2PB+58oUydFvRwBGpV8ZR2hhQ2p8yvdUZ5wWBpLONBIS0B5mL698o3CDzN?=
+ =?us-ascii?Q?D3xp+swCoT3sEALAAaHv6t7DxUDchTd53vM8/hhBKa9x3jhvPqUxuPY02Def?=
+ =?us-ascii?Q?+yfGkNvgMAyY/Vck5Wid/JHklbT2GRTgHkP9w3GezOorGWuzfBIpOinDF1ZI?=
+ =?us-ascii?Q?NaMQOCrBVOYi1AdITM3gu/zFV0Ha5q5rbrse0PYZE573ohOtceaTVExnyalX?=
+ =?us-ascii?Q?8gBpR+pf892qZ0tJSYN0TLBRIjiXGsMEqx2XC5B7ECNVZxNjfnqrJqP8eJWV?=
+ =?us-ascii?Q?JJXA5ln9ICp2+mJqt7bX3n8Ww4GjcDYKqAbh+6Y0P0RZHUldgHqKhBQKNaD5?=
+ =?us-ascii?Q?2Ifs86UhTDxw5PcCwdmBnVkmpvqFRf6TJpLC1rRmVtabk6zHnqYYvSvdo39b?=
+ =?us-ascii?Q?D397cI2jm8ZDXJhZ5n6RnPYbt0jX9e85aUZ1p3pHLMNNiW1eOzsf7hu4H5K6?=
+ =?us-ascii?Q?aQSgNIV8ffIqfPQ/hAegnVwsPuYGctm3YRhHOgybPJK7+ZUOcYRi3i+9YYX/?=
+ =?us-ascii?Q?2K73imBgj9/+t5CyNrVaBzfIsVdt5zdbjcQ2WQ5zBojNd5Zx/kQL4VawKARW?=
+ =?us-ascii?Q?Co65vPJvoiujAyBssZ/XPkomjHxbXd9oedWMaXUjRSKXIJkhOb8wT/3yKUTN?=
+ =?us-ascii?Q?TtDgklILUjLHXcODKhqXuK9/0ceF3xxuDuEZD3ptvziGYnU4n/Rcir/xBlrW?=
+ =?us-ascii?Q?C9O6WcfmJx0esxmSvo3FuOIdsi4A6KrI0F8HGBX4uSMy2e5/YqKgbrMNWZrP?=
+ =?us-ascii?Q?Gamy8NMmopoZ0DWp51TU+q5eH/xEX8ay4u9RgR8acwiA7Frmv6Xfgd0eySX4?=
+ =?us-ascii?Q?0cCpKKSzzj1MO3m1SRiVQFju36hcuIW1Ca7y1RYr3sRdlkTSersulOGg6HUx?=
+ =?us-ascii?Q?Q4V8gYOO+bCYg3P3KDyXs3rJeAfQ9jXRMtlcLYkl46Ejunp6u8104ZqRosDc?=
+ =?us-ascii?Q?TRWYDe8NkgNont+xDPkMVG/UveghJgelFRXo5CClSh81C2MBjeNuTJO3IOKr?=
+ =?us-ascii?Q?dbVxBu9Zi6amPc29VPv9UfymTJT5tbpcHkWhLQZPOaMg3OGtORQvfS12cZEv?=
+ =?us-ascii?Q?7MgX53NZmrbV19g8auiW4WzXiOenxzO2jRj5XFqsBPtipHjGDpG3gytxHe+Y?=
+ =?us-ascii?Q?fixlz/lDOixR9e6QEEOEaDityZwa1sJfXwSIq4QoExhzV+xpi+NeegfnC+6u?=
+ =?us-ascii?Q?4ZCHRHX+PFbN8iVnFeQ9j4zWKi8vrc5IVaNICVzMMdJhVpzXtH1kGZpZtnCy?=
+ =?us-ascii?Q?k+ftYdBJvrJ4v4USjckWmpuERcGKfnHr1VVJd9nfAWtlp3m16EP2r1mr9zzM?=
+ =?us-ascii?Q?pnDXl9fbJ/odVDSb9aBbOyZzEn15Bsi8vusKioGEGXCFphRBcxKAWjwm7POf?=
+ =?us-ascii?Q?eDqj6kEjzAYpaxSjU9w8oUnokYt+c4t4zzHXK1cKDQSMPcMqlnMig2pPB3/x?=
+ =?us-ascii?Q?0Ak07FAuLSlOhRMTEsHUxWKc8REUX8otg4wipFNB5EuaVd+t+NAsSPBfgttj?=
+ =?us-ascii?Q?C6kni3y/v0jqnIzk1EPoN9UgsYLP+8F30N0zymQhe/JaneYhF93m1NTrkQ+7?=
+ =?us-ascii?Q?7H8EkSU/HA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_DB7PR04MB4042CB5B255E05A221F01938F5EB9DB7PR04MB4042eurp_"
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB9PR04MB9330
+Return-Path: marzio.gaio@studiogaio.it
+X-MS-Exchange-Organization-ExpirationStartTime: 10 Apr 2022 20:12:36.4626
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 6fb97e1d-6ddc-4838-a85c-08da1b2e7493
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ DB3EUR04FT042.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted:
+ DB3EUR04FT042.eop-eur04.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DB3EUR04FT042.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 03f4724a-1bfa-4011-f119-08da1b2e73d0
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:40.107.6.109;CTRY:IE;LANG:it;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:EUR04-DB3-obe.outbound.protection.outlook.com;PTR:mail-eopbgr60109.outbound.protection.outlook.com;CAT:NONE;SFS:(13230001)(86362001)(1096003)(7116003)(52536014)(33656002)(7636003)(356005)(9686003)(5660300002)(6506007)(19627235002)(7696005)(26005)(83300400002)(83320400002)(83280400002)(6916009)(45080400002)(55016003)(8676002)(3480700007)(83380400001)(336012)(8636004)(83310400002)(83290400002)(166393002)(220243001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Apr 2022 20:12:36.4157
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6fb97e1d-6ddc-4838-a85c-08da1b2e7493
+X-MS-Exchange-CrossTenant-Id: caa71f94-1adc-4131-86ad-8ea6c85b86dc
+X-MS-Exchange-CrossTenant-AuthSource:
+ DB3EUR04FT042.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR0802MB2603
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1755391
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5144.029
+Importance: high
+X-Priority: 1
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?/vSVU/9p+4WLpb5JiZTnTOhrR4E7xbj3ojH2TxC84ikVkzlKsKh+b4oC?=
+ =?Windows-1252?Q?S2/sRkgiWpLuGmNrsFko6l0CFR+Asa0bwtnwgPdJd8b2vjIUC90CKR4n?=
+ =?Windows-1252?Q?vuPxVKZm3SVm76RDE0lCmf61ltrjVyCbSc7txq4h/TN/eu1IfuDlSYvl?=
+ =?Windows-1252?Q?jBtq2zAIt6Z8RzJ8O9VgwZOg53ob7FYnjUDmHSq5QLzfVa70TVLG65MZ?=
+ =?Windows-1252?Q?vgqhsuFH2V0+4aoP1YNlZTxA0Qif2dC5iFpYc+tO5M4APuwiQc2/aLbV?=
+ =?Windows-1252?Q?ghpwOi0b5/ZhNpwcg1nfVwkK4ejHr7e7xC8OnPH+3MpriJabVYhulNKD?=
+ =?Windows-1252?Q?xJ0n05LLzmrQn/LYYQkDeMODYRQT06FDKCVR9FThITVdXU0kR5kpRqpE?=
+ =?Windows-1252?Q?TKCE12lv8IGQ70XrdDGVQg2ep6AxnSFZPBsnajJh+jvL9AjQ/UmWQbqa?=
+ =?Windows-1252?Q?dpSJ/HFHs6g1QwUdjdD8CotYH88XCF7ElJqS2/SOnIoRpf14xc2s+Fia?=
+ =?Windows-1252?Q?bVHE7Avgu41PGerOe8O9LBxid33Nj6vCDG8gMq3cxbkVDGwoZ832Mnp7?=
+ =?Windows-1252?Q?DNe/R3AlhLwSLUcLbqlt5RUwARWBOMH6mKq+FipvmINsSxL5Zy8V/BhE?=
+ =?Windows-1252?Q?mGKFYMcs9JB/Mzjt+o+hRX9qByVNeQ+XNx4di6pUTFbPVAfEFQwog+QC?=
+ =?Windows-1252?Q?hKeIAimIxp9TP1SDZqYe+nYh6jRUL3Si3H+ancB+NyuZN8uZv6d41gXX?=
+ =?Windows-1252?Q?nvoBNgs4gvEaOgVJHRAZOk6TIb31kuhUTAuxX1/6Dypo5629egBoRJgj?=
+ =?Windows-1252?Q?BqCcfHOGwK2AHW4ipv2wPaL1QWQbvjU4EbY2ssen6Xr9wo1JsAuGjBox?=
+ =?Windows-1252?Q?knypKKg4YwTxgimToNm9O4tB2igetVJIotezFkijTn5KlMyAFR0JIWXX?=
+ =?Windows-1252?Q?nUYmggUmhSCOFGow1nrYpxoHZQWiL8DMQgDg4yIWQmiyPSmG9Jw4p0qE?=
+ =?Windows-1252?Q?FcSS4Bn19i3+Npgx9IfsER0O4yLjVm+ELdiC96rYG9ZVZfnJUms2qnlo?=
+ =?Windows-1252?Q?+Y4vy5IRIDQSDU0/rZr+Zgsa0PtBRS6DSdH2/yE5TSSu53x/D0uWBzdf?=
+ =?Windows-1252?Q?JOsw36YPiW+RG8GYcr0xk6MC9lsKSBx2h7cb7avJVzrzGdcKw1UuzGtI?=
+ =?Windows-1252?Q?vP/x0KSipHFxVva6iUmKWvJHUox7UQaBUY4tDGukVt+pKWMB0bzsx13a?=
+ =?Windows-1252?Q?CauPlj3EZ8XkiP8bgtSqYhCJ/N9X53WA9smll24vR5AyyZYpKuZGUvBp?=
+ =?Windows-1252?Q?WNF4Ldfqdf7FLHIMDmRDFy9zOT959J3qNVDuCGKqmFtaTf7OBTwJwiSk?=
+ =?Windows-1252?Q?cLcqhph092NX1ZxqaGkMic9IuFdxc/zeHMJlRh6wjEWw69JAoHJX1AC+?=
+ =?Windows-1252?Q?2EnYa4NRS+P+BafOEQobGFu6a02QOCAlRS0CanbbOZCKbk+epCONfzk4?=
+ =?Windows-1252?Q?VAuDDpSNC05ryWrmwi7R3gj9UxW0A/Awsy/EJ3tj2IXGwAK3/0UoRUVx?=
+ =?Windows-1252?Q?h6k9j7MvCUmjOl9aJ74lA1HmPyFvoNBOBKsrIY5l5J1HNW0ivTncRvUx?=
+ =?Windows-1252?Q?Tsg/6DA2Nbh79hJwHxMhNM02sziG1xCC5gzw7Y3/5Yr731YvTzTMkm/E?=
+ =?Windows-1252?Q?Wm/oOYKOFGVpI9PF4xOoEa+L9YX/XvYBfC4yEy53Lc88nb3ZFH01G6lj?=
+ =?Windows-1252?Q?3qcvEit49ZhwExJjkQ7+PiXnGOLkcfvMWYWSBCx8QK4qPxeoKdtzcdIQ?=
+ =?Windows-1252?Q?d+PPkFWhWFVqGn8c1de97tdMWWnlJC677WUKh7gTRxkxhUpI9L8tiGHu?=
+ =?Windows-1252?Q?35JEI3Mmvs/2R///Ylmtqs335Cw3iUsUnPeCAuIBZ3XnPBcotfRiwLFz?=
+ =?Windows-1252?Q?cWLA3ymYrm9Z2UlwvR1uHn6fwaVYQB0DEltNvaJHxYeturbrQn5pjKnn?=
+ =?Windows-1252?Q?EcPmsvK1DEbZxIBjdUhErzIds0/R7bvPmQAEIpIdJZRyiOSf+kdSp6Jf?=
+ =?Windows-1252?Q?c/QFSBwUpEPcDHjS?=
+MIME-Version: 1.0
+
+--_000_DB7PR04MB4042CB5B255E05A221F01938F5EB9DB7PR04MB4042eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Gentilissimo
+Dott. Cola,
+
+Buona serata.
+Gabriele mi aveva installato sul pc portatile mio sia microsoft office, sia=
+ Outlook.
+Ho scoperto adesso che non mi funzionano pi=F9.
+1 - Office in quanto mi segnala di non essere abbonato. Ci=F2 non corrispon=
+de a realt=E0, in quanto l'abbonamento di Office =E8 gi=E0 pagato (=E8 gi=
+=E0 spettante) con i computer che ho in studio;
+2 - Outlook in quanto mi dice che la password di microsoft =E8 variata (ces=
+sata il 10.3.2022) e quindi non si collega pi=F9. Analoga situazione, per=
+=F2, non =E8 accaduta in studio e sul cell.
+Potrebbe farmi chiamare da Gabriele, per cortesia, domattina? Sono sul cell=
+ulare da clienti e dovrei utilizzare entrambi.
+Grazie molte.
+Un cordiale saluto
+marzio gaio
+
+--_000_DB7PR04MB4042CB5B255E05A221F01938F5EB9DB7PR04MB4042eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:break-w=
+ord">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Gentilissimo<o:p></o:p></p>
+<p class=3D"MsoNormal">Dott. Cola,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Buona serata.<o:p></o:p></p>
+<p class=3D"MsoNormal">Gabriele mi aveva installato sul pc portatile mio si=
+a microsoft office, sia Outlook.<o:p></o:p></p>
+<p class=3D"MsoNormal">Ho scoperto adesso che non mi funzionano pi=F9.<o:p>=
+</o:p></p>
+<p class=3D"MsoNormal">1 &#8211; Office in quanto mi segnala di non essere =
+abbonato. Ci=F2 non corrisponde a realt=E0, in quanto l&#8217;abbonamento d=
+i Office =E8 gi=E0 pagato (=E8 gi=E0 spettante) con i computer che ho in st=
+udio;<o:p></o:p></p>
+<p class=3D"MsoNormal">2 &#8211; Outlook in quanto mi dice che la password =
+di microsoft =E8 variata (cessata il 10.3.2022) e quindi non si collega pi=
+=F9. Analoga situazione, per=F2, non =E8 accaduta in studio e sul cell.<o:p=
+></o:p></p>
+<p class=3D"MsoNormal">Potrebbe farmi chiamare da Gabriele, per cortesia, d=
+omattina? Sono sul cellulare da clienti e dovrei utilizzare entrambi.<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal">Grazie molte.<o:p></o:p></p>
+<p class=3D"MsoNormal">Un cordiale saluto<o:p></o:p></p>
+<p class=3D"MsoNormal">marzio gaio<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DB7PR04MB4042CB5B255E05A221F01938F5EB9DB7PR04MB4042eurp_--

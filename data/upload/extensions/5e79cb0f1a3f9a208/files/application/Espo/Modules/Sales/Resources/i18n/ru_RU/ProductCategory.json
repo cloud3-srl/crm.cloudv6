@@ -1,0 +1,13 @@
+{
+  "labels": {
+    "Create ProductCategory": "Создать категорию",
+    "Manage Categories": "Управление категориями",
+    "Products": "Продукты"
+  },
+  "fields": {
+    "order": "Порядок"
+  },
+  "links": {
+    "products": "Продукты"
+  }
+}

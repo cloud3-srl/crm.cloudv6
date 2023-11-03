@@ -1,0 +1,771 @@
+<html>
+<head>
+<title>Ordini Ad Hoc Revolution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+body {
+scrollbar-3d-light-color: #9999CC;
+scrollbar-arrow-color: #FFFFFF;
+scrollbar-base-color: #9999CC;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-face-color: #333399;
+scrollbar-highlight-color: #A9A9A9;
+scrollbar-shadow-color: #39425A;
+scrollbar-track-color: #9999CC;
+}
+table {
+background-color: #FFFFCC;
+}
+.titolo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+.titolettonorm {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+.titolettobold {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+.intfldnorm {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+.intfldbold {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+.clausole {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+}
+</style>
+<style type="text/css" media="print">
+.noprint {
+display: none;
+}
+.pba {
+page-break-after: always;
+}
+table {
+background-color: white;
+}
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td width="100%"><div align="right"><img src="logoprt_new.gif"></div></td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><br>
+<div align="center" class="titolo">Ordine per la Fornitura in Licenza d'Uso e la Manutenzione dei programmi</div></td>
+</tr>
+<tr>
+<td><div align="center" class="titolettonorm">Condizioni di Licenza d'Uso e Servizio di Aggiornamento Programmi Adhoc -
+la piattaforma applicativa gestionale </div></td>
+</tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold" nowrap>Dati Cliente</td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td nowrap class="intfldnorm">Codice Cliente:</td><td class="intfldbold" nowrap>139341</td></tr>
+<tr>
+<td nowrap class="intfldnorm">Ragione Sociale:</td>
+<td class="intfldbold" nowrap>NOVIMM SNC DI G.NOVELLA E F.COCCHIERE</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Codice Fiscale:</td>
+<td class="intfldbold" nowrap>01577240995</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Partita IVA:</td>
+<td class="intfldbold" nowrap> 01577240995</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Settore Merceologico:</td>
+<td class="intfldbold" nowrap>*AZIENDE*</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Indirizzo:</td>
+<td class="intfldbold" nowrap>VIA XX SETTEMBRE 26/4</td>
+</tr>
+<tr>
+<td nowrap class="titoletto">&nbsp;</td>
+<td class="intfldbold" nowrap>GENOVA&nbsp;&nbsp;&nbsp;16121&nbsp;&nbsp;&nbsp;(GE)</td>
+</tr>
+<tr>
+<td height="1" width="170"></td>
+<td width="130" height="1"></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold" nowrap>Produttore Programmi</td>
+</tr>
+<tr>
+<td><table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">Ragione Sociale:</td>
+<td class="intfldbold" nowrap>ZUCCHETTI S.P.A.</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm" valign="top">Indirizzo :</td>
+<td class="intfldbold" nowrap>VIA SOLFERINO, 1<br>LODI&nbsp;&nbsp;&nbsp;26900&nbsp;&nbsp;&nbsp;(LO)</td>
+</tr>
+<tr>
+<td height="1" width="170"></td>
+<td width="130" height="1"></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<br>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td class="titolettobold" nowrap align="center" height="25">LEGGE 13 AGOSTO 2010 N&deg; 136</td>
+</tr>
+<tr>
+<td class="clausole">Il cliente dichiara di non essere Ente Pubblico. Precisa che il rapporto contrattuale qui regolato non si riferisce e non &egrave; connesso a lavori/servizi/forniture pubbliche.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold">Clausole contrattuali</td>
+</tr>
+<tr>
+<td><table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="clausole"><p align="justify"> Premesso che le parti definiscono:</p>
+<p align="justify">* &quot;Produttore&quot; la societ&agrave; ZUCCHETTI
+S.p.A., con sede in Lodi - Via Solferino, 1 - societ&agrave; ad azionista unico, nel seguito cos&igrave;
+denominata, che pu&ograve; disporre dei diritti sui Programmi per
+elaboratore &quot;Ad Hoc&quot; e su tutti i moduli che compongono
+i Programmi oggetto del presente contratto, in seguito denominati
+per brevit&agrave; &quot;Programmi&quot;.</p>
+<p align="justify">* &quot;Fornitore della Licenza d'uso&quot; o semplicemente
+&quot;Fornitore della Licenza&quot;, il soggetto che fornir&agrave;
+al Cliente la licenza d'uso per i Programmi richiesti in questo
+contratto e indicati nell'allegato A in calce al presente accordo
+e, a richiesta del Cliente, le licenze d'uso e l'aggiornamento dei
+runtime DATA BASE.</p>
+<p align="justify">* &quot;Fornitore del Servizio di Aggiornamento
+Programmi&quot; o semplicemente &quot;Fornitore del SAP.&quot;,
+il soggetto che fornir&agrave; al Cliente il Servizio di Aggiornamento
+Programmi (SAP) ed Assistenza Telefonica </p>
+<p align="justify">* &quot;Cliente&quot; o &quot;Utente finale&quot;
+l'intestatario della licenza d'uso per i Programmi e, se richiesta,
+per i runtime DATA BASE. </p>
+<p align="justify">Premesso inoltre che:</p>
+<p align="justify">* Altre clausole regolanti la fornitura del SAP
+e l'assistenza telefonica sono definite in altro specifico contratto
+tra Fornitore del SAP e Cliente. </p>
+<p align="justify">* Il Fornitore della Licenza &egrave; autorizzato
+dal Produttore a concedere in uso i Programmi e i runtime DATA BASE
+ad Utenti Finali.</p>
+<p align="justify">* Il presente contratto si completa e prende validit&agrave;
+solo in presenza dell'Allegato A &quot;Dettaglio dei moduli relativi
+ai Programmi in licenza d'uso e servizio di aggiornamento programmi
+e licenze d'uso dei runtime DATA BASE&quot; compilato e completato
+con l'indicazione della chiave di attivazione assegnata dal Produttore.</p>
+<p align="justify">* Il Fornitore del SAP &egrave; convenzionato con
+il Produttore al fine di ricevere tutti gli aggiornamenti dei Programmi
+oggetto di questo contratto, il supporto sugli stessi e l'aggiornamento
+dei runtime DATA BASE, sulla base delle versioni rilasciate dalla
+rispettiva casa produttrice.</p>
+<p align="justify">Tutto ci&ograve; premesso, tra il Fornitore della
+Licenza ed il Cliente e tra quest'ultimo e il Fornitore del SAP
+si definiscono e sottoscrivono per accettazione le seguenti Condizioni
+Generali di fornitura che regoleranno la Licenza d'uso dei Programmi
+e le licenze d'uso dei runtime DATA BASE, nonch&eacute; il Servizio
+di Aggiornamento Programmi e il servizio di aggiornamento dei runtime
+DATA BASE, ferma la validit&agrave; di altre condizioni integrative
+sottoscritte tra le parti purch&eacute; non in deroga e purch&eacute;
+non incompatibili con le presenti Condizioni Generali.</p>
+<p align="justify"><strong>CONDIZIONI GENERALI DI FORNITURA</strong></p>
+<p align="justify"><strong>1. Premesse.</strong> Le premesse costituiscono parte integrante
+e sostanziale del presente contratto.</p>
+<p align="justify"><strong>2. Oggetto del contratto.</strong> Oggetto del presente
+contratto sono:</p>
+<p align="justify">a) la concessione, da parte del Produttore o del
+Fornitore della Licenza, di una licenza d'uso non esclusiva per
+i Programmi, indicati nell'allegato A in calce al presente accordo,
+della documentazione d'uso e di qualsiasi altro materiale relativo.
+I Programmi rimangono di esclusiva propriet&agrave; del Produttore.
+&Egrave; fatto divieto assoluto al Cliente di vendere, sublicenziare,
+trasferire o in qualsiasi altro modo rendere disponibili ai terzi
+a qualunque titolo e ragione i Programmi oggetto del presente contratto
+di licenza d'uso anche in caso di vendita, noleggio e concessione
+in uso dell'elaboratore. L'ordine, incluso nell'allegato A, dei
+runtime DATA BASE comporta la concessione al Cliente anche della
+licenza d'uso per i runtime DATA BASE in conformit&agrave; a quanto
+convenuto nel presente accordo e con particolare riferimento a quanto
+riportato al successivo punto 6.5; in questo caso, quando nel presente
+contratto si parla di Licenza d'uso dei Programmi si intende far
+riferimento anche alla licenza d'uso per i runtime DATA BASE, quando
+questa sia stata richiesta e ordinata dal Cliente al Fornitore della
+Licenza.</p>
+<p align="justify">La concessione della licenza d'uso dei Programmi
+non include il diritto di ottenere informazioni tecniche e di progetto,
+n&eacute; la disponibilit&agrave; del formato sorgente, n&eacute;
+di altra informazione riservata che, in quanto tale, resta nella
+esclusiva propriet&agrave; del Produttore.</p>
+<p align="justify">b) il Servizio di Aggiornamento Programmi (SAP),
+predisposto esclusivamente per i Programmi applicativi Ad Hoc della
+Zucchetti ed anche dei runtime DATA BASE, se richiesto e ordinato
+dal Cliente, verr&agrave; espletato dal Fornitore del SAP con l'invio
+di supporti magnetici, note scritte e quant'altro necessario a fronte
+di rilasci da parte del Produttore per:</p>
+<p align="justify">- eventuali nuove versioni dei Programmi</p>
+<p align="justify">- eliminazione di eventuali difetti e/o malfunzionamenti
+dei Programmi</p>
+<p align="justify">- adeguamento dei Programmi che il Produttore intendesse
+realizzare a seguito di eventuali mutamenti di norme legislativo-fiscali
+e/o interpretazioni giuridiche, a meno che queste non modifichino
+sostanzialmente la funzionalit&agrave; dei Programmi stessi.</p>
+<p align="justify">Gli aggiornamenti ai Programmi sono sempre riferiti
+all'ultimo rilascio precedente l'aggiornamento stesso. Gli aggiornamenti
+sono sempre riferiti ai programmi standard e non comprendono il
+riallineamento di eventuali personalizzazioni, che dovr&agrave;
+essere oggetto di autonomo rapporto contrattuale tra il Cliente
+ed il Fornitore del Servizio Aggiornamento Programmi.</p>
+<p align="justify">2.1 Regolamentazione della cessione delle licenze
+d'uso di e-CRM Zucchetti. Qualora il Cliente ordini anche i moduli
+appartenenti alla linea e-CRM Zucchetti, le licenze di tali moduli
+non sono comprensive delle licenze database del server web. Per
+quanto concerne la licenza del runtime SITEPAINTER, funzionale all'utilizzo
+dei moduli e-CRM Zucchetti, la stessa viene concessa a titolo gratuito
+limitatamente ai primi 5 (cinque) posti di lavoro (utenti) concorrenti.
+Qualora l'Utente finale abbia necessit&agrave; di usufruire dei
+moduli e-CRM Zucchetti abilitando utenti concorrenti in numero superiore
+a 5 (cinque), la licenza per gli ulteriori posti di lavoro sar&agrave;
+concessa a titolo oneroso, alle tariffe del listino del Produttore
+del Software in vigore al momento della richiesta. </p>
+<p align="justify"><strong>3. Finalit&agrave;.</strong> Il Cliente dichiara di stipulare
+il presente contratto per l'uso proprio e diretto dei Programmi
+obbligandosi a non usarli per terzi e a non consentirne l'uso a terzi,
+ad eccezione di aziende che siano almeno collegate al Cliente. Il Cliente dichiara al Fornitore al momento della sottoscrizione del presente contratto l'anagrafica completa di tali aziende e tempestivamente dar&agrave; comunicazione di eventuali variazioni.</p>
+<p align="justify"><strong>4. Responsabilit&agrave;.</strong> 4.1 Il Cliente ha espressamente
+scelto e richiesto i Programmi sulla base delle informazioni da
+questi fornite al Produttore o al Fornitore della Licenza, in rapporto
+alle esigenze del Cliente stesso. Conseguentemente &egrave; onere
+del Cliente verificare il funzionamento dei Programmi e la loro
+idoneit&agrave; al raggiungimento dei risultati. Il Produttore,
+il Fornitore della Licenza e il Fornitore del SAP non si assumono
+alcuna responsabilit&agrave; nel caso in cui i Programmi non soddisfino
+le esigenze del Cliente. </p>
+<p align="justify">4.2 E' esclusa qualsiasi garanzia del Produttore,
+del Fornitore della Licenza e del Fornitore del SAP, espressa o
+implicita, compresa quella di idoneit&agrave; per un fine particolare.</p>
+<p align="justify">4.3 Salvo i casi di dolo o colpa grave resta espressamente
+esclusa qualsiasi responsabilit&agrave; del Produttore, del Fornitore
+della Licenza e del Fornitore del SAP, per danni diretti ed indiretti
+di qualsiasi natura che l'Utente possa, o terzi possano, in alcun
+modo subire, in relazione o dipendenza dalla presente convenzione,
+ivi compresi quelli derivanti dall'uso, mancato uso e/o manutenzione
+dei programmi in essere con il Cliente, inclusi senza limitazione:
+danni per perdite e mancati guadagni, interruzione attivit&agrave;,
+perdita informazioni, anche nel caso il Produttore e/o il Fornitore
+della Licenza e/o il Fornitore del SAP, sia stato avvertito della
+possibilit&agrave; di tali danni.</p>
+<p align="justify"><strong>5. Durata.</strong> 5.1 La licenza d'uso dei Programmi,
+di cui al punto 2.a, &egrave; concessa a tempo indeterminato, fin
+tanto che sar&agrave; in essere con il Fornitore del SAP, o con
+altro soggetto autorizzato dal Produttore, il servizio di Aggiornamento
+Programmi relativo al prodotto Ad Hoc REGOLARMENTE ADEMPIUTO, fatto salvo quanto specificatamente
+previsto al successivo punto 6.5 relativamente alla licenza dei
+runtime DATA BASE.</p>
+<p align="justify">5.2 Il servizio di cui al punto 2.b &egrave; offerto
+nel periodo corrispondente all'anno solare. Nel caso la stipula
+avvenga nel corso dell'anno, il contratto scadr&agrave; comunque
+il 31/12 dell'anno considerato. Qualora non venga disdettato da
+una delle parti a mezzo raccomandata almeno 90 gg. prima della scadenza,
+il contratto si rinnover&agrave; tacitamente per periodi successivi
+di 12 (dodici) mesi ciascuno.</p>
+<p align="justify">5.3 Il servizio di cui al punto 2.b &egrave; indissolubilmente
+legato alla licenza d'uso relativa al presente contratto e pu&ograve;
+essere attivato solo in concomitanza del rilascio della licenza
+d'uso stessa. Ci&ograve; significa che il Cliente pu&ograve; dare
+disdetta al servizio di cui al punto 2.b, ma non potr&agrave; pi&ugrave;
+avvalersene in seguito se non acquistando una nuova licenza d'uso
+per gli stessi Programmi. Se il Cliente non rispetta anche una sola
+delle clausole qui riportate, &egrave; facolt&agrave; del Produttore
+e del Fornitore del SAP revocare immediatamente la licenza d'uso
+disciplinata dal presente contratto e da altri eventualmente intercorrenti,
+da un lato, tra il Produttore o il Fornitore della Licenza e il
+Fornitore del SAP e, dall'altro lato, il Cliente, nonch&eacute;
+intervenire secondo le vigenti leggi per ottenere la restituzione
+dei Programmi, della relativa documentazione e l'eventuale risarcimento
+danni.</p>
+<p align="justify">5.4 Se il Cliente appartiene alla Pubblica Amministrazione, il contratto di manutenzione ha durata annuale, e si intender&agrave; rinnovato di anno in anno, a ricevimento da parte del Fornitore e di Zucchetti della delibera di rinnovo rilasciata dal Cliente del software.
+Anteriormente al termine di ogni annualit&agrave;, il Fornitore comunicher&agrave; al Cliente l'importo del canone di manutenzione di competenza dell'anno successivo, oggetto di delibera da parte del cliente. Il servizio di manutenzione decorrer&agrave; dal 1&deg; giorno del mese successivo a quello della data di consegna indicata sul contratto o effettiva se quest'ultima &egrave; anteriore e da tale data saranno dovuti i canoni del servizio di manutenzione.
+Se la data di inizio del contratto relativo ai servizi di manutenzione non corrisponde al 1&deg; gennaio, il primo periodo (di manutenzione) avr&agrave; durata dal 1&deg; giorno del mese successivo alla consegna fino al 31.12 dello stesso anno e si rinnover&agrave; per l'anno successivo e seguenti secondo le modalit&agrave; sopra regolate.
+<p align="justify"><strong>6. Obblighi e Vincoli.</strong> 6.1 La presente licenza
+&egrave; strettamente personale e concessa esclusivamente al Cliente;
+&egrave; fatto espresso ed assoluto divieto al Cliente di trasferire
+direttamente o indirettamente a terzi, a qualsiasi titolo, i Programmi
+oggetto di fornitura in licenza d'uso relativi alla manutenzione
+o copia degli stessi. Cos&igrave; pure &egrave; fatto divieto di
+utilizzare le procedure su elaboratori posti in sedi diverse. E'
+vietato il trasferimento anche se viene ceduto l'elaboratore; in
+tal caso il Cliente deve cancellare i programmi ivi installati prima
+della cessione dello stesso.</p>
+<p align="justify">6.2 E' ammesso l'utilizzo dei Programmi esclusivamente
+da parte del Cliente e l'effettuazione di una sola copia dei Programmi
+qui licenziati unicamente all'esclusivo scopo di archiviazione e
+di back-up da parte del Cliente. Tali copie restano comunque propriet&agrave;
+del Produttore e devono essere consegnate al Fornitore del SAP o
+distrutte a cura del Cliente in tutti i casi di cessazione del rapporto
+di licenza d'uso di cui al presente contratto.</p>
+<p align="justify">6.3 E' vietato da parte del Cliente riprodurre
+e modificare in tutto o in parte la documentazione e i manuali di
+cui il Produttore rimane esclusivo proprietario ai sensi delle vigenti
+disposizioni a tutela del diritto d'autore.</p>
+<p align="justify">6.4 La licenza monoutente d&agrave; diritto ad
+installare i Programmi su un solo computer e con il sistema operativo
+indicato nell'allegato A. Se questa licenza &egrave; rilasciata
+per un sistema multiutente i Programmi, anche se utilizzati da pi&ugrave;
+posti di lavoro (utenti) contemporaneamente, possono essere installati
+su un unico server e possono essere utilizzati solo per il numero
+di posti di lavoro (utenti) indicato nella licenza.</p>
+<p align="justify">E' vietato manomettere, modificare o rimuovere
+il copyright ed i marchi o qualsiasi altro particolare attestante
+la propriet&agrave; dei Programmi. Il Cliente si impegna a riprodurre
+i marchi sulla copia dei Programmi che potr&agrave; effettuare nei
+casi previsti dal presente contratto. Il Cliente si impegna per
+s&eacute; e per i suoi dipendenti, collaboratori o consulenti esterni,
+a prendere tutte le misure idonee e necessarie per garantire il
+regime di riservatezza e segretezza delle informazioni tecniche
+contenute nei Programmi e nella relativa documentazione, impegnandosi
+a non consentire a terzi l'uso anche parziale e l'estrazione di
+copie, nonch&eacute; la consultazione dei manuali d'uso.</p>
+<p align="justify">6.5 Il Cliente che acquisisce la licenza runtime
+DATA BASE dal Fornitore della Licenza, richiesta unitamente all'ordine
+della licenza d'uso dei Programmi Ad Hoc Revolution o Ad Hoc Enterprise,
+&egrave; edotto ed accetta che la licenza del runtime DATA BASE
+integrato con i Programmi applicativi Zucchetti d&agrave; diritto
+ad utilizzare il DATA BASE soltanto all'interno dei Programmi applicativi
+Zucchetti oggetto della presente attestazione di licenza e relative
+estensioni (personalizzazioni e verticalizzazioni) realizzate dal
+Fornitore del SAP, fintanto che il Cliente ha in essere il servizio
+di Aggiornamento dei Programmi. La licenza d'uso del DATA BASE &egrave;
+presente sul Cd-Rom di installazione del DATA BASE integrato.</p>
+<p align="justify">6.6 Il Cliente, che contestualmente all'ordine
+dei Programmi Zucchetti, non acquistasse anche la licenza runtime
+DATA BASE, dichiara sotto la sua esclusiva responsabilit&agrave;
+di essere gi&agrave; in possesso di licenza definitiva e perpetua
+del DATA BASE, per un numero di posti di lavoro conforme al numero
+di utenti per i quali il Cliente ha richiesto l'attivazione della
+licenza dei Programmi applicativi Zucchetti, ovvero di essere in
+possesso di prodotti data base (Microsoft MSDE) per il cui utilizzo
+i rispettivi produttori di data base non richiedono royalty, ovvero
+di provvedere autonomamente all'acquisto di una regolare licenza
+DATA BASE per il tramite di operatori terzi del mercato.</p>
+<p align="justify">Il Cliente, contestualmente all'ordine dei programmi
+Zucchetti, ha la facolt&agrave; di aderire al servizio di aggiornamento
+del runtime DATA BASE. Il servizio di aggiornamento dei runtime
+DATA BASE consiste nella consegna al Cliente degli aggiornamenti,
+delle migliorie e delle implementazioni, relative ai runtime richiesti
+dal Cliente, apportate dal produttore dei runtime nell'arco dell'anno
+di vigore del servizio di aggiornamento runtime. Il servizio di
+aggiornamento runtime non d&agrave; alcun diritto al Cliente di
+ricevere assistenza o servizi di alcun tipo all'infuori di quelli
+qui espressamente previsti. Qualora il produttore dei runtime DATA
+BASE decidesse di dismettere la manutenzione dei runtime ordinati
+dal Cliente, il contratto di aggiornamento dei runtime si risolver&agrave;
+automaticamente e il Cliente non maturer&agrave; diritti ad alcun
+rimborso o risarcimento. Qualora il Cliente non richieda, contestualmente
+alla fornitura della licenza dei runtime DATA BASE, il servizio
+di aggiornamento dei runtime stessi, dovr&agrave; acquistare ex
+novo la licenza d'uso ogniqualvolta la Zucchetti rilasci una nuova
+versione dei programmi, oggetto della presente attestazione, non
+compatibile con la versione dei runtime DATA BASE posseduta dal
+Cliente.</p>
+<p align="justify">6.7 Il Cliente dichiara di essere a conoscenza
+e di accettare i prerequisiti hardware e software che gli elaboratori
+devono avere per l'installazione ed il funzionamento dei programmi
+e per l'utilizzo dei servizi oggetto della presente regolamentazione;
+all'adeguamento provveder&agrave; il Cliente, nel caso in cui ci&ograve;
+fosse necessario, anche in conseguenza di nuove versioni (release).
+Il Cliente dichiara inoltre di essere a conoscenza delle caratteristiche
+dei programmi ordinati e dell'eventuale necessit&agrave; di runtime
+per il loro funzionamento. Il Cliente &egrave; edotto e concorda
+che la mancata richiesta, nel presente ordine, per eventuali programmi
+che necessitano di runtime, della licenza d'uso anche per il runtime,
+equivale a dichiarazione da parte dello stesso di essere gi&agrave;
+in possesso delle licenze d'uso in originale relative agli eventuali
+runtime necessari al funzionamento dei programmi oggetto della presente
+regolamentazione per l'elaboratore sul quale verranno utilizzati
+i programmi stessi e conferma la dichiarazione stessa. Il software
+oggetto della presente licenza d'uso &egrave; stato realizzato sulla
+base di apposita modulistica. Il suo corretto uso presuppone quindi
+l'impiego della modulistica suggerita.</p>
+<p align="justify">6.8 Qualora una qualunque disposizione del presente
+accordo risulti nulla, le rimanenti disposizioni dello stesso rimarranno
+comunque in vigore.</p>
+<p align="justify">6.9 Per motivi di riservatezza il Produttore del
+software non conceder&agrave; interviste, compiler&agrave; questionari
+n&eacute; comunicher&agrave; informazioni, sotto qualsiasi forma,
+riguardanti l'attivit&agrave; dallo stesso svolta e i prodotti e
+servizi dallo stesso forniti.</p>
+<p align="justify"><strong>7. Foro competente esclusivo.</strong> Per qualunque controversia che dovesse sorgere in relazione alla fornitura in licenza d'uso dei Programmi e al Servizio di Aggiornamento Programmi convenuta, sar&agrave; esclusivamente competente il Foro di Lodi.
+Nel caso in cui l'azione giudiziaria sia promossa dal Fornitore,  o se a promuoverla sia il Cliente  e questi chiami in giudizio solo il FORNITORE e non la Zucchetti S.p.A., Foro Competente potr&agrave; essere considerato, oltre al Foro di Lodi, anche il Foro della sede del Fornitore stesso.
+</p>
+<p align="justify"><strong>- ALLEGATO:</strong> Allegato A-Dettaglio dei moduli relativi
+ai Programmi in Licenza d'uso e Servizio di Aggiornamento Programmi
+e Licenze runtime DATA BASE.</p>
+<table width="100%" border="1" cellspacing="0" cellpadding="0"><tr><td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" align="center" class="titolettobold">OBBLIGHI DI TRASPARENZA (TRACCIABILITA' DEI FLUSSI FINANZIARI) EX LEGGE 136/2010</td>
+</tr>
+<tr>
+<td class="clausole" colspan="2" height="6"></td>
+</tr>
+<tr>
+<td class="clausole" width="8" align="center" valign="top"></td>
+<td class="clausole">Il Cliente Ente pubblico o il Cliente non Ente Pubblico che sottoscrive il presente ordine per un rapporto contrattuale connesso a lavori/servizi/forniture pubbliche dichiara di :</td>
+</tr>
+<tr>
+<td class="clausole" width="8" align="center" valign="top">-</td>
+<td class="clausole">assumere e osservare tutti gli obblighi di tracciabilit&agrave; dei flussi finanziari di cui all'articolo 3 Legge 13 Agosto 2010 n&deg; 136 e successive modifiche.
+</tr>
+<tr>
+<td class="clausole" width="8" align="center" valign="top">-</td>
+<td class="clausole">essere edotto che ai sensi dell'articolo 3 comma 8 della Legge 136/2010, nel caso di violazione dell'obbligo predetto, controparte dar&agrave; immediata comunicazione alla stazione appaltante ed alla prefettura competente.</td>
+</tr>
+<tr>
+<td class="clausole" width="8" align="center" valign="top">-</td>
+<td class="clausole">I predetti obblighi non si applicheranno al Cliente che non sia Ente Pubblico e non sottoscriva il presente ordine per un rapporto contrattuale connesso a lavori/servizi/forniture pubbliche.</td>
+</tr>
+</table>
+</td></tr></table>
+<p align="justify">Lodi, l&igrave; ______________ </p>
+<br> <table width="100%" border="0" cellpadding="0" cellspacing="0" class="clausole">
+<tr>
+<td width="33%">_____________________________<br>
+Il Fornitore (timbro e Firma) </td>
+<td width="34%">_____________________________<br>
+Il Fornitore del SAP (timbro e Firma) </td>
+<td width="33%">______________________________<br>
+il Cliente (timbro e Firma) </td>
+</tr>
+</table>
+<p align="justify"> Il Cliente dichiara di conoscere quanto previsto
+nel presente contratto ed in particolare dichiara di conoscere e
+di approvare ai sensi degli artt. 1341 e 1342 C.C. quanto stabilito
+negli articoli: 2 (Oggetto del Contratto); 3 (Finalit&agrave;);
+4 (Responsabilit&agrave;); 5 (Durata); 6 (Obblighi e Vincoli);
+7. (Foro Competente esclusivo).</p>
+<p align="right">________________________________________<br>
+il Cliente (timbro e Firma)</p></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="pba"><hr class="noprint">&nbsp;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td width="100%"><div align="right"><img src="logoprt_new.gif"></div></td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold">Ordini Ad Hoc Revolution del 14/05/2020.</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold" nowrap>Il fornitore della licenza d'uso:</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">Ragione Sociale:</td>
+<td class="intfldbold" nowrap>CLOUD3 SRL</td>
+</tr>
+<tr>
+<td height="1" width="130"></td>
+<td width="170" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold" nowrap>Il fornitore del servizio di aggiornamento programmi:</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">Ragione Sociale:</td>
+<td class="intfldbold" nowrap>CLOUD3 SRL</td>
+</tr>
+<tr><td nowrap class="intfldnorm" valign="top">Indirizzo:</td><td class="intfldbold" nowrap>PIAZZA CAMILLO GOLGI 28/C<br>ARENZANO&nbsp;&nbsp;&nbsp;16011&nbsp;&nbsp;&nbsp;(GE)</td></tr>
+<tr>
+<td height="1" width="130"></td>
+<td width="170" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold" nowrap>Dati Cliente:</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td nowrap class="intfldnorm">Codice Cliente:</td><td class="intfldbold" nowrap>139341</td></tr>
+<tr>
+<td nowrap class="intfldnorm">Codice Fiscale:</td>
+<td class="intfldbold" nowrap>01577240995</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Partita IVA:</td>
+<td class="intfldbold" nowrap> 01577240995</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Ragione Sociale:</td>
+<td class="intfldbold" nowrap>NOVIMM SNC DI G.NOVELLA E F.COCCHIERE</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Natura Giuridica:</td>
+<td class="intfldbold" nowrap>SNC</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Indirizzo:</td>
+<td class="intfldbold" nowrap>VIA XX SETTEMBRE 26/4</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">&nbsp;</td>
+<td class="intfldbold" nowrap>GENOVA&nbsp;&nbsp;&nbsp;16121&nbsp;&nbsp;&nbsp;(GE)</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Attivit&agrave;:</td>
+<td class="intfldbold" nowrap>*AZIENDE*</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">E-Mail:</td>
+<td class="intfldbold" nowrap>NOVIMM@PEC.NOVIMMGE.COM</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Telefono:</td>
+<td class="intfldbold" nowrap>010-5957015</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Fax:</td>
+<td class="intfldbold" nowrap></td>
+</tr>
+<tr>
+<td height="1" width="130"></td>
+<td width="170" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">Database:</td>
+<td colspan="2" class="intfldbold" nowrap>MICROSOFT SQL EXPRESS</td>
+</tr>
+<tr>
+<td nowrap colspan="2" class="intfldnorm">Sistema Operativo Database Server:&nbsp;</td>
+<td valign="bottom" class="intfldbold" nowrap>WINDOWS 32 BIT</td>
+</tr>
+<tr>
+<td height="1" width="130"></td>
+<td width="70" height="1"></td>
+<td width="100" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">Numero Release:</td>
+<td class="intfldbold" nowrap>8.0</td>
+</tr>
+<tr>
+<td nowrap class="intfldnorm">Matricola:</td>
+<td class="intfldbold" nowrap>A000275763</td>
+</tr>
+<tr>
+<td height="1" width="130"></td>
+<td width="170" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><div align="center" class="titolo">Dettaglio dei Moduli in Licenza d'Uso e Servizio di Aggiornamento</div></td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="4" class="titolettonorm" nowrap>Dettaglio Ordine </td>
+<td class="titolettonorm" align="right" nowrap>Quantit&agrave;</td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>AVSAFT10</td>
+<td></td>
+<td nowrap>ANTIEVASIONE IVA E FLUSSI TELEM. 2010</td>
+<td></td>
+<td align="right">       </td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>VSBASE</td>
+<td></td>
+<td nowrap>PACCHETTO BASE</td>
+<td></td>
+<td align="right">       </td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>VSFERIC</td>
+<td></td>
+<td nowrap>CONTABILIZZAZIONE ASSISTITA</td>
+<td></td>
+<td align="right">       </td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>VSRIAC</td>
+<td></td>
+<td nowrap>RITENUTE D'ACCONTO</td>
+<td></td>
+<td align="right">       </td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>VUTAGG</td>
+<td></td>
+<td nowrap>POSTO DI LAVORO AGGIUNTIVO IN RETE</td>
+<td></td>
+<td align="right">      4</td>
+</tr>
+<tr class="intfldbold">
+<td nowrap>**AVSALCF</td>
+<td></td>
+<td nowrap>TELEMATICO BASE</td>
+<td></td>
+<td align="right">       </td>
+</tr>
+<tr>
+<td height="1" width="30"></td>
+<td height="1" width="10"></td>
+<td height="1" width="100"></td>
+<td height="1" width="10"></td>
+<td height="1" width="30"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td nowrap class="intfldnorm">N&deg; Utenti Abilitati:</td>
+<td class="intfldbold" nowrap>5</td>
+</tr>
+<tr>
+<td height="1" width="150"></td>
+<td width="150" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold">** identifica i moduli oggetto del riordine</td>
+</tr>
+</table>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold">SCELTA LICENZE RUNTIME DATABASE</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="intfldnorm">il Fornitore dichiara che il cliente usufruisce delle licenze di Microsoft MSDE.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="titolettobold">Note:</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td class="intfldnorm">MODULO GIÀ PRESENTE IN LICENZA COMPUNET</td></tr>
+<tr><td class="intfldnorm">DIMENTICATO NEL PASSAGGIO A CLOUD3</td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+    "links": {
+        "calls": {
+            "audited": true
+        },
+        "callPrimary": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "Call",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "fields": {
+        "callPrimary": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "account": {
+            "required": true
+        },
+        "emailAddress": {
+            "required": false
+        },
+        "phoneNumber": {
+            "required": false
+        },
+        "review": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "filters": {}
+    }
+}

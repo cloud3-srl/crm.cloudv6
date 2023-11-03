@@ -1,0 +1,48 @@
+{
+    "fields": {
+        "caseItem": {
+            "type": "link"
+        },
+        "cpccchk": {
+            "type": "varchar",
+            "trim": true,
+            "maxLength": 10,
+            "readOnly": true,
+            "options": []
+        },
+        "arCodArt": {
+            "type": "varchar",
+            "trim": true,
+            "readOnly": true,
+            "maxLength": 20,
+            "options": []
+        },
+        "utdc": {
+            "notNull": false,
+            "type": "datetime",
+            "readOnly": true,
+            "minuteStep": 30
+        },
+        "utdv": {
+            "notNull": false,
+            "type": "datetime",
+            "readOnly": true,
+            "minuteStep": 30
+        },
+        "idJob": {
+            "type": "varchar",
+            "trim": true,
+            "readOnly": true,
+            "maxLength": 36,
+            "options": [],
+            "default": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        }
+    },
+    "links": {
+        "caseItem": {
+            "type": "belongsTo",
+            "foreign": "product",
+            "entity": "CaseItem"
+        }
+    }
+}

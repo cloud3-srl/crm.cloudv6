@@ -1,0 +1,8 @@
+Reporting-MTA: dns; DB6PR0801MB1894.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; c.tardito@seaqueen.com
+Action: failed
+Status: 5.4.0
+X-Supplementary-Info: < #5.4.316 smtp;550 5.4.316 Message expired, connection
+ refused>
+

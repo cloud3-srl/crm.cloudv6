@@ -1,0 +1,47 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "userName"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Utente"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "orCodUte"
+                },
+                {
+                    "name": "orCodAge"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Ad Hoc API"
+    }
+]

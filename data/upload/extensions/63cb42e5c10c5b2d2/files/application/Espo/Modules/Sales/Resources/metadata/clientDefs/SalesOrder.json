@@ -1,0 +1,150 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": ["onlyMy"],
+    "filterList": [
+        "actual",
+        {
+            "name": "completed",
+            "style": "success"
+        }
+    ],
+    "recordViews": {
+        "detail": "sales:views/quote/record/detail",
+        "edit": "sales:views/quote/record/edit",
+        "detailSmall": "sales:views/quote/record/detail-small",
+        "editSmall": "sales:views/quote/record/edit-small"
+    },
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "name": "items",
+                "label": "Items",
+                "view": "sales:views/quote/record/panels/items",
+                "notRefreshable": true,
+                "sticked": true,
+                "isForm": true
+            }
+        ],
+        "edit": [
+            "__APPEND__",
+            {
+                "name": "items",
+                "label": "Items",
+                "view": "sales:views/quote/record/panels/items",
+                "notRefreshable": true,
+                "sticked": true,
+                "isForm": true
+            }
+        ]
+    },
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Templates",
+                    "link": "#Template",
+                    "acl": "read",
+                    "aclScope": "Template"
+                }
+            ],
+            "dropdown": [
+                {
+                    "label": "Taxes",
+                    "link": "#Tax",
+                    "acl": "read",
+                    "aclScope": "Tax"
+                },
+                {
+                    "label": "Shipping Providers",
+                    "link": "#ShippingProvider",
+                    "acl": "read",
+                    "aclScope": "ShipingProvider"
+                },
+                {
+                    "label": "Sales Order Items",
+                    "link": "#SalesOrderItem",
+                    "acl": "read",
+                    "aclScope": "SalesOrderItem"
+                }
+            ]
+        }
+    },
+    "dynamicLogic": {
+        "fields": {
+            "dateInvoiced": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "status",
+                            "value": "Completed"
+                        }
+                    ]
+                }
+            },
+            "account": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "opportunityId",
+                                    "data": {
+                                        "field": "opportunity"
+                                    }
+                                },
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "quoteId",
+                                    "data": {
+                                        "field": "quote"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "opportunity": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "quoteId",
+                                    "data": {
+                                        "field": "quote"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "additionalLayouts": {
+        "detailBottomTotal": {
+            "type": "list",
+            "dataAttributeList": ["name", "view", "customLabel"]
+        },
+        "listForAccount": {
+            "type": "list"
+        }
+    },
+    "relationshipPanels": {
+        "invoices": {
+            "createAction": "createRelatedInvoice",
+            "view": "sales:views/sales-order/record/panels/invoices",
+            "layout": "listForAccount",
+            "selectDisabled": true
+        }
+    },
+    "calculationHandler": "sales:quote-calculation-handler",
+    "iconClass": "fas fa-file-invoice"
+}

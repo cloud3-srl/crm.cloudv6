@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "case": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "case": {
+            "type": "belongsTo",
+            "foreign": "invoices",
+            "entity": "Case",
+            "audited": false
+        }
+    }
+}

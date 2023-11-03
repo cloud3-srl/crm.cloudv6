@@ -1,0 +1,49 @@
+{
+    "fields": {
+        "account": "Cliente",
+        "amount": "Importo",
+        "amountConverted": "Importo (convertito)",
+        "amountCurrency": "Valuta Importo",
+        "billingAddress": "Indirizzo di spedizione",
+        "billingAddressMap": "Mappa",
+        "billingContact": "Contatto di spedizione",
+        "case": "Ticket",
+        "currency": "Valuta",
+        "dateInvoiced": "Data documento",
+        "discountAmountConverted": "Importo Sconto Convertito",
+        "discountAmountCurrency": "Valuta Importo scontato",
+        "grandTotalAmount": "Gran Totale Importo",
+        "grandTotalAmountConverted": "Gran Totale Importo (Convertito)",
+        "grandTotalAmountCurrency": "Valuta Importo Gran Totale",
+        "number": "Numero",
+        "opportunity": "Opportunità",
+        "status": "Stato",
+        "description": "Note",
+        "review": "Revisione",
+        "adHoc": "Ad Hoc"
+    },
+    "labels": {
+        "Create Invoice": "Creare Rapportino",
+        "Add Item": "Aggiungi Articolo",
+        "Invoice Items": "Elenco Articoli Fattura",
+        "Items": "Lista interventi"
+    },
+    "links": {
+        "account": "Cliente"
+    },
+    "options": {
+        "status": {
+            "IN CORSO": "IN CORSO",
+            "CHIUSO": "CHIUSO",
+            "Aperto": "Aperto",
+            "Chiuso": "Chiuso",
+            "Temporary": "Provvisorio",
+            " Definitive": " Definitivo",
+            "In Review": "Email non inviata",
+            "Confirmed": "Definitivo",
+            "Verified": "Verificato",
+            "Ad Hoc": "Ad Hoc",
+            "Sent": "Esportato"
+        }
+    }
+}

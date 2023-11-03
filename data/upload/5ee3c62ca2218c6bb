@@ -1,0 +1,78 @@
+Received: from VI1PR08CA0181.eurprd08.prod.outlook.com (2603:10a6:800:d2::11)
+ by DB8PR08MB3978.eurprd08.prod.outlook.com (2603:10a6:10:aa::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2665.20; Tue, 28 Jan
+ 2020 12:41:28 +0000
+Received: from VE1EUR01FT060.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:f400:7e01::206) by VI1PR08CA0181.outlook.office365.com
+ (2603:10a6:800:d2::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2665.20 via Frontend
+ Transport; Tue, 28 Jan 2020 12:41:28 +0000
+Authentication-Results: spf=softfail (sender IP is 46.252.147.53)
+ smtp.mailfrom=cloud3.srl; cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=none action=none header.from=cloud3.srl;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ cloud3.srl discourages use of 46.252.147.53 as permitted sender)
+Received: from hostingssd36-53.netsons.net (46.252.147.53) by
+ VE1EUR01FT060.mail.protection.outlook.com (10.152.3.93) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2665.18 via Frontend Transport; Tue, 28 Jan 2020 12:41:28 +0000
+Received: from [46.252.147.53] (port=34654 helo=www.cloud3.srl)
+	by hostingssd36.netsons.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <help@cloud3.srl>)
+	id 1iwQBL-000HPp-RI
+	for Gabrieleb@cloud3.srl; Tue, 28 Jan 2020 13:41:27 +0100
+Date: Tue, 28 Jan 2020 13:41:27 +0100
+To: Gabriele <Gabrieleb@cloud3.srl>
+From: HelpDesk / CLOUD3 <help@cloud3.srl>
+Subject: File Updated: Carepack stampante Laserjet Pro M501dn scd 02 10 2022.PNG ARON SRL
+Message-ID: <57b873fc81bae9101615436b7d2aa043@www.cloud3.srl>
+X-Mailer: PHPMailer 5.2.21 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: multipart/alternative;
+	boundary="b1_57b873fc81bae9101615436b7d2aa043"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostingssd36.netsons.net
+X-AntiAbuse: Original Domain - cloud3.srl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cloud3.srl
+X-Get-Message-Sender-Via: hostingssd36.netsons.net: authenticated_id: ticket@cloud3.help
+X-Authenticated-Sender: hostingssd36.netsons.net: ticket@cloud3.help
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-Forefront-Antispam-Report: CIP:46.252.147.53;IPV:;CTRY:IT;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: e0d2788f-48b1-4dec-f543-08d7a3ef6501
+X-MS-TrafficTypeDiagnostic: DB8PR08MB3978:
+MIME-Version: 1.0
+
+--b1_57b873fc81bae9101615436b7d2aa043
+Content-Type: text/plain; charset=us-ascii
+
+Dear Gabriele,
+ 
+ A file has been uploaded/updated by HelpDesk / CLOUD3  called Carepack stampante Laserjet Pro M501dn scd 02 10 2022.PNG.
+
+ View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&p[0]=customer_admin_open&m[1]=file&p[1]=file_admin&customer_id=973&customer_type_id=0&file_id=39
+
+ Customer: ARON SRL
+ Description: Estensione garanzia Ho Laserjet Pro M501dn scadenza 02 10 2022 
+
+
+--b1_57b873fc81bae9101615436b7d2aa043
+Content-Type: text/html; charset=us-ascii
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">Dear Gabriele,<br>
+<br>
+A file has been uploaded/updated by HelpDesk / CLOUD3  called Carepack stampante Laserjet Pro M501dn scd 02 10 2022.PNG.<br><br>
+View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&amp;p[0]=customer_admin_open&amp;m[1]=file&amp;p[1]=file_admin&amp;customer_id=973&amp;customer_type_id=0&amp;file_id=39<br><br>
+Customer: ARON SRL<br>
+Description: <p>Estensione garanzia Ho Laserjet Pro M501dn scadenza 02 10 2022</p>
+
+
+
+--b1_57b873fc81bae9101615436b7d2aa043--

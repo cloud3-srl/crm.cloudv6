@@ -1,0 +1,11 @@
+Reporting-MTA: dns; PR2PR08MB4905.eurprd08.prod.outlook.com
+
+Final-recipient: RFC822; no-reply@sharepointonline.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; CY1NAM02FT037.mail.protection.outlook.com
+X-Supplementary-Info: <CY1NAM02FT037.mail.protection.outlook.com #5.7.64
+ smtp;550 5.7.64 TenantAttribution; Relay Access Denied
+ [CY1NAM02FT037.eop-nam02.prod.protection.outlook.com]>
+X-Display-Name: Amministrazione / CLOUD3
+

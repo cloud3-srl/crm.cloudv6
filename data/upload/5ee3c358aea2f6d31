@@ -1,0 +1,78 @@
+Received: from AM4PR08CA0057.eurprd08.prod.outlook.com (2603:10a6:205:2::28)
+ by VE1PR08MB4912.eurprd08.prod.outlook.com (2603:10a6:802:a9::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2644.20; Wed, 22 Jan
+ 2020 13:48:49 +0000
+Received: from DB5EUR01FT010.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:f400:7e02::205) by AM4PR08CA0057.outlook.office365.com
+ (2603:10a6:205:2::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2644.19 via Frontend
+ Transport; Wed, 22 Jan 2020 13:48:49 +0000
+Authentication-Results: spf=softfail (sender IP is 46.252.147.53)
+ smtp.mailfrom=cloud3.srl; cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=none action=none header.from=cloud3.srl;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ cloud3.srl discourages use of 46.252.147.53 as permitted sender)
+Received: from hostingssd36-53.netsons.net (46.252.147.53) by
+ DB5EUR01FT010.mail.protection.outlook.com (10.152.4.136) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2665.18 via Frontend Transport; Wed, 22 Jan 2020 13:48:49 +0000
+Received: from [46.252.147.53] (port=49112 helo=www.cloud3.srl)
+	by hostingssd36.netsons.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <help@cloud3.srl>)
+	id 1iuGNE-0001rE-Sk
+	for Gabrieleb@cloud3.srl; Wed, 22 Jan 2020 14:48:48 +0100
+Date: Wed, 22 Jan 2020 14:48:48 +0100
+To: Gabriele <Gabrieleb@cloud3.srl>
+From: Giada Ferro <amministrazione@cloud3.srl>
+Subject: File Updated: grm assistenza.pdf G.R.M. SNC di Consolide Roberto & C.
+Message-ID: <fa318f5da139c8e5dc7c1041ba78e8bf@www.cloud3.srl>
+X-Mailer: PHPMailer 5.2.21 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: multipart/alternative;
+	boundary="b1_fa318f5da139c8e5dc7c1041ba78e8bf"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostingssd36.netsons.net
+X-AntiAbuse: Original Domain - cloud3.srl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cloud3.srl
+X-Get-Message-Sender-Via: hostingssd36.netsons.net: authenticated_id: ticket@cloud3.help
+X-Authenticated-Sender: hostingssd36.netsons.net: ticket@cloud3.help
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-Forefront-Antispam-Report: CIP:46.252.147.53;IPV:;CTRY:IT;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8270d9a2-7228-4fbe-b761-08d79f41cf51
+X-MS-TrafficTypeDiagnostic: VE1PR08MB4912:
+MIME-Version: 1.0
+
+--b1_fa318f5da139c8e5dc7c1041ba78e8bf
+Content-Type: text/plain; charset=us-ascii
+
+Dear Gabriele,
+ 
+ A file has been uploaded/updated by Giada Ferro called grm assistenza.pdf.
+
+ View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&p[0]=customer_admin_open&m[1]=file&p[1]=file_admin&customer_id=393&customer_type_id=0&file_id=38
+
+ Customer: G.R.M. SNC di Consolide Roberto & C.
+ Description: 
+
+
+--b1_fa318f5da139c8e5dc7c1041ba78e8bf
+Content-Type: text/html; charset=us-ascii
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">Dear Gabriele,<br>
+<br>
+A file has been uploaded/updated by Giada Ferro called grm assistenza.pdf.<br><br>
+View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&amp;p[0]=customer_admin_open&amp;m[1]=file&amp;p[1]=file_admin&amp;customer_id=393&amp;customer_type_id=0&amp;file_id=38<br><br>
+Customer: G.R.M. SNC di Consolide Roberto &amp; C.<br>
+Description: 
+
+
+
+--b1_fa318f5da139c8e5dc7c1041ba78e8bf--

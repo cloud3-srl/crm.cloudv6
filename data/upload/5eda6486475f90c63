@@ -1,0 +1,81 @@
+Received: from HE1PR08CA0054.eurprd08.prod.outlook.com (2603:10a6:7:2a::25) by
+ AM6PR08MB4213.eurprd08.prod.outlook.com (2603:10a6:20b:90::14) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2073.13; Fri, 19 Jul 2019 17:17:35 +0000
+Received: from HE1EUR01FT024.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:f400:7e1f::200) by HE1PR08CA0054.outlook.office365.com
+ (2603:10a6:7:2a::25) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2073.14 via Frontend
+ Transport; Fri, 19 Jul 2019 17:17:35 +0000
+Authentication-Results: spf=temperror (sender IP is 89.40.173.99)
+ smtp.mailfrom=cloud3.srl; cloud3.srl; dkim=none (message not signed)
+ header.d=none;cloud3.srl; dmarc=temperror action=none
+ header.from=compunetweb.it;
+Received-SPF: TempError (protection.outlook.com: error in processing during
+ lookup of cloud3.srl: DNS Timeout)
+Received: from hostingweb15-99.netsons.net (89.40.173.99) by
+ HE1EUR01FT024.mail.protection.outlook.com (10.152.0.164) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2052.18 via Frontend Transport; Fri, 19 Jul 2019 17:17:33 +0000
+Received: from [89.40.173.98] (port=59534 helo=www.cloud3.srl)
+	by hostingweb15.netsons.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <help@cloud3.srl>)
+	id 1hoWVh-005ebj-3Z
+	for Gabrieleb@cloud3.srl; Fri, 19 Jul 2019 19:17:33 +0200
+Date: Fri, 19 Jul 2019 19:17:33 +0200
+To: Gabriele <Gabrieleb@cloud3.srl>
+From: Ettore Vernazza <ettorev@compunetweb.it>
+Subject: File Updated: Istruzioni per riavviare il centralino PBX Panasonic.pdf STUDIO LEGALE ASSOCIATO NASUTI
+Message-ID: <db39eaec930f71dec72d8637da2f2597@www.cloud3.srl>
+X-Mailer: PHPMailer 5.2.21 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: multipart/alternative;
+	boundary="b1_db39eaec930f71dec72d8637da2f2597"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostingweb15.netsons.net
+X-AntiAbuse: Original Domain - cloud3.srl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - cloud3.srl
+X-Get-Message-Sender-Via: hostingweb15.netsons.net: authenticated_id: ticket@cloud3.srl
+X-Authenticated-Sender: hostingweb15.netsons.net: ticket@cloud3.srl
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: help@cloud3.srl
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: caa71f94-1adc-4131-86ad-8ea6c85b86dc:0
+X-Forefront-Antispam-Report: CIP:89.40.173.99;IPV:NLI;CTRY:IT;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 2cf6b289-97ff-4dc6-966b-08d70c6cfd17
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600148)(711020)(4605104)(71702078);SRVR:AM6PR08MB4213;
+X-MS-TrafficTypeDiagnostic: AM6PR08MB4213:
+X-MS-Exchange-PUrlCount: 1
+MIME-Version: 1.0
+
+--b1_db39eaec930f71dec72d8637da2f2597
+Content-Type: text/plain; charset=us-ascii
+
+Dear Gabriele,
+ 
+ A file has been uploaded/updated by Ettore Vernazza called Istruzioni per riavviare il centralino PBX Panasonic.pdf.
+
+ View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&p[0]=customer_admin_open&m[1]=file&p[1]=file_admin&customer_id=819&customer_type_id=0&file_id=23
+
+ Customer: STUDIO LEGALE ASSOCIATO NASUTI
+ Description: riavviare centralino PBX 
+
+
+--b1_db39eaec930f71dec72d8637da2f2597
+Content-Type: text/html; charset=us-ascii
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">Dear Gabriele,<br>
+<br>
+A file has been uploaded/updated by Ettore Vernazza called Istruzioni per riavviare il centralino PBX Panasonic.pdf.<br><br>
+View this file by going here: https://www.cloud3.srl/crm/?m[0]=customer&amp;p[0]=customer_admin_open&amp;m[1]=file&amp;p[1]=file_admin&amp;customer_id=819&amp;customer_type_id=0&amp;file_id=23<br><br>
+Customer: STUDIO LEGALE ASSOCIATO NASUTI<br>
+Description: <p>riavviare centralino PBX</p>
+
+
+
+--b1_db39eaec930f71dec72d8637da2f2597--

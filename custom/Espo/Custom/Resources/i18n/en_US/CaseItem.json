@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "status": "Stato"
+    },
+    "options": {
+        "status": {
+            "Open": "In corso",
+            "Closed": "Chiuso"
+        }
+    }
+}

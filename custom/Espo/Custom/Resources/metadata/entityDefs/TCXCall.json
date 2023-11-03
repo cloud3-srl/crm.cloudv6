@@ -1,0 +1,9 @@
+{
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc",
+        "textFilterFields": [],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}
